@@ -14,7 +14,7 @@ body {
   color: #01143A;
   font-family: "Poppins", sans serif;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.4;
   word-wrap: break-word;
 }
@@ -28,7 +28,7 @@ body {
 
 p {
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.55;
   padding: 8px 1px;
   margin: 0;
@@ -42,7 +42,7 @@ a {
 ul,
 ol {
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   padding: 0;
   margin: 10px 0 10px 5px;
@@ -55,7 +55,7 @@ li {
 
 .signature {
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   padding: 0;
   margin: 20px 0;
