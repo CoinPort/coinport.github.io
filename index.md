@@ -11,10 +11,10 @@ This is the web folder where static content for the public-facing site are store
 
 We store static content seperately to improve caching and page loading speed for the main website.
 
-Click here to visit the Coin Port Exchange site: [https://www.coinport.com.au](https://www.coinharbour.com.au)
+Click here to visit the Coin Port Exchange site: [https://www.coinport.com.au](https://www.coinport.com.au)
 
 Sincerley,
 
 The CoinPort Team
-[![CoinHarbour](/images/logos/ch_sign_logo.png)](https://www.coinharbour.com.au)
+[![CoinPort](/images/logos/ch_sign_logo.png)](https://www.coinport.com.au)
 Easy, fast and safe cryptocurrency exchange

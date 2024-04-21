@@ -1,11 +1,11 @@
 {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Coin Harbour Pty Ltd",
-    "url": "https://www.coinharbour.com.au",
+    "name": "Coin Port Pty Ltd",
+    "url": "https://www.coinport.com.au",
     "potentialAction": {
         "@type": "SearchAction",
-        "target": "URL?s={coinharbour}",
-        "query-input": "required name=coinharbour"
+        "target": "URL?s={coinport}",
+        "query-input": "required name=coinport"
     }
 }

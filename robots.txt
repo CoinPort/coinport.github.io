@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://doc.coinharbour.com.au/sitemap.xml
+Sitemap: https://doc.coinport.com.au/sitemap.xml

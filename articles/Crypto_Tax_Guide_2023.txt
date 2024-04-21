@@ -1,0 +1,126 @@
+Crypto Tax Guide 2023
+
+6 min read
+
+Crypto Tax Guide 2023
+Tax season is here! If you have made any cryptocurrency trades, investments or transactions in the past financial year you will need to report it in your tax return.
+
+This simple guide will cover some of the important factors you need to consider when it comes to crypto taxes. We’ll cover how crypto is treated by the Australian Tax Office (ATO), Capital Gains Tax, Income Tax and how to report your crypto taxes.
+
+How the ATO Views Crypto
+One big misconception that people believe is that you don’t have to report or pay any taxes until you have withdrawn the money back to your bank account. However, that is not true.
+
+Recently, the ATO has stated publicly that one of their key focuses will be crypto taxes. So, it’s important to understand how the ATO views cryptocurrencies and what your reporting obligations are.
+
+Currently, the ATO views cryptocurrencies as a capital gain tax (CGT) asset. So that means many crypto transactions will be subject to Capital Gain Tax (CGT), while some other transactions may be classed as income. We will dive deeper into different crypto transactions shortly.
+
+Do you classify as an Investor or Trader?
+The first thing you need to determine is if you are classified as an investor or trader for tax purposes. It is important to understand which category you will fall under as they are subject to different tax rules.
+
+An investor is someone who predominantly buys and sells crypto as a personal investment with the goal of building wealth over an extended period of time, whereas a trader is someone who typically operates a business and usually makes a regular income from trading or profit-making activities. A majority of individuals will fall into the investor category.
+
+Investor:
+
+Buys and sells crypto as a personal investment
+Profits are usually made from long-term capital gains
+Trades crypto casually
+Trader:
+
+Operates under a business
+Trades crypto on a commercial basis
+Regularly makes an income from activities
+Investors are eligible to claim the 50% Capital Gains Tax discount for long-term gains. Traders are unable to access the CGT discount as profits are taxed as income.
+
+Capital Gains Tax (CGT)
+As stated previously the ATO classifies cryptocurrencies as a CGT asset, so it is treated in a similar manner as shares and many other investments.
+
+A Capital Gains Tax event occurs when you dispose of any cryptocurrency or in other words when your cryptocurrency changes ownership.
+
+There are four main transactions types that would trigger a Capital Gains Tax event:
+
+Selling crypto to fiat
+Trading one crypto for another crypto
+Spending crypto on goods or services
+Gifting someone crypto
+The capital gains tax rate as an individual (investor) will be the same as your Income Tax rate. The amount of income tax you will have to pay will depend on your total income during the financial year. Below is the current individual income tax for the financial year 2022–23. The rates below do not include the Medicare Levy of 2%.
+
+ATO Individual Income Tax Rate (2022–2023)
+
+Image source: ATO
+Calculating Crypto Capital Gains
+In order to calculate your capital gain or loss, you will need to understand the cost basis for your crypto. The cost basis is whatever it cost you to acquire the crypto including any related fees such as trading fees.
+
+The simple equation for Capital gain/loss:
+
+Capital gain/loss = value at disposal — cost basis
+
+The capital gain or loss is the difference between the value from when you acquired your crypto to when you disposed of it. If the crypto appreciated in value before you disposed of it, then you would have made a profit which you will need to pay Capital Gains Tax on.
+
+Example:
+
+David buys 1 ETH for $500 and then 6 months later decides to sell it for $2000. In this situation, David’s cost basis for his ETH is $500 and the value at disposal is $2000. From this outcome, David made a capital gain of $1,500 which he will be liable to pay taxes on at his income tax rate for this amount.
+
+However, if David disposed of the ETH after 12 months of acquiring it, he would be able to claim a 50% CGT discount on it, which would decrease the capital gain to $750.
+
+On the other hand, if the crypto depreciated in value before you disposed of it, then you would have incurred a capital loss, which you will not need to pay taxes on. If you have made a capital loss, you will be eligible to offset other capital gains in the same financial year, or if you make an overall net capital loss in the financial year, you can carry over the loss to future years. However, you can’t deduct capital losses from other income.
+
+Example:
+
+Sarah buys 1 ETH for $2000 and then 6 months later sells it for $500. In this case, Sarah’s cost basis was $2000 for her ETH and the value at disposal was $500. The outcome of this resulted in a capital loss of $1,500 which she will be able to use to offset other capital gains she may have during the financial year or carry the loss forward into a future year to offset.
+
+Personal Use Asset
+You may be eligible to get an exemption from capital gains tax if you bought less than $10,000 of cryptocurrencies as a personal use asset. This means the acquired cryptocurrencies were purchased to directly buy something else for personal use, this typically means the cryptocurrency was only held over a short period of time.
+
+The longer the crypto is held before any transactions are made, the more unlikely the crypto will be considered as a personal use asset. This exemption will not apply if you hold the asset as an investment or you’ve held the asset for an extended period of time
+
+Example:
+
+Jason purchased $300 worth of BTC, and then on the same day, he spent the crypto buying computer accessories at an online store that offered discounts for payments made in crypto. In this situation, Jason acquired crypto to purchase computer accessories for his own personal use, the transaction would likely be exempt from capital gains tax.
+
+Income Tax
+There are some common crypto transactions that are classified as income by the ATO even if you fall in the investor category.
+
+Here are the most common transactions classified as income:
+
+Airdrops
+Interest earned from lending programs
+Staking your crypto and generating rewards
+As part of these transactions, you will receive additional assets. The new assets will be considered as income based on the fair market value when you receive them. You will be required to report this income on your tax return.
+
+If you sell an asset that was classed as income that would trigger a capital gain event. The cost basis would be the fair market value of the assets when you first received them.
+
+Example:
+Richard earned 50 ADA this month from staking his assets. At the time he received the rewards, each ADA was worth $1. This would result in an income of $50. If Richard then decides to sell his 50 ADA, this would trigger a capital gain event.
+
+How to report your crypto taxes
+Reporting your crypto taxes can be tedious and complicated, especially if you have conducted many transactions. We’ll cover the two main ways you can report your crypto taxes.
+
+MyTax
+
+The first way to complete your crypto taxes is to do it yourself using MyTax, which is available through your MyGov account. Please note you will need the ATO linked to your MyGov account in order to access MyTax.
+
+When completing this yourself, you will need to calculate your Capital Gains/losses and income from any crypto transactions during the financial year. We suggest using a crypto tax platform to help with completing the calculations. We are currently integrated with:
+
+Koinly
+Syla
+CryptoTaxCalculator
+Accointing
+CoinLedger
+CoinTracking
+Crypto tax platforms usually have a free plan to help you get started however, you will need to pay for an upgraded plan to generate your CGT and income report.
+
+To connect your Digital Surge account and other wallets to a crypto tax platform, you can import your transactions using an API integration or upload a CSV file of your transactions.
+
+After that, you will then need to review the transactions to ensure they are correct. Once you have confirmed them to be correct, you can then go ahead with generating a Capital Gains Tax and Income Report. With the calculations completed, you will then need to input those figures onto your tax return along with any other relevant tax reporting requirements.
+
+If you are submitting your tax return yourself, you will have until the 31st of October 2023 to complete it.
+
+Accountant
+
+If filing crypto taxes, yourself seems too complicated or overwhelming, you can seek help from an accountant. They will be able to work out your crypto taxes and then also submit your tax return for you. However, your accountant will need your Account Statement and your transaction history as a CSV file. We’ve made it easy for you to generate the relevant files from your account. Just head over to your transaction history page and you’ll find both those files there.
+
+If you are submitting your tax return through an accountant, you will have until the 15th of May 2024 to have this completed.
+
+Disclaimer:
+
+The information provided in this article is for general information only and should not be taken as professional advice. Digital Surge is not a financial adviser. The information provided does not constitute accounting, tax or legal advice. No products mentioned here are not a recommendation for your specific situation. The examples provided may not apply to your circumstances. You should consider seeking financial, legal or taxation advice on how the information provided relates to your circumstances.

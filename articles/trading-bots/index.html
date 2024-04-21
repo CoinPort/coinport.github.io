@@ -1,0 +1,601 @@
+﻿﻿<!doctype html>
+<html lang="en">
+    <head>
+        <title>Cryptocurrency Trading Bots</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="shortcut icon" type="image/ico" href="https://doc.coinport.com.au/favicon.ico" />
+        <link href="../../style.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400,500,600|Roboto&display=swap" rel="stylesheet">
+    </head>
+<body>
+<h1>Guide to Cryptocurrency Trading Bots</h1>
+
+<h2>An Intro to Trading Bots</h2>
+<p>A cryptocurrency trading bot is a software program that automatically trades on exchanges. Instead of manually entering each trade into the exchange, the trading bot is able to access data from a users’ exchange account and automatically place trades. The process is managed through computers, which offers a level of speed and precision that isn’t possible with humans.</p>
+
+<p>The strategies that these bots implement are capable of doing anything from trading to construct custom indexing strategies to advanced real-time arbitrage across exchanges. The possibilities are nearly endless. Each trading bot generally implements a trading strategy that relies on algorithms that were created by the application developer.</p>
+
+<h2>How Trading Bots Work</h2>
+<p>Cryptocurrency trading bots work by accessing data on the exchange for a user. Each user is able to provide access to their account to the trading bot by giving the bot their API public key and API private (AKA secret) key. These two pieces of information are used as a way to tell the exchange that a bot has authorization by you to access your exchange account information.
+
+photo-keys.jpg
+<h2>API Keys</h2>
+<p>APIs are a way for applications or services outside the exchange to access the data or features inside the exchange. Through these APIs, trading bots can request the latest market data, place a trade for a user, or collect information on the amount of funds in a user’s account. Access to a user’s account is only granted when a user explicitly provides API keys to an application. At any time, access can be withdrawn by deleting the API keys on the exchange, providing a secure way to always maintain control over who or what can access your exchange account. Finding these API keys on each exchange can be tricky, so use the tutorials in our help center to navigate linking your exchange accounts to trading bots.  
+
+<h2>API Key Settings</h2>
+<p>API keys for trading bots usually have a variety of different settings. The two core settings required for trading bots is the ability to collect “Balance” data from your exchange account as well as the ability to “Trade”. Each exchange offers varying levels of control over these two parameters, but generally, all of the settings under these two categories should be enabled for the trading bot.
+
+<p>Please note that no trading bot generally requires access to “Withdraw” funds. If a trading bot requires this access, be very hesitant to place your trust in this trading bot. The result could be you losing all of your funds.
+
+<h2>The Purpose of Trading Bots</h2>
+<p>The core purpose of trading bots is to automate actions that are either too complex, time-consuming, or difficult for humans to execute manually. The sophistication of these tasks ranges from automating a single trading strategy on a single trading pair to intelligently routing trades between any asset for a diverse portfolio. Without continuous effort, some bots can let users implement a complete portfolio management strategy, saving immense amounts of time.  Instead of requiring you to be online constantly to manually place trades and adjust your portfolio, bots can take control to execute on your strategy day or night.
+
+<p>Quality trading bots can save you money by offering improvements over a manually implemented strategy. Bots are faster at collecting data, more precise when placing orders, and can crunch numbers faster than any human.
+
+<h2>When to Use Trading Bots</h2>
+robot-916284_960_720.jpg
+<p>The possibilities are endless when it comes to bots. There are bots for rebalancing, portfolio management, data collection, smart order routing, or anything in between. Whatever it is you want to do, there is likely a bot out there somewhere which does it.
+
+<p>Now, that doesn’t mean we should be using a specialized bot to accomplish every little task we want to do. In fact, that would surely end up being more work than just doing it ourselves. The goal is to find big tasks that consume the most amount of your time or are the most complex to implement yourself. Those tasks are ripe for the pickings when it comes to automating with trading bots. You can still manually perform the tasks that are infrequent or easy.
+
+<p>Before we start looking for a bot, think about the most cumbersome aspects of cryptocurrency trading for you. Consider each of the tasks you do throughout the day. Come up with a small list of the largest tasks which you wish could be automated, so you can spend less time with your cryptocurrency portfolio.
+
+<p>In order to help you think through tasks that can be automated with trading bots, the next sections will describe different ways that trading bots improve upon us, lowly humans. Consider each of these aspects to find the perfect tasks for automation.
+
+    <h2>Repetitive Tasks</h2>
+<p>Repetitive tasks suck. Doing the same thing over and over again just means you’re consuming more of your time with that task than necessary.
+
+<p>Imagine there was a real life way to copy paste work. Essentially, copy the work you just did and repeat it again the next time.
+
+<p>That’s basically what we’re doing with a trading bot. By doing the work one time by setting it up with the trading bot, you can then copy that work over and over again until the end of time. You would be right to be excited by that concept.
+
+<p>Imagine you read this article which found that 1 hour rebalances historically outperformed alternative rebalancing frequencies. Now, you want to rebalance your portfolio every hour. That would mean every 1 hour, you would need to calculate the percentages of each of the assets in your portfolio, determine the optimal trades, actually perform the trades, and stay online the entire time. Let’s be honest, it’s an impossible task. Even if it was possible, any reasonable person would go crazy with the repetition.
+
+<p>Bots don’t have a problem with the mundane repetition. In fact, that’s one of the first reasons software engineers will automate a task, in this case rebalancing. Create the bot once and automate your portfolio forever. No more repetitive tasks!
+
+    <h2>Precision</h2>
+<p>Trading is a game of precision. New traders may not mind the imprecision of moving into and out of positions on a whim, but as we gain experience, many traders begin to grasp the necessity for being precise. Every trade can have an impact, so carefully select trades. Bots don’t have the concept of being careful, but they are precise.
+
+<p>Let’s consider an example scenario. Say we want to sell DOGE when the price of Bitcoin reaches exactly $100,000. Doing this manually would require incredible skill and patience. Manually implementing this strategy would probably end up with us accidentally missing the mark and selling DOGE when Bitcoin hit $100,010. That’s not bad, but it wasn’t the strategy we wanted to implement. Our imprecision meant we didn’t end up following the plan.
+
+<p>Executing a precise strategy is simple for bots. The bot can easily monitor the market for this condition and execute the trade when the time is exactly right. Bots are precise, quick, and reliable for this sort of execution strategy.
+<ol>
+    <li>Time Consuming</li>
+    <li>time_consuming.jpeg</li>
+<li>Everyone has things to do - life is chaotic. We don’t have time to be at the computer every waking moment ensuring our portfolio is on track.</li>
+
+<p>In one of the previous examples, we discussed portfolio rebalancing every hour. This is an example of something that could easily take 15 minutes or longer for each rebalance. If you have a diversified portfolio, it will take even longer. Not only would this be repetitive, but it would also be time-consuming. Countless trading strategies are cumbersome in this way.
+
+<p>Trading bots aren’t like you. They don’t have anything better to do. All they want to do is implement these time-consuming strategies for you. Since they run on computers, calculations happen in an instant, trades process in the blink of an eye, and they never get tired. Time-consuming tasks then get simplified to set it and forget it. Automating a time-consuming task can be done by configuring a few things in a trading bot and letting the trading bot implement the strategy for you.
+
+    <h2>24/7 Markets</h2>
+<p>The cryptocurrency market never sleeps. Not for a second. Exchanges don’t close down at night. Even when one exchange goes down for maintenance or updates, there are still hundreds online still humming along. This 24/7 market makes it impossible for you to always be able to monitor your portfolio. Eventually, you will need to sleep, and we all know assets have an affinity for dumping as soon as we look away. At least it feels that way.
+
+<p>Once you realize you can’t always be ready to take action, there are two options: deal with the consequences of not being around to handle every situation for your portfolio or automate your strategy with a trading bot. Most will take the option that allows them to sleep easy at night.
+
+<p>Now, that doesn’t mean our strategy needs to be the same around the clock. It might be that you have a portfolio strategy during the day and a different strategy at night which will act as a safety for your portfolio while you’re sleeping. Whatever your strategy, bots can help you automate that strategy so you can spend less time worrying about the “what ifs” while your laying in bed at night.
+
+    <h2>Trading is Complex</h2>
+<p>At the end of the day, even if the repetition, time commitment, and precision weren’t enough to drive us towards trading bots, there is still the factor of complexity. Some strategies would be physically impossible to implement for a human due to the sheer complexity.
+
+<p>Taking smart order routing as an example. The requirements for effectively routing trades through numerous trading pairs intelligently are countless. Starting from the top we have the need for monitoring every trading pair across the exchange in order to determine the optimal time, asset quantity, and price for a trade. Next, we need to factor in the time restrictions to complete the routing before the market conditions change. Then we need to actually execute the trades to fill this first stage of our order. Finally, rounding it off by starting from the top again because we were only able to move $100 in the last order and need to move $100,000 in total.
+
+<p>Cryptocurrency trading is an intricate skill set that is developed through continuous self-improvement, overcoming mistakes, and forging forward in the face of uncertainty. Even with experience under our belt, some strategies are still out of reach to even the most advanced traders if attempted manually.
+
+<p>Complex strategies need to be automated using trading bots. Without these bots, the strategy wouldn’t be possible. The lesson is to use trading bots to implement trading strategies that are too complex to execute manually.
+
+    <h2>The Best Trading Bots</h2>
+<p>At this point, we’ve established a general understanding of trading bots and the appropriate scenarios for using bots. It’s time to scratch our itch of finding the bots which have mastered a segment of the market and are ready for your exploration.
+
+<p>The cryptocurrency space has become flooded with countless trading bots. Some have questionable reputations, lack quality infrastructure, or simply don’t work. The following list of trading bots are the premier trading bots in the cryptocurrency space. Each service listed supports a unique niche and has established themselves as a trusted resource for cryptocurrency traders. Experiment with each of these bots to find the one which works best for you.
+
+    <h2>Shrimpy - Automated Trading & Portfolio Management</h2>
+    <p>shrimpy-reupload.png</p>
+<p>Shrimpy is largely distinguished as the premier cryptocurrency portfolio management service in the crypto market. Unlike most portfolio management apps, Shrimpy actively executes trades for you to implement portfolio management strategies. The most simple of these strategies is portfolio rebalancing and crypto index fund creation.
+
+<p>Shrimpy customers can also participate in a social trading experience that is designed for novice traders. With the click of a button, investors can begin copying the trading strategies of the top crypto traders.
+
+<p>In addition to managing your portfolio through the UI, Shrimpy also offers convenient options for developers to automate their strategies either through the Shrimpy Application APIs or the Universal Crypto Exchange APIs. The Universal Crypto Exchange APIs provide developers with tools to build their own trading bots from the ground up.
+
+<p>Within 5 minutes it’s possible to sign up, input API keys, select a portfolio, and automate your strategy. The objective of Shrimpy is to simplify your life by automating trades in a way that makes sense for everyone.
+
+    <h2>Distinguishing Features</h2>
+    ,p>There are countless features that set Shrimpy apart from other trading bots. These include:</p>
+<ol>
+    <li>Focus on Portfolio Management</li>
+    <li>Index Fund Construction & Automation</li>
+    <liPortfolio Rebalancing</li>
+    <li>Social Portfolio Sharing</li>
+    <li>Strategy Backtesting</li>
+    <li>Simple to Use Asset Allocation</li>
+    <li>Advanced Developer APIs</li>
+    <li>Cold Storage Support</li>
+    <li>Cross Exchange Performance Monitoring</li>
+    <h2>Cost</h2>
+<p>Shrimpy is a premium portfolio management service that ranges in cost from $13 - $19 / mo. This includes every feature, such as trading, indexing, portfolio backtesting, the social program (for following and copying other users’ portfolios), API access, IP whitelisting, and more.  
+
+    <h2>Supported Exchanges</h2>
+<p>KuCoin, Bittrex, Bittrex Global, Coinbase Pro, Binance, Kraken, Poloniex, Huobi, Gemini, Bibox, BitMart, Huobi Global, HitBTC, OKEX, Bitstamp.
+
+    <h2>Gekko - Market Data to Usable Insights</h2>
+    <p>gekko-reupload.png</p>
+<p>Gekko is an open-source trading bot option for advanced cryptocurrency users. Instead of providing web-based solutions, Gekko is a bot that is installed on your personal computer or server for continuous running. This means the software always needs to be running in order to continuously use your trading strategy.
+
+    <h2>Distinguishing Features</h2>
+<ol>
+    <li>Open Source</li>
+    <li>Real-Time Market Data</li>
+Indicators
+Paper Trading for Simulated Orders
+Profit Calculating
+Importing Historical Market Data
+Risk Metrics Calculation
+Cost
+Gekko is free to use.
+
+Supported Exchanges
+Binance, Poloniex, Coinbase Pro, Kraken, Bitfinex, Coinfalcon, The Rock Trading, EXMO, Luno.
+
+ZenBot - Command-Line Trading Bot
+zenbot-reupload.png
+Zenbot is a popular command-line cryptocurrency bot. Similar in some ways to Gekko, Zenbot can be run from a personal computer or hosted on a personal server. Perfecting this trading bot is possible for developers willing to dive into the code to write their own strategies, construct indicators, and analyze the market using custom analytical tools.
+
+Distinguishing Features
+Open Source
+Technical Analysis Trading Approach
+Plugin Architecture
+Simulator for Historical Data Backtesting
+Simulation for Paper Trading
+Sell Stops, Buy Stops, and Profit Stops
+Adjustable Trade and Sampling Frequencies
+Cost
+Zenbot is free to use.
+
+Supported Exchanges
+Binance, Bitfinex, Bitstamp, Bittrex, CEX.IO, Coinbase Pro, Gemini, HitBTC, Kraken, and Poloniex.
+
+Haasbot - Automated Crypto Trading Bots
+haasbot-reupload.png
+HaasBot is one of the most feature intensive trading bot in the cryptocurrency market. Anything from insurances, safeties, and technical indicators have been packed into this platform. While it may be designed for trading experts, it provides a comprehensive set of tools to implement a seemingly endless list of complex strategies.
+
+Distinguishing Features
+Customizable Command Center Dashboards
+Fine Trading Bot Control
+Execution of Manual Strategies
+Market View for Technical Analysis
+Custom Scripted Bots
+Advanced Reporting
+Cost
+Pricing plans start at $254  / 3 months for the Beginner license and cap out at $725 / 3 months for the Advanced license.
+
+Supported Exchanges
+Binance, Bitfinex, BitMEX, Bitstamp, Bittrex, CCEX, CEX.IO, Coinbase Pro, Deribit, Gemini, HitBTC, Huobi, ionomy, Kraken, KuCoin, nova, OKEX, and Poloniex.
+
+3commas - Tools for Cryptocurrency Trading
+3commas landing page.png
+3Commas is an advanced trading bot with a number of sophisticated trading options. These bots can be used to automate your trading strategy through their web interface. Targeting the same niche market as Haasbot, 3Commas has become popular among the more experienced traders. They also offer the ability to manage your bots through their developer APIs, providing additional options for developers.
+
+Distinguishing Features
+Trading Terminal
+Trailing Options for Take Profit / Take Loss
+Signal Customization through Trading View
+QFL Bots
+Multiple Pair Composite Bots
+Cost
+Pricing plans start at $22 / month for the Starter license and caps out at $75 / month for the Pro license.
+
+Supported Exchanges
+Bitmex, Bittrex, BitFinex, Binance, Bitstamp, KuCoin, Poloniex, HitBTC, Cex, Coinbase Pro, OKEX, Huobi, and YOBIT.
+
+Cryptohopper - Automated Trading Platform
+
+Cryptohopper is a trading bot platform which executes strategies based on technical indicators. These strategies can be custom designed to implement advanced strategies of your choosing. Similar to 3Commas and Haasbot in many ways, Cryptohopper is a great option for advanced cryptocurrency traders who are willing to dig into the details of each trading strategy they wish to implement.  
+
+Distinguishing Features
+Design Strategies
+Experiment with Strategies via Paper Trading
+Trailing Stop-Loss
+Short Sell Assets
+Automate Crypto Trading Strategies
+Data-Driven Analytics - 130+ Indicators and Patterns
+Performance Reports
+Cost
+Pricing plans start at $19 / month for the Starter license and caps out at $99 / month for the Pro license.
+
+Supported Exchanges
+Poloniex, Kraken, Bittrex, Coinbase Pro, Binance, KuCoin, Bitfinex, and Huobi.
+
+Margin - The Cryptocurrency Trading Terminal
+margin-reupload.png
+Margin is a trading terminal for highly configurable trading strategies. Designed for crypto and Bitcoin traders, Margin provides a clean interface to the typically chaotic terminals in the cryptocurrency market. Quickly set up trading bots, manage strategies, and implement indicators to trigger trades.
+
+Distinguishing Features
+Visual Trading
+Technical Indicators
+Automated Trading Bots
+Configurable GUI
+Order Splitting across Exchanges
+News Feeds
+Cost
+Pricing plans start at $129 for the Starter license and caps out at $2999 for the Pro license.
+
+Supported Exchanges
+Bitfinex, Bitstamp, Bittrex, HitBTC, Huobi, OkCoin, and Poloniex.
+
+How to Pick a Trading Bot
+photo-1516192518150-0d8fee5425e3.jpg
+Now that we’ve covered every major cryptocurrency trading bot available in the market, we need to decide which bot is best for our cryptocurrency portfolio strategy.
+
+In the following sections, we will discuss the aspects you should consider before signing up for one of these services and entrusting your portfolio to be automated by a bot.
+
+Team Reputation
+Above all else, the reputation of the team matters. Hacks have crippled unsuspecting users by leveraging clever vulnerabilities. One example is when hackers used trading APIs to pump the price of Syscoin on Binance. Hackers are clever, so the first line of defense is having a trusted founding team.
+
+When evaluating the team, look for attributes that point to a reputable team. Things like:
+
+Where team members went to college.
+What companies the members worked for.
+How long the team has been working on the bot.
+The reputation of members on their advisory board.
+The funding source for the startup.
+Country of incorporation.
+The technical ability of the founding team.
+Before placing our trust in a 3rd party development team to automate our strategies, use this list to gather information about the team behind the service.
+
+Outside the specific members of the team, ensure the company can be held accountable for any potential wrongdoing. The team needs to be transparent about their origin, their members, where they are based, and any other relevant information for us to understand if we can trust the team.
+
+Automated Strategies
+The next question we need to be asking ourselves is whether or not the bot we are evaluating actually implements the strategy we want to automate. Selecting a trading bot which only supports strategies that involve moving average cross-over, for example, isn’t useful if we want to rebalance our portfolio.
+
+Glance over the website for the trading bot to make sure they support the strategies we want to implement for our portfolio. Check any configurations they offer or hints at the level of involvement it would require from an end-user. There’s also no point in using a bot if it supports our strategy but ends up being more work than just having us manually implement the strategy.
+
+Support
+asdfasdf.jpg
+Our next important consideration is the level of support provided by the team. Does the team provide channels for reaching their development team to ask support questions or get help with bugs? If not, you might be left out to dry for weeks without getting answers to questions that are critical to your strategy. We’ve seen this happen countless times and it’s never an enjoyable experience.
+
+Some ways we can identify if the team provides a great support experience is the following:
+
+There is an active Telegram or Discord community where the team is online and answers questions.
+Multiple channels offer diverse avenues to contact the team.
+The support team answers questions promptly and actually works to resolve the problems.
+Frequent updates are published to their discussion channels like Telegram and Discord.
+These are just a few of the ways to determine the quality of support you will receive once you take the plunge and sign up.
+
+Cost
+Let’s be honest, price is one of the biggest determining factors for whether or not we will use a trading bot for our portfolio. We’re here to maximize on our crypto, so reducing the monthly cost we need to pay for a bot subscription allows us to funnel more funds into our portfolio.
+
+Some bots are pricey. A $1,000 bot better be some heavenly piece of work. Otherwise, the cost is just digging into your portfolio. Those funds could have gone into expanding your crypto portfolio. Find the trading bot which is in your price range.
+
+Ease of Use
+The reality of the cryptocurrency market is most tools are overly complex in their design. This without a doubt applies to trading bots as well. Most trading bots are incredibly complicated. They have countless levers, options, configurations, and settings. Diving right into the deep end of this cold pool can take your breath away and leave you with a sense of dread.
+
+Look for a bot that fits your comfort level. Instead of jumping right into open-source trading bots and trying to implement your own custom strategies by flexing your development skills, maybe take it slow at first. Experiment with a bot that only provides a few core features you want, but is easy to use. That way you can dip your toes into the pool, getting orientated before submerging yourself.
+
+Backtesting
+Backtesting is the way we simulate the performance of a strategy over historical data. It helps us understand the behavior of the strategy under certain conditions and can help us work towards understanding how the strategy might perform in the future. Of course, nothing is guaranteed, but this is the most robust way we have for evaluating strategies.
+
+The bot we choose should most definitely have backtesting. We never recommend implementing a strategy if it hasn’t been backtested. Blindly venturing into the future can lead to disaster. Spend some time to evaluate the strategy, discover the best configurations, and implement the strategy in a way that aligns with your goals as well as the information you’ve been able to collect through the backtesting tool.
+
+Caution! Do not trust any backtesting tool that uses CoinMarketCap data. This data source is unacceptable for evaluating trading strategies. Not only is this data highly inaccurate, but CoinMarketCap aggregates data across exchanges, so it’s not actual bid-ask data from exchanges. Only exact bid-ask data collected directly from each individual exchange should be used for backtesting strategies.
+
+
+Implementation & Execution
+Closely evaluate the implementation of the strategy to determine how the strategy will behave under varying conditions. Since every bot sports a unique implementation of a strategy, it’s important to understand the differences between each trading bots implementation. Not all implementations are treated equally. Look at aspects like the controls the bot has available, the configurations, and the robustness of the strategy under varying conditions.
+
+At the same time, even if the trading bot supports the necessary controls to implement the strategy, that doesn’t mean we are in the clear. Everything could look promising but still fall apart due to poor execution. The code and infrastructure built around the trading bot are important to manage the strategies. Failures due to server issues can cause incorrect trades, mistiming, and all-around poor strategy execution.
+
+Losing funds due to poor strategy execution quickly becomes a nightmare. There is no getting your funds back, so prevent the problem by selecting a trading bot that is developing using sound software practices. Investigate the team’s openness to resolving issues, join their marketing channels to see the frequency of bug reports, and track how long it takes the team to resolve the issues.
+
+How to Build a Trading Bot
+robot-1650649_960_720.jpg
+There is no one way to build a cryptocurrency trading bot. That’s why we find such a varying degree of quality. In the following sections, we will highlight the easiest way to build a robust, high-quality trading bot.
+
+While it’s possible to build trading bots from the ground up, this is not advisable. Building custom infrastructure to connect to every cryptocurrency exchange can take months to years to develop. Custom update cycles, confusing documentation, and odd functionality can make building a trading bot a nightmare. Not to mention it would require a farm of hundreds of servers just to support a few thousand active traders.
+
+In this article, we will discuss building a cryptocurrency trading bot by taking advantage of the Universal Crypto Exchange APIs. These APIs connect to every major cryptocurrency exchange without needing to write any custom software. Simply connect to the one universal API and you will instantly be connected to every major exchange for trading, portfolio management, user management, data collection, automated infrastructure scaling, and more. It’s like a universal remote for cryptocurrency trading.
+
+Let’s get started!
+
+Register a Developer Account
+Before we can use the Universal Crypto Exchange API, we need to register for a developer account. Follow the link here to sign up.
+
+Generate Master API Keys
+Once we’ve created an account, our next step is to create a new API master key. This master key will be used to manage all our users, requests for creating new users, and can also execute trades.
+
+Navigate to the “API Keys” page and select to “Create Api Master Key”. This will walk you through the process of generating the keys. There will be a number of steps that will require your verification as well as enabling additional security precautions like 2FA. It’s nothing fancy like KYC, just basic email and account verification.
+
+Once complete, you will be presented with a public and private (secret) API key. These keys must be securely stored and never sent to anyone. They will be used to manage users, make trades on behalf of users, and much more. These are only for your use. If you wish to allow users to directly access their accounts, link exchanges, and trade, this can be done by generating user-specific API keys via the master API keys. We will discuss how to do this a little bit later.
+
+Note: The secret key will only be shown one time. Once you have selected to “Show” the key, you will never again be able to recover this secret key if it is not stored securely outside the application. If lost, you must create a new set of API keys.
+
+1_PIsNKqTuKIk5d8PWAfokPA.png
+There are a few settings we need to configure before we can dive into using our master developer API keys.
+
+User - Checking this box will allow this API key to create and manage users of your application.
+
+Account - Checking this box will allow this master API key to connect exchange accounts on behalf of your users and also collect data from the exchange regarding your users.
+
+Trade - Checking this box will allow this key to execute trades on behalf of your users.
+
+These settings are separated out so you have the freedom to decide what role these API keys will play in your process. For example, if you only want to be able to create users, but then the users will manage their connecting of exchange accounts and trading individually, all you would need is the ability to create and manage users.
+
+In addition to selecting the permissions to enable this master API key, don’t forget to whitelist the IPs which will be sending requests with these API keys. This should be the servers that will hold these API keys so only that server can send requests for you. Any requests from other IPs will fail. This security feature ensures that if your keys were ever stolen, the hacker would not be able to use the API keys.
+
+Let’s take a closer look at the settings that are a part of each of these permissions.
+
+User - Endpoint Overview
+The following section will discuss the endpoints which fall under the “User” permission setting. If you have enabled “User” permissions on the API keys, these are just a few of the endpoints which you will be able to access.
+
+Create Users
+The first thing we must do before we can start trading on an exchange, collect data for an exchange account, or execute our strategy is create a user. Each user you create is intended to represent one real-world person who is using the trading bot.
+
+Let’s take a look at how we create a user.
+
+Request
+
+POST https://dev-api.shrimpy.io/v1/users
+
+Request Body (optional)
+
+{
+    "name": "customnameforthisuser"
+}
+Once you request the creation of a new user, you will receive a new unique identifier for this user. This should be stored such that it’s easy to map each user in your application to the user ID in the developer APIs.
+
+Response:
+
+{
+    "id": "701e0d16-1e9e-42c9-b6a1-4cada1f395b8"
+}
+Generate User Specific API Key
+Once we’ve generated the user, we can also generate user-specific API keys. The purpose of these user API keys is to allow each individual user to communicate with the API servers, distributing the request load so your servers don’t need to handle every request. If you’re building a mobile application, this means most requests can be sent directly to the APIs where a direct line of communication will be maintained to collect data, execute trades, link exchange accounts, and more.
+
+Request
+
+POST https://dev-api.shrimpy.io/v1/users/701e0d16-1e9e-42c9-b6a1-4cada1f395b8/keys
+
+Response:
+
+{
+    "publicKey": "51ac18b7d208f59b3c88acbb1ecefe6ba6be6ea4edc07e7a2450307ddc27ab80",
+    "privateKey": "85c977ef4070f1deee70192ba7fd5a6caf534f891e4918cfffec11cd6b625e77db4f80347cb436bcaa8882231bacb02f0798a696f101fdd1ef268d66fc63c213"
+}
+These API keys can be sent to the user for which they are associated. That way the user can manage their own exchange accounts.
+
+Account - Endpoint Overview
+The following endpoints will be managed by the “Account” permission setting. Enabling the “Account” permissions on the API keys allow you to use the following, and more, endpoints.
+
+Connect Exchange Account
+The next step to implementing our trading solution is to link exchange accounts. This can either be done by the master keys or can be managed by each individual user by utilizing the user API keys.
+
+Request
+
+POST https://dev-api.shrimpy.io/v1/users/701e0d16-1e9e-42c9-b6a1-4cada1f395b8/accounts
+
+Request Body
+
+{
+    "exchange": "binance",
+    "publicKey": "GOelL5FT6TklPxAzICIQK25aqct52T2lHoKvtcwsFla5sbVXmeePqVJaoXmXI6Qd",
+    "privateKey": "SelUuFq1sF2zGd97Lmfbb4ghITeziKo9IvM5NltjEdffatRN1N5vfHXIU6dsqRQw"
+}
+The “publicKey” and the “privateKey” included here are the exchange API keys that are created on the exchange by the user. These are not the user API keys we received from the Universal Crypto Exchange APIs in the previous steps.
+
+Response
+
+{
+    "id": 1234
+}
+Once the account is successfully contacted by the API servers, an “id” will be returned. This can be stored for later accessing of this individual exchange account.
+
+Access Account Asset Balances
+Since the exchange account has been successfully linked, we can now collect data from the exchange account. The following endpoint would retrieve the asset balances for the linked exchange account.
+
+Request
+
+GET https://dev-api.shrimpy.io/v1/users/701e0d16-1e9e-42c9-b6a1-4cada1f395b8/accounts/123/balance
+
+Response
+
+{
+    "retrievedAt": "2019-01-09T19:17:33.000Z",
+    "balances": [
+        {
+            "symbol": "KCS",
+            "nativeValue": 2306,
+            "btcValue": 0.33486579,
+            "usdValue": 1327.8775274784
+        }, {
+            "symbol": "ETH",
+            "nativeValue": 4.0e-8,
+            "btcValue": 1.4960564e-9,
+            "usdValue": 5.9324652822859e-6
+        }
+    ]
+}
+Trade - Endpoint Overview
+The following settings are managed by the “Trade” permission settings. Enabling the “Trade” permissions on the API keys allow you to use the following, and more, endpoints.
+
+Smart Order Routing
+Smart order routing is a convenience feature that automatically optimizes trading across asset pairs in order to receive the best order execution. This drastically simplifies the integration process for smart order routing strategies and can save on execution costs.
+
+Request
+
+POST https://dev-api.shrimpy.io/v1/users/701e0d16-1e9e-42c9-b6a1-4cada1f395b8/accounts/123/trades
+
+Request Body
+
+{
+    "fromSymbol": "BTC",
+    "toSymbol": "ETH",
+    "amount": "0.01",
+    "smartRouting": true,
+}
+Once the order is placed, it will automatically be routed across all available trading pairs to optimize for the outcome.
+
+Response:
+
+{
+    "id": "72dff099-54c0-4a32-b046-5c19d4f55758"
+}
+Place a Limit Order
+Some applications require fine control over the order book. These applications can implement these advanced strategies by executing limit orders via the unified limit order trading endpoints.
+
+Request
+
+POST https://dev-api.shrimpy.io/v1/users/701e0d16-1e9e-42c9-b6a1-4cada1f395b8/accounts/123/orders
+
+Request Body
+
+{
+    "baseSymbol": "ETH",
+    "quoteSymbol": "BTC",
+    "amount": "0.5",
+    "price": "0.0344",
+    "side": "BUY",
+    "timeInForce": "IOC"
+}
+Response:
+
+{
+    "id": "72dff099-54c0-4a32-b046-5c19d4f55758"
+}
+The Universal Crypto Exchange APIs support “Immediate or Cancel” (IOC) and “Good ‘Til Canceled” (GTC) orders. Both of these order types are implemented using the same request structure, so your trading bot can conveniently switch between placing the different types of orders without trouble.
+
+Allocate a Portfolio
+Besides the convenience of the smart order routing, there are additional endpoints designed for portfolio strategies. These endpoints can be used for allocating portfolios, rebalancing, or implementing a complete portfolio strategy. One of these endpoints is the ability to quickly allocate a diverse portfolio.
+
+Request
+
+POST https://dev-api.shrimpy.io/v1/users/701e0d16-1e9e-42c9-b6a1-4cada1f395b8/accounts/123/allocate
+
+Request Body
+
+{
+    "isDynamic": false,
+    "allocations": [
+        {
+            "symbol": "USDT",
+            "percent": "100"
+        }
+    ]
+}
+Response:
+
+{
+    "success": true
+}
+With a single call, your trading bot is able to send the percentages of each asset you would like to have in the portfolio and the Universal Crypto Exchange APIs will intelligently construct that portfolio. There is no additional work required.
+
+Public Data (No Permissions Required)
+Public data is accessible to all users. This means it does not fall under any of the permission settings that are enabled or disabled on the master API key.
+
+Exchange Assets
+Each exchange has different assets available, so it’s important to know which exchange supports which assets. This endpoint will return the different assets available on each exchange along with their symbol and name.
+
+Request
+
+GET https://dev-api.shrimpy.io/v1/exchanges/bittrex/assets
+
+Response
+
+[
+    {
+        "id": 38,
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "tradingSymbol": "BTC"
+    }, {
+        "id": 229,
+        "name": "Litecoin",
+        "symbol": "LTC",
+        "tradingSymbol": "LTC"
+    },  ...
+]
+Collect Full Depth Order Book
+To place specific orders on the order book, developers need access to full depth order book data in real-time. This data can be accessed through simple endpoints that return market data in real-time. Experiment with collecting this data by sending requests to the API calls detailed below.
+
+Request
+
+GET https://dev-api.shrimpy.io/v1/orderbooks?exchange=bittrex&baseSymbol=XLM&quoteSymbol=BTC&limit=10
+
+Response
+
+{
+    "baseSymbol": "XLM",
+    "quoteSymbol": "BTC",
+    "exchanges": [
+        {
+            "exchange": "Bittrex",
+            "orderBook":
+                {
+                    "asks": [
+                        {
+                            "price": "0.00002585",
+                            "quantity": "1891.1316431"
+                        },
+                        {
+                            "price": "0.00002594",
+                            "quantity": "35200"
+                        },  ...
+                    ],
+                    "bids": [
+                        {
+                            "price": "0.00002577",
+                            "quantity": "774.92250177"
+                        },
+                        { 
+                            "price": "0.00002576",
+                            "quantity": "3509.07031022"
+                        },  ...
+                    ]
+                }
+        }, ...
+    ]
+}
+Candle Stick Trading Data
+Another convenience feature is the ability to collect candle stick OHLCV charting data through these unified APIs. This candlestick data can be used to display charts for users who are active traders.
+
+Request
+
+GET https://dev-api.shrimpy.io/v1/exchanges/coinbasepro/candles?quoteTradingSymbol=BTC&baseTradingSymbol=XLM&interval=1H
+
+Response
+
+[
+    {
+        "open": "0.0000157300000000",
+        "high": "0.0000157800000000",
+        "low": "0.0000155800000000",
+        "close": "0.0000157100000000",
+        "volume": "219444.0000000000000000",
+        "quoteVolume": 3.44176145,
+        "btcVolume": 3.44176145,
+        "usdVolume": 27437.297915762,
+        "time": "2019-05-24T23:00:00.000Z"
+    },
+    {
+        "open": "0.0000157100000000",
+        "high": "0.0000157500000000",
+        "low": "0.0000156900000000",
+        "close": "0.0000157300000000",
+        "volume": "1603.0000000000000000",
+        "quoteVolume": 0.02520959,
+        "btcVolume": 0.02520959,
+        "usdVolume": 201.98615317277,
+        "time": "2019-05-25T00:00:00.000Z"
+    },  ...
+]
+User Request Flow
+Now that we have an understanding of the different endpoints that are available through these APIs, let’s revisit the user request flows that were discussed earlier in this article. In order to prevent every request from being managed by a centralized server, we should distribute the requests to originate from the users. This lightens the request burden, so we can stay lean and agile. A detailed discussion on the optimal user request flows can be found in one of our previous articles here.
+
+111111111.png
+This illustration highlights how the initial user creation can be managed by a centralized server while the individual user requests can come from each individual user. This prevents unnecessary routing by a centralized server between the user and the Universal Crypto Exchange APIs.
+
+
+That’s It!
+The sun is setting on our time exploring crypto trading bots. Go out and enjoy your new-found crypto-trading freedom.
+
+</body>
+</html>
