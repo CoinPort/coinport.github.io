@@ -14,7 +14,7 @@
 
 <h2>Everyone loves free cryptocurrency</h2>
 
-<img src="./airdrops.png" alt="Airdrops" class="center" style="max-width: 280px; float: right;">
+<img src="./airdrops.png" alt="Airdrops" class="center" style="max-width: 280px; float: right; padding: 0 0 20px 20px;">
 
 <p>We're excited to introduce "free token airdrops" as part of our efforts to build a vibrant and engaged community within our cryptocurrency exchange platform.</p>
 

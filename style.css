@@ -228,7 +228,7 @@ h4 {
 
 .centerImage {
   display: flex;
-  float: right;
+  float: right; padding: 0 0 20px 20px;
   justify-content: center;
   margin: 20px;
 }
