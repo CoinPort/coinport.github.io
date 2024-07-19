@@ -55,10 +55,16 @@ li {
 
 .signature {
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.5;
-  padding: 0;
-  margin: 20px 0;
+  padding: 8px 1px;
+  margin: 0;
+
+  .signature__slogan {
+    color: #1a6dff !important;
+    font-size: 0.87rem;
+    margin-top: 0;
+  }
 }
 
 .signature a {
@@ -68,12 +74,6 @@ li {
 .signature img {
   border: 0;
   padding: 10px 0 0;
-}
-
-.signature .slogan {
-  color: #1a6dff;
-  font-size: 0.85rem;
-  margin-top: -3px;
 }
 
 table {
