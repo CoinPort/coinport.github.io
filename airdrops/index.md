@@ -42,7 +42,7 @@ Identity verification - SHIB
 
 <p>Thank you for being a part of our community, and we look forward to bringing you more exciting opportunities in the future.</p>
 
-<div class="signature">
+<div src="/images/logos/signature_logo.png"">
     <div>Sincerley,</div>
     <br />
     <div>The CoinPort Team</div>
