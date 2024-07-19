@@ -14,7 +14,7 @@
 
 <h2>Everyone loves free cryptocurrency</h2>
 
-<img src="./airdrops.png" alt="Airdrops" class="center" style="max-width: 280px; padding: 20px 20px 20px 0;">
+<img src="./airdrops.png" alt="Airdrops" class="center" style="max-width: 280px; float: right;">
 
 <p>We're excited to introduce "free token airdrops" as part of our efforts to build a vibrant and engaged community within our cryptocurrency exchange platform.</p>
 
@@ -46,7 +46,7 @@ Identity verification - SHIB
     <div>Sincerley,</div>
     <br />
     <div>The CoinPort Team</div>
-    <a href="https://www.coinport.com.au" border="0" target="_blank"><img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort" width="170px" /></a>
+    <a href="https://www.coinport.com.au" border="0" target="_blank"><img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort" width="160px" /></a>
     <div class="signature__slogan">Easy, fast and safe cryptocurrency exchange</div>
   </div>
 </body>

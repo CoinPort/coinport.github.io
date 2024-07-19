@@ -60,21 +60,23 @@ li {
   padding: 8px 1px;
   margin: 0;
 
+  a {
+    cursor: pointer;
+  }
+  
+   img {
+    border: 0;
+    padding: 20px 0 1px;
+  }
+
   .signature__slogan {
     color: #1a6dff !important;
-    font-size: 0.87rem;
+    font-size: 0.9rem;
     margin-top: 0;
   }
 }
 
-.signature a {
-  cursor: pointer;
-}
 
-.signature img {
-  border: 0;
-  padding: 10px 0 0;
-}
 
 table {
   margin: 10px 0;
