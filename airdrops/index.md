@@ -42,11 +42,11 @@ Identity verification - SHIB
 
 <p>Thank you for being a part of our community, and we look forward to bringing you more exciting opportunities in the future.</p>
 
-<div src="/images/logos/signature_logo.png"">
+<div>
     <div>Sincerley,</div>
     <br />
     <div>The CoinPort Team</div>
-    <a href="https://www.coinport.com.au" border="0" target="_blank"><img src="/images/logos/ch_sign_logo.png" alt="CoinPort" width="230px" /></a>
+    <a href="https://www.coinport.com.au" border="0" target="_blank"><img src="/images/logos/signature_logo.png" alt="CoinPort" width="230px" /></a>
     <div class="slogan">Easy, fast and safe cryptocurrency exchange</div>
   </div>
 </body>
