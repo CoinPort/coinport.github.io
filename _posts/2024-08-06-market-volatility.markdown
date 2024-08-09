@@ -32,7 +32,9 @@ At CoinPort, we prioritize your security and success. Our platform offers a rang
 
 Stay safe and happy trading!
 
-Sincerley,
-The CoinPort Team
-Easy, fast and safe cryptocurrency exchange
-![CoinPort Exchange](https://doc.coinport.com.au/images/logos/signature_logo.png)
+<p>
+Sincerley, <br />
+The CoinPort Team <br />
+<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
+<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
+</p>

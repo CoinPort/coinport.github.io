@@ -27,3 +27,10 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+
+<p>
+Sincerley, <br />
+The CoinPort Team <br />
+<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
+<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
+</p>
