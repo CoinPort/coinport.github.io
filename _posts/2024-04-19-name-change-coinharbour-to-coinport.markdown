@@ -12,8 +12,15 @@ Another advantage of the name change is that the internet domain name has been r
 
 No changes are required by members of the exchange, all user and trade data remains the same. User emails, passwords, and profile details are unchanged.
 
-Both the www.coinharbour.com.au and www.coinport.com.au internet addresses will continue to work, and from 1st May 2024 all internet traffic will be redirected to the new Coin Port site.
+Both the [www.coinharbour.com.au](https://www.coinharbour.com.au) and [www.coinport.com.au](https://www.coinport.com.au) internet addresses will continue to work, and from 1st May 2024 all internet traffic will be redirected to the new Coin Port site.
 
 Our Social Media sites will also be updated as Coin Port from 1st May 2024.
 
 We appreciate your patience during this transition.
+
+Stay safe and happy trading!
+
+Sincerley,
+The CoinPort Team
+![CoinPort Exchange](https://doc.coinport.com.au/images/logos/signature_logo.png)
+Easy, fast and safe cryptocurrency exchange
