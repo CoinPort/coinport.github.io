@@ -22,5 +22,5 @@ Stay safe and happy trading!
 
 Sincerley,
 The CoinPort Team
-![CoinPort Exchange](https://doc.coinport.com.au/images/logos/signature_logo.png)
 Easy, fast and safe cryptocurrency exchange
+![CoinPort Exchange](https://doc.coinport.com.au/images/logos/signature_logo.png)
