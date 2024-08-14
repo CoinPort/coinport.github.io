@@ -4,6 +4,8 @@ title:  "Name Change from Coin Harbour to Coin Port"
 date:   2024-04-19 15:01:29 +1000
 categories: news
 ---
+# Exchange Name Change 
+
 A decision has been made to change the business name and internet domain from "Coin Harbour" to "Coin Port" from 1st May 2024.
 
 The main reason for this is that there are two potential spellings of Harbour, i.e. "Harbour" and "Harbor". This has caused confusion in the past, and was identified as a problem as we expand past Australian borders.
@@ -19,6 +21,8 @@ Our Social Media sites will also be updated as Coin Port from 1st May 2024.
 We appreciate your patience during this transition.
 
 Stay safe and happy trading!
+
+
 <p>
 Sincerley, <br />
 The CoinPort Team <br />

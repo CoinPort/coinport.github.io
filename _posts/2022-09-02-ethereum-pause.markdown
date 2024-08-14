@@ -14,6 +14,7 @@ We appreciate your patience and understanding. If you have questions or feedback
 
 During this period, rest assured that your asset transactions are still highly secured by CoinPort, and basic trading operations will not be affected. Users who hold ETH and meet the conditions can enjoy the forked token candy airdrop and will receive the corresponding airdrop (snapshot positions or pending orders below 0.003ETH are not included in the airdrop forked tokens).
 
+
 <p>
 Sincerley, <br />
 The CoinPort Team <br />
