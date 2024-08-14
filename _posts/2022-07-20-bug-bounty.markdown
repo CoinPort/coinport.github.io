@@ -2,7 +2,7 @@
 layout: post
 title:  "Bug Bounty"
 date:   2022-07-20 15:01:29 +1000
-categories: CoinPort Ipdate
+categories: Update
 ---
 # New Bug Bounty Program
 

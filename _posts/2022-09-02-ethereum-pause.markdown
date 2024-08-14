@@ -2,7 +2,7 @@
 layout: post
 title:  "Etheraum Transactions Paused for Upgrade"
 date:   2022-09-02 15:01:29 +1000
-categories: CoinPort Update
+categories: Update
 ---
 # Ethereum Trasnactions Paused for Paris Upgrade
 

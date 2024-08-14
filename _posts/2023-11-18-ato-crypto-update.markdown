@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2023-11-18 15:01:29 +1000
-categories: CoinPort Update
+categories: Update
 ---
 
 # ATO Updated Crypto Guidance

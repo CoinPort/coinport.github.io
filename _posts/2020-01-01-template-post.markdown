@@ -2,7 +2,7 @@
 layout: post
 title:  "Article Title"
 date:   2020-01-01 15:01:29 +1000
-categories: CoinPort Update
+categories: Update
 ---
 # Article Title
 

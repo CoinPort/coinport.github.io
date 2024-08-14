@@ -2,7 +2,7 @@
 layout: post
 title:  "Avoid Scams"
 date:   2024-08-14 15:01:29 +1000
-categories: CoinPort Update
+categories: Update
 ---
 
 # Avoid Scams
