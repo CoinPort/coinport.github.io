@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "CoinPort Discord Server"
+date:   2022-11-18 10:15:00 +1000
+categories: CoinPort Ipdate
+---
+# CoinPort Discord Server
+
+To better engage with our customers and the broader crypto community, CoinPort has a public Discord Server.
+
+Our staff participate on Discord and are available to answer questions and respond to feedback.
+
+### link
+href="https://discord.gg/KceFCZRw" target="_blank">https://discord.gg/KceFCZRw
+<div class="centerImage"><img src="images/Discord.png" alt="Discord" class="center" width="350px"></div>
+
+CoinPort participates in multiple Social Media forums to best serve our member experience.
+
+
+<p>
+Sincerley, <br />
+The CoinPort Team <br />
+<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
+<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
+</p>
