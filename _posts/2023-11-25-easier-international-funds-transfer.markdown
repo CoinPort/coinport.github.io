@@ -2,12 +2,10 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2023-11-25 15:01:29 +1000
-categories: CoinPort Ipdate
+categories: CoinPort Update
 ---
 
-
-* Easier International Funds Transfer Q2 2024
-    
+# Easier International Funds Transfer Q2 2024
 
      Great news for international customers. From April 2024 CoinPort will be able to offer International Payments - International funds transfer instruction (IFTI-E). ### bold  <img src="images/ifti.jpg" alt="IFTI" class="center" style="max-width: 280px; float: right; padding: 20px;"###
 
