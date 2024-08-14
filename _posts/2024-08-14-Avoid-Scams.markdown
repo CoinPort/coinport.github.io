@@ -4,7 +4,6 @@ title:  "Avoid Scams"
 date:   2024-08-14 15:01:29 +1000
 categories: Update
 ---
-
 # Avoid Scams
 
 At CoinPort the safety of our customers is a top priority. It is crucial to be aware of the various types of cryptocurrency scams that are currently circulating and to equip yourself with the knowledge necessary to protect your money and personal information.
@@ -24,22 +23,21 @@ you are told that if you send someone cryptocurrency, they will give you more ba
 
     -   If it sounds too good to be true, it almost always is.
     -   If you are being pressured or hurried into making a transfer or trade, it is a scam.
-    -   If you are asked to pay additional fees or taxes to access your own funds, it is a scam. 
-        These might include a “security deposit”, a tier upgrade fee, service fee or a collateral fee.
+    -   If you are asked to pay additional fees or taxes to access your own funds, it is a scam. These might include a “security deposit”, a tier upgrade fee, service fee or a collateral fee.
     -   If you have been promised a large return on a small initial payment, it is a scam.
-    -   CoinPort does not have any representatives contacting users to make a trade or transfer, or 
-        to create an account. We will never contact users on social media, phone or email asking you to create an account or make a transfer.
-    -   CoinPort does not work with any companies or platforms for investment purposes. If someone
-        has said we are partnering with them or asked you to create an account with us to transfer funds for an investment, it is a scam.
-    -   We urge all of our customers to make sure they have done their own research before sending 
-        out funds anywhere.
+    -   CoinPort does not have any representatives contacting users to make a trade or transfer, or to create an account. We will never contact users on social media, phone or email asking you to create an account or make a transfer.
+    -   CoinPort does not work with any companies or platforms for investment purposes. If someone has said we are partnering with them or asked you to create an account with us to transfer funds for an investment, it is a scam.
+    -   We urge all of our customers to make sure they have done their own research before sending out funds anywhere.
 
 ## Think you might be the victim of a scam?
 
     -   Immediately inform us by contacting CoinPort customer support.
     -   Do not make any other transactions or payments.
     -   Report the incident to your bank and law enforcement.
-    -   It is better to be safe than sorry. If you have any questions regarding your account with us, -   please contact customer support. We are available 24/7 to answer your questions.
+    -   It is better to be safe than sorry. If you have any questions regarding your account with us, - please contact customer support. 
+
+We are available 24/7 to answer your questions.
+
 
 <p>
 Sincerley, <br />
