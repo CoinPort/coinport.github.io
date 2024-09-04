@@ -4,5 +4,4 @@
 
 layout: home
 ---
-
-## CoinPort News Blog
+## CoinPort Exchange - News Blog
