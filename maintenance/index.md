@@ -1,8 +1,8 @@
-<div style="background: #02285e; align: center; width: 100%;">
+<div class="center_contents">
 
 # Sheduled Maintenance
 
-<img src="./maintenance.png" alt="Maintenace" class="center_contents">
+<img src="./maintenance.png" alt="Maintenace">
 
 ## The CoinPort Exchange website is temporarily unavailable while we perform scheduled maintenance.
 
