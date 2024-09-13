@@ -1,6 +1,6 @@
-Coin Port, Australian Bitcoin & Crypto ExchangeGo to the home page
+CoinPort, Australian Bitcoin & Crypto ExchangeGo to the home page
 
-Getting started with Coin Port is easy. Simply click the create account button on the top right-hand corner, enter your username and password, and you now have a registered account with us.
+Getting started with CoinPort is easy. Simply click the create account button on the top right-hand corner, enter your username and password, and you now have a registered account with us.
 
 If you are an Australian resident and are opening an individual account, you may be eligible for a FastTrack account that will allow you instant access to deposit funds and trade.
 
@@ -47,14 +47,14 @@ Switzerland
 Taiwan
 United Kingdom
 
-Please note that being a citizen of one of the aforementioned nations does not automatically entitle you to trade. Coin Port verifies clients on an individual basis and reserves the right to approve a client for trading.
+Please note that being a citizen of one of the aforementioned nations does not automatically entitle you to trade. CoinPort verifies clients on an individual basis and reserves the right to approve a client for trading.
 
 Securing your trading account
 
-Your trading account is the single access point for you into the Coin Port cryptocurrency markets and to your digital assets. Such an important access point requires extensive security, and we are proud of our excellent track record in account security and the range of security measures available to you.
+Your trading account is the single access point for you into the CoinPort cryptocurrency markets and to your digital assets. Such an important access point requires extensive security, and we are proud of our excellent track record in account security and the range of security measures available to you.
 
 Your password
-Your password is the first layer of security when accessing your trading account. Coin Port allows you to pick a password of your choice. It is crucial that you choose a password that is difficult for a computer to guess.
+Your password is the first layer of security when accessing your trading account. CoinPort allows you to pick a password of your choice. It is crucial that you choose a password that is difficult for a computer to guess.
 
 Tips on selecting a good, strong password:
 
@@ -62,29 +62,29 @@ For a strong, hard-to-break password, length is key. Use passwords at least 8 ch
 
 Never use obvious passwords like 12344321 or myun1quepa55word. These are relatively easy to break.
 
-Never use the same password for different websites. Your password for your Coin Port trading account should be unique.
+Never use the same password for different websites. Your password for your CoinPort trading account should be unique.
 
 Duress password
 A feature we offer all customers is the ability to create a duress password for your trading account. If for any reason you are not comfortable entering your login and password credentials, you can enter the duress password and access to your account will be suspended for 24 hours.
 
 Two-Factor Authentication (2FA)
-To protect your account against unauthorised access, we recommend that your account is protected with two-factor authentication (2FA). Every trading account at Coin Port allows 2FA to be enabled. If enabled, it means that at the login screen, a user cannot access the account using only a username and password, the user must also have access to a mobile phone or third-party authentication device when logging in.
+To protect your account against unauthorised access, we recommend that your account is protected with two-factor authentication (2FA). Every trading account at CoinPort allows 2FA to be enabled. If enabled, it means that at the login screen, a user cannot access the account using only a username and password, the user must also have access to a mobile phone or third-party authentication device when logging in.
 
 Most people are familiar with 2FA, though perhaps unfamiliar with the term. Every time you make a withdrawal at an ATM, 2FA is employed. It means that to proceed, you must be identified in two different ways. You are identified primarily with your debit card (a physical token), and secondly with your PIN (something you remember). Neither your debit card or PIN is useful to a thief by itself.
 
-At Coin Port, the same principle applies, although instead of shipping you a physical token, you can install software on your mobile phone that generates a new code every 30 seconds. This works the same way as a physical token. You will need to have your phone with you to login to your Coin Port account.
+At CoinPort, the same principle applies, although instead of shipping you a physical token, you can install software on your mobile phone that generates a new code every 30 seconds. This works the same way as a physical token. You will need to have your phone with you to login to your CoinPort account.
 
 Storing your username and password separately to your 2FA method ensures your account can only be accessed by you.
 
-Coin Port strongly recommends that all account holders enable two-factor authentication.
+CoinPort strongly recommends that all account holders enable two-factor authentication.
 
 Google Authenticator
 Our mechanism for implementing 2FA is software known as Google Authenticator. It is very simple to use, and can be installed for free on Android or iOS devices. This includes iPhones, iPods, most Samsung and Nokia telephones as well as a variety of other devices. On iOS or Android, look up Google Authenticator by Google Inc. on your device. If you have a Windows Phone device, look up Authenticator by Microsoft Corporation.
 
-If you are unable to install any of the three applications listed above, there may be alternatives for your device, but please use your own discretion, as we are unable to review all third-party software. As a backup to software 2FA, when logging in you may select SMS for 2FA, where we will send a code to your primary or secondary telephone number. Please be aware that SMS messages are often delayed, and SMS can only be used in place of the software based 2FA for logging in. For all other 2FA actions on Coin Port you will need to use Google Authenticator or equivalent.
+If you are unable to install any of the three applications listed above, there may be alternatives for your device, but please use your own discretion, as we are unable to review all third-party software. As a backup to software 2FA, when logging in you may select SMS for 2FA, where we will send a code to your primary or secondary telephone number. Please be aware that SMS messages are often delayed, and SMS can only be used in place of the software based 2FA for logging in. For all other 2FA actions on CoinPort you will need to use Google Authenticator or equivalent.
 
 Validating your email address
-It is important that we validate your email address for a number of reasons. To trade with Coin Port, we recommend that you enable two-factor authentication, or 2FA (see Setting up two-factor authentication). In the event you are unable to authenticate using 2FA, or you forget your password, this email address will be used to help verify who you are. If you are unable to authenticate using 2FA or you forget your password and you are unable to verify ownership of this email address, you will no longer have access to your Coin Port account. We also use this email address for sending you various notifications about your account activity.
+It is important that we validate your email address for a number of reasons. To trade with CoinPort, we recommend that you enable two-factor authentication, or 2FA (see Setting up two-factor authentication). In the event you are unable to authenticate using 2FA, or you forget your password, this email address will be used to help verify who you are. If you are unable to authenticate using 2FA or you forget your password and you are unable to verify ownership of this email address, you will no longer have access to your CoinPort account. We also use this email address for sending you various notifications about your account activity.
 
 Validating a primary telephone number
 A valid primary telephone number is required for the same reason we require a valid email address. That is, in the event you are unable to authenticate using 2FA, or you forget your password, this telephone number will be required to identify you.
@@ -104,7 +104,7 @@ To verify your account, you will be prompted for a lot of personal information. 
 If the information you have provided is accurate, in most cases you should be approved for trading immediately, and your account will be activated. There may be some cases where we are still unable to identify you for one reason or another. Please contact us via the Support screen, and we will be happy to investigate your case and see if we can help.
 
 IP addresses
-Coin Port monitors the IP addresses (a unique string of numbers that identifies every device using the internet) that are used to access each trading account. If Coin Port detects that there is an IP address attempting to access your trading account that has not been used to access your account previously, access to the trading account is restricted. The user attempting to access the account is prompted to provide additional information to Coin Port to ensure that they are the account holder.
+CoinPort monitors the IP addresses (a unique string of numbers that identifies every device using the internet) that are used to access each trading account. If CoinPort detects that there is an IP address attempting to access your trading account that has not been used to access your account previously, access to the trading account is restricted. The user attempting to access the account is prompted to provide additional information to CoinPort to ensure that they are the account holder.
 
 This process is followed for every new IP address range used to access your account.
 
@@ -112,8 +112,8 @@ This process is followed for every new IP address range used to access your acco
 
 We are registered as a Digital Currency Exchange (DCE) with AUSTRAC:
 DCE-1
-Coin Port, Australian Bitcoin & Crypto Exchange
-© 2024 Coin Port Pty. Ltd. ABN 46
+CoinPort, Australian Bitcoin & Crypto Exchange
+© 2024 CoinPort Pty. Ltd. ABN 46
 Terms & conditions
 Privacy collection notice
 Privacy policy

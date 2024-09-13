@@ -1,4 +1,4 @@
-Coin Port Project:
+CoinPort Project:
 
 ## Deep Reinforcement Learning AI Model for Market-Making in a Cryptocurrency Exchange
 
