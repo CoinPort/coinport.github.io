@@ -1,6 +1,4 @@
-ast updated on "1st" of May 2022
-
-TRANSPARENCY POLICY OF KUNA
+# Transparancy  Policy Of Kuna
 
 If you have any questions about this Transparency Policy, please contact us via email: support@kuna.io
 
@@ -76,3 +74,4 @@ If any translation of the English version of this Policy is provided, the versio
 
 Our website policies, content, information, promotions, disclosures, disclaimers, and features may be revised, modified, updated, and/or supplemented at any time and without prior notice at the sole and absolute discretion of KUNA. If we change this Policy, we will take all necessary steps to notify users with annunciation on KUNA's website and will post the amended Policy on KUNA's website as well.
 
+Last updated: 25-Sep-2024

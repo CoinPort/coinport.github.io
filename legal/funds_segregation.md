@@ -4,11 +4,11 @@
 
 ### 1. Purpose
 
-   The purpose of this policy is to ensure the proper segregation of company funds and client funds at Coin Harbour Pty Ltd (hereinafter referred to as "the Company"). This policy aims to protect client assets, maintain trust, and comply with relevant regulatory requirements.
+The purpose of this policy is to ensure the proper segregation of company funds and client funds at Coin Harbour Pty Ltd (hereinafter referred to as "the Company"). This policy aims to protect client assets, maintain trust, and comply with relevant regulatory requirements.
 
 ### 2. Scope
 
-   This policy applies to all employees, officers, and agents of the Company, and covers all financial transactions involving company and client funds.
+This policy applies to all employees, officers, and agents of the Company, and covers all financial transactions involving company and client funds.
 
 ### 3. Definitions
 
@@ -21,37 +21,37 @@
 ### 4. Policy Statements
 
  **4.1 Segregation of Funds**
-   The Company shall maintain segregated accounts for company funds and client funds. These accounts shall be distinct and separate to ensure that there is no commingling of assets.
+The Company shall maintain segregated accounts for company funds and client funds. These accounts shall be distinct and separate to ensure that there is no commingling of assets.
 
-   Client funds shall be deposited into and withdrawn from client accounts only. Under no circumstances shall client funds be used for company expenses or any other purposes unrelated to the clients' transactions.
+Client funds shall be deposited into and withdrawn from client accounts only. Under no circumstances shall client funds be used for company expenses or any other purposes unrelated to the clients' transactions.
 
  **4.2 Account Management**
-   The Company shall open and maintain distinct bank accounts and digital wallets for company funds and client funds.
+The Company shall open and maintain distinct bank accounts and digital wallets for company funds and client funds.
 
-   Client funds shall be held in trust accounts or equivalent accounts that provide legal protection for client assets.
+Client funds shall be held in trust accounts or equivalent accounts that provide legal protection for client assets.
    Regular audits and reconciliations shall be conducted to ensure the accuracy and integrity of the segregated accounts.
 
  **4.3 Access and Authorization**
-   Access to segregated accounts shall be restricted to authorized personnel only. The Company shall implement stringent internal controls to prevent unauthorized access or misuse of funds.
+Access to segregated accounts shall be restricted to authorized personnel only. The Company shall implement stringent internal controls to prevent unauthorized access or misuse of funds.
 
    All transactions involving segregated accounts shall require dual authorization to enhance security and reduce the risk of fraud.
 
  **4.4 Reporting and Transparency**
-   The Company shall provide clients with regular statements detailing the balance and activity in their accounts.
+The Company shall provide clients with regular statements detailing the balance and activity in their accounts.
 
-   The Company shall maintain transparent records of all transactions involving segregated accounts and make these records available for audit and regulatory review.
+The Company shall maintain transparent records of all transactions involving segregated accounts and make these records available for audit and regulatory review.
 
  **4.5 Compliance and Monitoring**
-   The Company shall comply with all relevant legal and regulatory requirements related to the segregation of funds.
+The Company shall comply with all relevant legal and regulatory requirements related to the segregation of funds.
 
-   Regular internal audits and third-party audits shall be conducted to ensure compliance with this policy.
+Regular internal audits and third-party audits shall be conducted to ensure compliance with this policy.
 
-   Any discrepancies or violations of this policy shall be reported immediately to the senior management and rectified promptly.
+Any discrepancies or violations of this policy shall be reported immediately to the senior management and rectified promptly.
 
  **4.6 Contingency Planning**
-   The Company shall establish a contingency plan to protect client funds in the event of insolvency, bankruptcy, or any other financial distress.
+The Company shall establish a contingency plan to protect client funds in the event of insolvency, bankruptcy, or any other financial distress.
 
-   The contingency plan shall include measures to ensure the prompt return of client funds and minimize disruption to clients.
+The contingency plan shall include measures to ensure the prompt return of client funds and minimize disruption to clients.
 
 ### 5. Responsibilities
 
@@ -62,11 +62,11 @@
 
 ### 6. Review and Amendments
 
-   This policy shall be reviewed annually or more frequently if necessary to ensure its continued relevance and effectiveness. Any amendments to this policy shall be approved by the Board of Directors.
+This policy shall be reviewed annually or more frequently if necessary to ensure its continued relevance and effectiveness. Any amendments to this policy shall be approved by the Board of Directors.
 
 ### 7. Approval
 
-   This policy has been approved by the Board of Directors of Coin Harbour Pty Ltd and is effective as of 1st July 2022.
+This policy has been approved by the Board of Directors of Coin Harbour Pty Ltd and is effective as of 1st July 2022.
 
 Approved by:
 Peter Cooney
@@ -80,3 +80,5 @@ Level 2, 696 Bourke St,
 Melbourne VIC 3000
 Phone 1300 902 595
 https://www.coinport.com.au
+
+Last updated: 25-Sep-2024

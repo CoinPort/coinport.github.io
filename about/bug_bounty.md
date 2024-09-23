@@ -1,20 +1,84 @@
-CoinPort Careers     
+# CoinPort Exchange Bug Bounty Program
 
-# CoinPort Careers
+CoinPort recognizes the importance and value of security researchers efforts in helping keep our community safe. We encourage responsible disclosure of security vulnerabilities via our bug bounty program described on this page.
 
-Our recruitment process
+![bug bounty](https://doc.coinport.com.au/images/bug_bounty.jpg)
 
-*   **Application**: Want to be a part of the growing team, send us your application by applying to the relevant role from our current open position or write to us at [careers@coinport.com.au](mailto:careers@zebpay.comm)
-*   **Screening**: Our talent acquisition team will screen CVs and shortlist the profile basis on role alignment with your expertise.
-*   Assessment: Different roles have different requirements; the Talent Acquisition team will keep you posted if the role you applied for requires an assessment.
-*   **Interview**: Our Internal Experts will have a formal conversation about the role expectations, know about your experience, and assess you for the respective role either in-person or video call.
-*   **Decision**: Our Team will contact you directly and convey the decision about the entire process.
-*   **Offer and Onboarding**: With immense pleasure and open hearts, we welcome you to our team. Our HR Ops team will guide and help you throughout your Onboarding Journey.
+## Responsible investigation and reporting
 
-What are We looking for?
+Responsible investigation and reporting includes, but isn't limited to, the following:
 
-*   **Ownership**: You are the owner of your tasks, take the charge and play the power button. Don’t wait for someone else to do it for you.
-*   **Accountability**: Drive for accountability and hold each other accountable for work.
-*   **Communication and Interpersonal Skills**: You should have the ability to communicate effectively with others and get along with a variety of different types of personalities.
-*   **Creative**: Versatile candidates who can apply their skills to a variety of different situations and can solve unexpected problems that come up with ease and confidence.
-*   **Adaptive and Flexible**: Looking for those who are willing to take on new challenges or learn new skills if needed, deal with uncertainty, and navigate volatile environments.
+* Do not violate the privacy of other members, destroy data, disrupt our services, etc.
+* Only target your own accounts in the process of investigating the bug. Do not target, attempt to access, or otherwise disrupt the accounts of other members.
+* Do not target our physical security measures, or attempt to use social engineering, spam, distributed denial of service (DDOS) attacks, etc.
+* Initially report the bug only to us and not to anyone else.
+* Give us a reasonable amount of time to fix the bug before disclosing it to anyone else, and give us adequate written warning before disclosing it to anyone else.
+* In general, please investigate and report bugs in a way that makes a reasonable, good faith effort not to be disruptive or harmful to us or our members. Otherwise, your actions might be interpreted as an attack rather than an effort to be helpful.
+
+## Eligibility
+
+Generally speaking, any bug that poses a significant vulnerability, either to the security of our site or the integrity of our trading system, could be eligible for a reward. It is entirely at our discretion to decide whether a bug is significant enough to be eligible for a reward.
+
+Eligible bugs include, but not limited to:
+
+* Cross-site request forgery (CSRF)
+* Cross-site scripting (XSS)
+* Code injection
+* Remote code execution
+* Privilege escalation
+* Authentication bypass
+* Clickjacking
+* Leakage of sensitive data
+* Low energy requirement less ETH issuance is required to incentivize participation
+
+Domains in scope: coinport.com.au, www.coinport.com.au, api.coinport.com.au.
+
+We generally do not accept reports for doc.coinport.com.au unless a bug is critical as the site is isolated from all member data and authentication.
+
+## Ineligibility
+
+Generally speaking, any bug that poses a significant vulnerability, either to the security of our site or the integrity of our trading system, could be eligible for a reward. It is entirely at our discretion to decide whether a bug is significant enough to be eligible for a reward.
+
+Things that are not eligible for reward include:
+
+* Vulnerabilities on sites hosted by third parties (support.coinport.com.au, etc.) unless they lead to a vulnerability on our main domains.
+* Vulnerabilities contingent on physical attack, social engineering, spamming, DDOS attack, etc.
+* Vulnerabilities affecting outdated or unpatched browsers.
+* Vulnerabilities in third-party applications that make use of CoinPort's API.
+* Bugs that have not been responsibly investigated and reported.
+* Bugs already known to us, or already reported by someone else (reward goes to the first reporter).
+* Issues that aren't reproducible.
+* Issues that we can't reasonably be expected to do anything about.
+
+## Reward
+
+The minimum reward for eligible bugs is the equivalent of AU$100 in bitcoin.
+
+Rewards over the minimum are at our discretion, but we will pay significantly more for particularly serious issues.
+
+Only one reward per bug.
+
+## Severity levels
+
+* Critical
+  * Remote code execution
+  * Ability to arbitrarily manipulate account balances
+* High
+  * User authentication bypasses
+  * Privilege escalation allowing unauthorized access to sensitive data or funds
+* Medium
+  * CSRF impacting non-critical settings
+  * User de-anonymization
+* Low
+  * Leakage of lower sensitivity information, such as name or email address
+  * Potential phishing vector that CoinPort has the ability to mitigate
+
+## How to report a bug
+
+Submit your bug report by email to: [support@coinport.com.au](mailto:support@coinport.com.au?subject=Bug Bounty)
+
+Include as much information in your report as you can, including a description of the bug, its potential impact, and steps for reproducing it or proof of concept. Please allow five (5) business days for us to review.
+
+We thank all security researchers for taking the time to submit reports. We may only respond if your submission is eligible for a reward.
+
+Last updated: 25-Sep-2024

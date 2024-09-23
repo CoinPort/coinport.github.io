@@ -1,5 +1,3 @@
-CoinPort Anti-Money Laundering (AML)      
-
 # CoinPort Anti-Money Laundering (AML)
 
 As a Registered Digital Currency Exchange, CoinPort is bound by Australian law to ensure the services we provide does not facilitate money laundering or terrorism financing.
@@ -22,3 +20,4 @@ Simply put it is the use of funds, concealing the original source, for use in ac
 
 AUSTRAC is an Australian Government Financial Intelligence Agency that was set up to monitor financial transactions. It specifically looks to identify money laundering, tax evasion, welfare fraud, terrorism and organised crime.
 
+Last updated: 25-Sep-2024

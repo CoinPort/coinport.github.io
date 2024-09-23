@@ -1,8 +1,6 @@
-Last updated on "1st" May 2022
+# Cross-Chain Deposits And Refund Policy
 
-CROSS-CHAIN DEPOSITS AND REFUND POLICY
-
-Coin Hartbour is always concerned about our customers' safety and sustainability. Sometimes wrong deposits transfers of electronic tokens to wallets intended for accepting and storing other cryptocurrencies occur in practice of exchange. To make our Users sure that their right to refund is ensured, we created this Cross-chain Deposits and Refund Policy ("Policy").
+Coin Hartbour Pty Ltd is always concerned about our customers' safety and sustainability. Sometimes wrong deposits transfers of electronic tokens to wallets intended for accepting and storing other cryptocurrencies occur in practice of exchange. To make our Users sure that their right to refund is ensured, we created this Cross-chain Deposits and Refund Policy ("Policy").
 
 Acceptance of the Policy. By visiting, accessing or using any of our website(s), mobile application or cryptocurrency trading and related services you confirm that you have read, understood and accepted the rules provided by this Policy. If you do not agree with this Policy or any part of it you should immediately stop using our website(s), mobile application and any kind of our services.
 
@@ -24,7 +22,7 @@ Cross-chain refunds in excess of the original amount are prohibited.
 
 This Policy does not cover any transactions between the Users related to purchase-sale of crypto-currencies and it does not refer to any refunds for purchased crypto-currencies.
 
-To realize the User`s right to a refund they shall contact Coin Hartbour Support Service. The User`s application must include the following information:
+To realize the User's right to a refund they shall contact Coin Hartbour Support Service. The User`s application must include the following information:
 
 the email address to which the User's Account is attached;
 the name of the electronic token that was mistakenly deposited in a wallet intended for another cryptocurrency;
@@ -46,11 +44,11 @@ The cross-chain refund will be granted by Coin Hartbour for the Users who have c
 
 Supported currencies eligible for cross-chain refund include currencies supported by Coin Hartbour Exchange. Coin Hartbour will only attempt to recover cross-chain deposits that exceed 2000 euro (or equivalent in cryptocurrency) at the time of such a deposit.
 
-The Fee will be charged for the cross-chain recovery process from the User`s wallet. At the time of the recovery, the full Fee amount (1000 euro or cryptocurrency equivalent) must be available in the User`s wallet. The Fee is charged automatically; no action from the User is required.
+The Fee will be charged for the cross-chain recovery process from the User's wallet. At the time of the recovery, the full Fee amount (1000 euro or cryptocurrency equivalent) must be available in the User`s wallet. The Fee is charged automatically; no action from the User is required.
 
 3. PROCESSING OF APPLICATION
 
-Having received the User`s application, Coin Hartbour shall contact the User within a reasonable time to ask for the further necessary information to consider the application. The User must as soon as possible, but not later than 3 days, respond to the Coin Hartbour`s letter and provide Coin Hartbour with the required information.
+Having received the User's application, Coin Hartbour shall contact the User within a reasonable time to ask for the further necessary information to consider the application. The User must as soon as possible, but not later than 3 days, respond to the Coin Hartbour`s letter and provide Coin Hartbour with the required information.
 
 Coin Hartbour guarantees that the User`s application will be processed within a reasonable time and Coin Hartbour will make a final decision and notify the User about the results of the application processing.
 
@@ -58,8 +56,11 @@ The User`s application will not be satisfied in the following cases:
 
 the User rejected to/did not provide Coin Hartbour with the required necessary information;
 if Coin Hartbour has reasonable suspicion that the User has or is engaged in fraudulent or any other type of criminal activity due to this deposit.
-Coin Hartbour has a right to freeze the User`s funds during processing the User`s application, which means that the User will be unable to get access to these funds.
+
+Coin Hartbour has a right to freeze the Users funds during processing the User`s application, which means that the User will be unable to get access to these funds.
 
 4. CHANGES TO CROSS-CHAIN DEPOSITS AND REFUND POLICY
 
 Coin Hartbour may modify this Policy from time to time which will be indicated by changing the date at the top of this page. If Coin Hartbour makes any material changes, the User will be notified by email (sent to the email address specified in the User`s account). If the User does not accept a new edition of this Cross-chain Deposits and Refund Policy, they must stop using the website and services. Continuation of using our services after the date on which changes to this Policy come into effect means that the User agrees with the new rules of cross-chain deposit refund processes.
+
+Last updated: 25-Sep-2024

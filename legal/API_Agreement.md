@@ -1,10 +1,8 @@
-Last updated on May 1st, 2022
+# Application PProgramming Iinterfaces (API) License Agreement
 
-APPLICATION PROGRAMMING INTERFACES LICENSE AGREEMENT
+If you have any questions about this Application Programming Interfaces License Agreement , please feel free to contact us by email at support@coinport.com.au
 
-If you have any questions about this Application Programming Interfaces License Agreement , please feel free to contact us by email at support@kuna.io
-
-This Application Programming Interfaces License Agreement ("Agreement") is a legal agreement between you or any company you represent ("Licensee") and Coin Hartbour ("We", "Licensor") for the API delivered by Coin Hartbour to the Licensee.
+This Application Programming Interfaces License Agreement ("Agreement") is a legal agreement between you or any company you represent ("Licensee") and Coin Hartbour ("We", "Licensor") for the API delivered by Coin Hartbour Pty Ltd to the Licensee.
 
 Application Programming Interfaces ("API") means Coin Hartbour platform technology and its related services, which may include object code, software libraries, software tools, sample source code, published specifications and documentation (e.g. programmer guides, manuals and other information appropriate or necessary for use in connection with the API). API shall include any future, updated or otherwise modified version(s) thereof furnished by Coin Hartbour (in its sole discretion) to Licensee.
 
@@ -128,3 +126,5 @@ without limiting the effect of the first item on the list, you shall as soon as 
 10.4. Entire agreement. This Agreement represents the complete agreement concerning the API and oral amendments are void. If any provision of this Agreement is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
 
 10.5. Severability. If any provision herein is held to be invalid or unenforceable for any reason, the remaining provisions shall continue in full force without being impaired or invalidated in any way.
+
+Last updated: 25-Sep-2024

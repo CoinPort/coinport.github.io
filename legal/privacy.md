@@ -1,5 +1,3 @@
-CoinPort Privacy Policy      
-
 # CoinPort Privacy Policy
 
 ## General Conditions
@@ -34,3 +32,5 @@ CoinPort erases the Customer's personal data in principal 1 year after terminati
 CoinPort may update this Privacy Policy from time to time in response to changing legal, technical or business developments. CoinPort will take appropriate measures to inform you, the customer, about the updates, consistent with the significance of the changes.",
 
 CoinPort will obtain Customer's consent to any material changes in this Privacy Policy if this is required by applicable data protection laws. Contact Us If you have any questions, comments, or concerns regarding our Privacy Policy and/or practices as it or they relate to the Platform, please contact us at support@CoinPort.com.au.".
+
+Last updated: 25-Sep-2024

@@ -1,10 +1,8 @@
-CoinPort Legal Details     
-
 # Legal Details
 
 ## Australian Securities & Investments Commission (ASIC) Details
 
-Coin Habour Pty Ltd ("CoinPort" or "CoinPort") is an Australian company that operates a Digital Asset Exchange business:
+Coin Habour Pty Ltd ("Coin Port" or "CoinPort" or "CoinPort Exchang"e") is an Australian company that operates a Digital Asset Exchange business:
 
 |     |     |
 | --- | --- |
@@ -40,3 +38,5 @@ CoinPort is a member of the Australian Financial Complaints Authority (AFCA), fo
 | --- | --- |
 | Member number: | 100204 |
 | AFCA Website: | [https://www.afca.org.au/](https://www.afca.org.au/ "https://www.afca.org.au/") |
+
+Last updated: 25-Sep-2024

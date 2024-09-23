@@ -1,6 +1,4 @@
-CoinPort Security      
-
-# 360-Degree Security
+# CoinPort Exchange 360-Degree Security
 
 We safeguard user funds by securing our platform with strict protocols and industry-leading technical measures. From real-time monitoring and a 360-degree risk management system to advanced data privacy tools and end user security education, we continually find innovative ways to protect the users we serve.
 
@@ -39,3 +37,5 @@ Receive emails, notifications and security alerts in the event that suspicious a
 ## Opening New Doors for Crypto
 
 We’re committed to meeting the highest standards for regulatory compliance, in order to maintain our responsibility to our users and further develop the blockchain industry.
+
+Last updated: 25-Sep-2024

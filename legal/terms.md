@@ -1,5 +1,3 @@
-CoinPort Terms and Conditions      
-
 # CoinPort Terms and Conditions
 
 ## The Platform
@@ -189,3 +187,5 @@ If any provision of the Terms of Service are held to be invalid, unenforceable o
 If we are unable to perform our Services as stipulated in the Terms of Service due to circumstances out of our control, including but not limited to, change of law, regulations or policy, or an event of Force Majeure, we will not be held liable.
 
 These Terms of Service are governed by the laws of the State of Victoria and in the event that we have a legal dispute relating to this Platform or these Website Terms and Conditions, the Courts of Victoria will have non-exclusive jurisdiction.
+
+Last updated: 25-Sep-2024

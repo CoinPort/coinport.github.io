@@ -1,17 +1,12 @@
-Last updated on 25th October, 2023
+# ANTI-MONEY LAUNDERING AND COUNTER- TERRORIST FINANCING POLICY
 
-ANTI-MONEY LAUNDERING AND COUNTER- TERRORIST FINANCING POLICY
+## Administrative Information
 
-Administrative Information
+Australia Securities and Investments Commission (ASIC):
+Legal name: Coin Harbour Pty Ltd
+Registered address: Level 2, 696 Bourke St, Melbourne VIC 3000
+ABN: 84 006 876 286
 
-Republic of Lithuania:
-Legal name: UAB Kuna Pro
-Registered address: Eišiškių Sodų 18-oji g. 11, LT-02194 Vilnius
-Company number: 306041195
-Canada:
-Legal name: FlexyPay Inc.
-Registered address: 398-416 Main st, Vancouver, BC, Canada, V5T3E2
-Company number: BC1341302
 1. GENERAL INFORMATION
 
 This Anti-Money Laundering and Counter-Terrorist Financing Policy (“Policy"") of Coin Hartbour (or the “Company”) was prepared in accordance with the Republic of Lithuania Law on the Prevention of Money Laundering and Terrorist Financing, Proceeds of Crime (Money Laundering) and Terrorist Financing Act of Canada and other applicable AML legislation.
@@ -156,3 +151,4 @@ In addition, due to regulatory purposes, the Company does not currently serve cu
 
 The Company cooperates with supervisory and law enforcement authorities in preventing money laundering and terrorist financing, thereby communicating information available to the Company and replying to queries within a reasonable time, following the duties, obligations and restrictions arising from legislation. For any relevant requests please contact us at: law@kuna.family.
 
+Last updated: 25-Sep-2024

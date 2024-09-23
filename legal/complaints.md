@@ -1,5 +1,3 @@
-CoinPort Complaints      
-
 # CoinPort Complaints Process
 
 Customer service and satisfaction is important to us at CoinPort. We hope all our clients have a positive experience using CoinPort. Please contact us directly if you have any concerns or suggestions for improvement.
@@ -25,3 +23,5 @@ If you are still not satisfied with the response from customer support, you may 
 If you still feel that your complaint or dispute is not satisfactory resolved, the issue be raised with the Australian Financial Complaints Authority [https://www.afca.org.au/](https://www.afca.org.au/ "https://www.afca.org.au/") for a review.
 
 Coin Habour Pty Ltd is a member of the Australian Financial Complaints Authority: **Member number: 100204**
+
+Last updated: 25-Sep-2024

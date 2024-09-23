@@ -1,41 +1,43 @@
 # CoinPort Policy Documents
 
-This is the web folder where internal policy and procedure documents for customers and staff are stored.
+This is the web folder where internal policy and procedure documents for customers and staff are stored. 
 
-<a href="https://www.coinport.com.au/legal/about.html" target="_blank">About the CoinPort Exchange</a>
+[About the CoinPort Exchange](https://www.coinport.com.au/legal/about.html) 
 
-<a href="https://www.coinport.com.au/legal/aml.html" target="_blank">Anti-Monetary Laundering Policy</a>
+[Anti-Monetary Laundering Policy](https://www.coinport.com.au/legal/aml.html) 
 
-<a href="https://www.coinport.com.au/legal/AMLCTF_Policy.html" target="_blank">AML/CTF Policies</a>
+[AML/CTF Policies](https://www.coinport.com.au/legal/AMLCTF_Policy.html) 
 
-<a href="https://www.coinport.com.au/legal/API_Agreement.html" target="_blank">User Agreement for use of the CoinPort API</a>
+[User Agreement for use of the CoinPort API](https://www.coinport.com.au/legal/API_Agreement.html) 
 
-<a href="https://www.coinport.com.au/legal/competent_authorities.html" target="_blank">Competent Authorities</a>
+[Competent Authorities](https://www.coinport.com.au/legal/competent_authorities.html) 
 
-<a href="https://www.coinport.com.au/legal/complaints.html" target="_blank">Complaints Policy</a>
+[Complaints Policy](https://www.coinport.com.au/legal/complaints.html) 
 
-<a href="https://www.coinport.com.au/legal/conflict_interest.html" target="_blank">Conflict of Interest Policy</a>
+[Conflict of Interest Policy](https://www.coinport.com.au/legal/conflict_interest.html) 
 
-<a href="https://www.coinport.com.au/legal/cookies_policy.html" target="_blank">Browser Cookie Policy</a>
+[Browser Cookie Policy](https://www.coinport.com.au/legal/cookies_policy.html) 
 
-<a href="https://www.coinport.com.au/legal/deposit_refund_policy.html" target="_blank">Deposit Refund Policy</a>
+[Deposit Refund Policy](https://www.coinport.com.au/legal/deposit_refund_policy.html) 
 
-<a href="https://www.coinport.com.au/legal/document_retention.html" target="_blank">Document Retention Policy</a>
+[Document Retention Policy](https://www.coinport.com.au/legal/document_retention.html) 
 
-<a href="https://www.coinport.com.au/legal/funds_segregation.html" target="_blank">Client Funds Segregation Policy</a>
+[Client Funds Segregation Policy](https://www.coinport.com.au/legal/funds_segregation.html) 
 
-<a href="https://www.coinport.com.au/legal/privacy.html" target="_blank">Privacy Policy</a>
+[Privacy Policy](https://www.coinport.com.au/legal/privacy.html) 
 
-<a href="https://www.coinport.com.au/legal/risk_disclosure.html" target="_blank">Risk Disclosure</a>
+[Risk Disclosure](https://www.coinport.com.au/legal/risk_disclosure.html) 
 
-<a href="https://www.coinport.com.au/legal/token_purchase_agreement.html" target="_blank">Token Purchase Agreement</a>
+[Token Purchase Agreement](https://www.coinport.com.au/legal/token_purchase_agreement.html) 
 
-<a href="https://www.coinport.com.au/legal/sanctions.html" target="_blank">Sanctions Policy</a>
+[Sanctions Policy](https://www.coinport.com.au/legal/sanctions.html) 
 
-<a href="https://www.coinport.com.au/legal/terms.html" target="_blank">Terms and Conditions</a>
+[Terms and Conditions](https://www.coinport.com.au/legal/terms.html) 
 
-<a href="https://www.coinport.com.au/legal/training.html" target="_blank">Training and Education Policy</a>
+[Training and Education Policy](https://www.coinport.com.au/legal/training.html) 
 
-<a href="https://www.coinport.com.au/legal/transparency_policy.html" target="_blank">Transparancy Policy</a>
+[Transparancy Policy](https://www.coinport.com.au/legal/transparency_policy.html) 
 
-<a href="https://www.coinport.com.au/legal/whistleblower.html" target="_blank">Whistleblower Policy</a>
+[Whistleblower Policy](https://www.coinport.com.au/legal/whistleblower.html) 
+
+Last updated: 25-Sep-2024

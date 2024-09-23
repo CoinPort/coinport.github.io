@@ -1,5 +1,3 @@
-CoinPort Sanctions Policy      
-
 # CoinPort Sanctions Policy
 
 ## General Conditions
@@ -55,3 +53,4 @@ Sanctions currently implemented under Australian sanction law or United Nations 
 *   Yemen
 *   Zimbabwe
 
+Last updated: 25-Sep-2024

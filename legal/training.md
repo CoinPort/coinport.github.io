@@ -2,7 +2,6 @@
 
 ## 1. Purpose
 
-
 CoinPort understands that its employees are key to its success as an organisation. It, therefore, encourages its staff to be continually improving their skills and abilities both through on-the-job and off-the-job training. CoinPort acknowledges that training and development of staff provides benefits both to its employees in terms of their overall career and prospects for advancement within the organisation, as well as being central to the success it is able to achieve as a business.
 
 This Staff Training and Development Policy (Policy) sets out what CoinPort may offer employees through training and development opportunities aimed at promoting the growth of individuals, teams and achieving success for the organisation.
@@ -90,3 +89,5 @@ Signed:    _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 Your name: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 Date: _ _ _-_ _ _- 202_ _
+
+Last updated: 25-Sep-2024

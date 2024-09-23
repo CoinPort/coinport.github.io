@@ -1,6 +1,4 @@
-CoinPort Fees     
-
-# CoinPort Registrations
+# CoinPort Registration Details
 
 ## ASIC Registration
 
@@ -22,3 +20,4 @@ Australian Transaction Reports & Analysis Centre.
 
 [AUSTRAC Website →](https://online.austrac.gov.au/ao/public/rsregister.seam)
 
+Last updated: 25-Sep-2024

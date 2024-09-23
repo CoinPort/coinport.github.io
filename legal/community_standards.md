@@ -52,6 +52,6 @@ For any questions, concerns, or to report a violation of this policy, please con
 
 ---
 
-**Last Updated:** 30-June-2024
-
 This document is designed to maintain the integrity of the CoinPort platform and ensure a positive experience for all users. Thank you for being part of our community and upholding these standards.
+
+Last updated: 25-Sep-2024

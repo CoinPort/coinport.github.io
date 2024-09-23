@@ -1,12 +1,10 @@
-Last updated on “20” July 2023
+# Cookies Policy
 
-COOKIES POLICY
-
-This Cookie Policy is a part of the public agreement between You and Coin Hartbour. Along with the Terms of Use, Anti-Money Laundering Policy and Privacy Policy this document constitutes rules between You and Us during using our Services. We have developed this Cookies Policy to provide an explanation of how we utilize cookies and similar technologies, as well as to guide you on managing your cookie preferences.
+This Cookie Policy is a part of the public agreement between You and Coin Hartbour Pty Ltd. Along with the Terms of Use, Anti-Money Laundering Policy and Privacy Policy this document constitutes rules between You and Us during using our Services. We have developed this Cookies Policy to provide an explanation of how we utilize cookies and similar technologies, as well as to guide you on managing your cookie preferences.
 
 If you would like to make changes to your cookie settings (e.g. limit the number of cookies (except Strictly Necessary Cookies) or allow more cookies to be placed on your device), you can always find the cookie banner by clicking here.
 
-If you have any questions about this Cookie Policy, please contact us via email: support@kuna.io
+If you have any questions about this Cookie Policy, please contact us via email: support@coinport.com.au
 
 1. WHAT ARE COOKIES?
 
@@ -43,29 +41,34 @@ SEARCH_SAMESITE	113 days	Used to prevent the browser from sending this cookie al
 SIDCC (provider: .google.com)	1 year	Security cookie to confirm visitor authenticity, prevent fraudulent use of login data and protect visitor data from unauthorized access.
 Table #2. List of Statistic Cookies
 
-Cookie Name	Expiry	Purpose
+## Cookie Name	Expiry	Purpose
+
 _ga/_ga_XWGM111YS6/_ga_HKK95QZE1V	401 days	The main cookie used by Google Analytics, enables a service to distinguish one visitor from another.
 _gid	1 day	Registers a unique ID that is used to generate statistical data on how the visitor uses the website
 HSID (provider: .google.com)	401 days	The “HSID” cookie is set by DoubleClick (which is owned by Google) to build a profile of the website visitor’s interests and show relevant ads on other sites
 SID (provider: .google.com)	401 days	The “SID” cookie is used to play YouTube videos embedded on the website.
 UULE	lasts up to 6 hours	This cookie sends precise location information from your browser to Google’s servers so that Google can show you results that are relevant to your location. The use of this cookie depends on your browser settings and whether you have chosen to have location turned on for your browser.
-_fbp (provider: kuna.io)	3 months	To store and track visits across websites
+_fbp (provider: coinport.com.au) 3 months	To store and track visits across websites
 xs (provider: facebook.com)	1 year	This cookie is used to store a unique session ID
 amp_16bf5f	1 year	This cookie is used for the proper work of Google AMP service.
 DV	1 day	These cookies are used to collect information about how visitors use the Site and use the information to compile reports and to help improve the Site. The cookies collect information in an anonymous form, including the number of visitors to the Site, where visitors have come to the Site from and the pages they visited.
 OTZ	2 weeks	Сookie used by Google Analytics that provides an aggregate analysis of Website visitors.
 1P_JAR	1 month	These cookies are used to collect site statistics and track conversion rates.
 VISITOR_INFO1_LIVE	6 months	A cookie that YouTube sets that measures your bandwidth to determine whether you get the new player interface or the old.
+
 Table #3. List of Preferences Cookies
 
-Cookie Name	Expiry	Purpose
+## Cookie Name Expiry Purpose
+
 YSC	Session	This cookie is used by YouTube to remember user input and associate a user’s actions. This cookie lasts for as long as you keep your browser open.
-OGPC	2 days	These cookies are used by Google to store user preferences and information while viewing Google mapped pages.
-NID (provider: .google.com)	6 months	Contains a unique ID Google uses to remember your preferences and other information, such as your preferred language (e.g. English)
-theme (provider: kuna.io)	Session	This Cookie is used for determining which mode of our Website you prefer (dark or light).
+OGPC 2 days	These cookies are used by Google to store user preferences and information while viewing Google mapped pages.
+NID (provider: .google.com)	6 months.
+Contains a unique ID Google uses to remember your preferences and other information, such as your preferred language (e.g. English)
+theme (provider: coinport.com.au)	Session	This Cookie is used for determining which mode of our Website you prefer (dark or light).
 Table #4. List of Marketing Cookies
 
-Cookie Name	Expiry	Purpose
+# Cookie Name	Expiry	Purpose
+
 APISID (provider: .google.com)	401 days	Cookie is used to play YouTube videos embedded on the website and personalized Google ads on websites based on recent searches and interactions.
 SSID (provider: .google.com)	401 days	Cookie is used to play YouTube videos embedded on the website
 __Secure-3PSID (provider: .google.com)	401 days	Builds a profile of website visitor interests to show relevant and personalized ads through retargeting.
@@ -86,3 +89,5 @@ More information on how to manage most popular browsers can be found here: Googl
 4. CHANGES TO THIS POLICY
 
 From time to time, we reserve the right to make modifications to this Cookies Policy. Any such changes will be clearly indicated by updating the date displayed at the top of this page. When you visit our website subsequent to such changes, you will receive a notification informing you of the revised Policy. This ensures that you stay informed about any updates or adjustments made to our Cookies Policy.
+
+Last updated: 25-Sep-2024

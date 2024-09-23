@@ -1,28 +1,21 @@
-TOKEN KUN PURCHASE AGREEMENT
+# TOKEN KUN PURCHASE AGREEMENT
+
+This Agreement defines the rights and obligations of the Project and the User when making the purchase and further use of the KUN token.
+
+By purchasing a KUN token, the User confirms that he is fully familiar with and agrees with the terms of the Agreement. This Agreement is accepted by the Parties through the purchase of the KUN token.
+
+The User's unconditional acceptance of this Agreement is to press the "Buy KUN token" button and transfer the cryptocurrency to the Project in order to purchase the KUN token.
+
+PLEASE READ THIS AGREEMENT CAREFULLY. IF YOU DO NOT AGREE WITH THIS AGREEMENT, DO NOT BUY TOKENS.
+
+BUYING TOKENS, YOU AGREE THAT YOU HAVE READ THIS AGREEMENT AND THAT YOU AGREE TO BE BOUND BY IT. THE PROJECT RESERVES THE RIGHT TO CHANGE, ADD OR DELETE THE TERMS OF THIS AGREEMENT AT ANY TIME FOR ANY REASON. YOU SHALL REGULARLY CHECK THE AGREEMENT FOR CHANGES. SUCH CHANGES SHALL COME INTO FORCE IMMEDIATELY FROM THE TIME OF PUBLICATION ON THE SITE. YOU ACKNOWLEDGE THAT BY USING OUR SITE AFTER CHANGES TO THIS AGREEMENT, YOU AGREE TO THE CHANGED TERMS.
+
+OWNERSHIP OF TOKENS HAS NO CONSEQUENCE OF ANY RIGHTS, EXPRESS OR IMPLIED, OTHER THAN THE RIGHTS STATED IN THE AGREEMENT. IN PARTICULAR, IT IS AGREED THAT YOU UNDERSTAND AND ACCEPT THAT THE TOKENS DO NOT REPRESENT AND / OR DO NOT RELATE TO ANY INVESTOR RIGHTS, SHARES OR CAPITAL INSTRUMENTS, ANY KINDS OF SECURITIES OR FINANCIAL INSTRUMENTS.
+
+THIS AGREEMENT DOES NOT CONTAIN OR MEAN THE GIVING OF INVESTMENT ADVICE OR RECOMMENDATIONS OR IMPOSING THE SERVICE OF INVESTING IN ANY SECURITIES AND SHOULD NOT BE CONSIDERED AS THIS. CITIZENS AND / OR RESIDENTS OF THE USA, SINGAPORE, HONG KONG, CANADA, CHINA, SOUTH KOREA MUST NOT BUY KUN TOKENS AND THE PROJECT IS NOT RESPONSIBLE FOR SUCH PURCHASE. IN PARTICULAR, NOTHING IN THIS AGREEMENT IS IMPLIED TO OFFER SECURITIES IN THE USA, SINGAPORE, HONG KONG, CANADA, CHINA, SOUTH KOREA OR ANY OTHER JURISDICTIONS WHERE SUCH PURCHASE IS FORBIDDEN.
 
 
-  This Agreement defines the rights and obligations of the Project and the User when making the purchase and further use of the KUN token.
-
-
-  By purchasing a KUN token, the User confirms that he is fully familiar with and agrees with the terms of the Agreement. This Agreement is accepted by the Parties through the purchase of the KUN token.
-
-
-  The User's unconditional acceptance of this Agreement is to press the "Buy KUN token" button and transfer the cryptocurrency to the Project in order to purchase the KUN token.
-
-
-  PLEASE READ THIS AGREEMENT CAREFULLY. IF YOU DO NOT AGREE WITH THIS AGREEMENT, DO NOT BUY TOKENS.
-
-
-  BUYING TOKENS, YOU AGREE THAT YOU HAVE READ THIS AGREEMENT AND THAT YOU AGREE TO BE BOUND BY IT. THE PROJECT RESERVES THE RIGHT TO CHANGE, ADD OR DELETE THE TERMS OF THIS AGREEMENT AT ANY TIME FOR ANY REASON. YOU SHALL REGULARLY CHECK THE AGREEMENT FOR CHANGES. SUCH CHANGES SHALL COME INTO FORCE IMMEDIATELY FROM THE TIME OF PUBLICATION ON THE SITE. YOU ACKNOWLEDGE THAT BY USING OUR SITE AFTER CHANGES TO THIS AGREEMENT, YOU AGREE TO THE CHANGED TERMS.
-
-
-  OWNERSHIP OF TOKENS HAS NO CONSEQUENCE OF ANY RIGHTS, EXPRESS OR IMPLIED, OTHER THAN THE RIGHTS STATED IN THE AGREEMENT. IN PARTICULAR, IT IS AGREED THAT YOU UNDERSTAND AND ACCEPT THAT THE TOKENS DO NOT REPRESENT AND / OR DO NOT RELATE TO ANY INVESTOR RIGHTS, SHARES OR CAPITAL INSTRUMENTS, ANY KINDS OF SECURITIES OR FINANCIAL INSTRUMENTS.
-
-
-  THIS AGREEMENT DOES NOT CONTAIN OR MEAN THE GIVING OF INVESTMENT ADVICE OR RECOMMENDATIONS OR IMPOSING THE SERVICE OF INVESTING IN ANY SECURITIES AND SHOULD NOT BE CONSIDERED AS THIS. CITIZENS AND / OR RESIDENTS OF THE USA, SINGAPORE, HONG KONG, CANADA, CHINA, SOUTH KOREA MUST NOT BUY KUN TOKENS AND THE PROJECT IS NOT RESPONSIBLE FOR SUCH PURCHASE. IN PARTICULAR, NOTHING IN THIS AGREEMENT IS IMPLIED TO OFFER SECURITIES IN THE USA, SINGAPORE, HONG KONG, CANADA, CHINA, SOUTH KOREA OR ANY OTHER JURISDICTIONS WHERE SUCH PURCHASE IS FORBIDDEN.
-
-
-  International business company Kuna Labs Business Inc, registered and operating under the laws of the British Virgin Islands under the number 1995923 with an office at Intershore Chambers, PO 4243, Road Town, Tortolla, British Virgin Islands, and the User have entered into this agreement for the purchase of the KUN token ( hereinafter - the Agreement) on the following:
+International business company Kuna Labs Business Inc, registered and operating under the laws of the British Virgin Islands under the number 1995923 with an office at Intershore Chambers, PO 4243, Road Town, Tortolla, British Virgin Islands, and the User have entered into this agreement for the purchase of the KUN token ( hereinafter - the Agreement) on the following:
 
 1. TERMS
 
@@ -145,3 +138,5 @@ The Parties use the following Terms in the indicated value:
 10.7. The User will not delegate or sublicense any of his rights arising from his acceptance of the terms of this Agreement without the prior written consent of the Project. Any assignment or transfer inconsistent with these conditions will be void. Subject to the foregoing, this Agreement will be binding in the interests of the parties and their respective successors.
 10.8. The inability of the Project to enforce any provision of this Agreement will not constitute a present or future waiver of such a provision and will not limit the Project’s right to enforce such a provision at a later date. All waivers that emanate from the Project must be explicit and must be in writing.
 10.9. This Agreement is the complete agreement between the Project and the User regarding the subject matter of this Agreement. This Agreement replaces all previous or simultaneous statements, agreements or agreements between the Project and the User, whether written or oral, regarding the subject matter of this Agreement.
+
+Last updated: 25-Sep-2024
