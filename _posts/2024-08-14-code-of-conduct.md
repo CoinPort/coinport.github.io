@@ -16,4 +16,4 @@ View a copy of the:  href="https://doc.coinport.com.au/conductcode/Code-of-Condu
 Sincerley,
 The CoinPort Exchange Team
 *Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+![CoinPort Exchange](/images/coinport.png)
