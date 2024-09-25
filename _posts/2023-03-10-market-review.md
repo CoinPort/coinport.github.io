@@ -4,7 +4,7 @@ title:  "Cryptocurrency Market - March 2023"
 date:   2020-01-01 15:01:29 +1000
 categories: update
 ---
-# Cryptocurrency Market - March 2023: What You Need to Know
+## Cryptocurrency Market - March 2023: What You Need to Know
 
 We want to start a discussion about the current state of the cryptocurrency market. As we all know, this market is incredibly volatile and subject to frequent fluctuations. But what's been happening lately?
 
@@ -16,8 +16,3 @@ So, what should you take away from all of this? As always, caution is advised wh
 
 If you're considering investing in cryptocurrency, make sure you do your research, diversify your portfolio, and never invest more than you can afford to lose. And as always, stay up-to-date on the latest news and developments in the space.
 What are your thoughts on the current state of the cryptocurrency market?
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

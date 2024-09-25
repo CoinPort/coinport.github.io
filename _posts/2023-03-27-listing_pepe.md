@@ -4,11 +4,11 @@ title:  "New Listing for Pepe Meme Token (PEPE)"
 date:   2023-03-27 11:08:00 +1000
 categories: news
 ---
-# New Listing for Pepe Meme Token (PEPE)
+## New Listing for Pepe Meme Token (PEPE)
 
 New Listing, due to popular demand, for Pepe Meme Token (PEPE). PEPE is an ERC20 Smart Contracts on the Ethereum blockchain.
 
-## What Is Pepe Meme Token (PEPE)?
+### What Is Pepe Meme Token (PEPE)?
 
 Pepe (PEPE) is an Ethereum-based cryptocurrency paying tribute to the popular Pepe the Frog internet meme.
 
@@ -18,7 +18,3 @@ Claiming PEPE is "for the people" it was launched with no presale, taxes, the to
 
 Through its commitment to being a user-friendly and accessible token, Pepe aims to establish itself as a top memecoin in the cryptocurrency market
 
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

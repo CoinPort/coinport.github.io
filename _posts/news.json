@@ -46,11 +46,6 @@
          "created_at": "2023-02-08T11:11:08+01:00"
       },
       {
-         "id": "platform_upgrade_feb_2023.html",
-         "title": "Infrastructure Upgrade 5th February",
-         "created_at": "2023-02-03T11:11:08+01:00"
-      },
-      {
          "id": "ftx.html",
          "title": "CoinPort FTX Declaration",
          "created_at": "2022-11-25T11:11:08+01:00"
@@ -69,11 +64,6 @@
          "id": "ftx_response.html",
          "title": "CoinPort Response to FTX Collapse",
          "created_at": "2022-11-16T11:22:00+01:00"
-      },
-      {
-         "id": "platform_upgrade_nov_2022.html",
-         "title": "CoinPort Exchange Platform Upgrade",
-         "created_at": "2022-11-01T12:15:00+01:00"
       },
       {
          "id": "listing_ens.html",
@@ -109,11 +99,6 @@
          "id": "ethereum_2_pos.html",
          "title": "Ethereum Merge Projected for September",
          "created_at": "2022-07-19T12:55:10+01:00"
-      },
-      {
-         "id": "listing_snx_uma_yfi.html",
-         "title": "New Listings for Yearn.Finance (YFI), Synthetix (SNX) & Universal Market Access (UMA)",
-         "created_at": "2022-07-18T11:15:10+01:00"
       },
       {
          "id": "listing_bico_lrc_qnt.html",
