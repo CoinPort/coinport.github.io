@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "CoinPort System Upgrade"
-date:   2020-11-12 11:41:22 +1000
+title: CoinPort System Upgrade
+date: 2020-11-12 11:41:22 +1000
 categories: news
 ---
+### CoinPort System Upgrade
 ### CoinPort System Upgrade
 
 To give our members the best possble user-experience we have been updating the website with new functions.

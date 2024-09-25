@@ -5,6 +5,7 @@ date:   2022-07-08 12:10:10 +1000
 categories: news
 ---
 # Musk’s The Boring Company Now Accepts Dogecoin For Payment
+# Musk’s The Boring Company Now Accepts Dogecoin For Payment
 
 Elon Musks’ The Boring Company (TBC) will now accept DOGE payments, marking the third of his companies to accept DOGE behind Tesla and SpaceX.  A firm Dogecoin advocate, Musk confirmed that tourists and travelers can now use DOGE to pay for rides on the Loop, TBC’s Vegas Transit system. Musk confirmed the news with a  tweet saying “Supporting Doge wherever possible”.
 

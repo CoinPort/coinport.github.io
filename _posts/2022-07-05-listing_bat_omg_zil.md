@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "New Listing for Basic Attention Token (BAT), OMG Network (OMG) & Zilliqa (ZIL)"
-date:   2022-07-05 12:12:05 +1000
+title: New Listing for Basic Attention Token (BAT), OMG Network (OMG) & Zilliqa (ZIL)
+date: 2022-07-05 12:12:05 +1000
 categories: news
 ---
+# New Listings for Basic Attention Token (BAT), OMG Network (OMG) & Zilliqa (ZIL)
 # New Listings for Basic Attention Token (BAT), OMG Network (OMG) & Zilliqa (ZIL)
 
 Three new listings have been added to the CoinPort Exchange this week - Basic Attention Token (BAT), OMG Network (OMG) & Zilliqa (ZIL). BAT and OMG are ERC20 Smart Contracts on the Ethereum blockchain, ZIL is a BEP20 Smart Contract on the Binance Smart Chain. 

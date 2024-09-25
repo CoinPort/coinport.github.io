@@ -16,11 +16,6 @@
          "created_at": "2023-11-14T10:12:10+01:00"
       },
       {
-         "id": "listing_pyusd.html",
-         "title": "New Listing for PayPal USD (PYUSD)",
-         "created_at": "2023-09-21T10:15:00+01:00"
-      },
-      {
          "id": "avoid_scams.html",
          "title": "Avoid Scams",
          "created_at": "2023-06-16T10:02:00+01:00"
@@ -29,11 +24,6 @@
          "id": "listing_atom_colt.html",
          "title": "New Listing for Cosmos (ATOM) and Collateral Network (COLT)",
          "created_at": "2023-05-03T11:05:00+01:00"
-      },
-      {
-         "id": "listing_pepe.html",
-         "title": "New Listing for Pepe Meme Token (PEPE)",
-         "created_at": "2023-05-01T11:10:00+01:00"
       },
       {
          "id": "market-review-2023-03.html",
@@ -91,11 +81,6 @@
          "created_at": "2022-08-25T11:22:12+01:00"
       },
       {
-         "id": "bug_bounty.html",
-         "title": "CoinPort Bug Bounty Program",
-         "created_at": "2022-07-20T11:23:10+01:00"
-      },
-      {
          "id": "ethereum_2_pos.html",
          "title": "Ethereum Merge Projected for September",
          "created_at": "2022-07-19T12:55:10+01:00"
@@ -105,11 +90,7 @@
          "title": "New listings for Biconomy (BICO), Loopring (LRC) & Quant (QNT)",
          "created_at": "2022-07-16T11:42:10+01:00"
       },
-      {
-         "id": "listing_ftm_nmr.html",
-         "title": "New Listings for Numeraire (NMR) & Fantom (FTM)",
-         "created_at": "2022-07-10T11:15:10+01:00"
-      },
+
       {
          "id": "boring_company_doge.html",
          "title": "Musk’s The Boring Company Now Accepts Dogecoin For Payment",
