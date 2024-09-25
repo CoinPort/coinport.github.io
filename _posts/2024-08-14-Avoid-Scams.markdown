@@ -38,10 +38,7 @@ you are told that if you send someone cryptocurrency, they will give you more ba
 
 We are available 24/7 to answer your questions.
 
-
-<p>
-Sincerley, <br />
-The CoinPort Team <br />
-<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
-<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
-</p>
+Sincerley,
+The CoinPort Exchange Team
+*Easy, fast and safe cryptocurrency exchange*
+![CoinPort Exchange](image/coinport.png)

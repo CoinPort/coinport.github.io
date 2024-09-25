@@ -13,9 +13,7 @@ Discord is a VoIP and instant messaging social platform. Users have the ability 
 
 A server is a collection of persistent chat rooms and voice channels which can be accessed via invite links. Discord runs on Windows, macOS, Android, iOS, iPadOS, Linux, and in web browsers. As of 2021, the service has over 350 million registered users and over 150 million monthly active users.
 
-<p>
-Sincerley, <br />
-The CoinPort Team <br />
-<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
-<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
-</p>
+Sincerley,
+The CoinPort Exchange Team
+*Easy, fast and safe cryptocurrency exchange*
+![CoinPort Exchange](image/coinport.png)

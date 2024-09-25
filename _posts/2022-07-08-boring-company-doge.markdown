@@ -16,10 +16,7 @@ Rides on the Loop are currently free, meaning customers won't be able to spend t
 
 At CoinPort we are big fans of Elon Musk and will make adding support for the Dogecoin blockchain a top priority now.
 
-
-<p>
-Sincerley, <br />
-The CoinPort Team <br />
-<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
-<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
-</p>
+Sincerley,
+The CoinPort Exchange Team
+*Easy, fast and safe cryptocurrency exchange*
+![CoinPort Exchange](image/coinport.png)

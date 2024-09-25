@@ -17,10 +17,7 @@ So, what should you take away from all of this? As always, caution is advised wh
 If you're considering investing in cryptocurrency, make sure you do your research, diversify your portfolio, and never invest more than you can afford to lose. And as always, stay up-to-date on the latest news and developments in the space.
 What are your thoughts on the current state of the cryptocurrency market?
 
-
-<p>
-Sincerley, <br />
-The CoinPort Team <br />
-<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
-<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
-</p>
+Sincerley,
+The CoinPort Exchange Team
+*Easy, fast and safe cryptocurrency exchange*
+![CoinPort Exchange](image/coinport.png)

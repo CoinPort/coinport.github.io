@@ -22,10 +22,7 @@ We appreciate your patience during this transition.
 
 Stay safe and happy trading!
 
-
-<p>
-Sincerley, <br />
-The CoinPort Team <br />
-<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
-<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
-</p>
+Sincerley,
+The CoinPort Exchange Team
+*Easy, fast and safe cryptocurrency exchange*
+![CoinPort Exchange](image/coinport.png)

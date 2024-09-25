@@ -18,10 +18,7 @@ Claiming PEPE is "for the people" it was launched with no presale, taxes, the to
 
 Through its commitment to being a user-friendly and accessible token, Pepe aims to establish itself as a top memecoin in the cryptocurrency market
 
-
-<p>
-Sincerley, <br />
-The CoinPort Team <br />
-<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
-<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
-</p>
+Sincerley,
+The CoinPort Exchange Team
+*Easy, fast and safe cryptocurrency exchange*
+![CoinPort Exchange](image/coinport.png)

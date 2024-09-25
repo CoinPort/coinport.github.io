@@ -14,10 +14,7 @@ We appreciate your patience and understanding. If you have questions or feedback
 
 During this period, rest assured that your asset transactions are still highly secured by CoinPort, and basic trading operations will not be affected. Users who hold ETH and meet the conditions can enjoy the forked token candy airdrop and will receive the corresponding airdrop (snapshot positions or pending orders below 0.003ETH are not included in the airdrop forked tokens).
 
-
-<p>
-Sincerley, <br />
-The CoinPort Team <br />
-<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
-<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
-</p>
+Sincerley,
+The CoinPort Exchange Team
+*Easy, fast and safe cryptocurrency exchange*
+![CoinPort Exchange](image/coinport.png)

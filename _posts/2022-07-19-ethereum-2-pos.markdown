@@ -25,10 +25,7 @@ Proof-of-stake comes with a number of improvements to the proof-of-work system:
     -   Reduced centralization risk – proof-of-stake should lead to more nodes securing the network
     -   Low energy requirement less ETH issuance is required to incentivize participation
 
-
-<p>
-Sincerley, <br />
-The CoinPort Team <br />
-<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
-<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
-</p>
+Sincerley,
+The CoinPort Exchange Team
+*Easy, fast and safe cryptocurrency exchange*
+![CoinPort Exchange](image/coinport.png)

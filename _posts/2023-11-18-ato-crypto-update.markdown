@@ -15,9 +15,7 @@ How to treat investments in crypto assets (also called crypto or cryptocurrency)
 ATO Updated Crypto Guidance: title="https://www.ato.gov.au/individuals-and-families/investments-and-assets/crypto-asset-investments" href="https://www.ato.gov.au/individuals-and-families/investments-and-assets/crypto-asset-investments" target="_blank">https://www.ato.gov.au/individuals-and-families/investments-and-assets/crypto-asset-investments
 
 
-<p>
-Sincerley, <br />
-The CoinPort Team <br />
-<img src="https://doc.coinport.com.au/images/logos/signature_logo.png" alt="CoinPort Exchange" width="120" /><br />
-<span style="color: #022873;"><em>Easy, fast and safe cryptocurrency exchange</em></span>
-</p>
+Sincerley,
+The CoinPort Exchange Team
+*Easy, fast and safe cryptocurrency exchange*
+![CoinPort Exchange](image/coinport.png)
