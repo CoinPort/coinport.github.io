@@ -13,8 +13,3 @@ During this pause window, the CoinPort website will remain accessible however de
 We appreciate your patience and understanding. If you have questions or feedback, please contact our live chat or email support@coinport.com.au
 
 During this period, rest assured that your asset transactions are still highly secured by CoinPort, and basic trading operations will not be affected. Users who hold ETH and meet the conditions can enjoy the forked token candy airdrop and will receive the corresponding airdrop (snapshot positions or pending orders below 0.003ETH are not included in the airdrop forked tokens).
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

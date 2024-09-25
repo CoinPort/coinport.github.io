@@ -33,8 +33,3 @@ Zilliqa is a public, permissionless blockchain that is designed to offer high th
 Development work officially started on Zilliqa in June 2017, and its testnet went live in March 2018. A little over a year later, in June 2019, the platform launched its mainnet.
 
 The native utility token of Zilliqa, ZIL, is used to process transactions on the network and execute smart contracts.
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

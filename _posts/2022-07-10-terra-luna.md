@@ -17,8 +17,3 @@ Beginning on 9 May 2022, the tokens made headlines after UST began to break its 
 
 On 13 May, Terraform Labs temporarily halted the Terra blockchain in response to the falling prices of UST and Luna. Despite the company's attempts to stabilise UST and Luna via its bitcoin and other cryptocurrency reserves from the Luna Foundation Guard, the 1:1 peg of UST to USD did not materialise. As of 16 May 2022, blockchain analysts claim that the usage of the bitcoin reserves of LFG still remains largely uncertain.
 Likely causes of the collapse included mass withdrawals from the Anchor Protocol days before the collapse, investor concerns about cryptocurrencies more generally, and a drop in the price of bitcoin. During the collapse, holders converted Terra into Luna via the mint-and-burn system, which caused the price of Luna to collapse due to its increased supply. This in turn destabilised the balancing mechanism between the currencies.
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

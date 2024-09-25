@@ -15,8 +15,3 @@ The Loop is a transit method with drivers ferrying passengers in Tesla cars in a
 Rides on the Loop are currently free, meaning customers won't be able to spend their precious DOGE there. But when The Boring Company starts charging for rides, sometime in the future, they'll cost $1.50 for a single ride and $2.50 for a day pass.
 
 At CoinPort we are big fans of Elon Musk and will make adding support for the Dogecoin blockchain a top priority now.
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

@@ -4,7 +4,6 @@ title:  "Code of Conduct"
 date:   2024-08-14 15:01:29 +1000
 categories: news
 ---
-
 #  Australian Digital Currency Industry Code of Conduct
 
 <img src="https://doc.coinport.com.au/news/images/Blockchain-Australia.png" alt="Blockchain Australia" class="center" style="max-width: 400px; float: right; padding: 20px;">
@@ -16,8 +15,3 @@ View a copy of the:  href="https://doc.coinport.com.au/conductcode/Code-of-Condu
 ### The Australian Digital Currency Industry Code of Conduct ### was produced by <a href="https://blockchainaustralia.org/" target="_blank">Blockchain Australia.   
 
 Blockchain Australia is Australia’s premier industry member network for businesses implementing or evaluating blockchain or distributed ledger technology.
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

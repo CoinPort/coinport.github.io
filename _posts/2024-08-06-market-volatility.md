@@ -33,8 +33,3 @@ CoinPort is Here to Help
 At CoinPort, we prioritize your security and success. Our platform offers a range of tools and resources to help you make informed decisions. Whether you’re a seasoned trader or just getting started, our user-friendly interface and expert support team are here to guide you.
 
 Stay safe and happy trading!
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

@@ -37,8 +37,3 @@ you are told that if you send someone cryptocurrency, they will give you more ba
     -   It is better to be safe than sorry. If you have any questions regarding your account with us, - please contact customer support. 
 
 We are available 24/7 to answer your questions.
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

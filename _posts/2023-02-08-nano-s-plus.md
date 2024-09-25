@@ -12,8 +12,3 @@ Today this ***Ledger Nano S Plus*** crypto hardware wallet arrived in the CoinPo
 We plan to distribute hardware wallets to members of our exchange and have been evaluating alternatives to find the best balance between functionality and ease of use.
 
 We'll prepare a short Youtube video of our tests.
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

@@ -21,8 +21,3 @@ Our Social Media sites will also be updated as CoinPort from 1st May 2024.
 We appreciate your patience during this transition.
 
 Stay safe and happy trading!
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

@@ -11,8 +11,3 @@ Great news for international customers. From April 2024 CoinPort will be able to
 An IFTI-E is an **  ### italic  electronic funds transfer instruction (EFTI) ### ** that is sent to or received from another country.
 
 What this means is that international payments for our customers will be cheaper, easier and faster than using the SWIFT system.
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

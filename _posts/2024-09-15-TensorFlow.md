@@ -78,8 +78,3 @@ Before deploying the AI engine in a live market, backtesting is crucial. TensorF
 TensorFlow provides a comprehensive framework for building an AI-powered cryptocurrency market-making engine. By leveraging machine learning models like reinforcement learning and neural networks, market makers can optimize their strategies, manage risk, and maximize profits in the fast-paced world of cryptocurrency trading. With real-time data processing, scalability, and integration tools, TensorFlow offers a robust platform to develop and deploy cutting-edge AI solutions for the financial markets.
 
 As AI continues to evolve, cryptocurrency exchanges and market makers who embrace these technologies stand to gain a significant competitive advantage in providing liquidity, enhancing market stability, and improving trading profitability.
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

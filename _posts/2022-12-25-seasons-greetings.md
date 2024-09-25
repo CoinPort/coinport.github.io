@@ -14,8 +14,3 @@ Hope you, family and friends had a fruitfull and prosperous year. Thankyou for c
 What a year 2022 was! We had the DeFi/Celcius collapse, the BTC price dropping like a brick, and FTX as the biggest crypto exchange failure in history.
 
 We continue to be very optimistic about the crypto sector future, and are confident that the additional scrutiny of our industry will lead to better regulations and a safer future for cryptocurrencies.
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

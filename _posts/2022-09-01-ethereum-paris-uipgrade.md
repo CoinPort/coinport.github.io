@@ -13,8 +13,3 @@ The Merge is a two-step process. The first step prior to the Paris upgrade is a 
 CoinPort will support the two upgrades and is ready for a possible hard fork and a new token that may be produced from it. CoinPort is to take the following measures to protect user asset security and reduce the trading risks that may arise from price volatility during the hard fork.
 
 During this period, rest assured that your asset transactions are still highly secured by CoinPort, and basic trading operations will not be affected. Users who hold ETH and meet the conditions can enjoy the forked token candy airdrop and will receive the corresponding airdrop (snapshot positions or pending orders below 0.003ETH are not included in the airdrop forked tokens).
-
-Sincerley,<br>
-The CoinPort Exchange Team<br>
-*Easy, fast and safe cryptocurrency exchange* <br>
-![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)
