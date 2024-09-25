@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "New "bech32" Bitcoin address format"
-date:   2022-01-03 10:18:22 +1000
+title:  "New bech32 Bitcoin address format"
+date:   2022-01-02 15:00:00 +1000
 categories: CoinPort Update
 ---
 

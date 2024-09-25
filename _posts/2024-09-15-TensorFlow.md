@@ -82,4 +82,4 @@ As AI continues to evolve, cryptocurrency exchanges and market makers who embrac
 Sincerley,
 The CoinPort Exchange Team
 *Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+![CoinPort Exchange](images/coinport.png)
