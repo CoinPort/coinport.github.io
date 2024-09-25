@@ -2,7 +2,7 @@
 layout: post
 title:  "Bug Bounty"
 date:   2022-07-20 15:01:29 +1000
-categories: Update
+categories: news
 ---
 # New Bug Bounty Program
 
@@ -96,7 +96,7 @@ Include as much information in your report as you can, including a description o
 
 We thank all security researchers for taking the time to submit reports. We may only respond if your submission is eligible for a reward.
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

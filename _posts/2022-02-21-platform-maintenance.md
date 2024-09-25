@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2022-02-21 10:09:22 +1000
-categories: CoinPort Update
+categories: news
 ---
 
 # Notice of Temporary Exchange Maintenance (2022/03/18)
@@ -19,7 +19,7 @@ You will be notified once the system maintenance is complete. Rest assured that 
 
 We apologize for any inconvenience and thank you for your patience.
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

@@ -2,7 +2,7 @@
 layout: post
 title:  "Article Title"
 date:   2020-01-01 15:01:29 +1000
-categories: Update
+categories: news
 ---
 # Article Title
 
@@ -30,7 +30,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

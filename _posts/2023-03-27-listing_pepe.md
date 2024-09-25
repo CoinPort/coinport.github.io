@@ -2,7 +2,7 @@
 layout: post
 title:  "New Listing for Pepe Meme Token (PEPE)"
 date:   2023-03-27 11:08:00 +1000
-categories: CoinPort Ipdate
+categories: news
 ---
 # New Listing for Pepe Meme Token (PEPE)
 
@@ -18,7 +18,7 @@ Claiming PEPE is "for the people" it was launched with no presale, taxes, the to
 
 Through its commitment to being a user-friendly and accessible token, Pepe aims to establish itself as a top memecoin in the cryptocurrency market
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

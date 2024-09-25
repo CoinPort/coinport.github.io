@@ -2,7 +2,7 @@
 layout: post
 title:  "Easier International Funds Transfer Q2 2024"
 date:   2024-03-25 15:01:29 +1000
-categories: Update
+categories: news
 ---
 # Easier International Funds Transfer Q2 2024
 
@@ -12,7 +12,7 @@ An IFTI-E is an **  ### italic  electronic funds transfer instruction (EFTI) ###
 
 What this means is that international payments for our customers will be cheaper, easier and faster than using the SWIFT system.
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

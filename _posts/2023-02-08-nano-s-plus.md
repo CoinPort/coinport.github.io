@@ -2,7 +2,7 @@
 layout: post
 title:  "Ledger Nano S Plus Hardware Wallet Evaluation"
 date:   2020-01-01 15:01:29 +1000
-categories: CoinPort Ipdate
+categories: news
 ---
 # Ledger Nano S Plus Hardware Wallet Evaluation
 <div><img src="images/NanoSPlus.jpg" alt="nano-s-plus" class="center" style="max-width: 280px; float: right; padding: 20px;"></div>
@@ -13,7 +13,7 @@ We plan to distribute hardware wallets to members of our exchange and have been 
 
 We'll prepare a short Youtube video of our tests.
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

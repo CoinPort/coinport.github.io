@@ -2,7 +2,7 @@
 layout: post
 title:  ">Season's Greetings for 2022 from the team at CoinPort"
 date:   2020-01-01 15:01:29 +1000
-categories: Update
+categories: news
 ---
 # Season's Greetings for 2022 from the team at CoinPort
 
@@ -15,7 +15,7 @@ What a year 2022 was! We had the DeFi/Celcius collapse, the BTC price dropping l
 
 We continue to be very optimistic about the crypto sector future, and are confident that the additional scrutiny of our industry will lead to better regulations and a safer future for cryptocurrencies.
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

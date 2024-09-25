@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  ""
+title:  "AI-Powered Market Making Engine for Cryptocurrencies"
 date:   2024-09-15 13:06:15 +1000
-categories: Update
+categories: news
 ---
 # Building an AI-Powered Market Making Engine for Cryptocurrencies Using TensorFlow
 
@@ -79,7 +79,7 @@ TensorFlow provides a comprehensive framework for building an AI-powered cryptoc
 
 As AI continues to evolve, cryptocurrency exchanges and market makers who embrace these technologies stand to gain a significant competitive advantage in providing liquidity, enhancing market stability, and improving trading profitability.
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](images/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

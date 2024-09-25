@@ -2,7 +2,7 @@
 layout: post
 title:  "Ethereum Dencun upgrade"
 date:   2024-03-14 15:05:30 +1000
-categories: blockchain
+categories: news
 ---
 ### Ethereum Dencun upgrade
 
@@ -14,7 +14,7 @@ A scalability-focused upgrade, Dencun features EIP-4844 or Proto-Danksharding wh
 
 We apologise for any delays with Ethereum blockchain deposits and withdraws.
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

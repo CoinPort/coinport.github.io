@@ -2,7 +2,7 @@
 layout: post
 title:  "Musk's The Boring Company Now Accepts Dogecoin For Payment"
 date:   2022-07-08 12:10:10 +1000
-categories: Update
+categories: news
 ---
 # Musk’s The Boring Company Now Accepts Dogecoin For Payment
 
@@ -16,7 +16,7 @@ Rides on the Loop are currently free, meaning customers won't be able to spend t
 
 At CoinPort we are big fans of Elon Musk and will make adding support for the Dogecoin blockchain a top priority now.
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

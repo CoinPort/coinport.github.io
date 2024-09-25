@@ -2,7 +2,7 @@
 layout: post
 title:  "Recent Market Volatility"
 date:   2024-08-06 15:00:00 +1000
-categories: markets
+categories: news
 ---
 # Recent Market Volatility
 
@@ -34,7 +34,7 @@ At CoinPort, we prioritize your security and success. Our platform offers a rang
 
 Stay safe and happy trading!
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

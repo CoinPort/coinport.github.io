@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "ATO Updated Crypto Guidance"
 date:   2023-11-18 15:01:29 +1000
-categories: Update
+categories: news
 ---
 # ATO Updated Crypto Guidance
 
@@ -15,7 +15,7 @@ How to treat investments in crypto assets (also called crypto or cryptocurrency)
 ATO Updated Crypto Guidance: title="https://www.ato.gov.au/individuals-and-families/investments-and-assets/crypto-asset-investments" href="https://www.ato.gov.au/individuals-and-families/investments-and-assets/crypto-asset-investments" target="_blank">https://www.ato.gov.au/individuals-and-families/investments-and-assets/crypto-asset-investments
 
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

@@ -2,7 +2,7 @@
 layout: post
 title:  "New Listing for Basic Attention Token (BAT), OMG Network (OMG) & Zilliqa (ZIL)"
 date:   2022-07-05 12:12:05 +1000
-categories: Update
+categories: news
 ---
 # New Listings for Basic Attention Token (BAT), OMG Network (OMG) & Zilliqa (ZIL)
 
@@ -34,7 +34,7 @@ Development work officially started on Zilliqa in June 2017, and its testnet wen
 
 The native utility token of Zilliqa, ZIL, is used to process transactions on the network and execute smart contracts.
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)

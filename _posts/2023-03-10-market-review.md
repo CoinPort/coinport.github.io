@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Cryptocurrency Market - March 2023"
 date:   2020-01-01 15:01:29 +1000
-categories: CoinPort Ipdate
+categories: update
 ---
 # Cryptocurrency Market - March 2023: What You Need to Know
 
@@ -17,7 +17,7 @@ So, what should you take away from all of this? As always, caution is advised wh
 If you're considering investing in cryptocurrency, make sure you do your research, diversify your portfolio, and never invest more than you can afford to lose. And as always, stay up-to-date on the latest news and developments in the space.
 What are your thoughts on the current state of the cryptocurrency market?
 
-Sincerley,
-The CoinPort Exchange Team
-*Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](image/coinport.png)
+Sincerley,<br>
+The CoinPort Exchange Team<br>
+*Easy, fast and safe cryptocurrency exchange* <br>
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)
