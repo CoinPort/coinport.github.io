@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "ATO Updated Crypto Guidance"
+title:  ATO Updated Crypto Guidance
+description: ATO Updated Crypto Guidance
+author: CoinPort Exchange
 date:   2023-11-18 15:01:29 +1000
 categories: news
 ---
+# ATO Updated Crypto Guidance
 # ATO Updated Crypto Guidance
 
 <img src="images/ato.png" alt="ATO" class="center" style="max-width: 280px; float: right; padding: 20px;">

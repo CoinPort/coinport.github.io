@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Name Change from Coin Harbour to CoinPort"
+title:  Name Change from Coin Harbour to CoinPort
+description: Name Change from Coin Harbour to CoinPort
+author: CoinPort Exchange
 date:   2024-04-19 15:01:29 +1000
 categories: news
 ---
+# Exchange Name Change 
 # Exchange Name Change 
 
 A decision has been made to change the business name and internet domain from "Coin Harbour" to "CoinPort" from 1st May 2024.
