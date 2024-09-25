@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Etheraum Transactions Paused for Upgrade"
-date:   2022-09-02 15:01:29 +1000
+title: Etheraum Transactions Paused for Upgrade
+date: 2022-09-02 15:01:29 +1000
 categories: news
 ---
+# Ethereum Trasnactions Paused for Paris Upgrade
 # Ethereum Trasnactions Paused for Paris Upgrade
 
 This Thursday (15/9) at 10:00am AEST, there will be a scheduled pause on all transactions made on the Ethereum (ETH) network for approximately 5 hours in response to the Ethereum merge.

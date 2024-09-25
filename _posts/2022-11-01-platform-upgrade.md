@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "CoinPort Exchange Platform Upgrade"
-date:   2022-11-01 15:01:29 +1000
+title: CoinPort Exchange Platform Upgrade
+date: 2022-11-01 15:01:29 +1000
 categories: news
 ---
+## CoinPort Exchange Platform Upgrade
 ## CoinPort Exchange Platform Upgrade
 
 This week an upgrade to the CoinPort exchange technology platform went live.

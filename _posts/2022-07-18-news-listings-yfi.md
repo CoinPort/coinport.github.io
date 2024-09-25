@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "New Listings for Yearn.Finance (YFI), Synthetix (SNX) & Universal Market Access (UMA)"
-date:   2022-07-18 14:01:22 +1000
+title: New Listings for Yearn.Finance (YFI), Synthetix (SNX) & Universal Market Access (UMA)
+date: 2022-07-18 14:01:22 +1000
 categories: news
 ---
+## New Listings for Yearn.Finance (YFI), Synthetix (SNX) & Universal Market Access (UMA)
 ## New Listings for Yearn.Finance (YFI), Synthetix (SNX) & Universal Market Access (UMA)
 
 Three new listings have been added to the CoinPort Exchange this week - New Listings for Yearn.Finance (YFI), Synthetix (SNX) & Universal Market Access (UMA). These are all ERC20 Smart Contracts on the Ethereum blockchain.

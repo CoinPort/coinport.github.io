@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Cryptocurrency Market - March 2023"
-date:   2020-01-01 15:01:29 +1000
+title: Cryptocurrency Market - March 2023
+date: 2023-03-10 12:11:19 +1000
 categories: update
 ---
+## Cryptocurrency Market - March 2023: What You Need to Know
 ## Cryptocurrency Market - March 2023: What You Need to Know
 
 We want to start a discussion about the current state of the cryptocurrency market. As we all know, this market is incredibly volatile and subject to frequent fluctuations. But what's been happening lately?

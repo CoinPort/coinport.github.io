@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Ethereum 2 Position"
-date:   2022-07-19 12:55:10 +1000
+title: Ethereum 2 Position
+date: 2022-07-19 12:55:10 +1000
 categories: CoinPort Ipdate
 ---
+# Ethereum Merge Projected for September
 # Ethereum Merge Projected for September
 
 Ethereum’s long-anticipated transition from an energy-intensive proof-of-work (PoW) consensus mechanism into a more efficient Proof-of-Stake consensus, has been projected to occur in September.

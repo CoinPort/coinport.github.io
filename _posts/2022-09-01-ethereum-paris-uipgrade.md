@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Ethereum Paris Upgrade"
-date:   2022-09-01 20:00:00 +1000
+title: Ethereum Paris Upgrade
+date: 2022-09-01 20:00:00 +1000
 categories: news
 ---
+# Ethereum Foundation Paris Upgrade
 # Ethereum Foundation Paris Upgrade
 
 As per announced by the Ethereum Foundation, the execution layer Paris upgrade, marking the migration from proof-of-power to proof-of-stake, is around the corner. It expected to happen on September 15, 2022 08:30 (GMT+8).
