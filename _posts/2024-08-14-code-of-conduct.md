@@ -20,4 +20,4 @@ Blockchain Australia is Australia’s premier industry member network for busine
 Sincerley,
 The CoinPort Exchange Team
 *Easy, fast and safe cryptocurrency exchange*
-![CoinPort Exchange](news/images/coinport.png)
+![CoinPort Exchange](https://doc.coinport.com.au/images/news/coinport-signature.png)
