@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "Code of Conduct"
+title:  Code of Conduct
+description: An article outlining the CoinPort Exchange Code of Conduct.
+author: CoinPort Exchange
 date:   2024-08-14 15:01:29 +1000
 categories: news
 ---
+#  Australian Digital Currency Industry Code of Conduct
 
 #  Australian Digital Currency Industry Code of Conduct
 
