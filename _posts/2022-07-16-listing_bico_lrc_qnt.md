@@ -1,15 +1,15 @@
-﻿<!doctype html>
-<html lang="en">
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <link rel="shortcut icon" type="image/ico" href="https://doc.coinport.com.au/favicon.ico" />
-        <link href="../style.css" rel="stylesheet" />
-        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-        <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400,500,600|Roboto&display=swap" rel="stylesheet">
-    </head>
-<body>
+---
+title: Article Title
+layout: post
+description: Sample description.
+author: CoinPort Exchange
+date:   2020-01-01 15:01:29 +1000
+categories: news
+---
+# Tab Title and URL Description
+# Article Title on Page
 
-<h1>New Listings for Biconomy (BICO), Loopring (LRC) & Quant (QNT)</h1>
+h1>New Listings for Biconomy (BICO), Loopring (LRC) & Quant (QNT)</h1>
 
 <p>Three new listings have been added to the CoinPort Exchange this week - New Listings for Biconomy (BICO), Loopring (LRC) & Quant (QNT). These are all ERC20 Smart Contracts on the Ethereum blockchain.</p> 
 
@@ -34,8 +34,3 @@
 <p>The project is built as an operating system distributed ledger technology— and Overledger Network — for connecting different blockchain networks. The project is billed as the first OS to be built for blockchains.</p>
 <p>The main aim of Quant — using Overledger — is to bridge the gap that exists between different blockchains. The backbone of the project is the Overledger network, which Quant bills as the ecosystem on which the future digital economy ecosystem will be built.</p>
 <p>Overledger allows developers to build decentralized multi-chain applications (known as MApps) for their customers. For developers to build a Mapp on the network, they must hold a certain amount of Quant tokens (QNT).</p>
-
-
-
-</body>
-</html>
