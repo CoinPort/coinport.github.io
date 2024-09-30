@@ -14,12 +14,15 @@ At CoinPort the safety of our customers is a top priority. It is crucial to be a
 ## Here are a few common scams to watch out for:
 
 ## Investment scams:
+
 you are promised a large return on small initial payments. Scammers will use fake websites, fake advertisements with celebrity endorsements and manipulated data, to gain the trust of potential investors. You are assigned an ‘investment manager’ and asked to invest substantial sums of money, and see the value of your ‘investment’ increasing exponentially. However, when you try to withdraw your returns, you are asked to pay different fees or taxes, or they will stop all communication with you suddenly.
 
 ## Impersonation scam:
+
 someone contacts you via phone, email or SMS, and impersonates an exchange, a bank or some other service provider. They will ask you to authorise a transaction, make a payment, or confirm personal information. This will potentially compromise your details and allow the scammer to make unauthorised transactions on your accounts.
 
 ## Giveaway scams:
+
 you are told that if you send someone cryptocurrency, they will give you more back for free. This scam takes multiple different forms, including fake giveaways and airdrops. Scammers will impersonate a celebrity or exchange, saying they are giving away cryptocurrency for free and the posts will have hundreds of likes and comments.
 
 ## Some signs to look out for:
