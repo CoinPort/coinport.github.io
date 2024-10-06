@@ -34,17 +34,14 @@ Some social media channels, such as Facebook and X(Twitter) are popular for Coin
 
 [CoinPort Youtube Channel](https://www.youtube.com/@CoinPortEx)
 
-[CoinPort TradingView Page](https://www.tradingview.com/u/CoinPortEx/)
+CoinPort TradingView Page [https://www.tradingview.com/u/CoinPortEx/]()
 
-[Leave a TrustPilot Review for CoinPort](https://au.trustpilot.com/review/coinport.com.au)
+Leave a TrustPilot Review for CoinPort [https://au.trustpilot.com/review/coinport.com.au](https://au.trustpilot.com/review/coinport.com.au)
 
-[CoinPort Twitter Feed](https://twitter.com/CoinPortEx)
+CoinPort Twitter Feed [https://twitter.com/CoinPortEx](https://twitter.com/CoinPortEx)
 
-[CoinPort progress on Crunchbase](https://www.crunchbase.com/organization/coin-harbour/)
+Wikipedia Page for CoinPort Exchange [https://en.wikipedia.org/wiki/CoinPortEx](https://en.wikipedia.org/wiki/CoinPortEx)
 
-[ https://en.wikipedia.org/wiki/CoinPortEx](https://en.wikipedia.org/wiki/CoinPortEx)
-<div>GWikipedia Page for CoinPort Exchange <a href="https://en.wikipedia.org/wiki/CoinPortEx" target="_blank">/a></div>
+Get the Apple iOS Mobile App for CoinPort Exchange [https://appstore.coinport.com.au](https://appstore.coinport.com.au)
 
-<div>Get the Apple iOS Mobile App for CoinPort Exchange <a href="https://appstore.coinport.com.au" target="_blank">https://appstore.coinport.com.au</a></div>
-
-Last updated: 05-Oct-2024
+Last updated: 06-Oct-2024
