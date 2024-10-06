@@ -3,7 +3,7 @@
 To connect and engage with members of the CoinPort Exchange we participate in several social media channels.
 
 Some social media channels, such as Facebook and X(Twitter) are popular for CoinPort news and events. LinkedIn is used for CoinPort staff networking and recruitment. Telegram and Discord channels are a useful source for technical resources.
-
+<base target="_blank">
 [Follow the CoinPort Facebook Page for updates](https://www.facebook.com/CoinPortEx/)
 
 [Join the CoinPort Crypto Community (Australia) Facebook Group](https://www.facebook.com/groups/CoinPortEx/)
@@ -42,7 +42,8 @@ Some social media channels, such as Facebook and X(Twitter) are popular for Coin
 
 [CoinPort progress on Crunchbase](https://www.crunchbase.com/organization/coin-harbour/)
 
-[Wikipedia Page for CoinPort Exchange https://en.wikipedia.org/wiki/CoinPortEx](https://en.wikipedia.org/wiki/CoinPortEx)
+[ https://en.wikipedia.org/wiki/CoinPortEx](https://en.wikipedia.org/wiki/CoinPortEx)
+<div>GWikipedia Page for CoinPort Exchange <a href="https://en.wikipedia.org/wiki/CoinPortEx" target="_blank">/a></div>
 
 <div>Get the Apple iOS Mobile App for CoinPort Exchange <a href="https://appstore.coinport.com.au" target="_blank">https://appstore.coinport.com.au</a></div>
 
