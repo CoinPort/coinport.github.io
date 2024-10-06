@@ -44,6 +44,6 @@ Some social media channels, such as Facebook and X(Twitter) are popular for Coin
 
 [Wikipedia Page for CoinPort Exchange https://en.wikipedia.org/wiki/CoinPortEx](https://en.wikipedia.org/wiki/CoinPortEx)
 
-Get the Apple iOS Mobile App for CoinPort Exchange [https://appstore.coinport.com.au](https://appstore.coinport.com.au)
+<div>Get the Apple iOS Mobile App for CoinPort Exchange <a href="https://appstore.coinport.com.au" target="_blank">https://appstore.coinport.com.au</a></div>
 
 Last updated: 05-Oct-2024
