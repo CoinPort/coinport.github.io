@@ -10,12 +10,12 @@ layout: layout
 
 <link rel="stylesheet" href="{{ "/style.css?v=" | append: site.github.build_revision | relative_url }}" />
 
-Reading, reference and news resources for CoinPort Members6
+Reading, reference and news resources for CoinPort Members
 
 <ul>
   {% for post in site.posts %}
     <li>
-      <b>Category: </b>{{ post.categories }} - 
+      <b>{{ post.categories }} -</b> 
       <a href="{{ post.url }}">{{ post.title }}</a><br>
       {{ post.description }}<br>
     </li>
