@@ -13,7 +13,7 @@ Reading, reference and news resources for CoinPort Members.3
 <ul>
   {% for post in site.posts %}
     <li>
-      {{ post.categories }}
+      <b>Category: </b>{{ post.categories }} - 
       <a href="{{ post.url }}">{{ post.title }}</a><br>
       {{ post.description }}
     </li>
