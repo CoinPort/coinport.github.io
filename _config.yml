@@ -57,3 +57,8 @@ titles_from_headings:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+timezone: Australia/Sydney
+
+encoding: UTF-8
+# MySQL database is utf8mb4
