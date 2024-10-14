@@ -10,7 +10,7 @@ layout: layout
 
 <link rel="stylesheet" href="{{ "/style.css?v=" | append: site.github.build_revision | relative_url }}" />
 
-Reading, reference and news resources for CoinPort Members
+Reading, reference and news resources for CoinPort Members6
 
 <ul>
   {% for post in site.posts %}
