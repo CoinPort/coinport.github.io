@@ -4,4 +4,4 @@
 
 layout: home
 ---
-## CoinPort Exchange - News Blog
+## CoinPort Exchange - Old News Blog - no longer used

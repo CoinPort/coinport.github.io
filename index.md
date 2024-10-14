@@ -5,3 +5,5 @@
 layout: home
 ---
 ## CoinPort Exchange - News Blog
+
+Reading, reference and news resources for CoinPort Members.
