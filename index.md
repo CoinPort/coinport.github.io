@@ -8,6 +8,8 @@ layout: layout
 ---
 ## CoinPort Exchange - News Blog 4
 
+<link rel="stylesheet" href="{{ "/style.css?v=" | append: site.github.build_revision | relative_url }}" />
+
 Reading, reference and news resources for CoinPort Members
 
 <ul>
