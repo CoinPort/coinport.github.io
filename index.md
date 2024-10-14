@@ -6,16 +6,16 @@
 layout: layout
 # layout: default
 ---
-## CoinPort Exchange - News Blog
+## CoinPort Exchange - News Blog 4
 
-Reading, reference and news resources for CoinPort Members.3
+Reading, reference and news resources for CoinPort Members
 
 <ul>
   {% for post in site.posts %}
     <li>
       <b>Category: </b>{{ post.categories }} - 
       <a href="{{ post.url }}">{{ post.title }}</a><br>
-      {{ post.description }}
+      {{ post.description }}<br>
     </li>
   {% endfor %}
 </ul>
