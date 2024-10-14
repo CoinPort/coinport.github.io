@@ -20,6 +20,8 @@ CoinPort Instagram posts [https://www.instagram.com/CoinPortEx/](https://www.ins
 
 CoinPort LinkedIn Page [https://www.linkedin.com/company/CoinPortEx/](https://www.linkedin.com/company/CoinPortEx/)
 
+LinkedTree references [https://linktr.ee/CoinPortEx/](https://linktr.ee/CoinPortEx)
+
 CoinPort Medium Pages [https://medium.com/@CoinPortEx](https://medium.com/@CoinPortEx)
 
 CoinPort Pinterest Pages [https://www.pinterest.com.au/CoinPortEx/](https://www.pinterest.com.au/CoinPortEx/)
