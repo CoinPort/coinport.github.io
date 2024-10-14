@@ -8,7 +8,7 @@ Follow the CoinPort Facebook Page for updates [https://www.facebook.com/CoinPort
 
 Join the CoinPort Crypto Community (Australia) Facebook Group [https://www.facebook.com/groups/CoinPortEx/](https://www.facebook.com/groups/CoinPortEx/)
 
-We have an online community online on crew3 [https://CoinPortEx.crew3.xyz/](https://CoinPortEx.crew3.xyz/)
+We have an online community online on crew3 (Zealy) [https://zealy.io/c/coinportex/](https://zealy.io/c/coinportex/)
 
 Read CoinPort updates on Crunchbase [https://www.crunchbase.com/organization/CoinPortEx](https://www.crunchbase.com/organization/CoinPortEx)
 
