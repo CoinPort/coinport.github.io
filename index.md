@@ -4,19 +4,25 @@
 
 # layout: home
 layout: layout
-#layout: default
+# layout: default
 ---
 ## CoinPort Exchange - News Blog
 
 Reading, reference and news resources for CoinPort Members.3
 
-<button id="All" onclick="filterUsingCategory('All')">
-  *Show All Posts*
-</button>
-{% assign categories = site.categories | sort %}
-{% for category in categories %}
-  {% assign cat = category | first %}
-  <button id="{{ cat }}" onclick="filterUsingCategory(this.id)">
-    {{ cat }}
-  </button>
-{% endfor %}
+<ul>
+  {% for post in site.posts %}
+    <li>
+      {{ post.categories }}
+      <a href="{{ post.url }}">{{ post.title }}</a><br>
+      {{ post.description }}
+    </li>
+  {% endfor %}
+</ul>
+
+
+# title:  How to Avoid Scams
+# description: How to Avoid Scams
+# author: CoinPort Exchange
+# date:   2024-08-14 15:01:29 +1000
+# categories: articles
