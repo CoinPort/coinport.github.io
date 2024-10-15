@@ -15,16 +15,9 @@ Reading, reference and news resources for CoinPort Members
 <ul>
   {% for post in site.posts %}
     <li>
-      <b>{{ post.categories }} - </b> {{ post.date }} - 
+      <b>{{ post.categories }} - </b> {{ post.date  | date: "%-d %B %Y" }} - 
       <a href="{{ post.url }}">{{ post.title }}</a><br>
       {{ post.description }}<br>
     </li>
   {% endfor %}
 </ul>
-
-
-# title:  How to Avoid Scams
-# description: How to Avoid Scams
-# author: CoinPort Exchange
-# date:   2024-08-14 15:01:29 +1000
-# categories: articles
