@@ -6,16 +6,6 @@
     <link href="../style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400,500,600|Roboto&display=swap" rel="stylesheet">
-    <script>
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
-        window.alert(urlParams);
-        const theme = urlParams.get('theme')
-        window.alert(theme);
-        const className = theme=='dark'?'dark-mode':'light-mode';
-        window.alert(className);
-        document.body.classList.toggle(className);
-    </script>
 </head>
 <body>
       <div class="display_videos">

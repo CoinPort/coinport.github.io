@@ -1,3 +1,4 @@
+<link href="../style.css" rel="stylesheet">
 # Legal Details
 
 ## Australian Securities & Investments Commission (ASIC) Details
