@@ -11,13 +11,10 @@
         const urlParams = new URLSearchParams(queryString);
         const theme = urlParams.get('theme')
         const className = theme=='dark-mode'?'dark-mode':'light-mode';
-        document.rootElement.classList.toggle(className);
+        document.documentElement.classList.toggle(className);
     </script>
 </head>
 <body>
-    <script>
-
-    </script>
       <div class="display_videos">
         <div>
           <h1>CoinPort Education and Learning Resources</h1>
