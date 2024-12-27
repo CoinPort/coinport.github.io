@@ -1,8 +1,8 @@
-:root.light-mode {
+.light-mode {
   --font-color: red;
 }
 
-:root.dark-mode {
+.dark-mode {
   --font-color: blue;
 }
 
