@@ -1,9 +1,9 @@
-.light-mode {
-  --font-color: red;
+body.light-mode {
+  --font-color: rgb(255, 0, 0);
 }
 
-.dark-mode {
-  --font-color: blue;
+body.dark-mode {
+  --font-color: rgb(0, 0, 255);
 }
 
 html {
