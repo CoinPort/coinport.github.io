@@ -308,3 +308,20 @@ strong {
 body.dark-mode {
     background: red !important;
 }
+
+body.dark-mode p {
+  background: blue !important;
+}
+
+.dark-mode p {
+  background: green !important;
+}
+
+.dark-mode body p {
+  background: orange !important;
+}
+
+.dark-mode body {
+  background: yellow !important;
+  color: purple;
+}
