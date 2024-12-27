@@ -9,8 +9,8 @@
     <script>
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
-        const themeColor = urlParams.get('theme')
-        const className = themeColor=='dark'?'dark-mode':'light-mode';
+        const theme = urlParams.get('theme')
+        const className = theme=='dark-mode'?'dark-mode':'light-mode';
         document.body.classList.toggle(className);
     </script>
 </head>
