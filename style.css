@@ -314,7 +314,7 @@ body.dark-mode {
     background: red !important;
 }
 
-body.dark-mode p {
+body .dark-mode {
   background: blue !important;
 }
 
