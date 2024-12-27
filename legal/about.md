@@ -4,7 +4,6 @@
 
 Coin Habour Pty Ltd ("Coin Port" or "CoinPort" or "CoinPort Exchang"e") is an Australian company that operates a Digital Asset Exchange business:
 
-|     |     |
 | --- | --- |
 | Name: | COIN HARBOUR PTY LTD |
 | ACN: | 624 879 223 |
@@ -17,7 +16,6 @@ Coin Habour Pty Ltd ("Coin Port" or "CoinPort" or "CoinPort Exchang"e") is an Au
 
 CoinPort is licensed and regulated by AUSTRAC as an Independent Remittance Dealer and Digital Currency Exchange.
 
-|     |     |
 | --- | --- |
 | Registered Independent Remittance Dealer number: | IND100633359-001 |
 | Registered Digital Currency Exchange number: | 100633359 |
@@ -34,7 +32,6 @@ CoinPort is licensed and regulated by AUSTRAC as an Independent Remittance Deale
 
 CoinPort is a member of the Australian Financial Complaints Authority (AFCA), for resolving customer complaints and disputes that cannot be handled internally.
 
-|     |     |
 | --- | --- |
 | Member number: | 100204 |
 | AFCA Website: | [https://www.afca.org.au/](https://www.afca.org.au/ "https://www.afca.org.au/") |
