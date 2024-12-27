@@ -1,41 +1,3 @@
-.dark-mode {
-  background: yellow !important;
-  color: purple !important;
-}
-
-body.dark-mode {
-  background: red !important;
-}
-
-body .dark-mode {
-background: blue !important;
-}
-
-.dark-mode p {
-background: green !important;
-}
-
-.dark-mode body p {
-background: orange !important;
-}
-
-.dark-mode body {
-background: yellow !important;
-color: purple;
-}
-
-.dark-mode {
-background: pink !important;
-}
-
-.light-mode {
-background: #ff0000 !important;
-}
-
-.display_videos {
-  background: lightblue !important;
-}
-
 html {
   font-size: 1rem;
 }
@@ -47,13 +9,13 @@ body {
   padding: 0;
   font-size: 15px;
   font-weight: 400;
-  line-height: 1.55;
+  line-height: 1.35;
 }
 
 .markdown-body {
   font-size: 15px;
   font-weight: 400;
-  line-height: 1.55;
+  line-height: 1.35;
   word-wrap: break-word;
 }
 
@@ -68,7 +30,7 @@ body {
 p {
   font-size: 0.9rem;
   font-weight: 400;
-  line-height: 1.55;
+  line-height: 1.35;
   padding: 8px 1px;
   margin: 0;
 }
@@ -81,7 +43,7 @@ ul,
 ol {
   font-size: 0.9rem;
   font-weight: 400;
-  line-height: 1.55;
+  line-height: 1.35;
   padding: 0;
   margin: 10px 0 10px 5px;
 }
@@ -90,14 +52,14 @@ li {
   font-size: 0.9rem;
   margin: 5px 0 5px 30px;
   padding: 0;
-  line-height: 1.55;
+  line-height: 1.35;
   font-weight: 400;
 }
 
 .signature {
   font-size: 0.9rem;
   font-weight: 400;
-  line-height: 1.55;
+  line-height: 1.35;
   padding: 8px 1px;
   margin: 0;
 
@@ -125,7 +87,7 @@ table {
 tbody {
   font-size: 0.9rem;
   font-weight: 400;
-  line-height: 1.55;
+  line-height: 1.35;
   margin: 10px 0;
 }
 
@@ -164,7 +126,7 @@ td {
 h1 {
   font-size: 1.3rem;
   font-weight: 600;
-  line-height: 1.55;
+  line-height: 1.35;
   margin-bottom: 0;
   margin-top: 0;
   padding-bottom: 10px;
@@ -343,36 +305,7 @@ strong {
   font-weight: 600;
 }
 
-.dark-mode {
-  background: yellow !important;
-  color: purple !important;
-}
-
-body.dark-mode {
-  background: red !important;
-}
-
-body .dark-mode {
-background: blue !important;
-}
-
 .dark-mode p {
-background: green !important;
+  color: limegreen !important;
 }
-
-.dark-mode body p {
-background: orange !important;
-}
-
-.dark-mode body {
-background: yellow !important;
-color: purple;
-}
-
-.dark-mode {
-background: pink !important;
-}
-
-.light-mode {
-background: #ff0000 !important;
-}
+  
