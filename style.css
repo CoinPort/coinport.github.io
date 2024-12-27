@@ -2,9 +2,8 @@ html {
   font-size: 1rem;
 }
 
-body.dark-mode  {
+body  {
   background: transparent;
-  color: #00ff00 !important;
   font-family: "Poppins", sans serif;
   margin: 0 10px;
   padding: 0;
@@ -14,14 +13,11 @@ body.dark-mode  {
 }
 
 body.light-mode  {
-  background: transparent;
-  color: #ff0000 !important;
-  font-family: "Poppins", sans serif;
-  margin: 0 10px;
-  padding: 0;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.35;
+  color: #14191e !important;
+}
+
+body.dark-mode  {
+  color: #ffffff !important;
 }
 
 .markdown-body {
