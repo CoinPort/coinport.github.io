@@ -304,3 +304,9 @@ h4 {
 strong {
   font-weight: 600;
 }
+
+.dark-mode {
+  p {
+    color: red;
+  }
+}
