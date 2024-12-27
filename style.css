@@ -334,3 +334,7 @@ body.dark-mode p {
 .dark-mode {
   background: pink !important;
 }
+
+.light-mode {
+  background: #ff0000 !important;
+}
