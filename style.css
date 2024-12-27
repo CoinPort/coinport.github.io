@@ -2,7 +2,7 @@ root.light-mode {
   --font-color: rgb(255, 0, 0);
 }
 
-toot.dark-mode {
+root.dark-mode {
   --font-color: rgb(0, 0, 255);
 }
 
