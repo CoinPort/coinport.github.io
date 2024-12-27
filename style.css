@@ -1,9 +1,9 @@
 root.light-mode {
-  --font-color: rgb(255, 0, 0);
+  --font-color: #ff0000;
 }
 
 root.dark-mode {
-  --font-color: rgb(0, 0, 255);
+  --font-color: #00ff00;
 }
 
 html {
@@ -12,7 +12,7 @@ html {
 
 body {
   background: transparent;
-  color: var(--font-color);
+  color: var(--font-color) !important;
   font-family: "Poppins", sans serif;
   margin: 0 10px;
   padding: 0;
@@ -37,7 +37,7 @@ body {
 }
 
 p {
-  color: var(--font-color);
+  color: var(--font-color) !important;
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.35;
