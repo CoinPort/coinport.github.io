@@ -307,6 +307,6 @@ strong {
 
 .dark-mode {
   p {
-    color: red;
+    color: red !important;
   }
 }
