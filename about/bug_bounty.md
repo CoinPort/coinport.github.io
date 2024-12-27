@@ -2,8 +2,6 @@
 
 CoinPort recognizes the importance and value of security researchers efforts in helping keep our community safe. We encourage responsible disclosure of security vulnerabilities via our bug bounty program described on this page.
 
-![bug bounty](https://doc.coinport.com.au/images/bug_bounty.jpg)
-
 ## Responsible investigation and reporting
 
 Responsible investigation and reporting includes, but isn't limited to, the following:
