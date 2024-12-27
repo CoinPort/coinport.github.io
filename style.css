@@ -305,6 +305,6 @@ strong {
   font-weight: 600;
 }
 
-body.dark-mode p {
+body .dark-mode p {
     color: red !important;
 }
