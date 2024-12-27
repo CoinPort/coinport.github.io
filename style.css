@@ -37,6 +37,7 @@ body {
 }
 
 p {
+  color: var(--font-color);
   font-size: 0.9rem;
   font-weight: 400;
   line-height: 1.35;
