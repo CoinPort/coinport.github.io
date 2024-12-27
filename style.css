@@ -330,3 +330,7 @@ body.dark-mode p {
   background: yellow !important;
   color: purple;
 }
+
+.dark-mode {
+  background: pink !important;
+}
