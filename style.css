@@ -1,8 +1,8 @@
-body.light-mode {
+root.light-mode {
   --font-color: rgb(255, 0, 0);
 }
 
-body.dark-mode {
+toot.dark-mode {
   --font-color: rgb(0, 0, 255);
 }
 
