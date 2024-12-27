@@ -1,9 +1,18 @@
+:root.light-mode {
+  --font-color: red;
+}
+
+:root.dark-mode {
+  --font-color: blue;
+}
+
 html {
   font-size: 1rem;
 }
 
 body {
   background: transparent;
+  color: var(--font-color);
   font-family: "Poppins", sans serif;
   margin: 0 10px;
   padding: 0;
@@ -303,9 +312,5 @@ h4 {
 
 strong {
   font-weight: 600;
-}
-
-.dark-mode {
-  background-color: red !important;
 }
   
