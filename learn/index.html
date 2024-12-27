@@ -11,7 +11,7 @@
         const urlParams = new URLSearchParams(queryString);
         const theme = urlParams.get('theme')
         const className = theme=='dark-mode'?'dark-mode':'light-mode';
-        document.html.classList.toggle(className);
+        document.rootElement.classList.toggle(className);
     </script>
 </head>
 <body>
