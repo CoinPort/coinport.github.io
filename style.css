@@ -3,6 +3,35 @@
   color: purple !important;
 }
 
+body.dark-mode {
+  background: red !important;
+}
+
+body .dark-mode {
+background: blue !important;
+}
+
+.dark-mode p {
+background: green !important;
+}
+
+.dark-mode body p {
+background: orange !important;
+}
+
+.dark-mode body {
+background: yellow !important;
+color: purple;
+}
+
+.dark-mode {
+background: pink !important;
+}
+
+.light-mode {
+background: #ff0000 !important;
+}
+
 html {
   font-size: 1rem;
 }
@@ -308,33 +337,4 @@ h4 {
 
 strong {
   font-weight: 600;
-}
-
-body.dark-mode {
-    background: red !important;
-}
-
-body .dark-mode {
-  background: blue !important;
-}
-
-.dark-mode p {
-  background: green !important;
-}
-
-.dark-mode body p {
-  background: orange !important;
-}
-
-.dark-mode body {
-  background: yellow !important;
-  color: purple;
-}
-
-.dark-mode {
-  background: pink !important;
-}
-
-.light-mode {
-  background: #ff0000 !important;
 }
