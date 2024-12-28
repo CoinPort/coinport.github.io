@@ -5,7 +5,7 @@ html {
 body  {
   background: transparent;
   font-family: "Poppins", sans serif;
-  margin: 0 10px;
+  margin: 10px;
   padding: 0;
   font-size: 0.85rem;
   font-weight: 400;
@@ -13,7 +13,7 @@ body  {
 }
 
 body.light-mode  {
-  color: #14191e !important;
+  color: #14191e;
 }
 
 body.dark-mode  {
