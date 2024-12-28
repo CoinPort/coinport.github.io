@@ -13,7 +13,7 @@ body  {
 }
 
 body.light-mode  {
-  color: #14191e;
+  color: red;
 }
 
 body.dark-mode  {
