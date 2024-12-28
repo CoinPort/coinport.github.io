@@ -6,6 +6,9 @@
 layout: layout
 # layout: default
 ---
+
+## CoinPort Exchange - News Blog 4
+
 ```js
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
@@ -13,8 +16,6 @@ layout: layout
   const className = theme=='dark-mode'?'dark-mode':'light-mode';
   document.body.classList.toggle(className);
 ```
-
-## CoinPort Exchange - News Blog 4
 
 <link rel="stylesheet" href="/style.css" />
 
