@@ -32,7 +32,7 @@
         const referrer = window.document.referrer;
         const queryStringReferrer = window.document.referrer.search;
         const urlParamsReferrer = new URLSearchParams(queryStringReferrer);
-        const themeReferrer = urlParams.get('theme');
+        const themeReferrer = urlParamsReferrer.get('theme');
         const className = themeReferrer=='dark-mode'?'dark-mode':'light-mode';
         document.body.classList.toggle(className);
         document.write('debug: referrer' + referrer + 'Theme from referrer' + themeReferrer);
