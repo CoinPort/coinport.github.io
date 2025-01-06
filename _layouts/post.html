@@ -31,7 +31,7 @@
       <script>
         const referrer = window.document.referrer;
         const queryStringReferrer = referrer.search;
-        const urlParamsReferrer = new URLSearchParams(queryStringReferrer);
+        const urlParamsReferrer = new URLSearchParams(window.document.referrer.search);
         const themeReferrer = urlParamsReferrer.get('theme');
         const className = themeReferrer=='dark-mode'?'dark-mode':'light-mode';
         document.body.classList.toggle(className);
