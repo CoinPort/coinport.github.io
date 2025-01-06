@@ -22,7 +22,6 @@ VIC 3000
 
 Our email contact details:
 
-|     |     |
 | --- | --- |
 | Help Desk| support@coinport.com.au |
 | General Enquiries | info@coinport.com.au |
