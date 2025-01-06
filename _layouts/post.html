@@ -13,7 +13,8 @@
       const queryString2 = window.document.referrer.search;
       const urlParams2 = new URLSearchParams(queryString2);
       const theme2 = urlParams.get('theme');
-      alert("Testing themeString=" + theme2);
+      alert("Testing themeString=" + window.document.referrer);
+      document.write(window.document.referrer);
       const className2 = theme=='dark-mode'?'dark-mode':'light-mode';
       document.body.classList.toggle(className2);
     </script>
