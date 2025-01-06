@@ -30,12 +30,12 @@
       <em>Easy, fast and safe cryptocurrency exchange</em></p>
       <script>
         const referrer = window.document.referrer;
-        const queryStringReferrer = referrer.search;
+        const queryStringReferrer = window.document.referrer.search;
         const urlParamsReferrer = new URLSearchParams(queryStringReferrer);
         const themeReferrer = urlParams.get('theme');
         const className = themeReferrer=='dark-mode'?'dark-mode':'light-mode';
         document.body.classList.toggle(className);
-        document.write("debug: referrer" + referrer);
+        document.write('debug: referrer' + referrer + 'Theme from referrer' + themeReferrer);
       </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
