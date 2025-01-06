@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <script>
       const queryString2 = window.document.referrer.search;
+      alert(queryString2);
       const urlParams2 = new URLSearchParams(queryString2);
       const theme2 = urlParams.get('theme');
       const className2 = theme=='dark-mode'?'dark-mode':'light-mode';
