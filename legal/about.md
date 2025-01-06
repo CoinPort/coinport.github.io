@@ -2,7 +2,7 @@
 
 ## Australian Securities & Investments Commission (ASIC) Details
 
-Coin Habour Pty Ltd ("Coin Port" or "CoinPort" or "CoinPort Exchang"e") is an Australian company that operates a Digital Asset Exchange business:
+Coin Habour Pty Ltd ("Coin Port" or "CoinPort" or "CoinPort Exchange") is an Australian company that operates a Digital Asset Exchange business:
 
 | --- | --- |
 | Name: | COIN HARBOUR PTY LTD |
