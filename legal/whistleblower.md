@@ -2,7 +2,7 @@
 
 ## Overview
 
-At Coin Habour Pty Ltd (“the Company”) we are guided by our company values. These values are the foundation of how we conduct ourselves and interact with each other, our clients, members, suppliers, shareholders and other stakeholders. The Company is committed to ensuring corporate compliance and promoting ethical corporate culture by observing the highest standards of fair dealing, honesty and integrity in our business activities.
+At Coin Harbour Pty Ltd (“the Company”) we are guided by our company values. These values are the foundation of how we conduct ourselves and interact with each other, our clients, members, suppliers, shareholders and other stakeholders. The Company is committed to ensuring corporate compliance and promoting ethical corporate culture by observing the highest standards of fair dealing, honesty and integrity in our business activities.
 
 ## Purpose
 

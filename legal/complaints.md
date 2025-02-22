@@ -22,6 +22,6 @@ If you are still not satisfied with the response from customer support, you may 
 
 If you still feel that your complaint or dispute is not satisfactory resolved, the issue be raised with the Australian Financial Complaints Authority [https://www.afca.org.au/](https://www.afca.org.au/ "https://www.afca.org.au/") for a review.
 
-Coin Habour Pty Ltd is a member of the Australian Financial Complaints Authority: **Member number: 100204**
+Coin Harbour Pty Ltd is a member of the Australian Financial Complaints Authority: **Member number: 100204**
 
 Last updated: 25-Sep-2024
