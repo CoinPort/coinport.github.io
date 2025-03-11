@@ -1,0 +1,120 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>CoinHarbour VOIP Scripts</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="shortcut icon" type="image/ico" href="https://doc.coinharbour.com.au/favicon.ico" />
+    <link rel="canonical" href="https://www.coinharbour.com.au/voice/" />
+    <link href="../style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400,500,600|Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>CoinHarbour VOIP Scripts</h1>
+
+<p>Here are the scripts we use for the VOIP routing system for +61 1300 902 595.</p>
+
+<p>We use the Azure Text-to-Speech service: <a href="https://speech.microsoft.com/portal">https://speech.microsoft.com/portal</a></p>
+
+<p>Here is the Freshworks page to upload voice messages: <a href="https://coinharbour.freshworks.com/crm/phone/admin/messages">https://coinharbour.freshworks.com/crm/phone/admin/messages</a></p>
+
+<p>Edit the phone routing rules here: <a href="https://coinharbour.freshworks.com/crm/phone/admin/numbers">https://coinharbour.freshworks.com/crm/phone/admin/numbers</a></p>
+
+<p>The 1300 support queue can be managed by:</p>
+
+<p>From the App Store install Freshworks "Contact Centre"</p>
+
+<p>Enter our queue: <a href="https://coinharbour-assist.freshcaller.com/">coinharbour-assist.freshcaller.com</a></p>
+
+<table>
+	<thead>
+		<tr>
+			<th>Message Type</th>
+			<th>Message Text</th>
+			<th>Scenarios to use</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>Welcome Message</td>
+			<td><em>Thanks for calling the Coin-Harbour helpdesk, please hold while we find an available agent to assist. Your call may be recorded for quality and training purposes.</em><br></td>
+			<td>This is the first message your customers hear when they call.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>Agent Extension Welcome Message</td>
+			<td><em>Thanks for calling Coin-Harbour. Please dial the 4-digit extension to speak to a specific agent. To speak with any available agent, please press *.</em><br></td>
+			<td>Use this as the welcome message (play message) to initiate an <a href="https://support.freshcaller.com/en/support/solutions/articles/50000001126">Agent Extension Call Workflow</a>.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>Agent Busy Message</td>
+			<td><em>The agent you are trying to reach is currently busy, please try again later.</em><br></td>
+			<td>A customer will hear this message when an agent is busy, and you have enabled voicemail as the fallback option.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>Agent Not Answering Message</td>
+			<td><em>The agent you are trying to reach is not answering the call. Please try again later.</em><br></td>
+			<td>A customer will hear this message when an agent is not answering the call, and voicemail is enabled as the fallback action.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>Agent Not Available Message</td>
+			<td><em>The agent you are trying to reach is not available right now. Please try again later.</em><br></td>
+			<td>A customer will hear this message when an agent is offline or not available to attend the call, and voicemail is enabled as the fallback action.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>
+			<p>Incorrect Agent Extension Message</p>
+			</td>
+			<td><em>There are no agents available with that extension number. Please enter the extension number again.</em><br></td>
+			<td>This message will be played if a customer dials a wrong extension number, and voicemail is enabled as the fallback action.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>Callback Message</td>
+			<td><em>Press 1 to continue in the wait queue. Press 2 to request a callback on the same number you are calling from.</em><br></td>
+			<td>The customers will hear this message if they opt for a&nbsp;<a href="https://support.freshcaller.com/en/support/solutions/articles/50000000058">callback</a>.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>Callback Confirmation Message</td>
+			<td><em>Your request for a callback is confirmed. The next available agent will call you shortly.</em></td>
+			<td>This message is played to confirm the customer&#39;s choice for&nbsp;<a href="https://support.freshcaller.com/en/support/solutions/articles/50000000058">callback</a>.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>Hangup Message</td>
+			<td><em>Our agents are unavailable to take your call right now, but we will get back to you shortly.</em><br></td>
+			<td>This message is played before hanging up a call.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>Invalid Input Message</td>
+			<td><em>You have provided an invalid input message. Please try to rephrase the message.</em><br></td>
+			<td>This message is played when a customer gives an invalid IVR keypress option or an invalid voicebot input.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>Recording Opt-in Message</td>
+			<td><em>Thank you for calling. We would like to record this call for quality audit and training. To allow us to record this conversation, Press 1. To opt out of recording this conversation, Press 2.</em><br></td>
+			<td>This message is played if the customer agrees to&nbsp;<a href="https://support.freshcaller.com/en/support/solutions/articles/50000001082">record</a>&nbsp;the call conversation.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+		<tr>
+			<td>Voicemail Message</td>
+			<td><em>Our agents are unavailable to take your call right now. Please leave a message after the beep and we will get back to you shortly.</em><br></td>
+			<td>The default voicemail message that will be played after which customers can record and send their message.</td>
+		</tr>
+		<tr><td>.</td><td>.</td><td>.</td></tr>
+	</tbody>
+</table>
+<br>
+
+</body>
+</html>
+
