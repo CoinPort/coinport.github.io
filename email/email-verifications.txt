@@ -1,0 +1,29 @@
+email 
+
+                        DMARC       SPF             DKIM 
+
+coinport.co             no          Valid         
+
+coinport.co.nz          no          Valid
+
+coinport.me             no          Valid
+
+coinport.app            no          Valid   
+
+coinport.exchange       no          Valid   
+
+coinport.com.au         OK          Valid            
+
+coinharbour.com.au
+
+m1-digital.com          no          No record     
+
+
+https://easydmarc.com/tools/dmarc-lookup?domain=coinport.co.nz
+
+https://support.google.com/a/answer/10032578?src=supportwidget0&hl=en&authuser=0
+
+https://support.google.com/a/answer/2466580?authuser=0&visit_id=638808244141520654-1117530060&rd=1#check-dmarc-record
+
+
+
