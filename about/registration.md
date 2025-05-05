@@ -20,4 +20,6 @@ Australian Transaction Reports & Analysis Centre.
 
 [AUSTRAC Website →](https://online.austrac.gov.au/ao/public/rsregister.seam)
 
-Last updated: 25-Sep-2024
+[Our Corporate Structure →](https://doc.coinport.com.au/about/corporate-structure.html)
+
+Last updated: 5-May-2025
