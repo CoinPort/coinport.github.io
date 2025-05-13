@@ -343,7 +343,7 @@ strong {
 .pg-corporate-entity {
   align-items: center;
   background-color: #1aadff;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 0.0625rem solid #fff;
   color: #fff;
   display: flex;
