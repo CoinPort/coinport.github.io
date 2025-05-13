@@ -322,12 +322,13 @@ strong {
   justify-content: flex-start;
   padding: 30px;
   width: 100%;
+  max-width: 900px;
 }
 
 .pg-corporate-logo {
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 30px;
   width: 100%;
 }
