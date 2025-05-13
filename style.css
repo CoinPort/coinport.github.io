@@ -324,6 +324,14 @@ strong {
   width: 100%;
 }
 
+.pg-corporate-logo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  width: 100%;
+}
+
 .pg-corporate-row {
   align-items: center;
   display: flex;
