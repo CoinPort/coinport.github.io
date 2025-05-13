@@ -329,7 +329,18 @@ strong {
   align-items: center;
   display: flex;
   justify-content: flex-start;
-  padding: 30px;
+  padding: 0;
+  width: 100%;
+}
+
+.pg-corporate-heading {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
   width: 100%;
 }
 
