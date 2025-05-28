@@ -31,6 +31,8 @@ These are the internal policy and procedure documents for customers and staff of
 
 [Sanctions Policy](https://www.coinport.com.au/legal/sanctions.html) 
 
+[AUSTRAC Suspicious Matter Reports](https://www.coinport.com.au/legal/suspicious_matter_reports.html) 
+
 [Terms and Conditions](https://www.coinport.com.au/legal/terms.html) 
 
 [Training and Education Policy](https://www.coinport.com.au/legal/training.html) 
