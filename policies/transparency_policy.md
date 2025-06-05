@@ -63,6 +63,6 @@ Nothing in this Policy should be interpreted as indicating a refusal to disclose
 
 If any translation of the English version of this Policy is provided, the version in English will have priority in case of conflict.
 
-Our website policies, content, information, promotions, disclosures, disclaimers, and features may be revised, modified, updated, and/or supplemented at any time and without prior notice at the sole and absolute discretion of Coin Harbour Pty Ltd. If we change this Policy, we will take all necessary steps to notify users with annunciation on CoinPort's website and will post the amended Policy on CoinPort's website as well.
+Our website policies, content, information, promotions, disclosures, disclaimers, and features may be revised, modified, updated, and/or supplemented at any time and without prior notice at the sole and absolute discretion of Coin Harbour Pty Ltd. If we change this Policy, we will take all necessary steps to notify users with announcement on CoinPort's website and will post the amended Policy on CoinPort's website as well.
 
 Last updated: 25-Sep-2024
