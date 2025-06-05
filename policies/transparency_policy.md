@@ -1,4 +1,4 @@
-# Transparancy Policy Of CortPort 
+# Transparency Policy Of CortPort 
 
 If you have any questions about this Transparency Policy, please contact us via email:  [support@coinport.com.au](mailto:support@coinport.com.au)
 
@@ -6,7 +6,7 @@ We are committed to being responsive and accountable to the people we provide ou
 
 We created this Transparency Policy ("Policy") to regulate the processing of requests by national authorities and the provision of information requested whether it is legal.
 
-The terms in this Policy are used in accordance with the Terms of Use, Privacy Policy, and Anti-Money Laundry Policy.
+The terms in this Policy are used in accordance with the Terms of Use, Privacy Policy, and Anti-Money Laundering Policy.
 
 By accessing or using our website [https://www.coinport.com.au](https://www.coinport.com.au)
 you confirm that you have read, understood, and accepted the information provided in this Policy. Please leave the website and do not use any services if you do not agree with the terms and conditions laid down in this Policy.
@@ -19,7 +19,7 @@ We are registered with AUSTRAC in Australia. Coin Harbour Pty Ltd is also an obl
 
 Any person or organization with the legally delegated or invested authority, capacity, or power to perform a designated function ("Competent authority") has the right to submit requests for data to CoinPort via email:  [support@coinport.com.au](mailto:support@coinport.com.au)  (for more details see Section 2).
 
-We assist all Сompetent authorities to prevent money laundering and terrorist financing by providing information in response to requests in a timely manner, all while complying with the duties, obligations, and restrictions imposed by law.
+We assist all Competent authorities to prevent money laundering and terrorist financing by providing information in response to requests in a timely manner, all while complying with the duties, obligations, and restrictions imposed by law.
 
 1.1. Users' requests
 
