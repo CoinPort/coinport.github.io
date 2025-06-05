@@ -6,7 +6,7 @@ At Coin Harbour Pty Ltd (“the Company”) we are guided by our company values.
 
 ## Purpose
 
-The policy has been put in place to ensure any concerns raised regarding any misconduct or improper state of aﬀairs or circumstances in relation to the Company’s business are dealt with eﬀectively, securely, appropriately, and in accordance with the Corporations Act 200 (Cth) (the Act).
+The policy has been put in place to ensure any concerns raised regarding any misconduct or improper state of aﬀairs or circumstances in relation to the Company’s business are dealt with eﬀectively, securely, appropriately, and in accordance with the Corporations Act 2001 (Cth) (the Act).
 
 The Company encourages the reporting of any instances of suspected unethical, illegal, corrupt, fraudulent or undesirable conduct involving the Company’s business and provides protections and measures to individuals who make a disclosure in relation to such conduct without fear of victimisation or reprisal.
 
@@ -156,7 +156,7 @@ Detrimental Conduct includes actual or threatened conduct such as the following 
 
 * Termination of employment;
 * Injury to employment including demotion, disciplinary action;
-* Alternation of position or duties;
+* Alteration of position or duties;
 * Discrimination;`
 * Harassment, bullying or intimidation; Victimisation;
 * Harm or injury including psychological harm; Damage to a person’s property;
@@ -185,7 +185,7 @@ If you make a disclosure under this policy, your identity (or any information wh
 
 * You give your consent to share that information; or
 * The disclosure is allowed or required by law (for example where the concern is raised with a lawyer for the purposes of obtaining legal advice); or
-* The concern is reported to Australian Securities and Investment Commission (ASIC)
+* The concern is reported to Australian Securities and Investments Commission (ASIC)
 * Where it is necessary to disclose information for the eﬀective investigation of the matter, and this is likely to lead to your identiﬁcation, all reasonable steps will be taken to reduce the risk that you will be identiﬁed. For example, all personal information or reference to you witnessing an event will be redacted from any report, you will be referred to in a gender-neutral context, where possible you will be contacted to help identify certain aspects of your disclosure that could inadvertently identify you.
 * Any disclosure under this policy will also be handled and investigated by qualiﬁed staﬀ.
 
