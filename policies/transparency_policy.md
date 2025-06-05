@@ -15,7 +15,7 @@ We do not provide our services (and our website is not intended) for people unde
 
 1.  GENERAL
 
-We are registered with AUSTRAC in Australia. Coin Harbour Pty Ltd is also an obliged entity according to the Australian Law on the Prevention of Money Laundering and Terrorist Financing.
+We are registered with AUSTRAC in Australia. CoinPort is also an obliged entity according to the Australian Law on the Prevention of Money Laundering and Terrorist Financing.
 
 Any person or organization with the legally delegated or invested authority, capacity, or power to perform a designated function ("Competent authority") has the right to submit requests for data to CoinPort via email:  [support@coinport.com.au](mailto:support@coinport.com.au)  (for more details see Section 2).
 
@@ -63,6 +63,6 @@ Nothing in this Policy should be interpreted as indicating a refusal to disclose
 
 If any translation of the English version of this Policy is provided, the version in English will have priority in case of conflict.
 
-Our website policies, content, information, promotions, disclosures, disclaimers, and features may be revised, modified, updated, and/or supplemented at any time and without prior notice at the sole and absolute discretion of Coin Harbour Pty Ltd. If we change this Policy, we will take all necessary steps to notify users with announcement on CoinPort's website and will post the amended Policy on CoinPort's website as well.
+Our website policies, content, information, promotions, disclosures, disclaimers, and features may be revised, modified, updated, and/or supplemented at any time and without prior notice at the sole and absolute discretion of CoinPort. If we change this Policy, we will take all necessary steps to notify users with announcement on CoinPort's website and will post the amended Policy on CoinPort's website as well.
 
 Last updated: 25-Sep-2024
