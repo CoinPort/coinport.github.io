@@ -93,7 +93,7 @@ Officer is head of the Records Management Department and is responsible for:
 * Developing procedures to ensure the permanent preservation of Coin Harbour Pty Ltd’s historically valuable records
 * Providing document management advice and assistance to all departments by preparing manuals of procedure and policy and by on-site consultation
 * Determining the practicability of and, if appropriate, establishing a uniform filing system and a forms design and control system
-* Periodically reviewing the records retention schedules and administrative rules issued by the governments of relevant countires to determine if Coin Harbour Pty Ltd’s document management program and its Records Retention Schedule is in compliance with state [and foreign] regulations
+* Periodically reviewing the records retention schedules and administrative rules issued by the governments of relevant countries to determine if Coin Harbour Pty Ltd’s document management program and its Records Retention Schedule is in compliance with state [and foreign] regulations
 * Distributing to the various department heads information concerning state laws and administrative rules relating to corporate records
 * Explaining to employees their duties relating to the document management program
 * Ensuring that the maintenance, preservation, microfilming, computer disk storage, destruction or other disposition of Coin Harbour Pty Ltd’s records is carried out in accordance with this policy, the procedures of the document management program and the requirements of federal and state law
