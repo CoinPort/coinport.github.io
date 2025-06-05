@@ -19,7 +19,7 @@ This **Transaction Monitoring Program (TMP)** ensures:
 
 ## **2. Scope**  
 This policy applies to:  
-- All fiat and cryptocurrency transactions processed by Coin Harbour.  
+- All fiat and cryptocurrency transactions processed on the **CoinPort exchange**, which is operated by Coin Harbour Pty Ltd. 
 - Customers, employees, and third-party service providers interacting with the exchange.  
 - Real-time and retrospective transaction monitoring.  
 
@@ -109,4 +109,3 @@ Transactions are monitored for:
 
 ---
 
-This policy ensures **Coin Harbour** meets AUSTRAC’s expectations while mitigating crypto-specific risks. Let me know if you'd like modifications for specific compliance frameworks!
