@@ -97,9 +97,8 @@ Yes, limits depend on your verification level:
 We offer AUD trading pairs (BTC/AUD, ETH/AUD, etc.) and crypto-to-crypto pairs (BTC/ETH, XRP/LTC, etc.).  
 
 ### **2. What are CoinPort’s trading fees?**  
-- **Maker Fees:** 0.10%  
-- **Taker Fees:** 0.20%  
-- Discounts available for high-volume traders.  
+- There are no commissions or fees for crypto orders or trades on the CoinPort exchange platform.We try to make  CoinPort as simple and transparent as possible. The price quoted is the price dealt.  
+- Incentives available for high-volume traders.  
 
 ### **3. Does CoinPort support limit orders and stop-loss?**  
 Yes, we support:  
