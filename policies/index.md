@@ -36,7 +36,7 @@ These are the internal policy and procedure documents for customers and staff of
 
 [Token Purchase Agreement](https://www.coinport.com.au/legal/token_purchase_agreement.html) 
 
-[Sanctions Policy](https://www.coinport.com.au/legal/sanctions.html) 
+<p><b>Sanctions Policy</b> <a title="https://www.coinport.com.au/legal/sanctions.html" href="https://www.coinport.com.au/policies/sanctions-list.html" target="_blank">>Sanctioned countries and policies.</p> 
 
 <p><b>Sanctions List</b> <a title="https://www.coinport.com.au/policies/sanctions-list.html" href="https://www.coinport.com.au/policies/sanctions-list.html" target="_blank">List of countries and policies affeted by sanctions </p>
 
