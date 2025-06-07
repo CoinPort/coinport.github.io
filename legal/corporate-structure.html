@@ -10,7 +10,7 @@
 <body>
 <div class="pg-corporate-wrapper">
     <div class="pg-corporate-logo">
-        <img src="../images/logos/coinport_logo.png" width="200px">
+        <img src="../images/logos/coinport_logo.png" width="200px" id="logoImage">
     </div>
     <div class="pg-corporate-heading">Ownership structure of CoinPort Exchange business</div>
     <div class="pg-corporate-row">
@@ -53,6 +53,10 @@
         const theme = urlParams.get('theme');
         const className = theme=='dark-mode'?'dark-mode':'light-mode';
         document.body.classList.toggle(className);
+
+        if (theme=='dark-mode') {
+          document.getElementById("logoImage").src = 'https://blog.coinport.com.au/assets/img/news/coinport-signature-dark.png';
+        }
     </script>
 </body>
 </html>
