@@ -365,7 +365,7 @@ strong {
   text-align: center;
 }
 
-.pg-corporate-entity.dark-mode {
+body.dark-mode.pg-corporate-entity {
   background-color: red !important;
 }
 
