@@ -320,7 +320,7 @@ strong {
   flex-direction: column;
   gap: 0;
   justify-content: flex-start;
-  padding: 20px;
+  padding: 30px;
 }
 
 .pg-corporate-logo {
@@ -337,7 +337,7 @@ strong {
   justify-content: flex-start;
   padding: 30px 0;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1;
   width: 100%;
 }
