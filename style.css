@@ -17,6 +17,7 @@ body.light-mode  {
 }
 
 body.dark-mode  {
+  background: #002355;
   color: #ffffff !important;
 }
 
@@ -365,8 +366,27 @@ strong {
   text-align: center;
 }
 
+.pg-corporate-entityl3 {
+  align-items: center;
+  background-color: #002355;
+  border-radius: 10px;
+  border: 0.0625rem solid #fff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  justify-content: center;
+  max-width: 300px;
+  padding: 25px;
+  text-align: center;
+}
+
 body.dark-mode .pg-corporate-entity {
   background-color: red !important;
+}
+
+body.dark-mode .pg-corporate-entityl3 {
+  background-color: yellow !important;
 }
 
 .pg-corporate-entity-dash {
