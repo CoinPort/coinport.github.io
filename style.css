@@ -365,6 +365,10 @@ strong {
   text-align: center;
 }
 
+.pg-corporate-entity.dark-mode {
+  background-color: red !important;
+}
+
 .pg-corporate-entity-dash {
   align-items: center;
   color: #999999;
