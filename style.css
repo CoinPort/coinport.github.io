@@ -17,7 +17,6 @@ body.light-mode  {
 }
 
 body.dark-mode  {
-  background: #002355;
   color: #ffffff !important;
 }
 
@@ -379,6 +378,10 @@ strong {
   max-width: 300px;
   padding: 25px;
   text-align: center;
+}
+
+body.dark-mode .pg-corporate-wrapper {
+  background: #002355 !important;
 }
 
 body.dark-mode .pg-corporate-entityl3 {
