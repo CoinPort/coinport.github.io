@@ -5,12 +5,12 @@
     <link rel="shortcut icon" type="image/ico" href="https://doc.coinport.com.au/favicon.ico" />
     <link href="../style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400,500,600|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400,500,600|Roboto&display=swap" rel="stylesheet">        
 </head>
 <body>
 <div class="pg-corporate-wrapper">
     <div class="pg-corporate-logo">
-        <img src="../images/logos/coinport_logo.png" width="200px">
+        <img src="https://blog.coinport.com.au/assets/img/news/coinport-signature.png" width="200px" id="logoImage">
     </div>
     <div class="pg-corporate-heading">Ownership structure of CoinPort Exchange business</div>
     <div class="pg-corporate-row">
@@ -43,9 +43,20 @@
         <div class="pg-corporate-entity-dash" style="min-width: 260px !important;">&darr;<br />&darr;<br />Owns 100%<br />&darr;<br />&darr;</div>
     </div>
     <div class="pg-corporate-row">
-        <div class="pg-corporate-entity" style="background-color: #002355 !important;">Coin Harbour Pty Ltd<br />ABN: 12 624 879 223<br />AUSTRAC DCE 100633359<br />(Australian Cryptocurrency Exchange)</div>
-        <div class="pg-corporate-entity" style="background-color: #002355 !important;">Coinport Limited<br />Company Number: 9345796<br />NZ Limited Company<br />(not active)</div>
+        <div class="pg-corporate-entityl3">Coin Harbour Pty Ltd<br />ABN: 12 624 879 223<br />AUSTRAC DCE 100633359<br />(Australian Cryptocurrency Exchange)</div>
+        <div class="pg-corporate-entityl3">Coinport Limited<br />Company Number: 9345796<br />NZ Limited Company<br />(not active)</div>
     </div>
 </div>
+    <script defer>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const theme = urlParams.get('theme');
+        const className = theme=='dark-mode'?'dark-mode':'light-mode';
+        document.body.classList.toggle(className);
+
+        if (theme=='dark-mode') {
+          document.getElementById("logoImage").src = 'https://blog.coinport.com.au/assets/img/news/coinport-signature-dark.png';
+        }
+    </script>
 </body>
 </html>

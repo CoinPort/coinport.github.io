@@ -13,7 +13,7 @@ body  {
 }
 
 body.light-mode  {
-  color: #14191e;
+  color: #00233a;
 }
 
 body.dark-mode  {
@@ -320,7 +320,7 @@ strong {
   flex-direction: column;
   gap: 0;
   justify-content: flex-start;
-  padding: 20px;
+  padding: 30px;
 }
 
 .pg-corporate-logo {
@@ -334,11 +334,11 @@ strong {
 .pg-corporate-heading {
   align-items: center;
   display: flex;
-  justify-content: flex-start;
-  padding: 30px 0;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
+  justify-content: flex-start;
   line-height: 1;
+  padding: 0 0 30px;
   width: 100%;
 }
 
@@ -363,6 +363,30 @@ strong {
   max-width: 300px;
   padding: 25px;
   text-align: center;
+}
+
+.pg-corporate-entityl3 {
+  align-items: center;
+  background-color: #002355;
+  border-radius: 10px;
+  border: 0.0625rem solid #fff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  justify-content: center;
+  max-width: 300px;
+  padding: 25px;
+  text-align: center;
+}
+
+body.dark-mode .pg-corporate-wrapper {
+  background: #002355 !important;
+}
+
+body.dark-mode .pg-corporate-entityl3 {
+  background-color: #fff !important;
+  color: #00233a;
 }
 
 .pg-corporate-entity-dash {
