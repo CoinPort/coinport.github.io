@@ -381,12 +381,9 @@ strong {
   text-align: center;
 }
 
-body.dark-mode .pg-corporate-entity {
-  background-color: red !important;
-}
-
 body.dark-mode .pg-corporate-entityl3 {
-  background-color: yellow !important;
+  background-color: #fff !important;
+  color: #00233a;
 }
 
 .pg-corporate-entity-dash {
