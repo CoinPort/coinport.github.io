@@ -16,5 +16,3 @@
 *   **Communication and Interpersonal Skills**: You should have the ability to communicate effectively with others and get along with a variety of different types of personalities.
 *   **Creative**: Versatile candidates who can apply their skills to a variety of different situations and can solve unexpected problems that come up with ease and confidence.
 *   **Adaptive and Flexible**: Looking for those who are willing to take on new challenges or learn new skills if needed, deal with uncertainty, and navigate volatile environments.
-
-Last updated: 25-Sep-2024

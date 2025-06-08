@@ -47,5 +47,3 @@ We are optimistic about the future and determined to get there. We co-create sol
 ### Mission first
 
 ‍Our mission is ambitious and important. We don’t engage in social or political activism that is unrelated to our mission while at work. We seek to make the workplace a refuge from division, so we can stay focused on making progress toward the mission.
-
-Last updated: 25-Sep-2024

@@ -45,5 +45,3 @@ CoinPort Twitter Feed [https://twitter.com/CoinPortEx](https://twitter.com/CoinP
 Wikipedia Page for CoinPort Exchange [https://en.wikipedia.org/wiki/CoinPortEx](https://en.wikipedia.org/wiki/CoinPortEx)
 
 Get the Apple iOS Mobile App for CoinPort Exchange [https://appstore.coinport.com.au](https://appstore.coinport.com.au)
-
-Last updated: 06-Oct-2024

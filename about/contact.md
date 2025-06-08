@@ -28,5 +28,3 @@ Our email contact details:
 | Media Enquiries | media@coinport.com.au |
 | Account enquiries | accounts@coinport.com.au |
 | Recruitment | hr@coinport.com.au |
-
-Last updated: 25-Sep-2024

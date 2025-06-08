@@ -78,5 +78,3 @@ Submit your bug report by email to: [support@coinport.com.au](mailto:support@coi
 Include as much information in your report as you can, including a description of the bug, its potential impact, and steps for reproducing it or proof of concept. Please allow five (5) business days for us to review.
 
 We thank all security researchers for taking the time to submit reports. We may only respond if your submission is eligible for a reward.
-
-Last updated: 25-Sep-2024
