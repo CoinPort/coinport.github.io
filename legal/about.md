@@ -1,4 +1,4 @@
-# Legal Details
+# CoinPort legal information
 
 ## Australian Securities & Investments Commission (ASIC) Details
 
@@ -35,5 +35,3 @@ CoinPort is a member of the Australian Financial Complaints Authority (AFCA), fo
 | --- | --- |
 | Member number: | 100204 |
 | AFCA Website: | [https://www.afca.org.au/](https://www.afca.org.au/ "https://www.afca.org.au/") |
-
-Last updated: 25-Sep-2024
