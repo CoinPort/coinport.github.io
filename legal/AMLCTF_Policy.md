@@ -112,6 +112,3 @@ For any relevant requests, please contact us at: **compliance@coinport.com**.
 
 _Last updated: 10-Jun-2025_
 
-The Company cooperates with supervisory and law enforcement authorities in preventing money laundering and terrorist financing, thereby communicating information available to the Company and replying to queries within a reasonable time, following the duties, obligations and restrictions arising from legislation. For any relevant requests please contact us at: law@kuna.family.
-
-Last updated: 25-Sep-2024
