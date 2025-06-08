@@ -19,5 +19,3 @@ Invite people to CoinPort using your referral link in articles, content or ads o
 ## 3\. Earn commissions
 
 When a new member joins CoinPort to buy crypto using your referral URL, we pay you a commission so you can earn crypto.
-
-Last updated: 25-Sep-2024

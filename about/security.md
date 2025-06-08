@@ -37,5 +37,3 @@ Receive emails, notifications and security alerts in the event that suspicious a
 ## Opening New Doors for Crypto
 
 We’re committed to meeting the highest standards for regulatory compliance, in order to maintain our responsibility to our users and further develop the blockchain industry.
-
-Last updated: 25-Sep-2024

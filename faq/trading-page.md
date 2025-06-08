@@ -37,7 +37,10 @@ This helps gauge liquidity and potential price movements.
 Yes, the **Trading History** section shows your completed orders for the selected market.  
 
 ## **9. Are there fees for trading on this page?**  
-Yes, standard **trading fees** apply (check CoinPort’s fee schedule).  
+There are no commissions or fees for crypto orders or trades on the CoinPort exchange platform.We try to make  CoinPort as simple and transparent as possible. The price quoted is the price dealt.
+
+We incentivize high volume traders with rewards in the forms of airdrops or other CoinPort features.
+
 
 ## **10. How is this different from Instant Buy/Sell?**  
 - **Trading Page** → Advanced orders, charts, and market analysis.  
