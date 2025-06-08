@@ -37,7 +37,7 @@ body.dark-mode  {
 }
 
 p {
-  color: rgba(0, 35, 58, .5);
+  color: rgba(0, 35, 58, .8);
   font-size: 15px;
   font-weight: 400;
   line-height: 1.55;
@@ -46,7 +46,7 @@ p {
 }
 
 body.dark-mode p {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .8);
 }
 
 a {
@@ -64,11 +64,16 @@ ol {
 }
 
 li {
+  color: rgba(0, 35, 58, .8);
   font-size: 15px;
   margin: 5px 0 5px 30px;
   padding: 0;
   line-height: 1.55;
   font-weight: 400;
+}
+
+body.dark-mode li {
+  color: rgba(255, 255, 255, .8);
 }
 
 .signature {
@@ -114,8 +119,13 @@ th {
 }
 
 td {
+  color: rgba(0, 35, 58, .8);
   padding: 2px;
   vertical-align: top;
+}
+
+body.dark-mode td {
+  color: rgba(255, 255, 255, .8);
 }
 
 .btn {
@@ -139,6 +149,7 @@ td {
 }
 
 h1 {
+  color: rgba(0, 35, 58, .95);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.55;
@@ -146,6 +157,10 @@ h1 {
   margin-top: 0;
   padding: 30px 0 15px;
   width: 100%;
+}
+
+body.dark-mode h1 {
+  color: rgba(255, 255, 255, .95);
 }
 
 h2 {
@@ -163,7 +178,7 @@ body.dark-mode h2 {
 }
 
 h3 {
-  color: rgba(0, 35, 58, .8);
+  color: rgba(0, 35, 58, .85);
   font-size: 17px;
   font-weight: 500;
   line-height: 1.2;
@@ -173,11 +188,11 @@ h3 {
  }
 
 body.dark-mode h3 {
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, .85);
 }
 
 h4 {
-  color: rgba(0, 35, 58, .7);
+  color: rgba(0, 35, 58, .8);
   font-size: 15px;
   font-weight: 500;
   line-height: 1.2;
@@ -187,7 +202,7 @@ h4 {
  }
 
  body.dark-mode h4 {
-  color: rgba(255, 255, 255, .7);
+  color: rgba(255, 255, 255, .8);
 }
 
 .bold {
