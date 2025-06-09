@@ -80,5 +80,3 @@ Level 2, 696 Bourke St,
 Melbourne VIC 3000
 Phone 1300 902 595
 https://www.coinport.com.au
-
-Last updated: 25-Sep-2024

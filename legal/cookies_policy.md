@@ -89,5 +89,3 @@ More information on how to manage most popular browsers can be found here: Googl
 4. CHANGES TO THIS POLICY
 
 From time to time, we reserve the right to make modifications to this Cookies Policy. Any such changes will be clearly indicated by updating the date displayed at the top of this page. When you visit our website subsequent to such changes, you will receive a notification informing you of the revised Policy. This ensures that you stay informed about any updates or adjustments made to our Cookies Policy.
-
-Last updated: 25-Sep-2024

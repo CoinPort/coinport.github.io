@@ -33,5 +33,3 @@ In order to be able to efficiently process the request, we additionally ask the 
 Coin Harbour Pty Ltd uses its best efforts to collect and provide competent authorities with the information to its fullest and maximum possible extent, however, Coin Harbour Pty Ltd takes no responsibility and gives no warranty, including implied, to the accuracy, adequacy, and completeness of the information provided in response to request. Please be aware that any deficiencies in the information are possible and may be caused by whatever reasons including, but not limited to human agency, hardware and software imperfections and malfunctions.
 
 The correspondence on the requests from competent authority is confidential and privileged and shall be used only for the purposes of the request.
-
-Last updated: 25-Sep-2024

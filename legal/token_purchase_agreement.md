@@ -138,5 +138,3 @@ The Parties use the following Terms in the indicated value:
 10.7. The User will not delegate or sublicense any of his rights arising from his acceptance of the terms of this Agreement without the prior written consent of the Project. Any assignment or transfer inconsistent with these conditions will be void. Subject to the foregoing, this Agreement will be binding in the interests of the parties and their respective successors.
 10.8. The inability of the Project to enforce any provision of this Agreement will not constitute a present or future waiver of such a provision and will not limit the Project’s right to enforce such a provision at a later date. All waivers that emanate from the Project must be explicit and must be in writing.
 10.9. This Agreement is the complete agreement between the Project and the User regarding the subject matter of this Agreement. This Agreement replaces all previous or simultaneous statements, agreements or agreements between the Project and the User, whether written or oral, regarding the subject matter of this Agreement.
-
-Last updated: 25-Sep-2024

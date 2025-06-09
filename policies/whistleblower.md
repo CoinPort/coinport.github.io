@@ -218,5 +218,3 @@ Employees are encouraged to read this policy in conjunction with other relevant 
 
 * Code of Conduct
 * Grievance Policy
-
-Last updated: 25-Sep-2024

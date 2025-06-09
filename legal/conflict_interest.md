@@ -148,5 +148,3 @@ The CEO, or their delegate, will:
 *   Provide the full conflict of interest register to the board on a six-monthly basis for review.
 
 All conflict must be reviewed on at least an annual basis, to ensure that the information remains correct, and that the management responses continue to be appropriate and effective.
-
-Last updated: 25-Sep-2024

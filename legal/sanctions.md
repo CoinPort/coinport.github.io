@@ -52,5 +52,3 @@ Sanctions currently implemented under Australian sanction law or United Nations 
 *   The Taliban
 *   Yemen
 *   Zimbabwe
-
-Last updated: 25-Sep-2024
