@@ -38,6 +38,4 @@ This is the web folder where internal policy and procedure documents for custome
 
 [Transparancy Policy](https://www.coinport.com.au/legal/transparency_policy.html) 
 
-[Whistleblower Policy](https://www.coinport.com.au/legal/whistleblower.html) 
-
-Last updated: 25-Sep-2024
+[Whistleblower Policy](https://www.coinport.com.au/legal/whistleblower.html)

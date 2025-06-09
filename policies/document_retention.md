@@ -136,5 +136,3 @@ relevant new or amended regulations. Additionally, Coin Harbour Pty Ltd will reg
 computer hard drives to ensure compliance with this policy.
 
 Questions About the Policy. Any questions about this policy should be referred to the Compliance Manager email: compliance@coinport.com.au, who is in charge of administering, enforcing and updating this policy.
-
-Last updated: 25-Sep-2024

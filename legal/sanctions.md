@@ -6,7 +6,7 @@ CoinPort prohibits individuals or entities that are sanctioned by either Austral
 
 ## Blocking Sanctioned Activity
 
-CoinPort uses a variety to prevent access from sanctioned countries.
+CoinPort uses a variety of methods to prevent access from sanctioned countries.
 
 *   Firewall Geo-blocking to prevent viewing the website
 *   The Twillio SMS service has been configured to not send KYC confirmations to sanctioned countries
@@ -28,7 +28,7 @@ Our general policy is not to deal in any way with individuals or entities, from 
 *   Significant cyber incidents
 *   Slavery or Servitude
 
-## Prohited Countries and Regimes
+## Prohibited Countries and Regimes
 
 Sanctions currently implemented under Australian sanction law or United Nations Security Council (UNSC) sanctions regimes include:
 
@@ -52,5 +52,3 @@ Sanctions currently implemented under Australian sanction law or United Nations 
 *   The Taliban
 *   Yemen
 *   Zimbabwe
-
-Last updated: 25-Sep-2024

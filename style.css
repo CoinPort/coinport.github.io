@@ -46,7 +46,7 @@ p {
 }
 
 body.dark-mode p {
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, .8) !important;
 }
 
 a {
@@ -149,7 +149,7 @@ body.dark-mode td {
 }
 
 h1 {
-  color: rgba(0, 35, 58, .95);
+  color: rgba(0, 35, 58, .95) !important;
   font-size: 24px;
   font-weight: 500;
   line-height: 1.55;
@@ -160,7 +160,7 @@ h1 {
 }
 
 body.dark-mode h1 {
-  color: rgba(255, 255, 255, .95);
+  color: rgba(255, 255, 255, .95) !important;
 }
 
 h2 {
@@ -174,7 +174,7 @@ h2 {
 }
 
 body.dark-mode h2 {
-  color: rgba(255, 255, 255, .9);
+  color: rgba(255, 255, 255, .9) !important;
 }
 
 h3 {
@@ -188,7 +188,7 @@ h3 {
  }
 
 body.dark-mode h3 {
-  color: rgba(255, 255, 255, .85);
+  color: rgba(255, 255, 255, .85) !important;
 }
 
 h4 {
@@ -202,7 +202,7 @@ h4 {
  }
 
  body.dark-mode h4 {
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, .8) !important;
 }
 
 .bold {
@@ -276,15 +276,16 @@ h4 {
   }
 
   h1 {
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 500;
     padding-top: 15px;
     padding-bottom: 10px;
   }
 
   h2 {
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.4;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
     padding-top: 15px;
     padding-bottom: 10px;
     margin-top: 0;
@@ -292,9 +293,9 @@ h4 {
   }
 
   h3 {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 1.1;
+    line-height: 1;
     padding-top: 15px;
     padding-bottom: 10px;
     margin-top: 0;

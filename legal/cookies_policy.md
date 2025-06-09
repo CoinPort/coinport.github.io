@@ -1,6 +1,6 @@
 # Cookies Policy
 
-This Cookie Policy is a part of the public agreement between You and Coin Hartbour Pty Ltd. Along with the Terms of Use, Anti-Money Laundering Policy and Privacy Policy this document constitutes rules between You and Us during using our Services. We have developed this Cookies Policy to provide an explanation of how we utilize cookies and similar technologies, as well as to guide you on managing your cookie preferences.
+This Cookie Policy is a part of the public agreement between You and Coin Harbour Pty Ltd. Along with the Terms of Use, Anti-Money Laundering Policy and Privacy Policy this document constitutes rules between You and Us during using our Services. We have developed this Cookies Policy to provide an explanation of how we utilize cookies and similar technologies, as well as to guide you on managing your cookie preferences.
 
 If you would like to make changes to your cookie settings (e.g. limit the number of cookies (except Strictly Necessary Cookies) or allow more cookies to be placed on your device), you can always find the cookie banner by clicking here.
 
@@ -16,21 +16,21 @@ Session cookies expire whenever you exit the web browser after a user's session 
 
 Permanent cookies are those that are saved in your browser and may remember your settings, actions and preferences on the website or other sites through a specified expiration date, if they are not previously deleted. The majority of cookies gather cumulative data (for example, how users come to the site and use it), however, there are some cookies that may collect personal data.
 
-They may be posted by Coin Hartbour - the website operator (first-party cookies), as well as by a third party for their individual purposes (e.g., for advertisements).
+They may be posted by Coin Harbour - the website operator (first-party cookies), as well as by a third party for their individual purposes (e.g., for advertisements).
 
 For more information about cookies and their usage, you can visit: www.aboutcookies.org .
 
 2. HOW DO WE USE COOKIES?
 
-Coin Hartbour utilizes the following types of cookies:
+Coin Harbour utilizes the following types of cookies:
 
-Strictly Necessary Cookies: These cookies are essential for the functioning of the Coin Hartbour website. They enable you to log in to your Coin Hartbour account and access its features.
-Statistics Cookies: These cookies aid Coin Hartbour in comprehending how visitors interact with its website. By collecting and reporting information in an anonymous manner, these cookies provide insights into user behavior and website usage patterns.
+Strictly Necessary Cookies: These cookies are essential for the functioning of the CoinPort website. They enable you to log in to your CoinPort account and access its features.
+Statistics Cookies: These cookies aid Coin Harbour Ltd in comprehending how visitors interact with its website. By collecting and reporting information in an anonymous manner, these cookies provide insights into user behavior and website usage patterns.
 Preferences Сookies: Also known as “functionality cookies,” these cookies allow a website to remember choices you have made in the past, like what language you prefer or what your user name and password are so you can automatically log in.
-Marketing Cookies: The purpose of these cookies is to track your usage of the Coin Hartbour website, including the pages you visit and the links you click. This information is used to deliver targeted content to you based on your interests.
+Marketing Cookies: The purpose of these cookies is to track your usage of the CoinPort website, including the pages you visit and the links you click. This information is used to deliver targeted content to you based on your interests.
 These are the main ways of classifying cookies, although there are cookies that will not fit neatly into these categories or may qualify for multiple categories.
 
-For a comprehensive list of the cookies used by or on behalf of Coin Hartbour, please consult the tables provided below.
+For a comprehensive list of the cookies used by or on behalf of Coin Harbour Ltd, please consult the tables provided below.
 
 Table #1. List of Strictly Necessary Cookies
 
@@ -89,5 +89,3 @@ More information on how to manage most popular browsers can be found here: Googl
 4. CHANGES TO THIS POLICY
 
 From time to time, we reserve the right to make modifications to this Cookies Policy. Any such changes will be clearly indicated by updating the date displayed at the top of this page. When you visit our website subsequent to such changes, you will receive a notification informing you of the revised Policy. This ensures that you stay informed about any updates or adjustments made to our Cookies Policy.
-
-Last updated: 25-Sep-2024

@@ -3,7 +3,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="shortcut icon" type="image/ico" href="https://doc.coinport.com.au/favicon.ico" />
-    <link href="../style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400,500,600|Roboto&display=swap" rel="stylesheet">        
 </head>
@@ -53,6 +52,10 @@
         const theme = urlParams.get('theme');
         const className = theme=='dark-mode'?'dark-mode':'light-mode';
         document.body.classList.toggle(className);
+
+        if (theme=='dark-mode') {
+          document.getElementById("logoImage").src = 'https://blog.coinport.com.au/assets/img/news/coinport-signature-dark.png';
+        }
 
         if (theme=='dark-mode') {
           document.getElementById("logoImage").src = 'https://blog.coinport.com.au/assets/img/news/coinport-signature-dark.png';
