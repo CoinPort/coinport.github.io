@@ -19,7 +19,7 @@ Originally starting in the ANZ Bank Treasury Department after university, Peter 
 email: peter@coinport.com.au
 
 ### Sze (Suzie) Lee On - Compliance and Risk Manager
-Suzie has build a career in Asia and Australia as a compliance specialist and is now a key member of the CoinPort team.
+Suzie has built a career in Asia and Australia as a compliance specialist and is now a key member of the CoinPort team.
 
 Suzie chairs the CoinPort Compliance and Risk Committee.
 
