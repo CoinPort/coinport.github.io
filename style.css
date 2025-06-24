@@ -14,12 +14,10 @@ body  {
 }
 
 body.light-mode  {
-  background-color: #fff;
   color: #00233a;
 }
 
 body.dark-mode  {
-  background-color: #002355 !important;
   color: #ffffff !important;
 }
 
