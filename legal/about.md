@@ -2,10 +2,10 @@
 
 ## Australian Securities & Investments Commission (ASIC) Details
 
-Coin Harbour Pty Ltd ("Coin Port" or "CoinPort" or "CoinPort Exchange") is an Australian company that operates a Digital Asset Exchange business:
+CoinPort Pty Ltd ("Coin Port" or "CoinPort" or "CoinPort Exchange") is an Australian company that operates a Digital Asset Exchange business:
 
 | --- | --- |
-| Name: | COIN HARBOUR PTY LTD |
+| Name: | CoinPort PTY LTD |
 | ACN: | 624 879 223 |
 | ABN: | 12 624 879 223 |
 | Registration date: | 08 March 2018 |
@@ -21,7 +21,7 @@ CoinPort is licensed and regulated by AUSTRAC as an Independent Remittance Deale
 | Registered Digital Currency Exchange number: | 100633359 |
 | Registration date: | 03 February 2020 |
 | AUSTRAC account number (AAN): | 100633359 |
-| Legal name: | COIN HARBOUR PTY LTD |
+| Legal name: | CoinPort PTY LTD |
 | Business structure: | Company |
 | Industry type: | Digital Currency Exchange Provider |
 | Postal address: | P.O BOX 6052, MELBOURNE, VIC, 3004, AUSTRALIA |

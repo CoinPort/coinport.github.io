@@ -1,14 +1,14 @@
-# CoinHarbour Video Production
+# CoinPort Video Production
 
 The animated character we use for the videos is "Leonie Green". Leonie Green is  30 year old professional woman.
 
 Here is our Branding and Identity document, that includes specifications such as the standard color palettes:
 
-[https://doc.coinharbour.com.au/graphics/CoinHarbour_Identity.pdf](https://doc.coinharbour.com.au/graphics/CoinHarbour_Identity.pdf)
+[https://doc.coinport.com.au/graphics/CoinPort_Identity.pdf](https://doc.coinport.com.au/graphics/CoinPort_Identity.pdf)
 
-[https://doc.coinharbour.com.au/graphics/CoinHarbour_PrimaryColors.png](https://doc.coinharbour.com.au/graphics/CoinHarbour_PrimaryColors.png)
+[https://doc.coinport.com.au/graphics/CoinPort_PrimaryColors.png](https://doc.coinport.com.au/graphics/CoinPort_PrimaryColors.png)
 
-[https://doc.coinharbour.com.au/graphics/CoinHarbour_logo_default.eps](https://doc.coinharbour.com.au/graphics/CoinHarbour_logo_default.eps)
+[https://doc.coinport.com.au/graphics/CoinPort_logo_default.eps](https://doc.coinport.com.au/graphics/CoinPort_logo_default.eps)
 
 Slash screen 5 second videos and music are in the ./splash folder:
 

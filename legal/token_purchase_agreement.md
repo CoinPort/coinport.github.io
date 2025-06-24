@@ -1,6 +1,6 @@
 # CoinPort Digital Asset Purchase Agreement
 
-This Agreement defines the rights and obligations of Coin Harbour Pty Ltd (the "Project," "we," "us") and the User ("you") when you purchase any digital asset ("Token") on the CoinPort exchange platform ("the Exchange").
+This Agreement defines the rights and obligations of CoinPort Pty Ltd (the "Project," "we," "us") and the User ("you") when you purchase any digital asset ("Token") on the CoinPort exchange platform ("the Exchange").
 
 By purchasing a Token on the Exchange, you confirm that you are fully familiar with and agree to the terms of this Agreement. This Agreement is accepted by you when you complete the purchase of a Token.
 
@@ -10,15 +10,15 @@ Your unconditional acceptance of this Agreement is confirmed by pressing the "Bu
 
 BY PURCHASING TOKENS, YOU AGREE THAT YOU HAVE READ THIS AGREEMENT AND THAT YOU AGREE TO BE BOUND BY IT. WE RESERVE THE RIGHT TO CHANGE, ADD, OR DELETE THE TERMS OF THIS AGREEMENT AT ANY TIME FOR ANY REASON. YOU MUST Regularly CHECK THIS AGREEMENT FOR CHANGES. SUCH CHANGES SHALL COME INTO FORCE IMMEDIATELY UPON PUBLICATION ON OUR SITE. YOU ACKNOWLEDGE THAT BY USING OUR EXCHANGE AFTER CHANGES TO THIS AGREEMENT, YOU AGREE TO THE CHANGED TERMS.
 
-OWNERSHIP OF TOKENS HAS NO CONSEQUENCE OF ANY RIGHTS, EXPRESS OR IMPLIED, OTHER THAN THE RIGHTS THAT MAY BE ASSOCIATED WITH THAT SPECIFIC TOKEN, AS DETERMINED BY ITS ISSUER. IN PARTICULAR, YOU UNDERSTAND AND ACCEPT THAT TOKENS PURCHASED ON THE EXCHANGE DO NOT AUTOMATICALLY REPRESENT AND/OR DO NOT RELATE TO ANY INVESTOR RIGHTS, SHARES, OR EQUITY INSTRUMENTS IN COIN HARBOUR PTY LTD.
+OWNERSHIP OF TOKENS HAS NO CONSEQUENCE OF ANY RIGHTS, EXPRESS OR IMPLIED, OTHER THAN THE RIGHTS THAT MAY BE ASSOCIATED WITH THAT SPECIFIC TOKEN, AS DETERMINED BY ITS ISSUER. IN PARTICULAR, YOU UNDERSTAND AND ACCEPT THAT TOKENS PURCHASED ON THE EXCHANGE DO NOT AUTOMATICALLY REPRESENT AND/OR DO NOT RELATE TO ANY INVESTOR RIGHTS, SHARES, OR EQUITY INSTRUMENTS IN CoinPort PTY LTD.
 
 THIS AGREEMENT DOES NOT CONTAIN OR IMPLY THE GIVING OF INVESTMENT ADVICE OR RECOMMENDATIONS. COINPORT IS THE EXCHANGE PLATFORM AND IS NOT THE ISSUER OF MOST TOKENS TRADED ON IT.
 
-**Coin Harbour Pty Ltd**, an Australian company registered and operating under the laws of Australia (the "Project"), and the User have entered into this agreement for the purchase of Tokens on the CoinPort Exchange (hereinafter - the "Agreement") on the following terms:
+**CoinPort Pty Ltd**, an Australian company registered and operating under the laws of Australia (the "Project"), and the User have entered into this agreement for the purchase of Tokens on the CoinPort Exchange (hereinafter - the "Agreement") on the following terms:
 
 ### 1. TERMS
 
-The Parties use the following Terms in their indicated meaning: **1.1. Project:** Coin Harbour Pty Ltd, the Australian proprietary company that owns and operates the CoinPort Exchange. **1.2. Unconditional Acceptance (Acceptance):** Clicking on the “Buy” button, or similar confirmation, and transferring cryptocurrency by the User on the Exchange on the terms of this Agreement, which confirms the full and unconditional acceptance by the User of the terms of the Agreement. **1.3. User:** The person who buys and uses a Token via the Exchange. **1.4. Token:** Any cryptographic token or digital asset available for purchase on the CoinPort Exchange. **1.5. Exchange / Site:** The CoinPort cryptocurrency exchange platform located on the Internet at **coinport.com**. **1.6. Service:** An electronic system of interaction between the User and the Project, and the Project and third parties, implemented on the Exchange. **1.7. Informational Materials:** Information about the Project, the Exchange, and the Tokens available for purchase. **1.8. Personal Account:** A set of secure pages created as a result of the registration of the User on the Exchange, through which the User can perform actions, including the purchase and sale of Tokens. **1.9. Asset Page:** A specific page on the Exchange with information about a particular Token available for purchase.
+The Parties use the following Terms in their indicated meaning: **1.1. Project:** CoinPort Pty Ltd, the Australian proprietary company that owns and operates the CoinPort Exchange. **1.2. Unconditional Acceptance (Acceptance):** Clicking on the “Buy” button, or similar confirmation, and transferring cryptocurrency by the User on the Exchange on the terms of this Agreement, which confirms the full and unconditional acceptance by the User of the terms of the Agreement. **1.3. User:** The person who buys and uses a Token via the Exchange. **1.4. Token:** Any cryptographic token or digital asset available for purchase on the CoinPort Exchange. **1.5. Exchange / Site:** The CoinPort cryptocurrency exchange platform located on the Internet at **coinport.com**. **1.6. Service:** An electronic system of interaction between the User and the Project, and the Project and third parties, implemented on the Exchange. **1.7. Informational Materials:** Information about the Project, the Exchange, and the Tokens available for purchase. **1.8. Personal Account:** A set of secure pages created as a result of the registration of the User on the Exchange, through which the User can perform actions, including the purchase and sale of Tokens. **1.9. Asset Page:** A specific page on the Exchange with information about a particular Token available for purchase.
 
 ### 2. SUBJECT OF AGREEMENT
 
@@ -38,7 +38,7 @@ The Parties use the following Terms in their indicated meaning: **1.1. Project:*
 
 ### 6. USER WARRANTIES AND REPRESENTATIONS
 
-**6.1.** The User warrants that they: * Have read and understood this Agreement. * Have sufficient knowledge of cryptographic tokens, blockchain technology, and their associated risks. * Have received enough information about a Token to make an informed decision to purchase it. * Understand that purchasing a Token does not grant any ownership, equity, or voting rights in the Project (Coin Harbour Pty Ltd). * Are complying with all applicable laws in their jurisdiction by purchasing Tokens. * Will comply with all applicable tax obligations. * Have the authority to enter into this Agreement, including on behalf of any entity they represent.
+**6.1.** The User warrants that they: * Have read and understood this Agreement. * Have sufficient knowledge of cryptographic tokens, blockchain technology, and their associated risks. * Have received enough information about a Token to make an informed decision to purchase it. * Understand that purchasing a Token does not grant any ownership, equity, or voting rights in the Project (CoinPort Pty Ltd). * Are complying with all applicable laws in their jurisdiction by purchasing Tokens. * Will comply with all applicable tax obligations. * Have the authority to enter into this Agreement, including on behalf of any entity they represent.
 
 ### 7. INTELLECTUAL PROPERTY
 

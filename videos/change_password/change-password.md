@@ -2,8 +2,8 @@
 
 >>>> display 1-landingpage.png
 
-Greetings, and welcome to the Coin Harbour cryptocurrency exchange.
-My name is Leonie Green, and I am the Customer Success Manager at Coin Harbour.
+Greetings, and welcome to the CoinPort cryptocurrency exchange.
+My name is Leonie Green, and I am the Customer Success Manager at CoinPort.
 
 >>>>> 1 second pause
 
@@ -13,10 +13,10 @@ Last year more than 200,000 cryptocurrency-related scams were detected worldwide
 
 >>>>> 1 second pause
 
-At Coin Harbour we work hard to protect the interests and investments of our members. We have automated systems in place that try to detect scams. 
+At CoinPort we work hard to protect the interests and investments of our members. We have automated systems in place that try to detect scams. 
 Our staff monitor industry news for details of different scams; and we also observe customer behaviour, watching for scams.
 
-In the past we have taken action, such as blocking transfers, to protect our members from scams. If we suspect a Coin Harbour member is potentially a scam victim we disable their account and phone or email to discuss our concerns.
+In the past we have taken action, such as blocking transfers, to protect our members from scams. If we suspect a CoinPort member is potentially a scam victim we disable their account and phone or email to discuss our concerns.
 
 Prevention is the best cure against scammers and other bad actors, and prevention starts with YOU.
 
@@ -49,7 +49,7 @@ Romantic partners
 
 >>>>> 1 second pause
 
-Thank you for joining us at Coin Harbour
+Thank you for joining us at CoinPort
 
 
 GET https://www.coinport.com.au/api/v2/peatio/account/withdraws/sums 500 (Internal Server Error

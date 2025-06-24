@@ -2,9 +2,9 @@
 
 If you have any questions about this Application Programming Interfaces License Agreement, please feel free to contact us by email at [support@coinport.com.au](mailto:support@coinport.com.au).
 
-This Application Programming Interfaces License Agreement (**"Agreement"**) is a legal agreement between you or any company you represent (**"Licensee"**) and Coin Harbour Ltd (**"We"**, **"Licensor"**) for the API delivered by Coin Harbour Ltd to the Licensee.
+This Application Programming Interfaces License Agreement (**"Agreement"**) is a legal agreement between you or any company you represent (**"Licensee"**) and CoinPort Ltd (**"We"**, **"Licensor"**) for the API delivered by CoinPort Ltd to the Licensee.
 
-**Application Programming Interfaces ("API")** means Coin Harbour Ltd platform technology and its related services, which may include object code, software libraries, software tools, sample source code, published specifications and documentation (e.g., programmer guides, manuals and other information appropriate or necessary for use in connection with the API). API shall include any future, updated or otherwise modified version(s) thereof furnished by Coin Harbour Ltd (in its sole discretion) to Licensee.
+**Application Programming Interfaces ("API")** means CoinPort Ltd platform technology and its related services, which may include object code, software libraries, software tools, sample source code, published specifications and documentation (e.g., programmer guides, manuals and other information appropriate or necessary for use in connection with the API). API shall include any future, updated or otherwise modified version(s) thereof furnished by CoinPort Ltd (in its sole discretion) to Licensee.
 
 This Agreement is effective when Licensee installs, downloads, copies, or otherwise uses the API. If Licensee does not agree to the terms and conditions of this Agreement, Licensee's use of API is prohibited.
 
@@ -20,7 +20,7 @@ In case this Agreement is presented in different languages, the text in English 
 
 Subject to the terms and conditions of this Agreement, we grant Licensee a limited, non-exclusive, non-transferable, worldwide, royalty-free License to use the API only and solely in conjunction with our Services and the associated API (and for which the API was provided). You may do the following under this API License:
 
--   Access information provided by Coin Harbour Ltd via the API (**"Database"**) only in the manner permitted by Coin Harbour Ltd;
+-   Access information provided by CoinPort Ltd via the API (**"Database"**) only in the manner permitted by CoinPort Ltd;
 -   Retrieve public information about the blockchains, including transaction history, balances, addresses, aggregate statistics;
 -   Receive notifications about payments to particular addresses;
 -   Observe transactions on the network in real time;
@@ -28,13 +28,13 @@ Subject to the terms and conditions of this Agreement, we grant Licensee a limit
 -   Use the API as often and as many times as necessary to conduct your business;
 -   Send assets, generate addresses and private keys, generate and modify address labels;
 -   Query the Database, execute transactions and retrieve therefrom information necessary to facilitate the Permitted Use provided for in this Section; such information stored and/or retrieved in the Database (but exclusive of your information not accessed by the API) is defined as **"Content"**;
--   Abide by this and all other agreements you have or will enter into with Coin Harbour Ltd.
+-   Abide by this and all other agreements you have or will enter into with CoinPort Ltd.
 
 Any combination of the foregoing bulleted subsections above are **"Permitted Use."** Permitted Use is subject to all restrictions identified herein.
 
 ### 1.2. No Sublicensing
 
-This Agreement is personal to you and you shall not assign, transfer, sub-contract, or deal in any other manner with any of your rights and obligations under this Agreement without the prior written consent of Coin Harbour Ltd. Coin Harbour Ltd may at any time assign, transfer, sub-contract, or deal in any other manner with any of its rights and obligations under this Agreement without your consent.
+This Agreement is personal to you and you shall not assign, transfer, sub-contract, or deal in any other manner with any of your rights and obligations under this Agreement without the prior written consent of CoinPort Ltd. CoinPort Ltd may at any time assign, transfer, sub-contract, or deal in any other manner with any of its rights and obligations under this Agreement without your consent.
 
 ### 1.3. General Conditions and Restrictions
 
@@ -42,15 +42,15 @@ Licensee shall have no rights to any source code for any of the software in the 
 
 ### 1.4. Third Party Software
 
-You acknowledge that use of the API may necessitate the use of development tools, a compiler, and/or additional software and/or technology from third affiliates or providers (**"Third Party Software"**), which may or may not be affiliated with Coin Harbour Ltd. You are solely responsible for obtaining any warranted Third Party Software and technology, as well as the necessary licenses for use. We make no representations or warranties about Third-Party Software and assume no obligation or liability for any Third-Party Software.
+You acknowledge that use of the API may necessitate the use of development tools, a compiler, and/or additional software and/or technology from third affiliates or providers (**"Third Party Software"**), which may or may not be affiliated with CoinPort Ltd. You are solely responsible for obtaining any warranted Third Party Software and technology, as well as the necessary licenses for use. We make no representations or warranties about Third-Party Software and assume no obligation or liability for any Third-Party Software.
 
 ### 1.5. Trademark Ownership
 
-All of Coin Harbour Ltd's trademarks and service marks, including its logo, are owned by the company (**"Coin Harbour Ltd Marks"**). You are granted a non-exclusive, non-transferable, non-sublicensable, non-assignable right to display the Coin Harbour Ltd Marks on your site while this Agreement is in effect. We may from time-to-time update or revise our trade dress and, in such event, you agree to immediately remove any non-current Coin Harbour Ltd Marks from your site. We may also revoke this limited grant at any time and for any reason. If you use the Coin Harbour Ltd Marks your use is at your own risk. You agree that you will not seek indemnity from us in the event of a claim from a third party arising out of your use of the Coin Harbour Ltd Marks. We make no representation nor do we warrant or agree to defend or hold you harmless from any such claim. We shall not be liable for any costs or damages (including attorneys' fees) associated with claims made against you related to the Coin Harbour Ltd Marks.
+All of CoinPort Ltd's trademarks and service marks, including its logo, are owned by the company (**"CoinPort Ltd Marks"**). You are granted a non-exclusive, non-transferable, non-sublicensable, non-assignable right to display the CoinPort Ltd Marks on your site while this Agreement is in effect. We may from time-to-time update or revise our trade dress and, in such event, you agree to immediately remove any non-current CoinPort Ltd Marks from your site. We may also revoke this limited grant at any time and for any reason. If you use the CoinPort Ltd Marks your use is at your own risk. You agree that you will not seek indemnity from us in the event of a claim from a third party arising out of your use of the CoinPort Ltd Marks. We make no representation nor do we warrant or agree to defend or hold you harmless from any such claim. We shall not be liable for any costs or damages (including attorneys' fees) associated with claims made against you related to the CoinPort Ltd Marks.
 
 ### 1.6. Prohibited Functions
 
-Unless otherwise stated, all new Coin Harbour Ltd's User registrations on items shall take place on the [Coin Harbour Ltd's Site](https://coinport.com.au) and cannot be done through the API. In addition, all Coin Harbour Ltd's User preferences, registration preferences, and privacy preferences shall be set by the Coin Harbour Ltd's User directly on the [Coin Harbour Ltd's Site](https://coinport.com.au).
+Unless otherwise stated, all new CoinPort Ltd's User registrations on items shall take place on the [CoinPort Ltd's Site](https://coinport.com.au) and cannot be done through the API. In addition, all CoinPort Ltd's User preferences, registration preferences, and privacy preferences shall be set by the CoinPort Ltd's User directly on the [CoinPort Ltd's Site](https://coinport.com.au).
 
 ### 1.7. Support
 
@@ -62,7 +62,7 @@ We will not provide any support for the API under this Agreement. Nothing herein
 
 ### 2.1.
 
-You acknowledge that it is in the best interests of both parties that Coin Harbour Ltd maintains a secure and stable environment; to that end, Coin Harbour Ltd reserves the right to change the method of access to the API, Database and/or Content at any time. You also agree that, in the event of degradation or instability of Coin Harbour Ltd's system or an emergency, Coin Harbour Ltd may, in its sole discretion, temporarily suspend your access to the API, Database and/or Content under this Agreement in order to minimize threats to and protect the operational stability and security of the Coin Harbour Ltd system.
+You acknowledge that it is in the best interests of both parties that CoinPort Ltd maintains a secure and stable environment; to that end, CoinPort Ltd reserves the right to change the method of access to the API, Database and/or Content at any time. You also agree that, in the event of degradation or instability of CoinPort Ltd's system or an emergency, CoinPort Ltd may, in its sole discretion, temporarily suspend your access to the API, Database and/or Content under this Agreement in order to minimize threats to and protect the operational stability and security of the CoinPort Ltd system.
 
 ----------
 
@@ -90,7 +90,7 @@ The provisions of this Article 3 shall continue to apply after expiry or termina
 
 ### 4.1.
 
-Please read our [Privacy Policy](link to Coin Harbour Ltd's Privacy Policy if available), for more information about how we collect and use personal information about you when you use and interact with our Services.
+Please read our [Privacy Policy](link to CoinPort Ltd's Privacy Policy if available), for more information about how we collect and use personal information about you when you use and interact with our Services.
 
 ----------
 
@@ -98,11 +98,11 @@ Please read our [Privacy Policy](link to Coin Harbour Ltd's Privacy Policy if av
 
 ### 5.1.
 
-Coin Harbour Ltd warrants that it has the right to license the API to you for your use in accordance with the terms of this Agreement.
+CoinPort Ltd warrants that it has the right to license the API to you for your use in accordance with the terms of this Agreement.
 
 ### 5.2.
 
-The API is provided on an **"as is"** basis and Coin Harbour Ltd does not warrant that:
+The API is provided on an **"as is"** basis and CoinPort Ltd does not warrant that:
 
 -   The API will be free of bugs or errors or that the supply will be free from interruption;
 -   The API will run on your systems or hardware and you acknowledge that this is your responsibility;
@@ -114,9 +114,9 @@ You warrant and represent that you are not barred by any applicable laws or regu
 
 ### 5.4.
 
-Any warranties given by Coin Harbour Ltd shall be subject to you using the API in compliance with this Agreement, and Coin Harbour Ltd shall not be liable under this clause for, or required to remedy, any problem arising from:
+Any warranties given by CoinPort Ltd shall be subject to you using the API in compliance with this Agreement, and CoinPort Ltd shall not be liable under this clause for, or required to remedy, any problem arising from:
 
--   Any modification made to any part of the API by anyone other than Coin Harbour Ltd without its express prior written consent; or
+-   Any modification made to any part of the API by anyone other than CoinPort Ltd without its express prior written consent; or
 -   Any defect or error wholly caused by any equipment or third-party software used in connection with the API.
 
 ### 5.5.
@@ -145,7 +145,7 @@ Some jurisdictions do not allow the exclusion of implied warranties or limitatio
 
 ### 7.1.
 
-You shall indemnify Coin Harbour Ltd against any and all claims, losses, liabilities, costs and expenses, including reasonable attorneys' fees (collectively, **"Claims"**) which Coin Harbour Ltd may incur as a result of any third party actions arising from or relating to: (1) Your or Third Party Service Provider's use of the API, the Content, Database, Services or Technology in excess of the rights granted hereunder or (2) Content, Database, Technology, or Services provided by You or others on your behalf.
+You shall indemnify CoinPort Ltd against any and all claims, losses, liabilities, costs and expenses, including reasonable attorneys' fees (collectively, **"Claims"**) which CoinPort Ltd may incur as a result of any third party actions arising from or relating to: (1) Your or Third Party Service Provider's use of the API, the Content, Database, Services or Technology in excess of the rights granted hereunder or (2) Content, Database, Technology, or Services provided by You or others on your behalf.
 
 ### 7.2.
 
@@ -169,7 +169,7 @@ Upon termination of this Agreement, all licenses granted pursuant to this Agreem
 
 ### 8.4.
 
-This Agreement will terminate automatically if you fail to comply with any of the terms and conditions of this Agreement and you will be liable to Coin Harbour Ltd and its suppliers for damages or losses caused by your non-compliance. The waiver by us of a specific breach or default shall not constitute the waiver of any subsequent breach or default.
+This Agreement will terminate automatically if you fail to comply with any of the terms and conditions of this Agreement and you will be liable to CoinPort Ltd and its suppliers for damages or losses caused by your non-compliance. The waiver by us of a specific breach or default shall not constitute the waiver of any subsequent breach or default.
 
 ### 8.5.
 
@@ -193,7 +193,7 @@ This Agreement and any dispute or claim arising out of, or in connection with, i
 
 ### 9.2.
 
-Parties agree to arbitrate any dispute arising from this Agreement, except for disputes in which either party seeks equitable and other relief for the alleged unlawful use of copyrights, trademarks, trade names, logos, trade secrets or patents. **ARBITRATION PREVENTS THE LICENSEE FROM SUING IN COURT OR FROM HAVING A JURY TRIAL.** Parties agree to notify each other in writing of any dispute within thirty calendar days of when it arises. Notice to Coin Harbour Ltd shall be sent to [law@coinport.com.au](mailto:law@coinport.com.au).
+Parties agree to arbitrate any dispute arising from this Agreement, except for disputes in which either party seeks equitable and other relief for the alleged unlawful use of copyrights, trademarks, trade names, logos, trade secrets or patents. **ARBITRATION PREVENTS THE LICENSEE FROM SUING IN COURT OR FROM HAVING A JURY TRIAL.** Parties agree to notify each other in writing of any dispute within thirty calendar days of when it arises. Notice to CoinPort Ltd shall be sent to [law@coinport.com.au](mailto:law@coinport.com.au).
 
 ### 9.3.
 
@@ -209,7 +209,7 @@ Other than class procedures and remedies discussed above, the arbitrator has the
 
 ### 10.1. Assignment
 
-You may not assign rights nor delegate duties hereunder without Coin Harbour Ltd's prior written consent, which may be withheld at its sole discretion. A change of control or reorganization of Licensee pursuant to a merger, sale of assets or stock shall be deemed to be an assignment under this Agreement. This Agreement shall terminate immediately upon the occurrence of any prohibited assignment.
+You may not assign rights nor delegate duties hereunder without CoinPort Ltd's prior written consent, which may be withheld at its sole discretion. A change of control or reorganization of Licensee pursuant to a merger, sale of assets or stock shall be deemed to be an assignment under this Agreement. This Agreement shall terminate immediately upon the occurrence of any prohibited assignment.
 
 ### 10.2. Uptime
 

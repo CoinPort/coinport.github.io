@@ -12,7 +12,7 @@ This Policy will commence on 1st January 2020. It replaces all other policies de
 
 ## 3. Application of the Policy
 
-This Policy applies to all employees of Coin Harbour Pty Ltd. This Policy does not form part of any employee’s contract of employment.
+This Policy applies to all employees of CoinPort Pty Ltd. This Policy does not form part of any employee’s contract of employment.
 
 ## 4. Training
 
@@ -47,9 +47,9 @@ CoinPort may offer any of the following opportunities for staff development:
 
 ## 7. Regulatory Requirements
 
-Coin Harbour Pty Ltd is registered with and regulated by the Australian Security and Investments Commission (ASIC) and Australian Transaction Reports and Analysis Centre (AUSTRAC).
+CoinPort Pty Ltd is registered with and regulated by the Australian Security and Investments Commission (ASIC) and Australian Transaction Reports and Analysis Centre (AUSTRAC).
 
-There is a requirement that all staff undetake approved education and training for Anti-Money Laundering (AML) and Counter-Terrorism Funding (CTF) before commencing work with Coin Harbour Pty Ltd.
+There is a requirement that all staff undetake approved education and training for Anti-Money Laundering (AML) and Counter-Terrorism Funding (CTF) before commencing work with CoinPort Pty Ltd.
 
 For initlal AML/CTF training our preferred education provider is Financial Education Professionals <a href="https://www.financialeducation.com.au/" target="_blank">https://www.financialeducation.com.au/</a>
 
@@ -73,7 +73,7 @@ CoinPort expects that you will:
 
 ## Variations
 
-Coin Harbour Pty Ltd reserves the right to vary, replace or terminate this policy from time to time.
+CoinPort Pty Ltd reserves the right to vary, replace or terminate this policy from time to time.
 
 ## Employee acknowledgement
 

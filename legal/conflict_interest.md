@@ -4,17 +4,17 @@
 
 ### 1.1 Purpose
 
-This policy provides a framework for Coin Harbour Pty Ltd to effectively identify, disclose, and manage any actual, potential, or perceived conflicts of interest. This is in order to safeguard consumers, protect the integrity of Coin Harbour Pty Ltd, and manage risk.
+This policy provides a framework for CoinPort Pty Ltd to effectively identify, disclose, and manage any actual, potential, or perceived conflicts of interest. This is in order to safeguard consumers, protect the integrity of CoinPort Pty Ltd, and manage risk.
 
 ### 1.2 Scope
 
-This policy applies to all Coin Harbour Pty Ltd board members and workers. The term worker includes permanent and casual employees, contract workers, temporary agency workers, students and volunteers.
+This policy applies to all CoinPort Pty Ltd board members and workers. The term worker includes permanent and casual employees, contract workers, temporary agency workers, students and volunteers.
 
 ### 1.3 Policy statement
 
-Coin Harbour Pty Ltd actively identifies and manages conflicts of interest so they do not affect the services, activities or decisions of the organisation. Coin Harbour Pty Ltd recognises that conflicts of interest arise, and do not need to present a problem to the organisation if they are openly and effectively managed.
+CoinPort Pty Ltd actively identifies and manages conflicts of interest so they do not affect the services, activities or decisions of the organisation. CoinPort Pty Ltd recognises that conflicts of interest arise, and do not need to present a problem to the organisation if they are openly and effectively managed.
 
-As part of its commitment to providing high quality services, Coin Harbour Pty Ltd and its workers will:
+As part of its commitment to providing high quality services, CoinPort Pty Ltd and its workers will:
 
 *   Avoid conflicts of interest where possible
 *   Identify and disclose any conflicts of interest
@@ -23,26 +23,26 @@ As part of its commitment to providing high quality services, Coin Harbour Pty L
 
 ### 1.4 Guiding principles
 
-Coin Harbour Pty Ltd acts in the best interest of participants, safeguarding them from potential discrimination, exploitation, abuse, harm, neglect, and violence.
+CoinPort Pty Ltd acts in the best interest of participants, safeguarding them from potential discrimination, exploitation, abuse, harm, neglect, and violence.
 
-Coin Harbour Pty Ltd plans, delivers and reviews services in collaboration with participants and their families, friends, and carers, supporting a person’s right to exercise choice and control.
+CoinPort Pty Ltd plans, delivers and reviews services in collaboration with participants and their families, friends, and carers, supporting a person’s right to exercise choice and control.
 
-Coin Harbour Pty Ltd has mechanisms in place to ensure all any actual, potential, or perceived conflicts of interest are declared, documented, managed, and monitored.
+CoinPort Pty Ltd has mechanisms in place to ensure all any actual, potential, or perceived conflicts of interest are declared, documented, managed, and monitored.
 
-Coin Harbour Pty Ltd workers treat all participants equally and ensure that no participant is given preferential treatment, above another, in the receipt or provision of supports. Workers must not seek or receive any personal or financial benefit as a result of their work, including gifts or rewards.
+CoinPort Pty Ltd workers treat all participants equally and ensure that no participant is given preferential treatment, above another, in the receipt or provision of supports. Workers must not seek or receive any personal or financial benefit as a result of their work, including gifts or rewards.
 
 ### 1.5 Definitions
 
 *   **Conflict of interest:** A person or business that derives real or apparent benefit from actions or decisions made in their official capacity. Conflicts may be actual, potential, or perceived.
 *   **Actual conflict of interest:** There is a real conflict between a person or business’s official duties and private interests.
-*   **Potential conflict of interest:** A person or business has private interests that could conflict with their official Coin Harbour Pty Ltd duties. This refers to circumstances where it is foreseeable that a conflict may arise in future and steps should be taken now to mitigate the risk.
+*   **Potential conflict of interest:** A person or business has private interests that could conflict with their official CoinPort Pty Ltd duties. This refers to circumstances where it is foreseeable that a conflict may arise in future and steps should be taken now to mitigate the risk.
 *   **Perceived conflict of interest:** The public or a third party could form the view that a person or business’s private interests could improperly influence their decisions or actions, now or in the future.
 *   **Personal interest:** Refers to a person or business’s own interests and those of their family and friends and/or any organisations they support or are involved with.
 *   **Benefit:** Any product, service, or advantage given to a person due to their work. This can include money, gift cards, gifts or discounts or favourable treatment.
 
 ### 1.6 Responsibilities
 
-All Coin Harbour Pty Ltd board members and workers are responsible for complying with this policy anddeclaring any personal interests, which must be documented in writing. Information arising from conflict of interest disclosures will be managed in accordance with the Coin Harbour Pty Ltd privacy policy and procedure.
+All CoinPort Pty Ltd board members and workers are responsible for complying with this policy anddeclaring any personal interests, which must be documented in writing. Information arising from conflict of interest disclosures will be managed in accordance with the CoinPort Pty Ltd privacy policy and procedure.
 
 There are additional roles and responsibilities at each level of the organisation.
 
@@ -50,7 +50,7 @@ There are additional roles and responsibilities at each level of the organisatio
 
 Board members must disclose any actual, potential or perceived conflicts of interests as they arise. Conflict of interest is a standing agenda item at board meetings and disclosures are recorded in the meeting minutes, detailing the name of the board director with the conflict, the type of conflict and how the board managed it.
 
-The board should also monitor and review Coin Harbour Pty Ltd’s conflict of interest register, ensuring all items are appropriately managed.
+The board should also monitor and review CoinPort Pty Ltd’s conflict of interest register, ensuring all items are appropriately managed.
 
 #### CEO and executive team
 
@@ -58,7 +58,7 @@ The CEO and executive team monitor and review the conflict of interest register,
 
 Compliance and Risk Manager is responsible for ensuring that, prior to engaging an independent contractor and or auditor, potential conflicts of interest are explored and managed accordingly. Managers and team leaders
 
-The manager responsible for risk management at Coin Harbour Pty Ltd maintains the conflict of interest register.
+The manager responsible for risk management at CoinPort Pty Ltd maintains the conflict of interest register.
 
 The Support Manager ensures that conflict of interest is explained to staff during induction, including potential conflicts arising from multiple employers, personal relationships, and gifts. Information and practical guidance on managing conflicts is also provided.
 
@@ -71,9 +71,9 @@ All managers and team leaders should:
 
 All workers involved in direct service delivery are responsible for ensuring:
 
-*   Participants and families are informed of Coin Harbour Pty Ltd’s conflict of interest policy, prior to commencing services, they are given the opportunity to ask questions, and are updated if there are any changes to this policy
+*   Participants and families are informed of CoinPort Pty Ltd’s conflict of interest policy, prior to commencing services, they are given the opportunity to ask questions, and are updated if there are any changes to this policy
 *   Participants and families are informed of any actual, potential or perceived conflicts of interest that affect, or may affect, their services
-*   Participants and families are provided with enough information about support options, including services not delivered by Coin Harbour Pty Ltd, allowing choice and control
+*   Participants and families are provided with enough information about support options, including services not delivered by CoinPort Pty Ltd, allowing choice and control
 *   They have the information required to comply with all relevant legislation, operational guidelines, or instructions about conflict of interest from funding and regulatory bodies.
 
 ### 1.7 Monitoring and review
@@ -90,7 +90,7 @@ This procedure sets out the steps required to achieve the expectations laid out 
 
 *   Relationship with family or friends
 *   Staff recruitment
-*   Work activities outside Coin Harbour Pty Ltd (paid/unpaid)
+*   Work activities outside CoinPort Pty Ltd (paid/unpaid)
 *   Personal relationships with internal and/or external parties
 *   Financial interest
 *   Disposal of assets
@@ -102,7 +102,7 @@ This procedure sets out the steps required to achieve the expectations laid out 
 
 All actual, potential, or perceived conflicts of interest are to be reported to the relevant line manager as soon as possible, by the worker involved in, or identifying, the conflict. This should be via the quickest and most effective method available. The worker must also submit a conflict of interest declaration form to their line manager, within 48 hours of identifying the conflict.
 
-If a worker has knowledge that a conflict of interest involving another worker may exist that may not have been disclosed, they should discuss the situation with their line manager and follow Coin Harbour Pty Ltd whistleblowing policy and procedure.
+If a worker has knowledge that a conflict of interest involving another worker may exist that may not have been disclosed, they should discuss the situation with their line manager and follow CoinPort Pty Ltd whistleblowing policy and procedure.
 
 The line manager should liaise with the manager responsible for risk management to determine how the conflict of interest will be managed and by whom.
 
@@ -127,9 +127,9 @@ The relevant manager must communicate actual, potential, or perceived conflict o
 
 *   How the individual and/or organisation is affected
 *   Any risks associated with the conflict
-*   How Coin Harbour Pty Ltd is managing the conflict.
+*   How CoinPort Pty Ltd is managing the conflict.
 
-Coin Harbour Pty Ltd must also:
+CoinPort Pty Ltd must also:
 
 *   Update the individual and/or organisation if there are any changes to the conflict
 *   Use the language, mode of communication and terms that the individual and/or organisation is most likely to understand.

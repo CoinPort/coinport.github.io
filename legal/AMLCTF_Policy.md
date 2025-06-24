@@ -3,13 +3,13 @@
 ## Administrative Information
 
 Australia Securities and Investments Commission (ASIC):
-Legal name: Coin Harbour Pty Ltd
+Legal name: CoinPort Pty Ltd
 Registered address: Level 2, 696 Bourke St, Melbourne VIC 3000
 ABN: 84 006 876 286
 
 ### 1. GENERAL INFORMATION
 
-This Anti-Money Laundering and Counter-Terrorist Financing (AML/CTF) Policy (“Policy") of Coin Harbour Pty Ltd (the “Company”) was prepared in accordance with Australia's _Anti-Money Laundering and Counter-Terrorism Financing Act 2006_ (AML/CTF Act), the _Anti-Money Laundering and Counter-Terrorism Financing Rules Instrument in Force 2017_ (AUSTRAC Rules), and other applicable AML/CTF legislation. The Company, operating the digital currency exchange and website known as CoinPort, is a reporting entity regulated by the Australian Transaction Reports and Analysis Centre (AUSTRAC).
+This Anti-Money Laundering and Counter-Terrorist Financing (AML/CTF) Policy (“Policy") of CoinPort Pty Ltd (the “Company”) was prepared in accordance with Australia's _Anti-Money Laundering and Counter-Terrorism Financing Act 2006_ (AML/CTF Act), the _Anti-Money Laundering and Counter-Terrorism Financing Rules Instrument in Force 2017_ (AUSTRAC Rules), and other applicable AML/CTF legislation. The Company, operating the digital currency exchange and website known as CoinPort, is a reporting entity regulated by the Australian Transaction Reports and Analysis Centre (AUSTRAC).
 
 The purpose of this Policy is to provide Customers with a high-level overview of CoinPort's AML/CTF compliance regime. This Policy is not an exhaustive list of all policies, procedures, and controls implemented by the Company for the prevention of money laundering, financing of terrorism, and other illicit activities.
 
@@ -17,7 +17,7 @@ All definitions are used within the meaning of the Australian AML/CTF Act.
 
 ### 2. OBLIGATIONS OF THE COMPANY
 
-As a reporting entity registered with AUSTRAC, Coin Harbour Pty Ltd has a range of obligations under Australian law. The Company is committed to identifying, mitigating, and managing the risks of its services being misused for money laundering or terrorist financing.
+As a reporting entity registered with AUSTRAC, CoinPort Pty Ltd has a range of obligations under Australian law. The Company is committed to identifying, mitigating, and managing the risks of its services being misused for money laundering or terrorist financing.
 
 **Responsibilities of the Company:**
 
@@ -106,7 +106,7 @@ CoinPort will not accept as Customers, persons or entities from the following co
 
 ### 6. COOPERATION AND EXCHANGE OF INFORMATION
 
-Coin Harbour Pty Ltd cooperates fully with AUSTRAC and Australian law enforcement authorities in the prevention of money laundering and terrorist financing. This includes communicating information available to the Company and replying to official queries in a timely manner, in accordance with the duties, obligations, and restrictions arising from Australian legislation.
+CoinPort Pty Ltd cooperates fully with AUSTRAC and Australian law enforcement authorities in the prevention of money laundering and terrorist financing. This includes communicating information available to the Company and replying to official queries in a timely manner, in accordance with the duties, obligations, and restrictions arising from Australian legislation.
 
 For any relevant requests, please contact us at: **compliance@coinport.com**.
 

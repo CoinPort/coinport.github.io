@@ -2,7 +2,7 @@
 
 ## The Platform
 
-The website CoinPort, and mobile applications, (collectively 'Platform') is owned, operated and controlled by Coin Harbour Pty Ltd ABN 12 624 879 223, trading as CoinPort, who along with its associated entities, and each of their directors, affiliates or employees (as appropriate) are referred to as “we”, “us” or “our” in these Terms of Service.
+The website CoinPort, and mobile applications, (collectively 'Platform') is owned, operated and controlled by CoinPort Pty Ltd ABN 12 624 879 223, trading as CoinPort, who along with its associated entities, and each of their directors, affiliates or employees (as appropriate) are referred to as “we”, “us” or “our” in these Terms of Service.
 
 The Platform provided and operated by CoinPort allows buyers and sellers to buy, sell and trade digital currency. “CoinPort” may also refer to the services, website, mobile applications, content, products or any other services provided by CoinPort (collectively 'Services')
 

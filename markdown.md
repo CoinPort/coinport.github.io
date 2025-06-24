@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: coinharbour-theme
+theme: CoinPort-theme
 ---
 
 # Hello, world!

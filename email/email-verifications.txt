@@ -14,7 +14,7 @@ coinport.exchange       no          Valid
 
 coinport.com.au         OK          Valid            
 
-coinharbour.com.au
+CoinPort.com.au
 
 m1-digital.com          no          No record     
 

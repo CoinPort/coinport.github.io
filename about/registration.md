@@ -4,7 +4,7 @@
 
 Australian Securities and Investment Commission
 
-*   Name: COIN HARBOUR PTY LTD
+*   Name: CoinPort PTY LTD
 *   ACN: 624 879 223
 *   ABN: 12 624 879 223
 
@@ -14,7 +14,7 @@ Australian Securities and Investment Commission
 
 Australian Transaction Reports & Analysis Centre.
 
-*   Name: COIN HARBOUR PTY LTD
+*   Name: CoinPort PTY LTD
 *   Digital Currency Exchange: 100633359
 *   Remittance Service Provider: IND100633359-001
 

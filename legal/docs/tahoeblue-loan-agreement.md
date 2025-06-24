@@ -2,7 +2,7 @@
 **Between**  
 **Tahoe Blue Investments Pty Ltd (ACN 159 855 035) ("Lender")**  
 **and**  
-**Coin Harbour Pty Ltd (ACN 624 879 223) ("Borrower")**  
+**CoinPort Pty Ltd (ACN 624 879 223) ("Borrower")**  
 
 ### **1. Definitions**  
 1.1 **"Advance"** means a loan provided by the Lender to the Borrower under this Agreement.  
@@ -54,7 +54,7 @@ Title: **Director**
 Date: 10-Jan-2020  
 
 **Signed for and on behalf of**  
-**Coin Harbour Pty Ltd**  
+**CoinPort Pty Ltd**  
 By: ___________________________  
 Name: **[Authorised Signatory]**  
 Title: **CFO**  
