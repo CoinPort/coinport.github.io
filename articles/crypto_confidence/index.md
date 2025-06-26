@@ -29,7 +29,7 @@ The halving is anticipated to occur in mid-April, with many predictions settling
 
 This is a positive sign for the long term acceptance of blockchain technology and
 
-Sincerley,
+sincerely,
 The CoinPort Exchange Team
 [https://www.coinport.com.au](https://www.coinport.com.au)
 Easy, fast and safe cryptocurrency exchange
