@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8G">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
@@ -9,9 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <meta http-equiv='Referrer-Policy' content='no-referrer-when-downgrade'>
   </head>
   <body>
-    <p><a href="https://www.coinport.com.au/blog/"  target="_parent">Return to Blog Main Page</a></p>
+    <p><a href="https://www.coinport.com.au/blog/"  target="_parent">< Return to Blog Main Page</a></p>
     <div class="markdown-body">
       <!--{% if site.title and site.title != page.title %}
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
@@ -24,21 +25,37 @@
       </div>
       {% endif %} -->
     </div>
-    <p>Sincerley,<br /><br />
+    <p>Sincerley,<br /><br /><br />
       The CoinPort Exchange Team<br />
-      <img src="https://doc.coinport.com.au/images/news/coinport-signature.png" alt="CoinPort Exchange" /><br />
+      <img src="https://blog.coinport.com.au/assets/img/news/coinport-signature.png" id="signatureImage" alt="CoinPort Exchange" height="32px" style="padding: 6px 0 0" /><br />
       <em>Easy, fast and safe cryptocurrency exchange</em></p>
+      <br />
       <script>
-        const referrerQueryParams = new URL(document.referrer).searchParams;
-        const theme = referrerQueryParams.get('theme');
-        const className = theme=='dark-mode'?'dark-mode':'light-mode';
+        document.write('debug: <b>document location: ' + document.location + '</b></br />');
+
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const theme = urlParams.get('theme');
+        const className = theme == 'dark-mode'?'dark-mode':'light-mode';
         document.body.classList.toggle(className);
 
-        /* for (const [key, val] of referrerQueryParams) {
-            console.log({ key, val })
-            document.write(key + ' - ' + val )
-        } */
+        if (theme=='dark-mode') {
+          document.getElementById("signatureImage").src = 'https://blog.coinport.com.au/assets/img/news/coinport-signature-dark.png';
+        }
       </script>
+      <div class="post-content">
+        <hr />
+        <h3 id="connect-with-us">Connect with Us</h3>
+        <p>Stay updated and follow us on our social media platforms:</p>
+        <p><a href="https://www.facebook.com/CoinPortEx"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook" /></a>
+        <a href="https://twitter.com/CoinPortEx"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&amp;logo=twitter&amp;logoColor=white" alt="Twitter" /></a>
+        <a href="https://www.linkedin.com/company/CoinPortEx"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn" /></a>
+        <a href="https://www.instagram.com/CoinPortEx"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram" /></a>
+        <a href="https://www.youtube.com/@CoinPortEx"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white" alt="YouTube" /></a></p>
+        <p>For more information, visit our website: <a href="https://www.coinport.com.au" target="_blank">www.coinport.com.au</a></p>
+        <p style="font-size: 11px;">© 2024 Coin Harbour Pty Ltd - CoinPort Cryptocurrency Exchange. All rights reserved.</p>
+      </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
   </body>
