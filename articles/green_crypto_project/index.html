@@ -7,13 +7,6 @@
     <link href="../../style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Poppins:wght@400,500,600|Roboto&display=swap" rel="stylesheet">        
-    <script>
-        const queryString = window.location.search;
-        const urlParams = new URLSearchParams(queryString);
-        const theme = urlParams.get('theme');
-        const className = theme=='dark-mode'?'dark-mode':'light-mode';
-        document.body.classList.toggle(className);
-    </script>
 </head>
 
 <body>
@@ -43,8 +36,12 @@ or maybe ERC20?
 <p>Here is some more content.<br>This is a template for the CoinPort articles.</p>
 <p>Here is some more content.</p>
 <p>Here is some more content.</p>
-
-
-
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const theme = urlParams.get('theme');
+        const className = theme=='dark-mode'?'dark-mode':'light-mode';
+        document.body.classList.toggle(className);
+    </script>
 </body>
 </html>

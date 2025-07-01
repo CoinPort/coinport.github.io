@@ -23,6 +23,8 @@
       </div>
       {% endif %} -->
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
     <script>
       const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
@@ -30,7 +32,5 @@
       const className = theme=='dark-mode'?'dark-mode':'light-mode';
       document.body.classList.toggle(className);
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
   </body>
 </html>
