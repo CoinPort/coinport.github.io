@@ -488,6 +488,7 @@ body.dark-mode .pg-apidocs-wrapper td {
 }
 
 .pg-apidocs-wrapper h3 {
+  padding-top: 30px;
   color: #0078f0 !important;
 }
 
