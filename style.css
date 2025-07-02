@@ -113,6 +113,7 @@ body.dark-mode li {
 }
 
 table {
+  border-spacing: 0;
   margin: 10px 0;
   max-width: 1000px;
   width: 100%;
@@ -202,10 +203,24 @@ h3 {
  }
 
 body.dark-mode h3 {
-  color: rgba(255, 255, 255, .85) !important;
+  color: rgba(255, 255, 255, .85);
 }
 
 h4 {
+  color: rgba(0, 35, 58, .8);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 10px 3px 5px;
+ }
+
+ body.dark-mode h4 {
+  color: rgba(255, 255, 255, .8) !important;
+}
+
+ h5 {
   color: rgba(0, 35, 58, .8);
   font-size: 15px;
   font-weight: 500;
@@ -215,7 +230,7 @@ h4 {
   padding: 10px 3px 5px;
  }
 
- body.dark-mode h4 {
+  body.dark-mode h5 {
   color: rgba(255, 255, 255, .8) !important;
 }
 
@@ -443,4 +458,44 @@ body.dark-mode .pg-corporate-entityl3 {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.pg-apidocs-wrapper {
+  max-width: 900px;
+  padding: 30px;
+}
+
+body.dark-mode .pg-apidocs-wrapper {
+  background: #001932 !important;
+}
+
+.pg-apidocs-wrapper th {
+  border: 0.0625rem solid #e6e6e6;
+  padding: 6px;
+}
+
+body.dark-mode .pg-apidocs-wrapper th {
+  border: 0.0625rem solid #1e375f;
+}
+
+.pg-apidocs-wrapper td {
+  border: 0.0625rem solid #e6e6e6;
+  padding: 6px;
+}
+
+body.dark-mode .pg-apidocs-wrapper td {
+  border: 0.0625rem solid #1e375f;
+}
+
+.pg-apidocs-wrapper h3 {
+  color: #0078f0 !important;
+}
+
+body.dark-mode .pg-apidocs-wrapper h3 {
+  color: #fac848 !important;
+}
+
+.pg-apidocs-wrapper code {
+  color: #1aadff !important;
+  font-size: 14px !important;
 }
