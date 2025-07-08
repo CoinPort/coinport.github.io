@@ -2,7 +2,7 @@
 
 The animated character we use for the videos is "Leonie Green". Leonie Green is a 30 year old professional woman.
 
-![CoinPort Primary Colours](../graphics/CoinPort_PrimaryColors.png)
+![CoinPort Primary Colours](../graphics/CoinPort_PrimaryColors.png =250x)
 
 ## Video Specifications ##
 
@@ -24,7 +24,7 @@ Less than 10Gb
 
 | Description | Youtube | Shorts | Tiktok | Notes |
 |-------------|---------|--------|--------|-------|
-| Splash    |         |        |        |       |
+| Splash screen (4 seconds) | [Splash_Landscape](./splash/CoinPort_Splash_Landscape.mp4) | [Splash_Portrait](./splash/CoinPort_Splash_Portrait.mp4) | [Splash_Tiktok](./splash/CoinPort_Splash_Tiktok.mp4) |       |
 |             |         |        |        |       |
 |             |         |        |        |       |
 |             |         |        |        |       |
