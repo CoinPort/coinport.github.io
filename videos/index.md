@@ -20,11 +20,11 @@ Upto 10 minutes
 Less than 10Gb
 
 
-| Description | Youtube | Shorts | Tiktok | Notes |
+| ### Description | Youtube | Shorts | Tiktok | Notes |
 |-------------|---------|--------|--------|-------|
-| Splash screen (4 seconds) | [Splash_Landscape](./splash/CoinPort_Splash_Landscape.mp4) | [Splash_Portrait](./splash/CoinPort_Splash_Portrait.mp4) | [Splash_Tiktok](./splash/CoinPort_Splash_Tiktok.mp4) |       |
-| Introduction (65 seconds) | [Intro_Landscape](./0-intro/0-CoinPort_Intro_Landscape.mp4) |        |        |       |
-|             |         |        |        |       |
+| Splash screen (4 seconds) | [Splash_Landscape](./splash/Splash_Landscape.mp4) | [Splash_Portrait](./splash/Splash_Portrait.mp4) | [Splash_Tiktok](./splash/Splash_Tiktok.mp4) |       |
+| Introduction (65 seconds) | [Intro_Landscape](./0-intro/0-Intro_Landscape.mp4) |        |        |       |
+| Welcome (4 minutes) | [Welcome_Landscape](./1-welcome/1-Welcome_Landscape.mp4) |        |        |       |
 |             |         |        |        |       |
 |             |         |        |        |       |
 |             |         |        |        |       |

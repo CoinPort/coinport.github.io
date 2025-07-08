@@ -3,7 +3,8 @@
 ![](..)
 <img src="https://doc.coinport.com.au/graphics/CoinPort_PrimaryColors.png" alt="CoinPort Primary Colours" width="50%">
 
-![CoinPort Logo EPS](../graphics/CoinPort_logo_default.eps)
 
+
+[CoinPort Brand Indentity](./CoinPort-Identity.pdf) PDF file
 
 
