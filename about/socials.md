@@ -10,6 +10,10 @@ Join the CoinPort Crypto Community (Australia) Facebook Group [https://www.faceb
 
 We have an online community online on crew3 (Zealy) [https://zealy.io/c/coinportex/](https://zealy.io/c/coinportex/)
 
+Read our latest news on Blue Sky Social [https://coinportex.bsky.social/](https://coinportex.bsky.social)
+
+We have an online community online on crew3 (Zealy) [https://zealy.io/c/coinportex/](https://zealy.io/c/coinportex/)
+
 Read CoinPort updates on Crunchbase [https://www.crunchbase.com/organization/CoinPortEx](https://www.crunchbase.com/organization/CoinPortEx)
 
 Join the CoinPort (CoinPortEx) Discord Server Invitation link [https://discord.gg/kG2WQTJStn](https://discord.gg/kG2WQTJStn)
