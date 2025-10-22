@@ -7,11 +7,7 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -20,23 +16,85 @@
 
 title: CoinPort Cryptocurrency Exchange
 email: support@coinport.com.au
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   CoinPort Cryptocurrency Exchange
   - Easy, fast and safe cryptocurrency exchange.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://doc.coinport.com.au" # the base hostname & protocol for your site
+
+# Social Media Links
 twitter_username: CoinPortEx
-github_username:  coinport
+github_username: coinport
+
+# Author & Branding
+author: CoinPort Pty Ltd
+logo: /images/logos/ch_sign_logo.png
+
+# Social Links for SEO
+social:
+  name: CoinPort Pty Ltd
+  links:
+    - https://twitter.com/CoinPortEx
+    - https://www.youtube.com/@CoinPortEx
+    - https://www.coinport.com.au
+
+# Twitter Card Configuration
+twitter:
+  username: CoinPortEx
+  card: summary_large_image
 
 # Build settings
 theme: minima
+encoding: UTF-8
+timezone: Australia/Sydney
+
+# Plugins
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jekyll-redirect-from
+  - jekyll-include-cache
 
+# Jekyll Titles from Headings Configuration
 titles_from_headings:
-  enabled:     true
+  enabled: true
   strip_title: true
   collections: true
+
+# Default Front Matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/logos/ch_sign_logo.png
+
+# Sitemap Plugin Configuration
+sitemap:
+  priority: 0.8
+  changefreq: weekly
+
+# Feed Plugin Configuration
+feed:
+  posts_limit: 20
+  excerpt_only: false
+
+# Markdown Configuration
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge
+
+# Sass/SCSS Configuration
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Performance Optimization
+incremental: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -45,20 +103,30 @@ titles_from_headings:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git/
+  - .gitignore
+  - .vscode/
+  - .idea/
+  - README.md
+  - LICENSE
+  - "*.log"
+  - "*.download"
+  - bundle*.*
 
-timezone: Australia/Sydney
-
-encoding: UTF-8
-# MySQL database is utf8mb4
+# Liquid Options
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+  
