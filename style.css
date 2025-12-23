@@ -29,11 +29,11 @@ body.dark-mode {
   --secondary-contrast-cta-color: rgb(246, 92, 85);
   --primary-text-color: rgb(255, 255, 255);
   --text-contrast-color: rgb(210, 210, 210);
-  --main-background-color: rgb(0, 25, 80);
-  --body-background-color: rgb(0, 25, 60);
+  --main-background-color: rgb(0, 25, 60);
+  --body-background-color: rgb(0, 25, 80);
   --header-background-color: rgb(0, 25, 60);
   --subheader-background-color: rgb(15, 26, 61);
-  --dropdown-background-color: rgb(0, 25, 105);
+  --dropdown-background-color: rgb(0, 28, 100);
   --icons: rgb(115, 127, 146);
   --cta-layer-color: rgb(255, 255, 255);
   --system-green: rgb(75, 198, 94);
@@ -41,8 +41,8 @@ body.dark-mode {
   --system-yellow: rgb(247, 214, 0);
   --asks: rgb(255, 97, 127);
   --bids: rgb(75, 198, 94);
-  --input-background-color: rgb(0, 25, 105);
-  --input-border-color: rgb(0, 25, 105);
+  --input-background-color: rgb(0, 28, 100);
+  --input-border-color: rgb(0, 28, 100);
   --divider-color: rgb(55, 55, 55);
   --shadow-color: rgb(23, 28, 41);
   --table-border-color: rgb(30, 55, 95);
@@ -69,7 +69,7 @@ body.light-mode {
 }
 
 body.dark-mode {
-  background: var(--main-background-color) !important;
+  background: var(--body-background-color) !important;
   color: var(--primary-text-color) !important;
 }
 
