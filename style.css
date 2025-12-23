@@ -64,13 +64,9 @@ body {
 }
 
 body.light-mode {
-  background: var(--main-background-color);
-  color: var(--primary-text-color);
 }
 
 body.dark-mode {
-  background: var(--body-background-color) !important;
-  color: var(--primary-text-color) !important;
 }
 
 .markdown-body {
