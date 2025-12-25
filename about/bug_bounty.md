@@ -50,11 +50,13 @@ Things that are not eligible for reward include:
 
 ## Reward
 
-The minimum reward for eligible bugs is the equivalent of AU$100 in bitcoin.
+The minimum reward for eligible bugs is the equivalent of AU$100 in USDT. 
 
 Rewards over the minimum are at our discretion, but we will pay significantly more for particularly serious issues.
 
 Only one reward per bug.
+
+Rewards can only be paid after completing our On-boarding KYC process due to AML policies.
 
 ## Severity levels
 
