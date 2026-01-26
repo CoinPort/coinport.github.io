@@ -18,7 +18,7 @@ Read CoinPort updates on Crunchbase [https://www.crunchbase.com/organization/Coi
 
 Join the CoinPort (CoinPortEx) Discord Server Invitation link [https://discord.gg/kG2WQTJStn](https://discord.gg/kG2WQTJStn)
 
-CoinPort Github Repositories [https://github.com/CoinPort/](https://github.com/CoinPort/)
+CoinPort Github Repositories [https://github.com/CoinPortEx/](https://github.com/CoinPortEx/)
 
 CoinPort Instagram posts [https://www.instagram.com/CoinPortEx/](https://www.instagram.com/CoinPortEx/)
 
