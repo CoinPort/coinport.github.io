@@ -1,39 +1,39 @@
-# CoinPort Exchange 360-Degree Security
+# CoinPort Exchange Security
 
-We safeguard user funds by securing our platform with strict protocols and industry-leading technical measures. From real-time monitoring and a 360-degree risk management system to advanced data privacy tools and end user security education, we continually find innovative ways to protect the users we serve.
+Protecting user funds and data is a core responsibility at CoinPort. We apply layered security controls across our platform, combining technical safeguards, monitoring systems, and user-level protections to reduce risk and respond quickly to suspicious activity.
 
-## Platform Security
+## Platform security
 
-### Secure Storage
+### Secure storage
 
-The vast majority of user funds and assets are safely stored in offline, cold wallet storage facilities.
+The majority of digital assets are stored in offline, cold-wallet environments designed to reduce exposure to online threats.
 
-### Real Time Monitoring
+### Real-time monitoring
 
-Our risk management system analyzes every withdrawal attempt, password reset, two-factor authentication reset and email address change. Unusual activity triggers suspended withdrawals for a minimum of 24-48 hours.
+Our risk management systems monitor account activity such as withdrawals, password changes, two-factor authentication resets, and email updates. Suspicious or unusual activity may trigger additional review or temporary withdrawal restrictions.
 
-### Organizational Security
+### Organisational security
 
-Our wallet and personnel infrastructure features advanced security measures, including multisignature and threshold signature schemes (TSS), ensure the safety and integrity of our users’ funds.
+CoinPort employs industry-standard wallet security practices, including multisignature and threshold signature schemes (TSS), to help safeguard digital assets and reduce single points of failure.
 
-### Advanced Data Encryption
+### Data protection
 
-We protect user data and personal information, including Know-Your-Customer (KYC) information, by encrypting data in storage. Meanwhile, data in transit is secured via end-to-end encryption, ensuring only users have access to their personal information.
+User data, including identity verification information, is encrypted at rest. Data transmitted between users and our systems is protected using secure transport encryption.
 
-## User-Level Security
+## User-level security
 
-### Safe Sign In
+### Secure sign-in
 
-CoinPort supports strict sign-in protocols using two-factor authentication, including hardware, app-based, SMS and email methods.
+CoinPort supports multi-factor authentication for account access, including app-based authenticators and other supported methods.
 
-### Access Control
+### Access controls
 
-Advanced access control provides users with opt-in security features such as IP and wallet address whitelisting, API access control and device management.
+Users can enable optional security features such as IP restrictions, withdrawal address whitelisting, API permission controls, and device management.
 
-### Security Notifications
+### Security alerts
 
-Receive emails, notifications and security alerts in the event that suspicious activity is detected. Users can secure their account by restricting access to unwanted third parties.
+Account notifications and alerts are provided for key security-related events, allowing users to respond quickly to unexpected activity.
 
-## Opening New Doors for Crypto
+## Compliance and responsibility
 
-We’re committed to meeting the highest standards for regulatory compliance, in order to maintain our responsibility to our users and further develop the blockchain industry.
+CoinPort is committed to meeting applicable regulatory and compliance obligations. We continually review and improve our security controls to support the safe operation of the platform and protect our users.

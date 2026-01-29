@@ -1,9 +1,9 @@
 # CoinPort Fees
 
-There are no commissions or fees for crypto orders or trades on the CoinPort exchange platform.
+CoinPort does not charge commissions or trading fees for crypto orders executed on the CoinPort exchange platform.
 
-We try to make CoinPort as simple and transparent as possible. The price quoted is the price dealt.
+We aim to keep pricing simple and transparent. The price you see is the price you receive at execution.
 
-CoinPort does not charge fees for AUD fiat currency Deposits or Withdraws via the New Payment Processing (NPP) network.
+CoinPort does not charge fees for AUD deposits or withdrawals made via the New Payments Platform (NPP).
 
-Blockchain transaction fees for crypto Deposits and Withdraws may be deducted where these blockchain fees are non-trivial. For example, in the past transactions on the Ethereum blockchain have exceeded $30.
+Standard blockchain network fees may apply to cryptocurrency deposits and withdrawals. These fees are set by the underlying blockchain networks, not CoinPort, and may vary depending on network conditions. For example, transaction fees on the Ethereum network have previously exceeded AUD $30 during periods of congestion.

@@ -1,82 +1,85 @@
 # CoinPort Exchange Bug Bounty Program
 
-CoinPort recognizes the importance and value of security researchers efforts in helping keep our community safe. We encourage responsible disclosure of security vulnerabilities via our bug bounty program described on this page.
+CoinPort values the work of security researchers and encourages responsible disclosure of security vulnerabilities. This page outlines the scope and process for reporting potential security issues.
 
-## Responsible investigation and reporting
+## Responsible investigation and disclosure
 
-Responsible investigation and reporting includes, but isn't limited to, the following:
+We ask that all research and reporting be conducted responsibly and in good faith. This includes:
 
-* Do not violate the privacy of other members, destroy data, disrupt our services, etc.
-* Only target your own accounts in the process of investigating the bug. Do not target, attempt to access, or otherwise disrupt the accounts of other members.
-* Do not target our physical security measures, or attempt to use social engineering, spam, distributed denial of service (DDOS) attacks, etc.
-* Initially report the bug only to us and not to anyone else.
-* Give us a reasonable amount of time to fix the bug before disclosing it to anyone else, and give us adequate written warning before disclosing it to anyone else.
-* In general, please investigate and report bugs in a way that makes a reasonable, good faith effort not to be disruptive or harmful to us or our members. Otherwise, your actions might be interpreted as an attack rather than an effort to be helpful.
+- Do not violate the privacy of other users, access non-public data, disrupt services, or destroy data.
+- Only test against accounts you own and control.
+- Do not attempt social engineering, physical attacks, spam, denial-of-service (DDoS), or similar activities.
+- Report vulnerabilities directly and privately to CoinPort.
+- Allow reasonable time for investigation and remediation before any public disclosure.
+- Avoid actions that could reasonably be interpreted as malicious or disruptive.
 
-## Eligibility
+## Scope and eligibility
 
-Generally speaking, any bug that poses a significant vulnerability, either to the security of our site or the integrity of our trading system, could be eligible for a reward. It is entirely at our discretion to decide whether a bug is significant enough to be eligible for a reward.
+Vulnerabilities that materially impact the security of CoinPort systems or the integrity of user funds may be eligible for a reward, at CoinPort’s sole discretion.
 
-Eligible bugs include, but not limited to:
+Examples of issues that may be eligible include:
 
-* Cross-site request forgery (CSRF)
-* Cross-site scripting (XSS)
-* Code injection
-* Remote code execution
-* Privilege escalation
-* Authentication bypass
-* Clickjacking
-* Leakage of sensitive data
-* Low energy requirement less ETH issuance is required to incentivize participation
+- Cross-site scripting (XSS)
+- Cross-site request forgery (CSRF)
+- Authentication or authorization bypass
+- Privilege escalation
+- Code injection or remote code execution
+- Leakage of sensitive user or system data
+- Clickjacking affecting sensitive actions
 
-Domains in scope: coinport.com.au, www.coinport.com.au, api.coinport.com.au.
+### In-scope domains
 
-We generally do not accept reports for doc.coinport.com.au unless a bug is critical as the site is isolated from all member data and authentication.
+- `coinport.com.au`
+- `www.coinport.com.au`
+- `api.coinport.com.au`
 
-## Ineligibility
+Reports relating to `doc.coinport.com.au` are generally out of scope unless the issue is critical, as this site is isolated from user data and authentication systems.
 
-Generally speaking, any bug that poses a significant vulnerability, either to the security of our site or the integrity of our trading system, could be eligible for a reward. It is entirely at our discretion to decide whether a bug is significant enough to be eligible for a reward.
+## Out of scope
 
-Things that are not eligible for reward include:
+The following are not eligible for rewards:
 
-* Vulnerabilities on sites hosted by third parties (support.coinport.com.au, etc.) unless they lead to a vulnerability on our main domains.
-* Vulnerabilities contingent on physical attack, social engineering, spamming, DDOS attack, etc.
-* Vulnerabilities affecting outdated or unpatched browsers.
-* Vulnerabilities in third-party applications that make use of CoinPort's API.
-* Bugs that have not been responsibly investigated and reported.
-* Bugs already known to us, or already reported by someone else (reward goes to the first reporter).
-* Issues that aren't reproducible.
-* Issues that we can't reasonably be expected to do anything about.
+- Issues on third-party services or integrations, unless they directly compromise CoinPort systems.
+- Vulnerabilities requiring physical access, social engineering, spam, or denial-of-service attacks.
+- Issues affecting outdated or unpatched browsers or operating systems.
+- Vulnerabilities in third-party applications using CoinPort APIs.
+- Issues that are not reproducible or lack sufficient detail.
+- Issues already known to CoinPort or previously reported (reward goes to the first valid reporter).
+- Issues that do not present a meaningful security risk.
 
-## Reward
+## Rewards
 
-The minimum reward for eligible bugs is the equivalent of AU$100 in USDT. 
+- The minimum reward for eligible vulnerabilities is the equivalent of **AUD $100 in USDT**.
+- Higher rewards may be offered for severe or high-impact vulnerabilities, at CoinPort’s discretion.
+- Only one reward will be issued per unique vulnerability.
+- Rewards are payable only after completion of required identity verification (KYC), in accordance with AML obligations.
 
-Rewards over the minimum are at our discretion, but we will pay significantly more for particularly serious issues.
+## Severity classification
 
-Only one reward per bug.
+**Critical**
+- Remote code execution
+- Ability to arbitrarily manipulate account balances or funds
 
-Rewards can only be paid after completing our On-boarding KYC process due to AML policies.
+**High**
+- Authentication bypass
+- Privilege escalation allowing access to sensitive data or funds
 
-## Severity levels
+**Medium**
+- CSRF affecting non-critical actions
+- User de-anonymisation
 
-* Critical
-  * Remote code execution
-  * Ability to arbitrarily manipulate account balances
-* High
-  * User authentication bypasses
-  * Privilege escalation allowing unauthorized access to sensitive data or funds
-* Medium
-  * CSRF impacting non-critical settings
-  * User de-anonymization
-* Low
-  * Leakage of lower sensitivity information, such as name or email address
-  * Potential phishing vector that CoinPort has the ability to mitigate
+**Low**
+- Limited exposure of low-sensitivity information
+- Mitigable phishing vectors
 
-## How to report a bug
+## Reporting a vulnerability
 
-Submit your bug report by email to: [support@coinport.com.au](mailto:support@coinport.com.au?subject=Bug Bounty)
+Please submit reports to:  
+**support@coinport.com.au**
 
-Include as much information in your report as you can, including a description of the bug, its potential impact, and steps for reproducing it or proof of concept. Please allow five (5) business days for us to review.
+Include:
+- A clear description of the issue
+- Potential impact
+- Steps to reproduce or proof of concept
 
-We thank all security researchers for taking the time to submit reports. We may only respond if your submission is eligible for a reward.
+Please allow up to **five (5) business days** for initial review. Due to volume, we may only respond to reports that are eligible for a reward.
