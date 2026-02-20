@@ -32,5 +32,14 @@
       const className = theme=='dark-mode'?'dark-mode':'light-mode';
       document.body.classList.toggle(className);
     </script>
+    <script>
+      function sendHeight() {
+        var height = document.documentElement.scrollHeight;
+        window.parent.postMessage({ type: 'iframeHeight', height: height }, '*');
+      }
+      window.addEventListener('load', sendHeight);
+      window.addEventListener('resize', sendHeight);
+      new MutationObserver(sendHeight).observe(document.body, { childList: true, subtree: true });
+    </script>
   </body>
 </html>
