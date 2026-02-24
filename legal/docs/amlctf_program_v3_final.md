@@ -655,8 +655,9 @@ The independent party may also:
 ## 15. DESIGNATED SERVICES PROVIDED BY COINPORT
 
 15.1 CoinPort provides the following designated services:
-- (a) Item 50 of section 6 of the AML/CTF Act; and
-- (b) Item 50A of section 6 of the AML/CTF Act.
+- (a) Item 50A of section 6 of the AML/CTF Act;
+- (b) Item 50B of section 6 of the AML/CTF Act; and
+- (c) Item 46A of section 6 of the AML/CTF Act.
 
 15.2 CoinPort deals in the following digital currencies:
 - (a) Bitcoin (BTC) and various Bitcoin forks;
@@ -669,10 +670,10 @@ The independent party may also:
 15.3 CoinPort undertakes due diligence on the supply sources of purchased digital currencies to ensure they are trusted and reliable. CoinPort will ensure it has a contractual agreement in place with digital currency supply sources prior to providing designated services.
 
 15.4 CoinPort offers the following services to customers:
-- (a) Buying digital currency;
-- (b) Selling digital currency;
-- (c) Exchanging digital currency;
-- (d) Holding digital currency (on trust or as custodian).
+- (a) Buying virtual assets;
+- (b) Selling virtual assets;
+- (c) Exchanging virtual assets; and
+- (d) Holding virtual assets (on trust or as custodian).
 
 15.5 CoinPort has undertaken assessment of ML/TF risks associated with its designated services taking into account:
 - (a) nature, size and complexity of its business;
