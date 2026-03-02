@@ -1,6 +1,6 @@
 <div class="center_contents">
 
-<h1 style="font-size: 34px; color: #02285e;">Sheduled Maintenance</h1>
+<h1 style="font-size: 34px; color: #02285e;">Scheduled Maintenance</h1>
 
 <img src="./maintenance.png" alt="Maintenace" style="padding: 30px;">
 
