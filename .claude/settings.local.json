@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:www.legislation.gov.au)",
+      "WebFetch(domain:www.aph.gov.au)",
+      "Bash(curl:*)"
+    ]
+  }
+}
