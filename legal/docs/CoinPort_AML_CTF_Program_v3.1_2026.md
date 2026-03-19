@@ -8,7 +8,7 @@
 - AUSTRAC Account Number (AAN): 100633359
 - Legal Name: CoinPort PTY LTD
 
-**Program Version:** 3.0 (2026 Unified Program)  
+**Program Version:** 3.1  
 **Effective Date:** 5 January 2026  
 **Next Review Date:** February 2026 (initial post-implementation review), then annually each January  
 **AML/CTF Compliance Officer:** Nicanor Nuqui
@@ -28,8 +28,9 @@
 8. Purpose and Application of this Program
 
 **GOVERNANCE AND OVERSIGHT**
-9. Oversight by the Board of Directors and Board Approval
+9. Oversight and Approval by the Governing Body
 10. CoinPort's AML/CTF Compliance Officer
+10A. Senior Manager
 11. Review of the Program
 12. AUSTRAC Feedback
 
@@ -112,6 +113,7 @@ Appendix 4: VASP Counterparty Due Diligence Questionnaire
 | 1.0 | 6 June 2021 | Original Part A and Part B prepared |
 | 2.0 | 1 July 2024 | Edits for fraud prevention |
 | 3.0 | 5 January 2026 | Unified program for 2026 compliance including Travel Rule; DCE→VASP terminology transition |
+| 3.1 | 5 March 2026 | Minor updates: register names finalised, Didit added as KYC provider, placeholders resolved |
 
 ---
 
@@ -199,7 +201,7 @@ CoinPort applies **three tiers of CDD** based on customer risk:
 | **Enhanced CDD** | PEPs, high transaction volumes (>$50k/month), cross-border remittances, complex corporate structures, offshore entities, trusts with multiple layers, self-employed with complex income, adverse media hits | Additional source of funds/wealth verification, senior management approval, semi-annual reviews, enhanced monitoring, beneficial ownership to ultimate individual level |
 
 **Digital Verification Embraced:**
-- CoinPort utilizes electronic identity verification through approved KYC providers (KYC-AID and Sumsub)
+- CoinPort utilizes electronic identity verification through approved KYC providers (KYC-AID, Sumsub, and Didit)
 - Liveness detection and document verification technology
 - No requirement to maintain physical certified copies in most cases
 - Blockchain analytics for transaction verification via AMLBot
@@ -218,7 +220,7 @@ Enhanced CDD is automatically triggered when:
 - Customer based in or transacting with higher-risk jurisdictions
 - Unusual transaction patterns detected
 - Source of funds unclear or inconsistent with customer profile
-- Travel Rule information incomplete or suspicious (from March 2026)
+- Travel Rule information incomplete or suspicious (from 1 July 2026)
 - Cash-intensive business operations
 - Significant changes in company ownership or control structure
 - AMLBot detects connections to darknet markets, ransomware, or theft
@@ -235,14 +237,14 @@ Senior management must take "reasonable steps" to ensure CoinPort complies with 
 
 **Compliance Officer Authority:**
 The AML/CTF Compliance Officer (Nicanor Nuqui) is:
-- At management level with direct Board reporting
+- At management level with direct Governing Body reporting
 - Empowered to make compliance decisions independently
 - Authorized to halt transactions or refuse customers based on risk
 - Responsible for operational implementation of this Program
 - Accountable for reporting compliance status to the Governing Body
 
 **Governing Body Oversight:**
-CoinPort's Board receives:
+CoinPort's Governing Body receives:
 - Monthly compliance reports covering SMRs, risk incidents, and Program effectiveness
 - Quarterly risk assessment summaries
 - Annual independent review findings
@@ -263,9 +265,9 @@ CoinPort's Board receives:
 ### 2A.7 CoinPort's Five Pillars of Compliance
 
 **Pillar 1: Unified Governance Framework**
-- Program approved by Board of Directors (Section 9)
+- Program approved by Governing Body (Section 9)
 - AML/CTF Compliance Officer explicitly named with defined authority (Section 10)
-- Monthly Board reporting on ML/TF/PF risks and compliance status (Section 9.3)
+- Monthly Governing Body reporting on ML/TF/PF risks and compliance status (Section 9.3)
 
 **Pillar 2: ML/TF/PF Risk Assessment**
 - Comprehensive risk assessment across four categories:
@@ -322,7 +324,7 @@ When an adverse event occurs (breach, fraud, regulatory contact), CoinPort:
 2. Assesses impact on risk assessment and Program adequacy
 3. Implements corrective actions within defined timeframes
 4. Updates this Program if systematic issues identified
-5. Reports to Board with remediation plan
+5. Reports to Governing Body with remediation plan
 6. Conducts follow-up testing to verify effectiveness
 
 ### 2A.9 CoinPort's Commitment to Risk-Based Compliance
@@ -348,7 +350,7 @@ This risk-based approach allows CoinPort to:
 
 3.1 The AML/CTF Compliance Officer ("AML/CTF CO") ensures that the following records are retained:
 - (a) this Program and each variation to it;
-- (b) the Board of Directors' approval of this Program, and each variation to this Program;
+- (b) the Governing Body's approval of this Program, and each variation to this Program;
 - (c) AUSTRAC's feedback and correspondence;
 - (d) external and internal AML/CTF reviews; and
 - (e) correspondence with external lawyers on AML/CTF issues.
@@ -461,13 +463,13 @@ From 31 March 2026, this replaces the previous "Digital Currency Exchange Provid
 
 **Reasonable Measures**: Appropriate measures which are commensurate with the money laundering or terrorism financing risks.
 
-**Registrable Digital Currency Exchange Service**: A designated service covered by item 50A of table 1 in section 6 of the AML/CTF Act.
+**Registrable Virtual Asset Service**: A designated service covered by items 29 or 30 (if it involves a virtual asset), or items 46A, 50A, 50B or 50C of table 1 in section 6 of the AML/CTF Act.
 
-**Travel Rule**: The requirement (effective March 2026) to collect, verify, and transmit originator and beneficiary information for all cryptocurrency transfers between VASPs, regardless of transaction value. For transfers to/from self-hosted wallets, a threshold of AUD $10,000 applies.
+**Travel Rule**: The requirement (effective 1 July 2026) to collect, verify, and transmit originator and beneficiary information for all cryptocurrency transfers between VASPs, regardless of transaction value. For transfers to/from self-hosted wallets, a threshold of AUD $10,000 applies.
 
 **VASP**: Virtual Asset Service Provider - an entity providing virtual asset services including exchange, transfer, custody, or administration of virtual assets. From 31 March 2026, this replaces the previous "Digital Currency Exchange (DCE)" terminology in Australia, aligning with international FATF standards.
 
-**IVTS**: International Value Transfer Service - replaces the previous term "International Funds Transfer Instruction (IFTI)" under the 2026 reforms. Includes instructions for transfers of value (money, property, or virtual assets) to or from foreign countries.
+**IVTS**: International Value Transfer Service - replaces the previous term "International Funds Transfer Instruction (IFTI)" under the 2026 reforms (with transitional rules expected to delay full implementation until 2029). Includes instructions for transfers of value (money, property, or virtual assets) to or from foreign countries.
 
 ## 8. PURPOSE AND APPLICATION OF THIS PROGRAM
 
@@ -481,26 +483,26 @@ From 31 March 2026, this replaces the previous "Digital Currency Exchange Provid
 
 # GOVERNANCE AND OVERSIGHT
 
-## 9. OVERSIGHT BY THE BOARD OF DIRECTORS AND BOARD APPROVAL
+## 9. OVERSIGHT AND APPROVAL BY THE GOVERNING BODY
 
-9.1 This Program was approved and adopted by CoinPort's Board of Directors ("Board") on 5 January 2026.
+9.1 This Program was approved and adopted by CoinPort's Governing Body on 5 March 2026.
 
-9.2 **Management Accountability (2026 Requirement):** CoinPort's Board and senior management must take "reasonable steps" to ensure CoinPort complies with this Program. This includes:
+9.2 **Management Accountability (2026 Requirement):** CoinPort's Governing Body and senior management must take "reasonable steps" to ensure CoinPort complies with this Program. This includes:
 - Regular review of compliance metrics and risk indicators
 - Timely response to identified deficiencies or adverse events
 - Adequate resourcing of compliance functions (budget, personnel, technology)
 - Setting appropriate "tone from the top" regarding compliance culture
 - Ensuring the AML/CTF Compliance Officer has appropriate authority and independence
 
-9.3 This Program is subject to ongoing oversight by the Board, senior management and CoinPort's AML/CTF CO, and:
+9.3 This Program is subject to ongoing oversight by the Governing Body, senior management and CoinPort's AML/CTF CO, and:
 - (a) The AML/CTF CO, in consultation with senior management, reviews this Program on at least an annual basis to ensure it is:
   - (i) drafted in accordance with the AML/CTF Act and Rules;
   - (ii) applicable and relevant to the functions of CoinPort's business operations; and
   - (iii) reflects any changes to CoinPort's designated services.
-- (b) The review is presented to the Board at the next Board meeting; and
-- (c) Any changes to this Program are required to be reviewed and approved by the Board.
+- (b) The review is presented to the Governing Body at the next Governing Body meeting; and
+- (c) Any changes to this Program are required to be reviewed and approved by the Governing Body.
 
-9.4 Monthly meetings with the Board and senior management are held by the AML/CTF CO to report on:
+9.4 Monthly meetings with the Governing Body and senior management are held by the AML/CTF CO to report on:
 - (a) significant changes to the ML or TF risks affecting CoinPort;
 - (b) compliance with this Program, the AML/CTF Act and Rules by CoinPort;
 - (c) the results of any internal or external review of this Program;
@@ -513,23 +515,40 @@ From 31 March 2026, this replaces the previous "Digital Currency Exchange Provid
 
 10.1 CoinPort has appointed Nicanor Nuqui as CoinPort's AML/CTF CO for the purposes of the AML/CTF Act and Rules, and also the Nominated Contact Officer.
 
-10.2 The AML/CTF CO reports to the Board of Directors and possesses sufficient skills and experience to carry out the roles of the AML/CTF CO.
+10.2 The AML/CTF CO:
+- is employed at the management level and reports directly to the Governing Body;
+- possesses sufficient skills and experience to carry out the roles of the AML/CTF CO;
+- has the authority to make AML/CTF compliance decisions independently, including to halt transactions, refuse to onboard customers, or offboard customers, based on ML/TF/PF risk;
+- has access to resources and information to ensure they can perform their functions effectively.
 
 10.3 The AML/CTF CO is responsible for implementing and over-seeing CoinPort's obligations under the AML/CTF Act and Rules, including but not limited to:
 - (a) providing regulatory and legal updates in relation to the AML/CTF Act and Rules;
-- (b) ongoing monitoring of the implementation of the Program;
+- (b) ongoing day-to-day monitoring of the implementation of the Program;
 - (c) considering and incorporating feedback from employees, clients and AUSTRAC;
-- (d) ensuring overall compliance with the AML/CTF Act and Rules;
+- (d) ensuring overall compliance with the AML/CTF Act and Rules and reporting on this to the Senior Manager and Governing Body as appropriate;
 - (e) investigating suspicious matters, issues or incidents which may give rise to ML/TF risks;
 - (f) maintaining records;
 - (g) conducting employee risk awareness training;
 - (h) ensuring appropriate fraud detection and prevention policies are implemented;
-- (i) implementing and maintaining Travel Rule compliance systems (from March 2026); and
+- (i) implementing and maintaining Travel Rule compliance systems (from 1 July 2026); and
 - (j) maintaining financial sanctions screening procedures.
 
 10.4 The AML/CTF CO is authorised to act independently and to delegate responsibilities under this Program to another CoinPort employee, agent or responsible third party where reasonable to do so.
 
 10.5 If CoinPort or any employee receives correspondence from AUSTRAC, those enquiries should be directed to the AML/CTF CO at first instance.
+
+## 10A. SENIOR MANAGER
+
+10A.1 CoinPort's Senior Manager is Peter Cooney (Chief Technology Officer / Chief Financial Officer). The Senior Manager is responsible for the oversight of CoinPort's AML/CTF obligations at the business level, including approval of this AML/CTF Program. The Senior Manager is responsible for considering, and, if appropriate, approving the following:
+
+- our ML/TF Risk Assessment, including any updates or changes (refer to AML/CTF Program Review and Update Register);
+- our AML/CTF policies, including any updates or changes (AML/CTF Program Review and Update Register);
+- the appointment and assessment of our AML/CTF Compliance Officer, both initially and on an ongoing basis;
+- entering into or continuing a business relationship with a Foreign Politically Exposed Person (PEP) or high risk domestic or international PEP, or where the Beneficial Owner of the customer or any person on whose behalf the customer is receiving the service, is or becomes a Foreign PEP or high risk domestic or international PEP;
+- commencing or continuing a Business Relationship with a customer, as part of undertaking Enhanced CDD;
+- entering into an outsourcing arrangement with a third-party service provider to assist CoinPort to comply with our AML/CTF obligations, including due diligence checks, and maintaining ongoing oversight of the external service provider's performance; and
+- delivering the independent evaluation report to the Governing Body.
+
 
 ## 11. REVIEW OF THE PROGRAM
 
@@ -563,7 +582,7 @@ From 31 March 2026, this replaces the previous "Digital Currency Exchange Provid
 
 ### 11.2 Independent Reviews
 
-| Responsible Person | AML/CTF CO - report results to the Board |
+| Responsible Person | AML/CTF CO - report results to the Governing Body |
 | Frequency | Annually (with initial review 1 month post-implementation for major program changes) |
 
 **Special Note - 2026 Program Implementation:**
@@ -592,14 +611,14 @@ The independent party may also:
 - (a) assess risk management resources available including funding and staff allocation;
 - (b) identify future needs relevant to the nature, size and complexity of CoinPort;
 - (c) assess ongoing risk management procedures and controls;
-- (d) assess Travel Rule implementation and effectiveness (from March 2026);
+- (d) assess Travel Rule implementation and effectiveness (from 1 July 2026);
 - (e) assess financial sanctions screening procedures and effectiveness.
 
 ## 12. AUSTRAC FEEDBACK
 
 12.1 Where AUSTRAC provides CoinPort with feedback regarding performance in the management of ML/TF risk, any receipt of such feedback is immediately referred to the AML/CTF CO.
 
-12.2 The AML/CTF CO assesses AUSTRAC's feedback to determine if any changes to this Program are required and implements changes as soon as reasonably practicable with the Board's approval.
+12.2 The AML/CTF CO assesses AUSTRAC's feedback to determine if any changes to this Program are required and implements changes as soon as reasonably practicable with the Governing Body's approval.
 
 ---
 
@@ -692,7 +711,7 @@ The independent party may also:
 - (c) changes in the customer's beneficial ownership; or
 - (d) changes in the way a customer conducts transactions.
 
-15.7 **New Designated Services**: Prior to introducing a new service, the AML/CTF CO assesses whether it involves provision of a designated service and the ML/TF risk involved. Board approval must be received before introducing a new designated service.
+15.7 **New Designated Services**: Prior to introducing a new service, the AML/CTF CO assesses whether it involves provision of a designated service and the ML/TF risk involved. Governing Body approval must be received before introducing a new designated service.
 
 ---
 
@@ -756,7 +775,7 @@ The independent party may also:
 - (i) obtain an updated copy of the employee's working visa (where applicable); and
 - (ii) carry out any other identification, reference, criminal history checks, bankruptcy or credit checks deemed necessary.
 
-(c) Employees who fail to comply with procedures above will be reported to CoinPort's Board. Appropriate disciplinary action, including termination, will occur where necessary.
+(c) Employees who fail to comply with procedures above will be reported to CoinPort's Governing Body. Appropriate disciplinary action, including termination, will occur where necessary.
 
 17.4 Copies of employee checks undertaken must be kept in accordance with CoinPort's Document Retention Policy.
 
@@ -768,7 +787,7 @@ The independent party may also:
 - (i) undertake an internal spot check on the employee's performance;
 - (ii) implement a higher level of supervision of the employee;
 - (iii) provide a warning to the employee for non-compliance; or
-- (iv) if breaches are repeated without reasonable excuse, consider transferring or dismissing the employee in consultation with the Board.
+- (iv) if breaches are repeated without reasonable excuse, consider transferring or dismissing the employee in consultation with the Governing Body.
 
 ## 18. RISK AWARENESS TRAINING PROGRAM
 
@@ -780,7 +799,7 @@ The independent party may also:
 - (c) the type of ML/TF/PF risk that CoinPort might face and potential consequences;
 - (d) what money laundering, terrorism financing, and proliferation financing are (Sections 13, 14, 14A);
 - (e) processes and procedures provided for by this Program which are relevant to the employee's work;
-- (f) Travel Rule requirements and procedures (from March 2026);
+- (f) Travel Rule requirements and procedures (from 1 July 2026);
 - (g) financial sanctions screening requirements including proliferation financing sanctions;
 - (h) how to identify and report suspicious activities or red flag indicators;
 - (i) the 2026 reforms and CoinPort's risk-based approach to compliance; and
@@ -794,7 +813,7 @@ The independent party may also:
 
 18.6 **In-house AML/CTF Seminars** – The AML/CTF CO may organise in-house AML/CTF seminars on a regular basis so that employees returning from leave have the opportunity to refresh their knowledge.
 
-18.7 **Non-attendance of Training Sessions** – Non-attendance at any training sessions, without reasonable excuse, will be reported to the Board and the AML/CTF CO will take any disciplinary action they consider necessary.
+18.7 **Non-attendance of Training Sessions** – Non-attendance at any training sessions, without reasonable excuse, will be reported to the Governing Body and the AML/CTF CO will take any disciplinary action they consider necessary.
 
 18.8 **Compliance Policies** – All new employees will receive a copy of this Program and all compliance policies within a reasonable time of commencing employment. All employees are expected to review these compliance policies regularly and complete a declaration stating that they have read the policies.
 
@@ -835,7 +854,8 @@ The AML/CTF CO will undertake quarterly reviews of all Third-Party Providers to 
 
 | Service Provider | Service Outsourced | Date of Appointment | Frequency of Review | Date of Last Review | Outcome |
 |-----------------|-------------------|---------------------|---------------------|---------------------|---------|
-| KYC-AID | KYC/AML Platform | 1 January 2023 | Annual | January 2026 | No issues detected |
+| KYC-AID | KYC/AML Platform | 1 January 2023 | Annual | January 2026 | Transitioning to Didit; wind-down in progress |
+| Didit | KYC/AML Platform (Primary) | March 2026 | Annual | March 2026 | Implementation completed; replacing KYC-AID |
 | Sumsub | KYC/AML Platform & Travel Rule | January 2026 | Annual | January 2026 | No issues detected |
 | Notabene | Travel Rule Solution | January 2026 | Annual | January 2026 | Implementation in progress |
 | AMLBot | Blockchain Analytics & Sanctions Screening | January 2026 | Annual | Scheduled January 2027 | Implementation completed, first annual review forthcoming |
@@ -860,7 +880,7 @@ The AML/CTF CO will undertake quarterly reviews of all Third-Party Providers to 
 
 20.5 Details of record keeping and handling are set out in CoinPort's Document Retention Policy.
 
-20.6 **Travel Rule Records** (from March 2026): CoinPort must maintain for seven (7) years:
+20.6 **Travel Rule Records** (from 1 July 2026): CoinPort must maintain for seven (7) years:
 - (a) all Travel Rule messages sent and received;
 - (b) all originator and beneficiary information collected;
 - (c) screening results for Travel Rule transactions;
@@ -874,9 +894,9 @@ The AML/CTF CO will undertake quarterly reviews of all Third-Party Providers to 
 - (b) Identifying all suspicious transactions; and
 - (c) Taking the appropriate action.
 
-21.2 The AML/CTF CO will review the transaction monitoring system in consultation with the Board and CoinPort's external compliance consultant.
+21.2 The AML/CTF CO will review the transaction monitoring system in consultation with the Governing Body and CoinPort's external compliance consultant.
 
-21.3 The AML/CTF CO has primary responsibility for transaction monitoring. All transaction reports will be reviewed by the Board on a weekly basis.
+21.3 The AML/CTF CO has primary responsibility for transaction monitoring. All transaction reports will be reviewed by the Governing Body on a weekly basis.
 
 21.4 All CoinPort employees will receive training in transaction monitoring as part of the RATP.
 
@@ -889,7 +909,7 @@ The AML/CTF CO will undertake quarterly reviews of all Third-Party Providers to 
 | Suspicious Matter Reporting (SMR) | Implement and monitor SMR procedures | Submit SMRs within three (3) business days or twenty-four (24) hours for TF | AML/CTF CO | As required |
 | Threshold Transaction Reporting (TTR) | Implement and monitor TTR procedures | Report TTRs within ten (10) business days | AML/CTF CO | As required |
 | International Value Transfer Service (IVTS) | Implement and monitor IVTS procedures | Report IVTS within ten (10) business days | AML/CTF CO | As required |
-| Travel Rule Reports | Implement Travel Rule reporting | Report as required under 2026 Travel Rule | AML/CTF CO | As required from March 2026 |
+| Travel Rule Reports | Implement Travel Rule reporting | Report as required under 2026 Travel Rule | AML/CTF CO | As required from 1 July 2026 |
 
 21.6 CoinPort will use the following methods for electronic reporting via AUSTRAC Online at https://online.austrac.gov.au:
 - (a) Data entry: Manual entry into AUSTRAC Online account;
@@ -1093,9 +1113,17 @@ There are exemptions under the AML/CTF Act for the tipping off provisions which 
 
 ## 24. TRANSACTION REPORTING - INTERNATIONAL VALUE TRANSFER SERVICE (IVTS)
 
-24.1 Under the AML/CTF Act, if a Reporting Entity sends or receives an instruction to or from a foreign country for a transfer of value (including money, property, or virtual assets), they must submit an International Value Transfer Service ("IVTS") report to AUSTRAC.
+24.1 In February 2026, the Department of Home Affairs released for consultation an exposure draft of the Anti-Money Laundering and Counter-Terrorism Financing Transitional Rules 2026. This Program has been prepared on the assumption that the exposure draft transitional rules are or were enacted as proposed.
 
-24.2 The IVTS report must be in the approved form and sent in accordance with the requirements of the AML Rules.
+24.2 That exposure draft, among other things, proposed that:
+- all IVTS reporting requirements be delayed from implementation until 31 March 2029; and
+- any IFTI reporting requirements that apply shall continue until that date.
+
+24.3 Therefore, and given that IFTI reporting requirements do not apply to transfers of virtual assets, the remainder of this section only applies to CoinPort from 31 March 2029 onwards.
+
+24.4 Under the AML/CTF Act, if a Reporting Entity sends or receives an instruction to or from a foreign country for a transfer of value (including money, property, or virtual assets), they must submit an International Value Transfer Service ("IVTS") report to AUSTRAC.
+
+24.5 The IVTS report must be in the approved form and sent in accordance with the requirements of the AML Rules.
 
 ### IVTS Reporting
 
@@ -1159,7 +1187,7 @@ A report under subsection 45(2) of the AML/CTF Act must contain the following de
 
 ### 25.1 Travel Rule Overview
 
-Effective 31 March 2026, CoinPort must collect, verify, and transmit originator and beneficiary information for all cryptocurrency transfers between Virtual Asset Service Providers (VASPs), regardless of transaction value.
+Effective 1 July 2026, CoinPort must collect, verify, and transmit originator and beneficiary information for all cryptocurrency transfers between Virtual Asset Service Providers (VASPs), regardless of transaction value.
 
 **CRITICAL: Australia has NO minimum threshold for VASP-to-VASP transfers. The Travel Rule applies to all virtual asset transfers between VASPs.**
 
@@ -1541,7 +1569,7 @@ As part of implementing systems for ongoing customer due diligence, CoinPort wil
 - (b) what level of transaction monitoring needs to be conducted; and
 - (c) whether enhanced customer due diligence program needs to be applied.
 
-The AML/CTF CO is responsible for grouping of customers. The AML/CTF CO will review the grouping of customers on a monthly basis, and the Board will conduct spot check on the grouping of customers on a half-yearly basis.
+The AML/CTF CO is responsible for grouping of customers. The AML/CTF CO will review the grouping of customers on a monthly basis, and the Governing Body will conduct spot check on the grouping of customers on a half-yearly basis.
 
 ### Additional KYC Information
 
@@ -1583,7 +1611,7 @@ Where a change in customer information relates to name, residential address, com
 - (c) transaction involves foreign countries, customers or third parties against whom sanctions have been imposed or have been included on lists maintained by the Department of Foreign Affairs and Trade;
 - (d) transaction involves a customer or third party who is a PEP;
 - (e) AMLBot blockchain analytics indicate links to high-risk addresses, sanctioned wallets, blacklisted exchanges, or mixing services;
-- (f) Travel Rule information incomplete or suspicious for any VASP-to-VASP transfer (from March 2026);
+- (f) Travel Rule information incomplete or suspicious for any VASP-to-VASP transfer (from 1 July 2026);
 - (g) High-value transfers to/from self-hosted wallets (≥ AUD $10,000);
 - (h) Non-compliance with Travel Rule requirements by counterparty VASPs;
 - (i) AMLBot flags wallet addresses associated with darknet markets, ransomware, or theft;
@@ -1591,7 +1619,7 @@ Where a change in customer information relates to name, residential address, com
 
 **Steps After Risk Factors Identified**:
 - (a) An employee must immediately inform the AML/CTF CO when any ML or TF risk factor(s) are identified;
-- (b) The AML/CTF CO will then liaise with the Board in relation to any further action;
+- (b) The AML/CTF CO will then liaise with the Governing Body in relation to any further action;
 - (c) Where an employee identifies a customer or third party of a kind specified above, the AML/CTF CO will take appropriate action to determine, with a reasonable degree of certainty, whether the customer or third party is that person.
 
 **Further Actions**: If it is determined, as a result of transaction monitoring, that:
@@ -1602,7 +1630,7 @@ Where a change in customer information relates to name, residential address, com
 
 **Training on Identification of Risk Factors**: In addition to the Risk Awareness Training, the AML/CTF CO will ensure that all employees who have direct contact with customers or their representatives receive regular training in the identification of ML/TF risk factors.
 
-**Review and Update**: The AML/CTF CO, in consultation with the Board, must regularly assess CoinPort's transaction monitoring program and take steps to have this modified appropriately when required.
+**Review and Update**: The AML/CTF CO, in consultation with the Governing Body, must regularly assess CoinPort's transaction monitoring program and take steps to have this modified appropriately when required.
 
 ### Enhanced Customer Due Diligence Program
 
@@ -1622,7 +1650,7 @@ The ML/TF risk associated with a particular designated service, customer, delive
 - (c) a suspicion has arisen for the purposes of section 41 of the AML/CTF Act (refer to Section 22); or
 - (d) CoinPort is entering into or proposing to enter into a transaction and a party to the transaction is physically present, or is a company incorporated in, a prescribed foreign country; or
 - (e) blockchain analytics indicate high-risk transaction patterns or wallet associations; or
-- (f) Travel Rule information is incomplete, inconsistent, or indicates unusual cross-border transaction patterns (from March 2026); or
+- (f) Travel Rule information is incomplete, inconsistent, or indicates unusual cross-border transaction patterns (from 1 July 2026); or
 - (g) Large transfers to/from self-hosted wallets (≥ AUD $10,000) with insufficient explanation.
 
 **Steps After Factors Identified**:
@@ -1786,7 +1814,7 @@ Where a new customer is an individual, CoinPort categorises the customer as one 
 | 6. beneficial ownership of funds | | |
 | 7. details of employment | | Where any document is in a language that is not English, it must be accompanied by an English translation prepared by an accredited translator. |
 | | | **2. Reliable and Independent Electronic Data** |
-| | | Electronic verification via KYC-AID or Sumsub platforms |
+| | | Electronic verification via KYC-AID, Sumsub, or Didit platforms |
 
 **Customer Category: 5 (Sole Traders)**
 
@@ -2209,7 +2237,7 @@ If when conducting the risk analysis of a customer, CoinPort has a reasonable su
 Determine whether the PEP is of high money laundering or terrorism financing risk.
 
 If the customer is determined to be of high money laundering or terrorism financing risk, then, in addition to Step 3 above:
-1. obtain the Board's approval before establishing or continuing a business relationship with the individual and before the provision, or continued provision, of a designated service to the customer; and
+1. obtain the Governing Body's approval before establishing or continuing a business relationship with the individual and before the provision, or continued provision, of a designated service to the customer; and
 2. take reasonable measures to establish the PEP's source of wealth and source of funds; and
 3. comply with the ongoing due diligence obligations.
 
@@ -2230,7 +2258,7 @@ If the customer is determined to be of high money laundering or terrorism financ
 
 ### STEP 4 – FURTHER ACTION
 
-1. obtain the Board's approval before establishing or continuing a business relationship with the individual and before the provision, or continued provision, of a designated service to the customer;
+1. obtain the Governing Body's approval before establishing or continuing a business relationship with the individual and before the provision, or continued provision, of a designated service to the customer;
 2. take reasonable measures to establish the PEP's source of wealth and source of funds; and
 3. comply with the ongoing due diligence obligations.
 
@@ -2370,7 +2398,7 @@ A certified copy means a document that has been certified as a true copy of an o
 
 ---
 
-### TRAVEL RULE RED FLAGS (Effective 31 March 2026)
+### TRAVEL RULE RED FLAGS (Effective 1 July 2026)
 
 □ **Incomplete originator information** - VASP-to-VASP transfer missing required originator details (ANY amount)
 
@@ -2639,7 +2667,7 @@ This Risk Assessment Matrix identifies CoinPort's specific ML/TF/PF risks across
 - Semi-annual KYC review with AML/CTF CO sign-off
 - Enhanced transaction monitoring (weekly review by AML/CTF CO)
 - Real-time sanctions screening
-- Board notification of PEP customer relationships
+- Governing Body notification of PEP customer relationships
 - Adverse media screening quarterly
 
 **Monitoring Frequency:** Semi-annual KYC review, weekly enhanced transaction monitoring
@@ -2661,7 +2689,7 @@ This Risk Assessment Matrix identifies CoinPort's specific ML/TF/PF risks across
 - Existing accounts immediately suspended upon identification
 - Immediate SMR filing
 - Funds frozen pending regulatory guidance
-- Board and AUSTRAC notification
+- Governing Body and AUSTRAC notification
 
 ---
 
@@ -2723,7 +2751,7 @@ This Risk Assessment Matrix identifies CoinPort's specific ML/TF/PF risks across
 **Controls:**
 - Blockchain analytics on all BTC transactions (AMLBot)
 - Sanctions screening of wallet addresses
-- Travel Rule compliance for VASP-to-VASP transfers (from 31 March 2026)
+- Travel Rule compliance for VASP-to-VASP transfers (from 1 July 2026)
 - Enhanced screening for mixer/tumbler interactions
 - Transaction monitoring for structuring patterns
 
@@ -2850,7 +2878,7 @@ This Risk Assessment Matrix identifies CoinPort's specific ML/TF/PF risks across
 - Blacklisted exchange detection (non-compliant or high-risk exchanges)
 - Clustering analysis to identify related addresses
 - Sanctions screening of wallet addresses
-- Travel Rule implementation (from 31 March 2026)
+- Travel Rule implementation (from 1 July 2026)
 - Enhanced monitoring for mixer/tumbler interactions flagged by AMLBot
 - Cross-chain transaction tracking
 - AMLBot alerts for darknet marketplace connections, ransomware, and theft associations
@@ -2888,7 +2916,7 @@ This Risk Assessment Matrix identifies CoinPort's specific ML/TF/PF risks across
 - Enhanced due diligence for remittance customers
 - Source of funds verification
 - Beneficiary identification for large transfers (>$5,000)
-- Travel Rule compliance mandatory (from 31 March 2026)
+- Travel Rule compliance mandatory (from 1 July 2026)
 - Monitoring for structuring (multiple transfers to same beneficiary)
 - Philippines sanctions screening
 - Counterparty VASP due diligence (UnionBank, Coins.ph, etc.)
@@ -3005,7 +3033,7 @@ CoinPort will conduct immediate risk assessment review following any of these ev
 | Risk Category | Current Risk Level | Target Risk Level | Key Mitigating Controls |
 |---------------|-------------------|-------------------|------------------------|
 | **Customer Risk** | MEDIUM | MEDIUM | Comprehensive KYC across all entity types, beneficial ownership verification, PEP enhanced CDD, 55+ fraud screening, corporate structure analysis |
-| **Product Risk** | MEDIUM | MEDIUM | AMLBot blockchain analytics, sanctions screening, Travel Rule from March 2026 |
+| **Product Risk** | MEDIUM | MEDIUM | AMLBot blockchain analytics, sanctions screening, Travel Rule from 1 July 2026 |
 | **Channel Risk** | MEDIUM | LOW-MEDIUM | Electronic verification, liveness detection, instant payment monitoring, AMLBot wallet screening |
 | **Geographic Risk** | LOW | LOW | Australia-focused, limited cross-border, VASP counterparty due diligence |
 | **Proliferation Financing** | LOW-MEDIUM | LOW | Enhanced sanctions screening via AMLBot, beneficial ownership verification for corporates, no trade finance |
@@ -3015,7 +3043,7 @@ CoinPort will conduct immediate risk assessment review following any of these ev
 ### 8. CONTINUOUS IMPROVEMENT INITIATIVES
 
 **Q1 2026:**
-- ✅ Travel Rule implementation with Sumsub and Notabene (deadline: 31 March 2026)
+- ✅ Travel Rule implementation with Sumsub and Notabene (deadline: 1 July 2026)
 - ✅ Unified AML/CTF Program adoption (replacing Part A/Part B structure)
 - ✅ VASP counterparty due diligence procedures documented
 - ✅ AMLBot blockchain analytics integration
@@ -3058,16 +3086,16 @@ CoinPort tracks the following KRIs monthly:
 | False positive rate (transaction monitoring) | <30% | >50% |
 | Customer KYC refresh completion | >95% on schedule | <90% |
 | Staff training completion | 100% annually | <100% |
-| Travel Rule message success rate | >95% (from March 2026) | <90% |
+| Travel Rule message success rate | >95% (from 1 July 2026) | <90% |
 | Sanctions screening coverage | 100% | <100% |
 | AML/CTF CO escalations responded | 100% within 24 hours | <100% |
 
 ---
 
 **Risk Assessment Matrix Owner:** AML/CTF Compliance Officer  
-**Last Updated:** 5 January 2026  
-**Next Scheduled Review:** 5 April 2026 (Quarterly)  
-**Board Approval Date:** 5 January 2026
+**Last Updated:** 5 March 2026  
+**Next Scheduled Review:** 5 June 2026 (Quarterly)  
+**Governing Body Approval Date:** 5 March 2026
 
 ---
 
@@ -3080,7 +3108,7 @@ This questionnaire must be completed by any counterparty Virtual Asset Service P
 **Standard:** GDF/Wolfsberg-Aligned VASP Scorecard  
 **Responsible Officer:** Nicanor Nuqui, AML/CTF Compliance Officer  
 **Frequency:** Initial onboarding + Annual refresh for Medium/High risk VASPs  
-**Legal Basis:** AML/CTF Act Section 25.4, Travel Rule (effective 31 March 2026)
+**Legal Basis:** AML/CTF Act Section 25.4, Travel Rule (effective 1 July 2026)
 
 ---
 
@@ -3185,12 +3213,12 @@ After receiving completed questionnaire, apply the following logic gates to assi
 - [ ] Cross-check license numbers with regulator public databases
 - [ ] Apply Risk Scoring Key (above) to assign rating
 - [ ] Document rationale for risk classification
-- [ ] **If CRITICAL rating:** Escalate to Board immediately
+- [ ] **If CRITICAL rating:** Escalate to Governing Body immediately
 
 **Step 4: Management Approval**
 - [ ] **LOW Risk:** AML/CTF CO approval (document in file)
 - [ ] **MEDIUM Risk:** AML/CTF CO + Senior Management approval
-- [ ] **HIGH Risk:** Board approval required (present at next Board meeting)
+- [ ] **HIGH Risk:** Governing Body approval required (present at next Governing Body meeting)
 
 **Step 5: Add to VASP Registry**
 - [ ] Enter VASP details into "Approved VASP List" or "Restricted VASP List"
@@ -3211,7 +3239,7 @@ After receiving completed questionnaire, apply the following logic gates to assi
 **Directory Check Before Questionnaire:**
 Before sending this questionnaire, always check:
 1. **Notabene VASP Directory** - Pre-verified VASPs may qualify for simplified DD
-2. **AUSTRAC Public VASP Register** - Australian VASPs (from 31 March 2026)
+2. **AUSTRAC Public VASP Register** - Australian VASPs (from 1 July 2026)
 3. **FinCEN MSB Registry** - US-based Money Services Businesses
 4. **FCA Register** - UK Financial Conduct Authority registered firms
 5. **MAS Licensing Register** - Singapore Monetary Authority VASPs
@@ -3258,7 +3286,7 @@ Before approving any VASP:
 **Required Records (7-year retention per Section 20):**
 - [ ] Completed questionnaire with all supporting documents
 - [ ] Risk scoring rationale and decision memo
-- [ ] Management/Board approval documentation
+- [ ] Management/Governing Body approval documentation
 - [ ] Verification checks (license lookups, directory searches)
 - [ ] All Travel Rule messages exchanged with this VASP
 - [ ] Annual refresh questionnaires and risk re-assessments
@@ -3276,13 +3304,14 @@ Before approving any VASP:
 | Version | Date | Changes |
 |---------|------|---------|
 | 1.0 | 5 January 2026 | Initial questionnaire aligned with Section 25.4 requirements and GDF/Wolfsberg VASP standards |
+| 1.1 | 5 March 2026 | Updated to reflect Travel Rule effective date of 1 July 2026 |
 
 **Next Review:** 5 January 2027 or upon regulatory guidance updates
 
 ---
 
 **Appendix Owner:** AML/CTF Compliance Officer  
-**Approved By:** Board of Directors, 5 January 2026
+**Approved By:** Governing Body, 5 March 2026
 
 ---
 
@@ -3290,15 +3319,15 @@ Before approving any VASP:
 
 ---
 
-**Issued by the Board of Directors of CoinPort Pty Ltd**
+**Issued by the Governing Body of CoinPort Pty Ltd**
 
-**Program Effective Date:** 5 January 2026
+**Program Effective Date:** 5 January 2026 (v3.0) | 5 March 2026 (v3.1)
 
 ---
 
-## BOARD APPROVAL
+## GOVERNING BODY APPROVAL
 
-This AML/CTF Program Version 3.0 was reviewed and approved by the Board of Directors of CoinPort Pty Ltd on 5 January 2026.
+This AML/CTF Program Version 3.1 was reviewed and approved by the Governing Body of CoinPort Pty Ltd on 5 March 2026.
 
 **Board Chairperson / CEO:**
 
@@ -3334,9 +3363,9 @@ Date: _________________
 ## PROGRAM DISTRIBUTION
 
 This Program has been distributed to:
-- [ ] All Board Members
+- [ ] All Members of the Governing Body
 - [ ] All CoinPort Employees
-- [ ] Third-Party Service Providers (KYC-AID, Sumsub, Notabene, AMLBot)
+- [ ] Third-Party Service Providers (Didit, Sumsub, Notabene, AMLBot, KYC-AID)
 - [ ] Legal Counsel
 - [ ] External Auditor
 - [ ] Compliance Consultant
@@ -3347,13 +3376,14 @@ This Program has been distributed to:
 
 | Version | Date | Author | Changes Summary |
 |---------|------|--------|-----------------|
-| 1.0 | 6 June 2021 | [Name] | Original Part A and Part B prepared |
-| 2.0 | 1 July 2024 | [Name] | Edits for fraud prevention (55+ screening) |
-| 3.0 | 5 January 2026 | [Name] | Unified program for 2026 AML/CTF reforms; Travel Rule implementation; DCE→VASP transition; Risk-based approach adoption; Proliferation financing added; Section 25.2 updated with current reporting obligations |
+| 1.0 | 6 June 2021 | Peter Cooney | Original Part A and Part B prepared |
+| 2.0 | 1 July 2024 | Peter Cooney | Edits for fraud prevention (55+ screening) |
+| 3.0 | 5 January 2026 | Jonathan Heywood | Unified program for 2026 AML/CTF reforms; Travel Rule implementation; DCE→VASP transition; Risk-based approach adoption; Proliferation financing added; Section 25.2 updated with current reporting obligations |
+| 3.1 | 5 March 2026 | Jonathan Heywood | Minor updates: register names finalised, Didit added as KYC provider, placeholders resolved |
 
-**Next Scheduled Review:** February 2026 (initial post-implementation), then January 2027 (annual)  
+**Next Scheduled Review:** January 2027 (annual)  
 **Document Location:** CoinPort secure document management system  
-**Access Level:** Board, Management, AML/CTF CO, AUSTRAC (upon request)
+**Access Level:** Governing Body, Management, AML/CTF CO, AUSTRAC (upon request)
 
 ---
 
