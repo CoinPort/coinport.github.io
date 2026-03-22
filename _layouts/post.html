@@ -57,5 +57,16 @@
           document.getElementById("signatureImage").src = 'https://blog.coinport.com.au/assets/img/news/coinport-signature-dark.png';
         }
     </script>
+    <script>
+      function sendHeight() {
+        var el = document.querySelector('.markdown-body') || document.querySelector('.post-content') || document.body;
+        var rect = el.getBoundingClientRect();
+        var height = Math.ceil(window.scrollY + rect.bottom) + 20;
+        window.parent.postMessage({ type: 'iframeHeight', height: height }, '*');
+      }
+      window.addEventListener('load', sendHeight);
+      window.addEventListener('resize', sendHeight);
+      new MutationObserver(sendHeight).observe(document.body, { childList: true, subtree: true });
+    </script>
   </body>
 </html>
