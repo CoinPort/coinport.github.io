@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 ## Levels of consumer trust in crypto increasing - DB Report
 
 Consumer trust in cryptocurrencies, particularly Bitcoin, has increased according to a recent Deutsche Bank survey, signaling evolving sentiments despite concerns over price volatility.

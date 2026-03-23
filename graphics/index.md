@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort Graphic Design Resources
 
 ![](..)

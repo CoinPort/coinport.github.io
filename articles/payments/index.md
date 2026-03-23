@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 ## Australia's Payment Systems: Osko, BPAY, Batch, and RTGS
 
 **Introduction**

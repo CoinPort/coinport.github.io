@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 **CoinPort Pty Ltd**  
 **Cybersecurity Awareness Policy & Procedures**  
 **Document Number:** CP-INFOSEC-002  

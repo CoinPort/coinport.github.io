@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 The choice of Dispute Resolution Scheme (DRS) is not just a tick-box exercise; it can impact your operational efficiency, costs, and relationship with customers. For a cryptocurrency exchange like CoinPort Limited, the decision requires careful consideration.
 
 While all three approved schemes (FSCL, IFSO, and FDRS) are competent and mandated by law, they have different **cultures, expertise, and fee structures** that may make one a better fit for your specific business.

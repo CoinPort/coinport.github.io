@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 
 
 Given CoinPort is a crypto exchange, your RMs will need a robust foundation in **traditional finance regulation** combined with **deep crypto-specific knowledge**. Here is a structured training plan with specific courses and materials.

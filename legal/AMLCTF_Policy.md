@@ -1,8 +1,12 @@
+---
+layout: default
+---
+
 # ANTI-MONEY LAUNDERING AND COUNTER- TERRORIST FINANCING POLICY
 
 ## Administrative Information
 
-Australia Securities and Investments Commission (ASIC):
+Australian Securities and Investments Commission (ASIC):
 Legal name: CoinPort Pty Ltd
 Registered address: Level 2, 696 Bourke St, Melbourne VIC 3000
 ABN: 84 006 876 286

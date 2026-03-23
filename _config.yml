@@ -69,6 +69,38 @@ defaults:
       path: ""
     values:
       image: /images/logos/ch_sign_logo.png
+  - scope:
+      path: "coins"
+    values:
+      sitemap: false
+  - scope:
+      path: "chains"
+    values:
+      sitemap: false
+  - scope:
+      path: "fonts"
+    values:
+      sitemap: false
+  - scope:
+      path: "graphics"
+    values:
+      sitemap: false
+  - scope:
+      path: "images"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+  - scope:
+      path: "data"
+    values:
+      sitemap: false
+  - scope:
+      path: "social"
+    values:
+      sitemap: false
 
 # Sitemap Plugin Configuration
 sitemap:

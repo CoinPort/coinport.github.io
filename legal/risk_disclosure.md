@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort Risk Disclosure Statement
 
 Before using any CoinPort services, you should ensure that you fully understand and can afford to undertake the risks involved. This document lists some, but not all of the risks involved in holding, trading and otherwise using crypto assets generally, and using CoinPort services specifically. This risk disclosure document is intended to provide you with a general outline of the risks involved, but cannot capture all such risks. The risks listed below therefore do not constitute an exhaustive list, and additional significant risks may be applicable. Accordingly, in addition to reading this document, you should always do your own research.

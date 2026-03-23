@@ -1,8 +1,12 @@
+---
+layout: default
+---
+
 <div class="center_contents">
 
 <h1 style="font-size: 34px; color: #02285e;">Scheduled Maintenance</h1>
 
-<img src="./maintenance.png" alt="Maintenace" style="padding: 30px;">
+<img src="./maintenance.png" alt="Maintenance" style="padding: 30px;">
 
 <h2>The CoinPort Exchange website is temporarily unavailable while we perform scheduled maintenance.</h2>
 

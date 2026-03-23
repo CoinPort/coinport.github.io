@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 PH 
 
 Expanding into the **Philippines** presents a **high-growth opportunity** for **CoinPort**, given the country's strong crypto adoption, remittance-driven demand, and relatively clear regulations. However, challenges like **licensing costs, banking hurdles, and local competition** must be considered.  

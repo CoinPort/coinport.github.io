@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort Privacy Policy
 
 ## General Conditions

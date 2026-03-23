@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 **CoinPort Pty Ltd**  
 **Market Conduct & Insider Trading Policy & Procedures**  
 **Document Number:** CP-COMP-003  

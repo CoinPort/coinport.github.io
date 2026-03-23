@@ -57,7 +57,7 @@ html {
 body {
   background: var(--main-background-color);
   color: var(--primary-text-color);
-  font-family: "Poppins", sans serif;
+  font-family: "Poppins", sans-serif;
   margin: 10px;
   padding: 0;
   font-size: 15px;

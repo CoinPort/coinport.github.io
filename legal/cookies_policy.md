@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Cookies Policy
 
 This Cookie Policy is a part of the public agreement between You and CoinPort Pty Ltd. Along with the Terms of Use, Anti-Money Laundering Policy and Privacy Policy this document constitutes rules between You and Us during using our Services. We have developed this Cookies Policy to provide an explanation of how we utilize cookies and similar technologies, as well as to guide you on managing your cookie preferences.

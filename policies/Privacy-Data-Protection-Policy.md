@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 **CoinPort Pty Ltd**  
 **Privacy & Data Protection Policy**  
 **Document Number:** CP-COMP-004  
@@ -107,7 +111,7 @@ Given our regulatory obligations, it is generally not possible for individuals t
 
 Chief Executive Officer: Kent Kingsley   Date: 23-Mar-2025
 
-Chief Compliance Officer: PeterCooney    Date: 23-Mar-2025
+Chief Compliance Officer: Peter Cooney    Date: 23-Mar-2025
 
 ---
 

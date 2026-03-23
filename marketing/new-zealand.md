@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 new zealand 
 
 Expanding into **New Zealand (NZ)** offers **moderate difficulty but strong potential** for **CoinPort**, given the country’s crypto-friendly regulations, high retail adoption, and proximity to Australia. However, **limited market size and banking hurdles** require careful planning.  

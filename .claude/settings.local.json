@@ -4,7 +4,13 @@
       "WebSearch",
       "WebFetch(domain:www.legislation.gov.au)",
       "WebFetch(domain:www.aph.gov.au)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/storage/git/coinport/CoinPort.github.io/**)",
+      "Bash(done)",
+      "Bash(for dir:*)",
+      "Read(//c/storage/git/coinport/CoinPort.github.io/articles/**)"
     ]
   }
 }

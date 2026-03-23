@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 **CoinPort Pty Ltd**
 **AFSL Application Lodgement Guide**
 **Document Number:** CP-COMP-008

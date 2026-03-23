@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Here’s a **step-by-step expansion plan** for **CoinPort to enter Malaysia**, covering licensing, partnerships, marketing, and risk mitigation:
 
 ---

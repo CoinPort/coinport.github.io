@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort Policy Hub
 
 Welcome to the official repository of CoinPort's governance and compliance documents. This page provides direct access to our core policies and procedures, which underpin our commitment to regulatory compliance, security, and ethical operations as a licensed Australian cryptocurrency exchange.

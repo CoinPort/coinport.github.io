@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort Sanctions Policy
 
 ## General Conditions
@@ -9,7 +13,7 @@ CoinPort prohibits individuals or entities that are sanctioned by either Austral
 CoinPort uses a variety of methods to prevent access from sanctioned countries.
 
 *   Firewall Geo-blocking to prevent viewing the website
-*   The Twillio SMS service has been configured to not send KYC confirmations to sanctioned countries
+*   The Twilio SMS service has been configured to not send KYC confirmations to sanctioned countries
 *   KYC Prohibition lists based on sanction regions
 *   Daily manual review of new members and activity related to sanctioned countries
 *   Any member of the CoinPort platform who is suspected of being sanctioned or a PEP is blocked in the database

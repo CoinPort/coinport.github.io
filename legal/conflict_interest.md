@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort Conflict of Interest Policy
 
 ## 1\. Policy
@@ -27,7 +31,7 @@ CoinPort Pty Ltd acts in the best interest of participants, safeguarding them fr
 
 CoinPort Pty Ltd plans, delivers and reviews services in collaboration with participants and their families, friends, and carers, supporting a person’s right to exercise choice and control.
 
-CoinPort Pty Ltd has mechanisms in place to ensure all any actual, potential, or perceived conflicts of interest are declared, documented, managed, and monitored.
+CoinPort Pty Ltd has mechanisms in place to ensure any actual, potential, or perceived conflicts of interest are declared, documented, managed, and monitored.
 
 CoinPort Pty Ltd workers treat all participants equally and ensure that no participant is given preferential treatment, above another, in the receipt or provision of supports. Workers must not seek or receive any personal or financial benefit as a result of their work, including gifts or rewards.
 
@@ -42,7 +46,7 @@ CoinPort Pty Ltd workers treat all participants equally and ensure that no parti
 
 ### 1.6 Responsibilities
 
-All CoinPort Pty Ltd board members and workers are responsible for complying with this policy anddeclaring any personal interests, which must be documented in writing. Information arising from conflict of interest disclosures will be managed in accordance with the CoinPort Pty Ltd privacy policy and procedure.
+All CoinPort Pty Ltd board members and workers are responsible for complying with this policy and declaring any personal interests, which must be documented in writing. Information arising from conflict of interest disclosures will be managed in accordance with the CoinPort Pty Ltd privacy policy and procedure.
 
 There are additional roles and responsibilities at each level of the organisation.
 

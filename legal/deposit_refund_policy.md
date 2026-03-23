@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Cross-Chain Deposits and Refund Policy
 
 CoinPort Pty Ltd, operating as CoinPort, is committed to our customers' security and the integrity of our platform. We understand that in the course of using our services, incorrect deposits, such as sending electronic tokens to a wallet address intended for a different cryptocurrency, can occur. To ensure our users understand the process and their eligibility for a refund, we have created this Cross-chain Deposits and Refund Policy ("Policy").

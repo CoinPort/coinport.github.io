@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 **CoinPort Pty Ltd**  
 **Workplace Health & Safety & Code of Conduct Policy**  
 **Document Number:** CP-GOV-001  
@@ -112,6 +116,6 @@ Signature: ________________________ Date: _________
 
 **Approvals:**
 
-Chief Executive Officer: KentKingsley    Date: 12-May-2025
+Chief Executive Officer: Kent Kingsley    Date: 12-May-2025
 
 Chief Financial Officer: Peter Cooney    Date: 12-May-2025

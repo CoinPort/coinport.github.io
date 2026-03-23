@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort Terms and Conditions
 
 ## The Platform
@@ -18,7 +22,7 @@ Your eligibility and use of our Platform and Services is dependent upon your cou
 
 The trading or holding of coins, tokens, crypto, digital currency, or digital assets of the like (collectively 'Coins') involves significant risks and the losses can be substantial. You should carefully consider and assess whether trading or holding of Coins is suitable for you depending upon your financial circumstances and tolerance to risk.
 
-Coins such as Bitcoin and Ether are unlike traditional currencies, goods or commodities in the market and are subject to exceptional risks. Unlike other traditional forms of currency, Coins are decentralised and are not backed by a central bank, government or legal entities and remains unregulated. As such, the value of Coins may swing depending upon the market, confidence of investors, competing currencies, regulatory announcements or changes, technical problems or any other factors.
+Coins such as Bitcoin and Ether are unlike traditional currencies, goods or commodities in the market and are subject to exceptional risks. Unlike other traditional forms of currency, Coins are decentralised and are not backed by a central bank, government or legal entities and remain unregulated. As such, the value of Coins may swing depending upon the market, confidence of investors, competing currencies, regulatory announcements or changes, technical problems or any other factors.
 
 Due to the significant risks of trading Coins as well as the impact of technology and the international market, CoinPort cannot warrant or guarantee that particular Coins will be available on our Platform and Services. CoinPort reserves the right to stop offering trades in relation to particular Coins on our Platform and Services. We will use our reasonable endeavours to notify you if we cease to support trading in particular Coins. If this is the case, you will not be able to convert Coins into AUD or any other currency, however you will be given the option to move the Coins to another user, platform or third party website.
 
@@ -124,7 +128,7 @@ Emails to and from us may undergo email filtering and virus scanning, including 
 
 You acknowledge that you use the Platform and Services (and obtain and transmit data to it) entirely at your own risk, that it is provided on an “as is” basis and that we do not make any representations or warranties as to the security, availability of our Platform and Services or that your access or use will be uninterrupted, timely or secure.
 
-CoinPort securely stores Coin private keys and other information in order to maintain the security and integrity of the system. We are committed to protecting users’ Coins and other information we collect from you and hold in highly secure data centres operated by a third party. The datacentres used have ISO 270014, 270175 and 270186 certifications and PCI DSS7 compliance. This has been independently audited by third parties. ISO 27018 certification has also been achieved for our data centre partners, which demonstrates a system of controls in place that specifically address the privacy protection of customer content. We ensure that your information is safe by managing access controls, such as identity, access management, permissions and security credentials. Access to personal information is only granted to an employee of CoinPort to carry out duties required to support our customers. Strong, multi-factor authentication is used and access is revoked when no longer required.
+CoinPort securely stores Coin private keys and other information in order to maintain the security and integrity of the system. We are committed to protecting users’ Coins and other information we collect from you and hold in highly secure data centres operated by a third party. The datacentres used have ISO 27001, 27017 and 27018 certifications and PCI DSS7 compliance. This has been independently audited by third parties. ISO 27018 certification has also been achieved for our data centre partners, which demonstrates a system of controls in place that specifically address the privacy protection of customer content. We ensure that your information is safe by managing access controls, such as identity, access management, permissions and security credentials. Access to personal information is only granted to an employee of CoinPort to carry out duties required to support our customers. Strong, multi-factor authentication is used and access is revoked when no longer required.
 
 CoinPort uses a two-factor authentication process in order to verify your identity, maintain security and prevent any fraud.
 

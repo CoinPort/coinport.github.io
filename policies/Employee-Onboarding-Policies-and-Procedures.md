@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 **CoinPort Pty Ltd**  
 **Employee Onboarding Policies and Procedures Manual**  
 **Section 1: Pre-Employment Due Diligence & Onboarding**  

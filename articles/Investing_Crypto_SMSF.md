@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 Investing in Crypto with Your Self-Managed Super Fund (SMSF)
 Over the past decade cryptocurrencies have emerged from a speculative niche to being the world's fastest growing asset class. Today, crypto assets like Bitcoin (BTC), Ethereum (ETH), and others have gained mainstream acceptance and are being considered by many as a legitimate part of a diversified investment portfolio. Recognising the potential of the crypto market, many Australians with Self-Managed Super Funds (SMSF) are actively seeking avenues to invest in this dynamic space. In this guide, we aim to demystify the realm of SMSF-based crypto investments, and showcase how platforms like Coinstash can help your SMSF gain exposure to crypto-assets.
 
@@ -19,7 +23,7 @@ How to set up an SMSF for Cryptocurrency Investments?
 If you are considering investing in crypto through your SMSF, there are certain steps you must take to ensure you can do so. 
 
 1) Consult Your Financial Adviser
-Before diving in, it’s crucial to begin by discussing your plans with a financial advisor. This is important whether you’re setting up an SMSF for the first time or evaluating your current SMSF's capacity to invest in crypto. A financial adviser can provide tailored advice, ensuring your investment strategy aligns with your investment goals, risk tolerence, and complies with regulatory requirements.
+Before diving in, it’s crucial to begin by discussing your plans with a financial advisor. This is important whether you’re setting up an SMSF for the first time or evaluating your current SMSF's capacity to invest in crypto. A financial adviser can provide tailored advice, ensuring your investment strategy aligns with your investment goals, risk tolerance, and complies with regulatory requirements.
 
 2) Establish Your SMSF
 If you are setting up an SMSF for the first time, it's essential to understand that this process involves several crucial steps. While it's possible to manage this independently, many find it beneficial to enlist the help of professionals who specialise in SMSF establishment. These experts can guide you through the complexities of creating an SMSF, ensuring that your fund is set up correctly and complies with all the legal requirements.
@@ -27,7 +31,7 @@ If you are setting up an SMSF for the first time, it's essential to understand t
 3) Review and Update Your SMSF Trust Deed
 After consulting with your financial adviser and establishing your SMSF, the next critical step is to review your SMSF Trust Deed. This is crucial whether you are setting up a new SMSF or have an existing one. The Trust Deed is the foundation of your fund, outlining its structure and investment rules.
 
-If you’re creating a new SMSF, ensure that the deed drafted by professionals includes provisions for cryptocurrency investments. For those with an existing SMSF, check if your current deed already covers such investments. If it's outdated or doesn’t explicitly allow for crypto investments, you'll need to update it. Most modern Trust Deeds are designed to be broad enough to to cover investments like crypto, but here’s what to check:
+If you’re creating a new SMSF, ensure that the deed drafted by professionals includes provisions for cryptocurrency investments. For those with an existing SMSF, check if your current deed already covers such investments. If it's outdated or doesn’t explicitly allow for crypto investments, you'll need to update it. Most modern Trust Deeds are designed to be broad enough to cover investments like crypto, but here’s what to check:
 
 Sole Purpose Test: The deed should clearly outline the sole purpose of your SMSF, which is to provide retirement benefits to its members.
 Trustee Details: It needs to identify the trustees, their powers, and confirm they have been appointed in line with the SIS Act and Regulations. Trustees must always act in the best interests of the SMSF members.
@@ -49,7 +53,7 @@ There are several important steps in this process:
 
 Get a Tax File Number (TFN) for your SMSF.
 Choose to have your fund to be an ATO-regulated SMSF - as this allows you to get tax concessions and claim deductions.
-3) Appoint an Auditor: You must choose an approved auditor to check your SMSFs finances. This needs to be done 45 days before you file your SMSF's annual return. The auditor should be independent and registered with ASIC. You can find one through the ASIC SMSF auditor register.
+3) Appoint an Auditor: You must choose an approved auditor to check your SMSF's finances. This needs to be done 45 days before you file your SMSF's annual return. The auditor should be independent and registered with ASIC. You can find one through the ASIC SMSF auditor register.
 
 It's a good idea to work with an accountant during this process to make sure everything is done correctly.
 
@@ -72,11 +76,11 @@ When registering your account on an exchange, it’s important to do so as an SM
 Coinstash sets itself apart in the Australian market with its dedicated SMSF services. Being an AUSTRAC-registered platform, it guarantees adherence to regulatory standards and offers bespoke account options designed for SMSFs. Coinstash facilitates easy management of tax and audit responsibilities, thanks to its integration with top-tier tax software providers like Syla and Koinly. This makes it a preferred platform for Australian SMSF investors looking to venture into cryptocurrency investments with their super funds.
 
 8) Store Your Crypto Assets Securely
-Ensuring the secure storage of your SMSFs crypto assets is paramount. There are various options available for storing cryptocurrencies in your SMSF, such as keeping them on a trusted exchange like Coinstash, or using a digital wallet or offline hardware wallet.
+Ensuring the secure storage of your SMSF's crypto assets is paramount. There are various options available for storing cryptocurrencies in your SMSF, such as keeping them on a trusted exchange like Coinstash, or using a digital wallet or offline hardware wallet.
 
 If you choose to store crypto on an exchange, it's vital to ensure that these assets remain distinctly separate from any personal holdings. Using a dedicated exchange account specifically for your SMSF is essential. This segregation is not only necessary for organisational purposes but also critical for compliance and audit transparency. It is also recommended to implement strict security measures, including multi-factor authentication and regular backups, to protect your SMSF assets from potential hacking and theft.
 
-If you opt for a wallet, it's recommended to use an external hardware wallet over a digital warm wallet, as keeping your assets offline in cold storage offers enhanced security. Additionally, it's important to maintain clear documentation for SMSF audit purposes. Make sure any hardware wallet purchases are invoiced to the SMSF and keep a copy of this tax invoice. It's crucial to use this wallet exclusively for the SMSFs assets, without mixing in any personal investments.
+If you opt for a wallet, it's recommended to use an external hardware wallet over a digital warm wallet, as keeping your assets offline in cold storage offers enhanced security. Additionally, it's important to maintain clear documentation for SMSF audit purposes. Make sure any hardware wallet purchases are invoiced to the SMSF and keep a copy of this tax invoice. It's crucial to use this wallet exclusively for the SMSF's assets, without mixing in any personal investments.
 
 What are the Tax Implications of Investing in Cryptocurrency with an SMSF?
 ATO Rules and Guidelines for Crypto SMSFs in Australia
@@ -113,7 +117,7 @@ Setting up a SMSF account on Coinstash is simple and straightforward, making it 
 Easily Manage Your Crypto SMSF with Coinstash
 When setting up a crypto SMSF account, Coinstash stands out as the premier choice for Australian investors. With its seamless integration with many leading tax software providers and user-friendly interface, Coinstash provides an unparalleled experience in managing crypto SMSF accounts. Renowned for its robust security measures and adherence to regulatory standards, Coinstash ensures your investments are both safe and compliant with ATO guidelines.
 
-Our platform offers access to a wide range of over 1,000+ coins, coupled with detailed reporting features, making it an ideal solution for those looking to diversify their SMSF with digital assets. Whether you're a seasoned investor or new to the world of crypto, Coinstash's dedicated expert support  make it the go-to option for easily setting up and managing your crypto SMSF account.
+Our platform offers access to a wide range of over 1,000+ coins, coupled with detailed reporting features, making it an ideal solution for those looking to diversify their SMSF with digital assets. Whether you're a seasoned investor or new to the world of crypto, Coinstash's dedicated expert support makes it the go-to option for easily setting up and managing your crypto SMSF account.
 
 Click here to book a consultation with one of our SMSF experts!
 

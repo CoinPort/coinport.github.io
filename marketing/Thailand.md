@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 thailand 
 
 Expanding into **Thailand** presents a **moderate difficulty but high-reward opportunity** for **CoinPort**, given the country’s progressive crypto regulations, strong retail adoption, and growing institutional interest. However, **licensing hurdles, local competition, and strict marketing rules** must be navigated carefully.  

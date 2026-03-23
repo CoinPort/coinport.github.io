@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Engaging a New Zealand-based Payment Service Provider (PSP) is an excellent strategy for CoinPort Limited. It can solve critical operational needs: managing high-volume, low-value NZD deposits/withdrawals, offering diverse payment methods, and often providing a more understanding partner than a traditional bank alone. A good PSP acts as a "banking-as-a-service" layer.
 
 Here are New Zealand PSPs to consider, categorized by their potential fit for a crypto exchange.

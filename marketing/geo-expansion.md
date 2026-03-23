@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 geo expansion 
 
 If **CoinPort** (as a licensed Australian crypto exchange) wants to expand internationally, it should target **high-growth, crypto-friendly markets** with strong demand, reasonable regulatory costs, and scalable opportunities. Below are the **best expansion options**, ranked by **market potential vs. entry cost**:

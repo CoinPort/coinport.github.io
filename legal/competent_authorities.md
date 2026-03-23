@@ -1,6 +1,10 @@
+---
+layout: default
+---
+
 # Terms of Processing Requests of Competent Authorities
 
-The Terms of Processing Requests (hereinafter “the Terms”) determine the procedure how CoinPort Pty Ltd and its affiliates (collectively, “CoinPort”, “CoinPort”, “we”, or “us”) provide responses to the requests from competent authorities regarding coinport.com.au (the "Website") and its related services. The Terms apply to the Website and all services provided by CoinPort Pty Ltd.
+The Terms of Processing Requests (hereinafter “the Terms”) determine the procedure for how CoinPort Pty Ltd and its affiliates (collectively, “CoinPort”, “CoinPort”, “we”, or “us”) provide responses to the requests from competent authorities regarding coinport.com.au (the "Website") and its related services. The Terms apply to the Website and all services provided by CoinPort Pty Ltd.
 
 ## General Information
 
@@ -12,7 +16,7 @@ The request for information shall be made in English only and include a valid em
 
 CoinPort Pty Ltd reserves the right to leave the request without action when it does not comply with the law.
 
-CoinPort Pty Ltd prefers to receive all type of inquiries via e-mail legal@coinport.com.au.
+CoinPort Pty Ltd prefers to receive all types of inquiries via e-mail legal@coinport.com.au.
 
 The process of reviewing the inquiry might require at least ten (10) business days.
 

@@ -1,6 +1,10 @@
+---
+layout: default
+---
+
 # CoinPort Anti-Money Laundering (AML)
 
-As a Registered Digital Currency Exchange, CoinPort is bound by Australian law to ensure the services we provide does not facilitate money laundering or terrorism financing.
+As a Registered Digital Currency Exchange, CoinPort is bound by Australian law to ensure the services we provide do not facilitate money laundering or terrorism financing.
 
 We have various Anti-Money Laundering (AML), Counter-Terrorism Financing (CTF) and Fraud Prevention measures in place which are designed to help us monitor, detect and prevent these attempts.
 

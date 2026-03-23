@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 # Current State and Future Outlook of the TRON Blockchain
 
 In the ever-evolving landscape of blockchain technology, the TRON Blockchain has emerged as a significant player, offering a platform for decentralized applications (dApps) and digital content distribution. With its ambitious vision and growing ecosystem, TRON has garnered attention as a platform poised to revolutionize various sectors. In this article, we'll explore the current status of the TRON Blockchain and delve into its prospects for the future.

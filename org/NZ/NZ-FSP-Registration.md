@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Here is a step-by-step guide to the FSP registration process, tailored for your situation as an Australian parent company with a NZ subsidiary.
 
 ### **Core Understanding: The Role of the FSPR**

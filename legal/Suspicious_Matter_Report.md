@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort Suspicious Matter Report (SMR) Policy
 
 ## 1. Purpose  

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort Digital Asset Purchase Agreement
 
 This Agreement defines the rights and obligations of CoinPort Pty Ltd (the "Project," "we," "us") and the User ("you") when you purchase any digital asset ("Token") on the CoinPort exchange platform ("the Exchange").

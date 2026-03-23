@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Application Programming Interfaces (API) License Agreement
 
 If you have any questions about this Application Programming Interfaces License Agreement, please feel free to contact us by email at [support@coinport.com.au](mailto:support@coinport.com.au).
@@ -161,7 +165,7 @@ This Agreement and the license granted herein commences upon the start of use of
 
 ### 8.2.
 
-We reserve the right to terminate this Agreement at any time and for any reason in its sole and exclusive discretion. We will endeavor to provide advanced notice of any termination unless impracticable or unreasonable under the circumstances.
+We reserve the right to terminate this Agreement at any time and for any reason in its sole and exclusive discretion. We will endeavor to provide advance notice of any termination unless impracticable or unreasonable under the circumstances.
 
 ### 8.3.
 

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 **CoinPort Pty Ltd**
 **Australian Financial Services Licence (AFSL) Application Project Plan**
 **Document Number:** CP-COMP-007

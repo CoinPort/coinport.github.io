@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 ## Main Heading - for top of page to describe the Article
 This is a template for the CoinPort articles. This is a template for the CoinPort articles.<br>This is a template for the CoinPort articles.<br>This is a template for the CoinPort articles.
 

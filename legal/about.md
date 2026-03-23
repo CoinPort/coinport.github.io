@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort legal information
 
 ## Australian Securities & Investments Commission (ASIC) Details

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Crypto opportunities 
 
 If **CoinPort** (as a licensed Australian crypto exchange) wants to expand its business and profitability, it should explore high-growth areas in the **blockchain and cryptocurrency sectors** that align with regulatory trends, market demand, and revenue potential. Here are **10 strategic expansion areas** to consider:  

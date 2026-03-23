@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Here are several highly-regarded New Zealand law firms with dedicated expertise in financial services regulation, fintech, and cryptocurrency, making them well-suited to assist CoinPort Limited with FSP registration and related compliance.
 
 ### **Top-Tier Full-Service Firms (with Dedicated Fintech/Financial Services Teams)**

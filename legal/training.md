@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort Training and Development Policy
 
 ## 1. Purpose
@@ -31,7 +35,7 @@ Individual staff training and development needs should be discussed during CoinP
 * Clarify job responsibilities and performance goals/expectations;
 * Establish appropriate development and performance objectives;
 * Help staff identify a possible career path for themselves;
-* Identify ways in which CoinPort’s organisation and/or operation might enable individuals to improve theirperformance;
+* Identify ways in which CoinPort’s organisation and/or operation might enable individuals to improve their performance;
 * Ensure that information on job performance and achievements is recorded in each staff member's employment history; and
 * Provide a basis for decisions on remuneration.
 
@@ -47,13 +51,13 @@ CoinPort may offer any of the following opportunities for staff development:
 
 ## 7. Regulatory Requirements
 
-CoinPort Pty Ltd is registered with and regulated by the Australian Security and Investments Commission (ASIC) and Australian Transaction Reports and Analysis Centre (AUSTRAC).
+CoinPort Pty Ltd is registered with and regulated by the Australian Securities and Investments Commission (ASIC) and Australian Transaction Reports and Analysis Centre (AUSTRAC).
 
-There is a requirement that all staff undetake approved education and training for Anti-Money Laundering (AML) and Counter-Terrorism Funding (CTF) before commencing work with CoinPort Pty Ltd.
+There is a requirement that all staff undertake approved education and training for Anti-Money Laundering (AML) and Counter-Terrorism Funding (CTF) before commencing work with CoinPort Pty Ltd.
 
-For initlal AML/CTF training our preferred education provider is Financial Education Professionals <a href="https://www.financialeducation.com.au/" target="_blank">https://www.financialeducation.com.au/</a>
+For initial AML/CTF training our preferred education provider is Financial Education Professionals <a href="https://www.financialeducation.com.au/" target="_blank">https://www.financialeducation.com.au/</a>
 
-Staff who have not undertaken acceptable prior education and training for AML/CTF will be required to satisfactory complete the Financial Education Professionals course AML CTF Compliance Training <a href="https://www.financialeducation.com.au/course/aml-ctf-course/"
+Staff who have not undertaken acceptable prior education and training for AML/CTF will be required to satisfactorily complete the Financial Education Professionals course AML CTF Compliance Training <a href="https://www.financialeducation.com.au/course/aml-ctf-course/"
       target="_blank">https://www.financialeducation.com.au/course/aml-ctf-course/</a> before commencing employment.
 
 This course requires approximately 20 hours effort.

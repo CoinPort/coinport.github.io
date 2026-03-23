@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # CoinPort Policy Documents
 
 This is the web folder where internal policy and procedure documents for customers and staff are stored. 

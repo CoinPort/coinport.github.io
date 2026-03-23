@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 **Subject: Important security check for your CoinPort account**
 
 Hi [Customer Name],

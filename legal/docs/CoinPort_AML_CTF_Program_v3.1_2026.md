@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## CoinPort Pty Ltd (trading as CoinPort Exchange)
 
 **AUSTRAC Registration:**  
@@ -521,7 +525,7 @@ From 31 March 2026, this replaces the previous "Digital Currency Exchange Provid
 - has the authority to make AML/CTF compliance decisions independently, including to halt transactions, refuse to onboard customers, or offboard customers, based on ML/TF/PF risk;
 - has access to resources and information to ensure they can perform their functions effectively.
 
-10.3 The AML/CTF CO is responsible for implementing and over-seeing CoinPort's obligations under the AML/CTF Act and Rules, including but not limited to:
+10.3 The AML/CTF CO is responsible for implementing and overseeing CoinPort's obligations under the AML/CTF Act and Rules, including but not limited to:
 - (a) providing regulatory and legal updates in relation to the AML/CTF Act and Rules;
 - (b) ongoing day-to-day monitoring of the implementation of the Program;
 - (c) considering and incorporating feedback from employees, clients and AUSTRAC;
@@ -1105,7 +1109,7 @@ There are exemptions under the AML/CTF Act for the tipping off provisions which 
 **Additional Requirement – if the customer is a business:**
 - (a) The name of the customer and any business name(s);
 - (b) A description of the legal form of the customer and any business structure, if known;
-- (c) The full address of the customer's principle place of business;
+- (c) The full address of the customer's principal place of business;
 - (d) The postal address if different;
 - (e) The ACN, ARBN and/or ABN, if known;
 - (f) The customer's telephone number, if known; and
@@ -1717,7 +1721,7 @@ Where one or more of the factors above arises, the AML/CTF CO will arrange for o
 - (b) the customer wishes to deal only in large amounts of cash and not in traceable bank transfers;
 - (c) the customer or group of customers makes frequent transactions to the same individual or group;
 - (d) the customer is willing to pay very high charges to complete a transaction;
-- (e) the customer's normal remitting behaviour changes and they are unwilling to explain the reason or the source of the increase funds;
+- (e) the customer's normal remitting behaviour changes and they are unwilling to explain the reason or the source of the increased funds;
 - (f) the customer is involved in a complex business ownership structure with no legitimate commercial rationale;
 - (g) the non-individual customer has a complex business structure with little commercial justification, which obscures the identity of ultimate beneficiaries;
 - (h) the customer is in a position which may expose CoinPort to the possibility of corruption;
@@ -1875,7 +1879,7 @@ Where a new customer is a company, either domestic or foreign, CoinPort must be 
 | Finland | Helsinki Stock Exchange (HEL) |
 | France | Paris – SBF (PAR) |
 | Germany | Frankfurt (FRA) |
-| Hong Kong | Hong Kong Exchanged (HKEx) |
+| Hong Kong | Hong Kong Exchange (HKEx) |
 | Iceland | Iceland Stock Exchange (ICEX) |
 | Ireland | Irish Stock Exchange (ISE) |
 | Japan | Tokyo Stock Exchange (TSE) |

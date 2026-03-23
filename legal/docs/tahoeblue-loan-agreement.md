@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 **LOAN AGREEMENT**  
 **Between**  
 **Tahoe Blue Investments Pty Ltd (ACN 159 855 035) ("Lender")**  
@@ -34,10 +38,10 @@
 6.1 The Advances shall be **unsecured** unless otherwise agreed.  
 
 ### **7. Default**  
-7.1 If the Borrower fails to repay an Advance (where cash repayment is demanded) within sixty of written notice, the Lender may demand immediate repayment of all outstanding amounts.  
+7.1 If the Borrower fails to repay an Advance (where cash repayment is demanded) within sixty days of written notice, the Lender may demand immediate repayment of all outstanding amounts.  
 
 ### **8. Governing Law**  
-8.1 This Agreement is governed by the laws of Victoria Australia.  
+8.1 This Agreement is governed by the laws of Victoria, Australia.  
 
 ### **9. General**  
 9.1 This Agreement constitutes the entire understanding between the parties.  

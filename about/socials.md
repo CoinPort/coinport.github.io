@@ -1,4 +1,8 @@
-# Coinport Social Media Resources
+---
+layout: default
+---
+
+# CoinPort Social Media Resources
 <base target="_blank">
 To connect and engage with members of the CoinPort Exchange we participate in several social media channels.
 
@@ -8,11 +12,9 @@ Follow the CoinPort Facebook Page for updates [https://www.facebook.com/CoinPort
 
 Join the CoinPort Crypto Community (Australia) Facebook Group [https://www.facebook.com/groups/CoinPortEx/](https://www.facebook.com/groups/CoinPortEx/)
 
-We have an online community online on crew3 (Zealy) [https://zealy.io/c/coinportex/](https://zealy.io/c/coinportex/)
+We have an online community on crew3 (Zealy) [https://zealy.io/c/coinportex/](https://zealy.io/c/coinportex/)
 
 Read our latest news on Blue Sky Social [https://coinportex.bsky.social/](https://coinportex.bsky.social)
-
-We have an online community online on crew3 (Zealy) [https://zealy.io/c/coinportex/](https://zealy.io/c/coinportex/)
 
 Read CoinPort updates on Crunchbase [https://www.crunchbase.com/organization/CoinPortEx](https://www.crunchbase.com/organization/CoinPortEx)
 
@@ -24,7 +26,7 @@ CoinPort Instagram posts [https://www.instagram.com/CoinPortEx/](https://www.ins
 
 CoinPort LinkedIn Page [https://www.linkedin.com/company/CoinPortEx/](https://www.linkedin.com/company/CoinPortEx/)
 
-LinkedTree references [https://linktr.ee/CoinPortEx/](https://linktr.ee/CoinPortEx)
+Linktree references [https://linktr.ee/CoinPortEx/](https://linktr.ee/CoinPortEx)
 
 CoinPort Medium Pages [https://medium.com/@CoinPortEx](https://medium.com/@CoinPortEx)
 

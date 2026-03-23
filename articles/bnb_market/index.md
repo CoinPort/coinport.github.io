@@ -1,3 +1,7 @@
+---
+layout: article
+---
+
 # Why has the BNB Coin Price Performed so Badly?
 
 This week our Marketing Manager asked why the BNB price had fallen so far this year. We had the same question from a customer chatting with our Help Desk; and also saw a similar question in a Facebook forum. Here's our analysis and reply.
@@ -41,11 +45,11 @@ Also in 2023, newer competing blockchains, including Polygon, Solana, Flow and A
 
 #### Binance Business Problems
 
-Binance profits can be used to buy and burn BNB, which reduces supply in the market, and shnot beean ould increase the price.
+Binance profits can be used to buy and burn BNB, which reduces supply in the market, and should increase the price.
 
 2023 has been difficult for Binance.
 
-Binance has become a crypto-only exchange after compliance failures caused the loss of fiat currency banking facilities. This makes it harder for Biance to compete with other exchanges, and it's reasonable to expect the market share and profits of Binance to fall. The result is less funds to buy and burn BNB tokens.
+Binance has become a crypto-only exchange after compliance failures caused the loss of fiat currency banking facilities. This makes it harder for Binance to compete with other exchanges, and it's reasonable to expect the market share and profits of Binance to fall. The result is less funds to buy and burn BNB tokens.
 
 On top of this, the SEC prosecution and settlement costing USD 2.3b has taken more cash from Binance that could have been used to buy and burn BNB tokens.
 

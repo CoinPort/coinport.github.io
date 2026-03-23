@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 Traditional banks are often wary of crypto-related businesses due to perceived high AML/CFT risks and compliance complexities. However, with a robust compliance framework and professional presentation, options are available.
 
 Here is a strategic overview of New Zealand banking options for CoinPort Limited, categorized by approach.
@@ -19,7 +23,7 @@ Before you contact a single bank, you **must** have these items in order:
 These banks offer full-service business banking but have the strictest onboarding.
 
 *   **ANZ Bank New Zealand & ASB Bank:** Historically, these have been the most active among the majors in providing accounts to licensed fintechs and some crypto businesses, **provided they are thoroughly vetted and compliant**. They have dedicated financial institutions/emerging business teams.
-    *   **Strategy:** Do **not** approach a branch. You need to get in touch with their ****Institutional or Commercial Banking** divisions** or their **Financial Intelligence Unit (FIU) / AML teams** directly, often through an introduction from your law firm. Your lawyers' existing relationships are invaluable here.
+    *   **Strategy:** Do **not** approach a branch. You need to get in touch with their **Institutional or Commercial Banking** divisions or their **Financial Intelligence Unit (FIU) / AML teams** directly, often through an introduction from your law firm. Your lawyers' existing relationships are invaluable here.
     *   **Value Prop:** They offer stability, full NZ banking infrastructure, and local credibility.
 
 *   **Westpac NZ & BNZ (Bank of New Zealand):** Generally more conservative but not impossible. The same rules apply: professional introduction, impeccable documentation.

@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 
 Robinhood’s disruptive **marketing strategy** in the U.S. can be adapted by **CoinPort** in Australia to drive rapid user growth, but it must be tailored to **local regulations, cultural nuances, and crypto-specific challenges**. Here’s how:
 
