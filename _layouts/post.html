@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <meta http-equiv='Referrer-Policy' content='no-referrer-when-downgrade'>
+  </head>
+  <body>
+    <p><a href="https://www.coinport.com.au/blog/"  target="_parent">< Return to Blog Main Page</a></p>
+    <div class="markdown-body">
+      <!--{% if site.title and site.title != page.title %}
+      <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+      {% endif %} -->
+      {{ content }}
+
+      <!--{% if site.github.private != true and site.github.license %}
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. {% github_edit_link "Improve this page" %}.
+      </div>
+      {% endif %} -->
+    </div>
+    <p>Sincerely,<br /><br /><br />
+      The CoinPort Exchange Team<br />
+      <img src="https://blog.coinport.com.au/assets/img/news/coinport-signature.png" id="signatureImage" alt="CoinPort Exchange" height="32px" style="padding: 6px 0 0" /><br />
+      <em>Easy, fast and safe cryptocurrency exchange</em></p>
+      <br />
+      <div class="post-content">
+        <hr />
+        <h3 id="connect-with-us">Connect with Us</h3>
+        <p>Stay updated and follow us on our social media platforms:</p>
+        <p>{% for link in site.data.social %}<a href="{{ link.url }}" target="_blank"><img src="{{ link.badge }}" alt="{{ link.name }}" /></a>
+        {% endfor %}</p>
+        <p>For more information, visit our website: <a href="https://www.coinport.com.au" target="_blank">www.coinport.com.au</a></p>
+      </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    <script>
+/*         document.write('debug: <b>document location: ' + document.location + '</b></br />'); */
+
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const theme = urlParams.get('theme');
+        const className = theme == 'dark-mode'?'dark-mode':'light-mode';
+        document.body.classList.toggle(className);
+
+        if (theme=='dark-mode') {
+          document.getElementById("signatureImage").src = 'https://blog.coinport.com.au/assets/img/news/coinport-signature-dark.png';
+        }
+    </script>
+    <script data-cfasync="false">
+      function sendHeight() {
+        var el = document.querySelector('.markdown-body') || document.querySelector('.post-content') || document.body;
+        var rect = el.getBoundingClientRect();
+        var height = Math.ceil(window.scrollY + rect.bottom) + 20;
+        window.parent.postMessage({ type: 'iframeHeight', height: height }, '*');
+      }
+      window.addEventListener('load', sendHeight);
+      window.addEventListener('resize', sendHeight);
+      new MutationObserver(sendHeight).observe(document.body, { childList: true, subtree: true });
+    </script>
+  </body>
+</html>

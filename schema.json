@@ -1,0 +1,11 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "CoinPort Pty Ltd",
+    "url": "https://www.coinport.com.au",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "URL?s={coinport}",
+        "query-input": "required name=coinport"
+    }
+}

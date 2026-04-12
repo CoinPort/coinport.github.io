@@ -1,0 +1,50 @@
+---
+layout: article
+---
+
+# What Is An NFT? What Does NFT Stand For?
+
+Non-fungible token.
+
+"Non-fungible" more or less means that it's unique and can't be replaced with something else. For example, a bitcoin is fungible — trade one for another bitcoin, and you'll have exactly the same thing. A one-of-a-kind trading card, however, is non-fungible. If you traded it for a different card, you'd have something completely different. You gave up a Squirtle, and got a 1909 T206 Honus Wagner, which StadiumTalk calls "the Mona Lisa of baseball cards." (I'll take their word for it.)
+
+## How do NFTs work?
+
+At a very high level, most NFTs are part of the Ethereum blockchain. Ethereum is a cryptocurrency, like bitcoin or dogecoin, but its blockchain also supports these NFTs, which store extra information that makes them work differently from, say, an ETH coin. It is worth noting that other blockchains can implement their own versions of NFTs. (Some already have.)
+What's worth picking up at the NFT supermarket?
+
+NFTs can really be anything digital (such as drawings, music, your brain downloaded and turned into an AI), but a lot of the current excitement is around using the tech to sell digital art.
+Dogecoin isn't an NFT. But this GIF of the Gucci Ghost is. Many consider NFTs as an evolution of fine art collecting, only with digital art.
+Do people really think this will become like art collecting?
+
+I'm sure some people really hope so — like whoever paid almost $390,000 for a 50-second video by Grimes or the person who paid $6.6 million for a video by Beeple. Actually, one of Beeple's pieces was auctioned at Christie's, the famou—
+NFTs are designed to give you something that can't be copied: ownership of the work (though the artist can still retain the copyright and reproduction rights, just like with physical artwork). To put it in terms of physical art collecting: anyone can buy a Monet print. But only one person can own the original.
+What do you think of the $3,600 Gucci Ghost? That image that Beeple was auctioning off at Christie's ended up selling for $69 million, which, by the way, is $15 million more than Monet's painting Nymphéas sold for in 2014.
+This last sold for $3,600, but the current owner is asking for $16,300. Whoever got that Monet can actually appreciate it as a physical object. With digital art, a copy is literally as good as the original.
+Penguin communities?
+
+People have long built communities based on things they own, and now it's happening with NFTs. One community that's been exceedingly popular revolves around a collection of NFTs called Pudgy Penguins, but it's not the only community built up around the tokens. It could be argued that one of the earliest NFT projects, CryptoPunks, has a community around it, and there are other animal-themed projects like the Bored Ape Yacht Club that have their own clique.
+Of course, the communal activities depend on the community. For Pudgy Penguin or Bored Ape owners, it seems to involve vibing and sharing memes on Discord, or complimenting each other on their Pudgy Penguin Twitter avatars.
+
+## What's the point of NFTs?
+
+That really depends on whether you're an artist or a buyer.
+
+## I'm an artist.
+
+First off: You might be interested in NFTs because it gives you a way to sell work that there otherwise might not be much of a market for. If you come up with a really cool digital sticker idea, what are you going to do? Sell it on the iMessage App Store? No way.
+Also, NFTs have a feature that you can enable that will pay you a percentage every time the NFT is sold or changes hands, making sure that if your work gets super popular and balloons in value, you'll see some of that benefit.
+
+## I'm a buyer.
+
+One of the obvious benefits of buying art is it lets you financially support artists you like, and that's true with NFTs (which are way trendier than, like, Telegram stickers). Buying an NFT also usually gets you some basic usage rights, like being able to post the image online or set it as your profile picture. Plus, of course, there are bragging rights that you own the art, with a blockchain entry to back it up.
+
+## I'm a collector.
+
+NFTs can work like any other speculative asset, where you buy it and hope that the value of it goes up one day, so you can sell it for a profit. I feel kind of dirty for talking about that, though.
+So every NFT is unique?
+
+Every NFT is a unique token on the blockchain. But while it could be like a van Gogh, where there's only one definitive actual version, it could also be like a trading card, where there's 50 or hundreds of numbered copies of the same artwork.
+Who would pay hundreds of thousands of dollars for what basically amounts to a trading card?
+
+Well, that's part of what makes NFTs so messy. Some people treat them like they're the future of fine art collecting (read: as a playground for the mega-rich), and some people treat them like Pokémon cards (where they're accessible to normal people but also a playground for the mega-rich).

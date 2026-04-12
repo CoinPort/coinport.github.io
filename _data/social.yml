@@ -1,0 +1,19 @@
+- name: Facebook
+  url: https://www.facebook.com/CoinPortEx
+  badge: "https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"
+
+- name: Twitter
+  url: https://twitter.com/CoinPortEx
+  badge: "https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"
+
+- name: LinkedIn
+  url: https://www.linkedin.com/company/CoinPortEx
+  badge: "https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+
+- name: Instagram
+  url: https://www.instagram.com/CoinPortEx
+  badge: "https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"
+
+- name: YouTube
+  url: https://www.youtube.com/@CoinPortEx
+  badge: "https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"

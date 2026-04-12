@@ -1,0 +1,164 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: CoinPort Cryptocurrency Exchange
+email: support@coinport.com.au
+description: >-
+  CoinPort Cryptocurrency Exchange
+  - Easy, fast and safe cryptocurrency exchange.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://doc.coinport.com.au" # the base hostname & protocol for your site
+
+# Social Media Links
+twitter_username: CoinPortEx
+github_username: coinport
+
+# Author & Branding
+author: CoinPort Pty Ltd
+logo: /images/logos/ch_sign_logo.png
+
+# Social Links for SEO
+social:
+  name: CoinPort Pty Ltd
+  links:
+    - https://twitter.com/CoinPortEx
+    - https://www.youtube.com/@CoinPortEx
+    - https://www.coinport.com.au
+
+# Twitter Card Configuration
+twitter:
+  username: CoinPortEx
+  card: summary_large_image
+
+# Build settings
+theme: minima
+encoding: UTF-8
+timezone: Australia/Sydney
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jekyll-redirect-from
+  - jekyll-include-cache
+
+# Jekyll Titles from Headings Configuration
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
+
+# Default Front Matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/logos/ch_sign_logo.png
+  - scope:
+      path: "coins"
+    values:
+      sitemap: false
+  - scope:
+      path: "chains"
+    values:
+      sitemap: false
+  - scope:
+      path: "fonts"
+    values:
+      sitemap: false
+  - scope:
+      path: "graphics"
+    values:
+      sitemap: false
+  - scope:
+      path: "images"
+    values:
+      sitemap: false
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
+  - scope:
+      path: "data"
+    values:
+      sitemap: false
+  - scope:
+      path: "social"
+    values:
+      sitemap: false
+
+# Sitemap Plugin Configuration
+sitemap:
+  priority: 0.8
+  changefreq: weekly
+
+# Feed Plugin Configuration
+feed:
+  posts_limit: 20
+  excerpt_only: false
+
+# Markdown Configuration
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge
+
+# Sass/SCSS Configuration
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Performance Optimization
+incremental: true
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git/
+  - .gitignore
+  - .vscode/
+  - .idea/
+  - README.md
+  - LICENSE
+  - "*.log"
+  - "*.download"
+  - bundle*.*
+
+# Liquid Options
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+  
