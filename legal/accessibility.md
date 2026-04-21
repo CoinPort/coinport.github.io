@@ -8,7 +8,7 @@ CoinPort is committed to making our platform accessible to everyone, including p
 
 ## Our Commitment
 
-We aim to conform to the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) at Level AA. These guidelines explain how to make web content more accessible to people with a range of disabilities, including visual, auditory, cognitive, and motor impairments.
+We aim to conform to the Web Content Accessibility Guidelines (WCAG) 2.2 at Level AA. These guidelines explain how to make web content more accessible to people with a range of disabilities, including visual, auditory, cognitive, and motor impairments.
 
 ## Current Status
 
@@ -45,7 +45,7 @@ We aim to respond to accessibility feedback within five business days.
 
 ## Formal Complaints
 
-If you are not satisfied with our response, you can follow our [Complaints Process](/legal/complaints). In addition, the [Australian Human Rights Commission](https://humanrights.gov.au/complaints) can receive complaints about unlawful discrimination under the *Disability Discrimination Act 1992* (Cth).
+If you are not satisfied with our response, you can follow our [Complaints Process](/legal/complaints). In addition, the Australian Human Rights Commission can receive complaints about unlawful discrimination under the *Disability Discrimination Act 1992* (Cth).
 
 ## Ongoing Review
 
