@@ -45,7 +45,7 @@ We aim to respond to accessibility feedback within five business days.
 
 ## Formal Complaints
 
-If you are not satisfied with our response, you can follow our [Complaints Process](/legal/complaints). In addition, the Australian Human Rights Commission can receive complaints about unlawful discrimination under the *Disability Discrimination Act 1992* (Cth).
+If you are not satisfied with our response, you can follow our <a href="https://coinport.com.au/legal/complaints" target="_top">Complaints Process</a>. In addition, the Australian Human Rights Commission can receive complaints about unlawful discrimination under the *Disability Discrimination Act 1992* (Cth).
 
 ## Ongoing Review
 
