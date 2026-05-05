@@ -1,0 +1,900 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <meta name="googlebot" content="noindex,nofollow,noarchive" />
+  <title>CoinPort — Live User Flow Test</title>
+  <style>
+    :root {
+      --bg: #f6f7fb;
+      --card: #ffffff;
+      --border: #d8dde6;
+      --text: #1a2332;
+      --muted: #6a7587;
+      --accent: #0166d0;
+      --pass: #2a8b3f;
+      --fail: #c2371f;
+      --header: #002355;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 24px;
+    }
+    .wrap { max-width: 1200px; margin: 0 auto; }
+    header {
+      background: var(--header);
+      color: #fff;
+      padding: 24px 28px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    header svg.logo { flex-shrink: 0; }
+    header .heading { flex: 1; }
+    header h1 { margin: 0 0 4px; font-size: 22px; }
+    header .env { color: #9bb1d2; font-size: 13px; }
+    .meta {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 16px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+    }
+    .meta label { display: block; font-size: 11px; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; letter-spacing: 0.4px; }
+    .meta input { width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 4px; font: inherit; }
+    .controls {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .controls button, .controls a {
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 8px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      font: inherit;
+      color: var(--text);
+      text-decoration: none;
+    }
+    .controls button:hover, .controls a:hover { background: #eef2f8; }
+    .controls .danger { color: var(--fail); border-color: #e8c2bc; }
+    .controls .progress { margin-left: auto; align-self: center; color: var(--muted); font-size: 13px; }
+    .intro {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .intro h2 { margin-top: 0; font-size: 16px; }
+    .intro ul { padding-left: 20px; }
+    .intro li { margin-bottom: 4px; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+    section > h2 {
+      margin: 0;
+      padding: 18px 22px;
+      background: #003d7a;
+      color: #fff;
+      border-bottom: 3px solid var(--accent);
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      cursor: pointer;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    section > h2 .chev {
+      flex-shrink: 0;
+      transition: transform 0.18s ease;
+      width: 16px;
+      height: 16px;
+    }
+    section.collapsed > h2 {
+      border-bottom: 1px solid var(--border);
+    }
+    section.collapsed > h2 .chev {
+      transform: rotate(-90deg);
+    }
+    section.collapsed > :not(h2) {
+      display: none;
+    }
+    section > h3 {
+      margin: 0;
+      padding: 12px 22px;
+      background: #e8edf5;
+      border-top: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--header);
+      letter-spacing: 0.2px;
+    }
+    section > h3:first-of-type { border-top: none; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td {
+      padding: 8px 10px;
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: #fafbfd;
+      font-weight: 600;
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+    }
+    td.num { width: 40px; color: var(--muted); text-align: right; padding-right: 12px; }
+    td.status { width: 130px; text-align: center; }
+    td.notes { width: 22%; }
+    td.notes input { width: 100%; padding: 4px 6px; border: 1px solid var(--border); border-radius: 3px; font: inherit; }
+    .pill {
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+    }
+    .pill label {
+      cursor: pointer;
+      padding: 2px 8px;
+      border-radius: 3px;
+      font-size: 11px;
+      border: 1px solid var(--border);
+      background: #fff;
+      user-select: none;
+    }
+    .pill input { display: none; }
+    .pill input:checked + .opt-pass { background: var(--pass); color: #fff; border-color: var(--pass); }
+    .pill input:checked + .opt-fail { background: var(--fail); color: #fff; border-color: var(--fail); }
+    tr.done td.expected { color: var(--muted); text-decoration: line-through; }
+    .signoff {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      padding: 16px 20px;
+    }
+    .signoff label { display: block; font-size: 11px; text-transform: uppercase; color: var(--muted); margin-bottom: 4px; letter-spacing: 0.4px; }
+    .signoff input, .signoff textarea { width: 100%; padding: 6px 8px; border: 1px solid var(--border); border-radius: 4px; font: inherit; }
+    .signoff textarea { min-height: 60px; resize: vertical; grid-column: 1 / -1; }
+    .recommendation { padding: 0 20px 16px; }
+    .recommendation label { margin-right: 16px; cursor: pointer; }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .controls, .controls button { display: none; }
+      section, .meta, .intro, header { box-shadow: none; page-break-inside: avoid; }
+    }
+    @media (max-width: 700px) {
+      body { padding: 12px; }
+      header { padding: 16px 18px; gap: 12px; flex-wrap: wrap; }
+      header svg.logo { width: 130px; height: auto; }
+      header h1 { font-size: 18px; }
+      .meta { padding: 12px; gap: 8px; }
+      .controls { gap: 6px; }
+      .controls button, .controls a { padding: 8px 10px; font-size: 13px; }
+      .controls .progress { margin-left: 0; width: 100%; order: 99; }
+      section > h2 { padding: 14px 16px; font-size: 16px; }
+      section > h3 { padding: 10px 16px; font-size: 13px; }
+      section { overflow-x: auto; }
+      table { display: block; overflow-x: auto; white-space: nowrap; min-width: 100%; }
+      thead, tbody { display: table; width: 100%; }
+      th, td { padding: 8px 6px; }
+      td.num { width: 28px; padding-right: 6px; }
+      td.status { width: 110px; }
+      td.notes { width: 160px; }
+      td.notes input { min-width: 140px; }
+      .signoff { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <svg class="logo" fill="none" width="180" height="35" viewBox="0 0 180.05 35" xmlns="http://www.w3.org/2000/svg" aria-label="CoinPort">
+    <path fill="#0166d0" d="M28.93,23.46l-9.28-2.02c-.08-.02-.16.03-.2.1-.69,1.53-2.44,2.61-4.26,2.68-2.1,0-4.75-1.69-4.75-4.75,0-2.74,1.93-4.77,4.9-4.77,2,0,3.54,1.52,4.11,2.71.04.07.12.11.2.1l9.28-2.05c.09-.02.19.04.21.13,1,3.56.21,6.97,0,7.74-.02.09-.12.15-.21.13Z"/>
+    <path fill="#fff" d="M15.19,4.28c7.32,0,11.7,4.96,13.06,7.41.05.1,0,.22-.1.26l-6.07,2.2c-.07.03-.16,0-.21-.06-.44-.57-2.69-3.22-6.68-3.21-4.46.01-8.57,3.56-8.57,8.54s4.11,8.62,8.57,8.62c3.99,0,6.24-2.63,6.68-3.19.05-.06.13-.09.2-.06l6.07,2.2c.11.04.15.16.1.26-.65,1.16-4.51,7.28-13.05,7.41C6.74,34.67-.23,27.54,0,19.42,0,10.19,7.68,4.28,15.19,4.28Z"/>
+    <path fill="#fff" d="M37.61,33.49c-1.88-1.01-3.37-2.45-4.45-4.33-1.08-1.87-1.62-4.07-1.62-6.58s.55-4.66,1.64-6.55c1.09-1.89,2.59-3.34,4.49-4.35,1.9-1.01,4.03-1.51,6.39-1.51s4.49.5,6.39,1.51c1.9,1.01,3.4,2.46,4.49,4.35,1.09,1.89,1.64,4.07,1.64,6.55s-.55,4.67-1.66,6.55c-1.11,1.89-2.62,3.34-4.53,4.35-1.91,1.01-4.05,1.51-6.41,1.51s-4.48-.5-6.37-1.51ZM47.58,27.04c.99-1.04,1.49-2.52,1.49-4.46s-.48-3.42-1.45-4.46c-.96-1.04-2.15-1.56-3.56-1.56s-2.63.51-3.58,1.54c-.95,1.02-1.42,2.52-1.42,4.48s.47,3.42,1.4,4.46c.94,1.04,2.11,1.56,3.52,1.56s2.61-.52,3.6-1.56Z"/>
+    <path fill="#fff" d="M59.6,6.86c-.75-.76-1.12-1.71-1.12-2.83s.37-2.11,1.12-2.88c.75-.76,1.72-1.15,2.9-1.15s2.11.38,2.86,1.15c.75.76,1.12,1.72,1.12,2.88s-.37,2.07-1.12,2.83c-.75.76-1.7,1.15-2.86,1.15s-2.15-.38-2.9-1.15Z"/>
+    <rect fill="#fff" x="58.79" y="10.51" width="7.38" height="24.14"/>
+    <path fill="#fff" d="M91.23,13c1.68,1.83,2.53,4.35,2.53,7.55v14.1h-7.34v-13.11c0-1.61-.42-2.87-1.25-3.76-.83-.89-1.96-1.34-3.37-1.34s-2.53.45-3.37,1.34c-.83.89-1.25,2.15-1.25,3.76v13.11h-7.38V10.51h7.38v3.2c.75-1.07,1.75-1.91,3.02-2.53,1.27-.62,2.69-.93,4.27-.93,2.82,0,5.07.92,6.76,2.75Z"/>
+    <path fill="#fff" d="M119.05,18.88c-.81,1.46-2.04,2.63-3.71,3.53-1.67.89-3.74,1.34-6.22,1.34h-4.58v10.9h-7.38V4.28h11.96c2.42,0,4.46.42,6.13,1.25,1.67.84,2.92,1.99,3.76,3.46.83,1.47,1.25,3.16,1.25,5.06,0,1.76-.4,3.37-1.21,4.82ZM111.71,16.87c.69-.66,1.04-1.6,1.04-2.81s-.35-2.15-1.04-2.81c-.69-.66-1.74-1-3.15-1h-4.01v7.61h4.01c1.41,0,2.46-.33,3.15-1Z"/>
+    <path fill="#fff" d="M126.97,33.49c-1.88-1.01-3.37-2.45-4.45-4.33-1.08-1.87-1.62-4.07-1.62-6.58s.55-4.66,1.64-6.55c1.09-1.89,2.59-3.34,4.49-4.35,1.9-1.01,4.03-1.51,6.39-1.51s4.49.5,6.39,1.51c1.9,1.01,3.4,2.46,4.49,4.35,1.09,1.89,1.64,4.07,1.64,6.55s-.55,4.67-1.66,6.55c-1.11,1.89-2.62,3.34-4.53,4.35-1.91,1.01-4.05,1.51-6.41,1.51s-4.48-.5-6.37-1.51ZM136.94,27.04c.99-1.04,1.49-2.52,1.49-4.46s-.48-3.42-1.45-4.46c-.96-1.04-2.15-1.56-3.56-1.56s-2.63.51-3.58,1.54c-.95,1.02-1.42,2.52-1.42,4.48s.47,3.42,1.4,4.46c.94,1.04,2.11,1.56,3.52,1.56s2.61-.52,3.6-1.56Z"/>
+    <path fill="#fff" d="M158.76,11.4c1.29-.76,2.73-1.02,4.32-1.02v6.46h-2.03c-1.84,0-3.26,1.21-4.14,2.31-.77.94-1.38,2.31-1.38,4.3v11.21h-7.38V10.51h7.38v4.02c.86-1.33,1.94-2.37,3.24-3.14Z"/>
+    <path fill="#fff" d="M180.05,28.38v6.27h-3.76c-2.68,0-4.76-.66-6.26-1.97-1.5-1.31-2.24-3.45-2.24-6.42v-9.6h-2.94v-6.27h2.94v-5.76h7.38v5.76h4.83v6.27h-4.83v9.69c0,.72.17,1.24.52,1.56.35.32.92.48,1.73.48h2.63Z"/>
+  </svg>
+  <div class="heading">
+    <h1>Live User Flow Test</h1>
+    <div class="env">Environment: <code>https://coinport.com.au</code> (production)</div>
+  </div>
+</header>
+
+<div class="meta">
+  <div><label>Tester</label><input data-meta="tester" /></div>
+  <div><label>Date</label><input type="date" data-meta="date" /></div>
+  <div><label>Browser / Device</label><input data-meta="browser" /></div>
+  <div><label>Build SHA</label><input data-meta="sha" placeholder="from footer or DevTools" /></div>
+</div>
+
+<div class="controls">
+  <button onclick="emailResults()">Email results to QA</button>
+  <button onclick="exportJSON()">Export results (JSON)</button>
+  <button onclick="window.print()">Print / save as PDF</button>
+  <button onclick="toggleAll()">Expand / Collapse all</button>
+  <button class="danger" onclick="resetAll()">Reset all</button>
+  <span class="progress" id="progress">0 / 0 complete</span>
+</div>
+
+<div class="intro">
+  <h2>How to use this document</h2>
+  <p>Work through each section in order. For every step, mark <strong>PASS</strong> or <strong>FAIL</strong> and add a note for any unexpected behaviour, console errors, or visual glitches. Capture a screenshot on FAIL.</p>
+  <p>A flow is <strong>PASS</strong> only if every step inside it passes. If a flow fails, log a bug ticket with: section number, step number, screenshot, browser console output (red errors), and the failing API response from DevTools Network tab.</p>
+  <p><strong>Test data preparation</strong> (do this once before starting):</p>
+  <ul>
+    <li>Two test accounts: <strong>Account A</strong> — fully KYC-verified (level 3), holds AUD + at least one crypto, has at least one approved AUD beneficiary. <strong>Account B</strong> — fresh signup, no verification, no beneficiaries.</li>
+    <li>A bank account you can receive AUD into (BSB + account number, OR a PayID).</li>
+    <li>An external crypto wallet address for at least BTC and USDT.</li>
+    <li>Authenticator app (Google Authenticator / Authy) ready.</li>
+  </ul>
+  <p><strong>General notes:</strong></p>
+  <ul>
+    <li>Open DevTools → <strong>Console</strong> tab. If a red error appears at any step, mark FAIL and attach the message.</li>
+    <li>Open DevTools → <strong>Network</strong> tab → <strong>Fetch/XHR</strong> filter. If any request returns 4xx or 5xx during a flow, mark FAIL and attach the response body.</li>
+    <li>For each modal that opens, verify the <strong>Close (X)</strong> button works AND clicking outside the modal works.</li>
+  </ul>
+  <p>State is saved to your browser's localStorage automatically — closing the tab won't lose progress. Keep using the same browser to keep your results.</p>
+  <p><strong>When you're done</strong>, click <strong>Email results to QA</strong> at the top of the page. Your default mail client will open pre-filled with a structured summary (failed steps, notes, full JSON) addressed to <code>testing@coinport.com.au</code> — just hit Send. <strong>Export results (JSON)</strong> and <strong>Print / save as PDF</strong> are alternative ways to capture your results.</p>
+</div>
+
+<div id="sections"></div>
+
+<section data-no-collapse>
+  <h2>18. Sign-off</h2>
+  <div class="signoff">
+    <div><label>Tester name</label><input data-meta="signoffName" /></div>
+    <div><label>Date</label><input type="date" data-meta="signoffDate" /></div>
+    <div><label>Result</label><input data-meta="signoffResult" placeholder="All pass / Failures logged" /></div>
+    <textarea data-meta="bugs" placeholder="Bugs raised (link issue tracker)"></textarea>
+  </div>
+  <div class="recommendation">
+    <strong>Tester recommendation:</strong>
+    <label><input type="radio" name="rec" data-meta="rec" value="ship" /> Ship</label>
+    <label><input type="radio" name="rec" data-meta="rec" value="block" /> Block</label>
+    <label><input type="radio" name="rec" data-meta="rec" value="caveats" /> Ship with caveats</label>
+  </div>
+</section>
+
+</div>
+
+<script>
+const STORAGE_KEY = 'coinport-live-test-plan-v1';
+
+const data = [
+  ['1. Marketing & Public Pages (no login)', [
+    ['1.1 Landing page', [
+      ['Open coinport.com.au in incognito window', 'Landing loads, hero image visible, no console errors'],
+      ['Toggle dark mode (moon icon top right)', 'Background image switches to night version, lit windows visible'],
+      ['Toggle back to light mode', 'Day version returns'],
+      ['Resize browser to mobile width (~400px)', 'Layout switches cleanly, no horizontal scrollbar, no overlapping text'],
+      ['Click "Sign up" CTA', 'Navigates to /signup'],
+      ['Click logo (top left)', 'Returns to /'],
+      ['Scroll to footer', 'All links present (Terms, Privacy, Support, About)'],
+      ['Click each footer link', 'Each opens correct page, no 404'],
+      ['Verify footer registration text', 'Shows ABN, ACN, AUSTRAC registration number'],
+    ]],
+    ['1.2 Research / Markets pages (logged out)', [
+      ['From landing, click "Research" in main nav', '/research loads with markets table'],
+      ['Confirm AUD row appears at top of list', 'Australian Dollar row with Deposit CTA visible'],
+      ['Click any crypto row (e.g. BTC)', 'Loads /research/btc detail page'],
+      ['Verify chart, price, % change render', 'All visible, no spinner stuck'],
+      ['Hover/click "Buy BTC"', 'Prompts login or redirects to /signup'],
+      ['Open AUD detail row', 'Shows iframe-only view (no chart card)'],
+    ]],
+    ['1.3 Static content pages', [
+      ['/terms', 'Renders Terms of Service in full'],
+      ['/privacy', 'Renders Privacy Policy in full'],
+      ['/support', 'Renders FAQs / contact form'],
+      ['/about (if exists)', 'Renders'],
+    ]],
+  ]],
+  ['2. Auth — Sign up', [
+    ['2.1 Sign up flow', [
+      ['Go to /signup', 'Form shows email, password, confirm password, T&C checkbox'],
+      ['Enter weak password (e.g. 123456)', 'Inline validation flags the password as too weak'],
+      ['Enter mismatched passwords', '"Passwords do not match" error'],
+      ['Submit without ticking T&Cs', 'Submit blocked or "Accept terms" error shown'],
+      ['Submit with valid inputs + T&Cs ticked', 'Confirmation screen shown ("Check your email")'],
+      ['Check inbox for verification email', 'Email arrives within 60s, has CoinPort branding, contains a link'],
+      ['Click verification link', 'Opens app, account is verified, you\'re logged in or redirected to login'],
+      ['Verify level shown in dashboard', 'Level 1 (email verified) shown'],
+    ]],
+    ['2.2 Sign up edge cases', [
+      ['Try to sign up with an email already in use', 'Error: "Email already registered" or similar'],
+      ['Click verification link a second time', 'Already-verified message OR redirects to login'],
+      ['Sign up, do NOT verify, attempt to log in', 'Login blocked OR allowed but flagged "Please verify email"'],
+      ['Resend verification email button works', 'New email arrives, old link still valid'],
+    ]],
+  ]],
+  ['3. Auth — Login', [
+    ['3.1 Standard login', [
+      ['Go to /signin', 'Form shows email + password fields'],
+      ['Enter wrong password', 'Error message, account not locked after 1 attempt'],
+      ['Enter correct credentials (Account A, level 3 with 2FA on)', 'Prompted for 2FA code'],
+      ['Enter wrong 2FA code', 'Error, prompted to retry'],
+      ['Enter correct 2FA code', 'Logged in, redirected to dashboard'],
+      ['Log out via top-right menu', 'Returned to landing or /signin'],
+      ['Refresh page after logout', 'Still logged out, no redirect to dashboard'],
+    ]],
+    ['3.2 Forgot password', [
+      ['Click "Forgot password" on login page', 'Form for email input shown'],
+      ['Submit with valid email', '"If your email is registered, you\'ll receive a link" message'],
+      ['Check inbox', 'Reset email arrives within 60s'],
+      ['Click reset link', 'Opens reset form'],
+      ['Enter weak password', 'Validation rejects'],
+      ['Submit new strong password', 'Success, redirect to login'],
+      ['Log in with old password', 'Fails'],
+      ['Log in with new password', 'Succeeds'],
+    ]],
+    ['3.3 Account lockout', [
+      ['Enter wrong password 5 times in a row', 'Account temporarily locked OR captcha shown'],
+      ['Verify lockout message is user-friendly', 'No raw stack trace or backend error'],
+    ]],
+  ]],
+  ['4. KYC / Verification (Account B)', [
+    ['4.1 Level 1 → Level 2 (identity)', [
+      ['Log in as Account B', 'Dashboard loads with "Verify identity" prompt visible'],
+      ['Click "Verify identity" or navigate to /verify', 'Didit verification screen loads'],
+      ['Verify Didit iframe loads', 'No CSP error in console, iframe shows Didit UI'],
+      ['Complete identity check (use sandbox test ID if available)', 'Success state shown in iframe'],
+      ['Return to dashboard', 'Level updated to 2 (or pending)'],
+      ['Refresh after Didit completes', 'Level reflects in user info card'],
+    ]],
+    ['4.2 Verification gates', [
+      ['As unverified user, attempt to deposit AUD', 'Blocked with "Verify to continue" CTA'],
+      ['Same with crypto deposit', 'Blocked'],
+      ['Same with withdraw', 'Blocked'],
+      ['Same with buy/sell', 'Blocked'],
+      ['Verify level → retry each', 'Now permitted'],
+    ]],
+  ]],
+  ['5. Wallets — Viewing balances (Account A)', [
+    ['5.1 Wallets list', [
+      ['Click "Wallets" in main nav', '/wallets loads, list of all currencies'],
+      ['Verify AUD wallet shows correct balance (matches dashboard)', 'Balance values consistent'],
+      ['Verify each crypto wallet shows balance', 'Decimals correct, no NaN'],
+      ['Tick "Hide zero balances"', 'Empty wallets disappear'],
+      ['Untick', 'They reappear'],
+      ['Search for a currency', 'List filters'],
+      ['Click a wallet', 'Opens its tabs (Deposit / Withdraw / Buy / Sell / Chart)'],
+      ['Click Chart tab', 'TradingView chart loads, shows BTC/AUD pair (or USDT/USDT for stables)'],
+      ['Verify the chart isn\'t blank or in error state', 'Real data renders'],
+    ]],
+  ]],
+  ['6. Wallets — AUD Deposit', [
+    ['6.1 Get deposit account details', [
+      ['Open AUD wallet → Deposit tab', 'Shows BSB + Account Number labelled with the client\'s own full name'],
+      ['Verify BSB displayed with hyphen and is readable', 'Format: XXX-XXX'],
+      ['Verify account number is monospace / copyable', 'Clear formatting'],
+      ['Verify reference instruction is present', '"Use UID as reference" or similar'],
+      ['Click Copy on BSB', 'Copied to clipboard'],
+      ['Click Copy on account number', 'Copied to clipboard'],
+      ['View deposit history (if displayed)', 'Past deposits listed'],
+    ]],
+    ['6.2 Receive AUD deposit (real money — small test only)', [
+      ['Send $1 from your bank with the correct UID reference', 'NPP Osko transfer initiated'],
+      ['Within 30 minutes, check /wallets AUD balance', 'Balance increased by $1'],
+      ['Check transaction history', 'Deposit appears with state "completed"'],
+      ['Check email', 'Deposit receipt email received'],
+    ]],
+  ]],
+  ['7. Wallets — AUD Withdraw ⚠ highest-risk flow', [
+    ['7.1 Add a beneficiary (BSB + Account)', [
+      ['Open AUD wallet → Withdraw tab → "Add beneficiary"', 'Modal opens'],
+      ['Choose "Bank Account" disbursement type', 'Form shows fields for BSB, account number, account name'],
+      ['Enter invalid BSB (e.g. 999-999)', 'Validation rejects with clear error'],
+      ['Enter valid BSB', 'Bank name auto-populates'],
+      ['Enter account number, name, label', 'Form accepts'],
+      ['Submit', 'Confirmation screen, awaiting OTP / activation'],
+      ['Check email or SMS for activation code', 'Code received'],
+      ['Enter activation code', 'Beneficiary now "active"'],
+      ['Verify beneficiary appears in dropdown on withdraw form', 'Listed by label'],
+    ]],
+    ['7.2 Add a beneficiary (PayID)', [
+      ['"Add beneficiary" → choose PayID', 'Form shows PayID + PayID type fields'],
+      ['Enter email PayID, set type to Email', 'Accepts'],
+      ['Submit + activate', 'Active'],
+    ]],
+    ['7.3 Withdraw AUD (small amount)', [
+      ['Open AUD wallet → Withdraw', 'Form loads'],
+      ['Select an active beneficiary', 'Bank/PayID details show'],
+      ['Enter amount $1', 'Total / fee fields update'],
+      ['Enter description (e.g. "test")', 'Accepts'],
+      ['Click Withdraw', 'Confirmation modal opens'],
+      ['Verify all values in confirmation match', 'Amount, total, fee, beneficiary'],
+      ['Enter 2FA code', 'Accepts'],
+      ['Click Confirm', 'Loading, then Success modal opens'],
+      ['Verify success modal shows correct amount, beneficiary, "Done" header', 'All values present'],
+      ['Click OK on success modal', 'Modal closes, returns to wallet'],
+      ['Check transaction history', 'New withdrawal entry, state "accepted" or "completed"'],
+      ['Check destination bank within 30 mins', '$1 received'],
+      ['Check email', 'Withdrawal receipt email received'],
+    ]],
+    ['7.4 Withdraw edge cases', [
+      ['Try to withdraw more than available balance', 'Validation blocks, clear error'],
+      ['Try to withdraw $0 or negative', 'Blocked'],
+      ['Enter wrong 2FA code', 'Error, no withdrawal made'],
+      ['Click Withdraw twice rapidly', 'Only one withdrawal created (no duplicate)'],
+      ['Try to withdraw to a pending beneficiary', 'Blocked or warning shown'],
+    ]],
+  ]],
+  ['8. Wallets — Crypto Deposit', [
+    ['8.1 Get deposit address', [
+      ['Open BTC wallet → Deposit', 'Address + QR code shown'],
+      ['Click Copy on address', 'Copied to clipboard'],
+      ['Verify address starts with valid prefix (e.g. bc1, 1, 3 for BTC)', 'Format correct'],
+      ['Open USDT wallet → Deposit', 'Network selector visible (ERC20, BEP20, etc.)'],
+      ['Switch network', 'Address updates accordingly'],
+      ['Verify warning banner about correct network', 'Clear, not buried'],
+      ['Open ETH wallet → Deposit', 'Address + QR + min deposit amount visible'],
+    ]],
+    ['8.2 Receive crypto deposit', [
+      ['Send minimum BTC amount from external wallet', 'Transaction broadcast'],
+      ['Verify pending state shown in CoinPort within 5 mins', 'Pending entry in history'],
+      ['After confirmations, balance updates', 'Wallet shows new balance'],
+      ['Email receipt arrives', 'Confirmed'],
+    ]],
+  ]],
+  ['9. Wallets — Crypto Withdraw', [
+    ['9.1 Add crypto beneficiary', [
+      ['Open BTC wallet → Withdraw → Add beneficiary', 'Modal opens'],
+      ['Single-network coin (e.g. BTC): no network dropdown', 'Form is simple address field'],
+      ['Multi-network coin (e.g. USDT): network dropdown visible and required', 'Dropdown lists ERC20, BEP20, etc.'],
+      ['Enter invalid address', 'Validation rejects'],
+      ['Enter valid testnet/sandbox address (or known good external address)', 'Accepts'],
+      ['Submit, activate via email/2FA', 'Active beneficiary'],
+      ['Beneficiary appears in dropdown', 'Visible'],
+    ]],
+    ['9.2 Withdraw crypto (small amount)', [
+      ['Withdraw form for BTC', 'Loads'],
+      ['Select beneficiary', 'Address shown clearly (monospace)'],
+      ['Enter amount above min, below balance', 'Total + fee fields update'],
+      ['Click Withdraw, OTP, confirm', 'Submitted, success modal'],
+      ['Transaction visible in history with state "accepted" or "submitted"', 'Yes'],
+      ['Email receipt arrives', 'Yes'],
+    ]],
+    ['9.3 Crypto withdraw edge cases', [
+      ['Withdraw less than minimum amount', 'Blocked, min displayed'],
+      ['Withdraw more than balance minus fee', 'Blocked'],
+      ['Withdraw to a USDT beneficiary on the wrong network', 'Blocked or warning shown'],
+      ['Submit twice quickly', 'Only one withdrawal recorded'],
+    ]],
+  ]],
+  ['10. Trading — QuickExchange (Buy/Sell)', [
+    ['10.1 Buy crypto with AUD', [
+      ['Open BTC wallet → Buy', 'Form loads with AUD as Send, BTC as Receive'],
+      ['Enter $50 in Send', 'Receive amount calculates BTC at current price'],
+      ['Verify rate displayed makes sense vs. ticker', 'Within 1% of mid'],
+      ['Click 50% slider', 'Send amount = 50% of AUD balance'],
+      ['Click Max', 'Send amount = full balance (or balance-fee)'],
+      ['Click Swap arrow', 'Roles flip (now selling BTC for AUD)'],
+      ['Click Swap again to revert', 'Back to AUD → BTC'],
+      ['Click Send dropdown', 'Only currencies you can pair with BTC shown (no invalid pairs)'],
+      ['Click Receive dropdown', 'Only currencies you can pair with AUD shown'],
+      ['Submit Buy with valid amount', 'Confirmation modal shows amount, rate, total'],
+      ['Confirm', 'Order submitted, success'],
+      ['Verify BTC balance increased and AUD decreased', 'Wallets update'],
+      ['Check trade history', 'New trade entry'],
+    ]],
+    ['10.2 Sell crypto for AUD', [
+      ['Open BTC wallet → Sell', 'Form loads BTC → AUD'],
+      ['Enter small BTC amount', 'Receive AUD calculates'],
+      ['Submit, confirm', 'Order fills'],
+      ['Balances update', 'Yes'],
+    ]],
+    ['10.3 QuickExchange edge cases', [
+      ['Try to buy with $0 in AUD wallet', 'Blocked, "Insufficient balance"'],
+      ['Try to buy below market min_amount', 'Blocked with min displayed'],
+      ['Try to pick a pair without a market (e.g. ETH → BTC if no ETHBTC market)', 'Pair not selectable in dropdown'],
+      ['Submit while disconnected from network', 'Clear error, no false success'],
+    ]],
+  ]],
+  ['11. Profile / Security', [
+    ['11.1 Profile page', [
+      ['Open profile', 'UID, email, name, DOB, address shown (masked)'],
+      ['Reveal/hide values via eye icon', 'Toggle works'],
+      ['Verify email + identity verification badges', 'Both green ticks for Account A'],
+    ]],
+    ['11.2 Change password', [
+      ['Profile → Security → Change password', 'Form opens'],
+      ['Enter wrong current password', 'Error'],
+      ['Enter correct current + new (strong) password', 'Success, prompts re-login'],
+      ['Re-login with new password', 'Works'],
+      ['Email notification received', 'Yes'],
+    ]],
+    ['11.3 2FA management', [
+      ['Profile → Security → 2FA', 'Status shown'],
+      ['If enabled, click Disable, prompt for code', 'Code requested'],
+      ['Disable', 'Status changes, email notification'],
+      ['Re-enable, scan QR with Authenticator app', 'Code generates'],
+      ['Submit code to confirm', 'Enabled'],
+    ]],
+    ['11.4 API Keys', [
+      ['Profile → API Keys', 'List of existing keys'],
+      ['Create new key', 'Key + secret shown ONCE, cannot view secret again'],
+      ['Copy key works', 'Yes'],
+      ['Delete key, prompt for confirmation', 'Yes'],
+    ]],
+    ['11.5 Passkeys / Biometric', [
+      ['Profile → Passkeys → register passkey', 'Browser prompts for passkey enrolment'],
+      ['Log out, log back in via passkey', 'Works'],
+    ]],
+  ]],
+  ['12. Dashboard', [
+    ['12.1 Dashboard checks', [
+      ['Open /dashboard', 'Loads with greeting + balances'],
+      ['"Your Account" card shows total AUD value', 'Matches sum from wallets page'],
+      ['Portfolio donut chart renders', 'Visible, % allocations correct'],
+      ['Recent transactions list', 'Shows last 3 transactions'],
+      ['Verify date labels — transactions <24h old should say "Today" or "Yesterday" correctly', 'Calendar-day based, not 24h-rolling'],
+      ['Click a transaction', 'Opens details modal or jumps to history'],
+      ['Click "Deposit" CTA', 'Routes to deposit'],
+      ['Click "Withdraw" CTA', 'Routes to withdraw'],
+      ['Click "View all" on transactions', 'Routes to /history'],
+    ]],
+  ]],
+  ['13. Portfolio Screen', [
+    ['13.1 Portfolio checks', [
+      ['Open /portfolio', 'Loads with current value + breakdown'],
+      ['Donut chart legend shows top assets', 'USDT, BTC, ETH, etc. with %'],
+      ['Assets table populated', 'All non-zero balances listed'],
+      ['Click an asset row', 'Routes to that wallet'],
+      ['Click Print', 'Print preview opens (browser native)'],
+      ['Click Download (CSV or PDF)', 'File downloads correctly'],
+      ['Open downloaded file', 'Renders correctly, values match screen'],
+    ]],
+  ]],
+  ['14. History', [
+    ['14.1 History checks', [
+      ['Open /history', 'Default tab loads (Deposits)'],
+      ['Switch tabs (Deposits / Withdrawals / Trades / Transfers)', 'Each loads its own dataset'],
+      ['Pagination works (Next / Previous)', 'Different rows shown'],
+      ['Filter by currency', 'List filters'],
+      ['Click "Export CSV" on Withdrawals tab', 'CSV downloads with correct rows'],
+      ['Verify dates display in local timezone', 'No UTC mismatch'],
+    ]],
+  ]],
+  ['15. Mobile Web (responsive view in browser)', [
+    ['15.1 iPhone 12 (390×844) and iPad Mini (768×1024) emulation', [
+      ['Open landing page on iPhone 12 emulation', 'Mobile layout, hero image fits, no horizontal scroll'],
+      ['Open /wallets', 'Mobile wallet UI (cards or list), no overlap'],
+      ['Open BTC wallet', 'Tab switcher for Deposit/Withdraw/Buy/Sell visible'],
+      ['Open Withdraw, fill form', 'All inputs reachable, no zoom-on-focus issues'],
+      ['Open success modal after withdrawal', 'Modal centered, fits viewport, Close button works'],
+      ['Toggle dark mode on mobile', 'Background image switches, overlay works'],
+      ['Open Profile', 'All cards readable, action buttons full-width'],
+      ['iPad Mini (768×1024) — does layout still feel right?', 'No oversized whitespace, chart readable'],
+    ]],
+  ]],
+  ['16. Native Mobile App (if applicable)', [
+    ['16.1 Native app checks', [
+      ['Open app', 'Splash → landing or login'],
+      ['Sign in via biometric (if previously enrolled)', 'Works'],
+      ['Wallets, deposit, withdraw flows', 'Same as web'],
+      ['Push notifications received for deposit / withdrawal', 'Yes'],
+      ['Pull-to-refresh on wallet list', 'Refreshes balances'],
+      ['Background app, return → still logged in (or session-expired prompt)', 'Expected behaviour'],
+    ]],
+  ]],
+  ['17. Cross-cutting checks', [
+    ['17.1 Quality checks', [
+      ['Console — open every major page in section 5–11, watch for red errors', 'None expected'],
+      ['Network — every page in section 5–11, no 5xx requests', 'None'],
+      ['CSP — no "Refused to load" errors in console', 'Clean'],
+      ['Lighthouse audit on landing', 'Performance ≥ 70, Accessibility ≥ 85'],
+      ['Tab through landing with keyboard only', 'All interactive elements reachable, focus visible'],
+      ['Test with screen reader (VoiceOver / NVDA) on signup flow', 'Labels announced correctly'],
+      ['Open in Safari, Firefox, and Chrome — repeat sections 5 + 7', 'Works in all three'],
+      ['Sign out then sign in repeatedly (5×)', 'No session/token corruption'],
+    ]],
+  ]],
+];
+
+const root = document.getElementById('sections');
+let stepIndex = 0;
+
+const CHEV_SVG = '<svg class="chev" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="3,6 8,11 13,6"/></svg>';
+
+data.forEach(([sectionTitle, subsections]) => {
+  const section = document.createElement('section');
+  const h2 = document.createElement('h2');
+  h2.innerHTML = `<span>${escapeHtml(sectionTitle)}</span>${CHEV_SVG}`;
+  h2.addEventListener('click', () => {
+    section.classList.toggle('collapsed');
+    persistCollapsed();
+  });
+  section.appendChild(h2);
+
+  subsections.forEach(([subTitle, rows]) => {
+    const h3 = document.createElement('h3');
+    h3.textContent = subTitle;
+    section.appendChild(h3);
+
+    const table = document.createElement('table');
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th class="num">#</th>
+          <th>Step</th>
+          <th>Expected</th>
+          <th class="status">Status</th>
+          <th class="notes">Notes</th>
+        </tr>
+      </thead>
+    `;
+    const tbody = document.createElement('tbody');
+    rows.forEach(([step, expected], i) => {
+      const id = `s${stepIndex++}`;
+      const tr = document.createElement('tr');
+      tr.dataset.id = id;
+      tr.innerHTML = `
+        <td class="num">${i + 1}</td>
+        <td>${escapeHtml(step)}</td>
+        <td class="expected">${escapeHtml(expected)}</td>
+        <td class="status">
+          <span class="pill">
+            <input type="radio" id="${id}-pass" name="${id}" value="pass" />
+            <label class="opt-pass" for="${id}-pass">PASS</label>
+            <input type="radio" id="${id}-fail" name="${id}" value="fail" />
+            <label class="opt-fail" for="${id}-fail">FAIL</label>
+          </span>
+        </td>
+        <td class="notes"><input data-note="${id}" /></td>
+      `;
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    section.appendChild(table);
+  });
+  root.appendChild(section);
+});
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function load() {
+  let saved = {};
+  try { saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch(e){}
+  Object.entries(saved.statuses || {}).forEach(([id, val]) => {
+    const el = document.getElementById(`${id}-${val}`);
+    if (el) {
+      el.checked = true;
+      const tr = document.querySelector(`tr[data-id="${id}"]`);
+      if (tr && val === 'pass') tr.classList.add('done');
+    }
+  });
+  Object.entries(saved.notes || {}).forEach(([id, val]) => {
+    const el = document.querySelector(`input[data-note="${id}"]`);
+    if (el) el.value = val;
+  });
+  Object.entries(saved.meta || {}).forEach(([k, v]) => {
+    const el = document.querySelector(`[data-meta="${k}"]`);
+    if (!el) return;
+    if (el.type === 'radio') {
+      const r = document.querySelector(`[data-meta="${k}"][value="${v}"]`);
+      if (r) r.checked = true;
+    } else el.value = v;
+  });
+  updateProgress();
+}
+
+function persist() {
+  const statuses = {};
+  document.querySelectorAll('input[type="radio"][name^="s"]').forEach(r => {
+    if (r.checked) statuses[r.name] = r.value;
+  });
+  const notes = {};
+  document.querySelectorAll('input[data-note]').forEach(i => {
+    if (i.value) notes[i.dataset.note] = i.value;
+  });
+  const meta = {};
+  document.querySelectorAll('[data-meta]').forEach(el => {
+    if (el.type === 'radio') {
+      if (el.checked) meta[el.dataset.meta] = el.value;
+    } else if (el.value) {
+      meta[el.dataset.meta] = el.value;
+    }
+  });
+  localStorage.setItem(STORAGE_KEY, JSON.stringify({ statuses, notes, meta }));
+}
+
+function updateProgress() {
+  const total = document.querySelectorAll('tr[data-id]').length;
+  const done = document.querySelectorAll('input[type="radio"][name^="s"]:checked').length;
+  document.getElementById('progress').textContent = `${done} / ${total} complete`;
+}
+
+document.addEventListener('change', e => {
+  if (e.target.matches('input[type="radio"][name^="s"]')) {
+    const tr = e.target.closest('tr[data-id]');
+    if (tr) tr.classList.toggle('done', e.target.value === 'pass');
+  }
+  persist();
+  updateProgress();
+});
+document.addEventListener('input', e => {
+  if (e.target.matches('input[data-note], [data-meta]')) {
+    persist();
+  }
+});
+
+function exportJSON() {
+  const data = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+  const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `coinport-test-results-${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function emailResults() {
+  const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+  const meta = saved.meta || {};
+  const statuses = saved.statuses || {};
+  const notes = saved.notes || {};
+
+  // Build a step-id -> { section, sub, step } lookup
+  const stepLookup = {};
+  let i = 0;
+  data.forEach(([sectionTitle, subsections]) => {
+    subsections.forEach(([subTitle, rows]) => {
+      rows.forEach(([step]) => {
+        stepLookup[`s${i++}`] = { sectionTitle, subTitle, step };
+      });
+    });
+  });
+
+  const total = Object.keys(stepLookup).length;
+  const passes = Object.values(statuses).filter(v => v === 'pass').length;
+  const fails = Object.values(statuses).filter(v => v === 'fail').length;
+  const blanks = total - passes - fails;
+
+  const failLines = [];
+  Object.entries(statuses).forEach(([id, val]) => {
+    if (val === 'fail') {
+      const s = stepLookup[id];
+      const note = notes[id] ? ` — ${notes[id]}` : '';
+      failLines.push(`  • [${s.sectionTitle}] ${s.subTitle} → ${s.step}${note}`);
+    }
+  });
+
+  const noteLines = [];
+  Object.entries(notes).forEach(([id, note]) => {
+    if (statuses[id] !== 'fail' && note) {
+      const s = stepLookup[id];
+      if (s) noteLines.push(`  • [${s.subTitle}] ${s.step} — ${note}`);
+    }
+  });
+
+  const lines = [
+    'CoinPort Live User Flow Test — Results',
+    '======================================',
+    '',
+    `Tester:      ${meta.tester || '(not set)'}`,
+    `Date:        ${meta.date || '(not set)'}`,
+    `Browser:     ${meta.browser || '(not set)'}`,
+    `Build SHA:   ${meta.sha || '(not set)'}`,
+    '',
+    `Progress:    ${passes + fails} / ${total} complete`,
+    `  Pass:      ${passes}`,
+    `  Fail:      ${fails}`,
+    `  Untested:  ${blanks}`,
+    '',
+    `Sign-off:    ${meta.signoffName || '-'} on ${meta.signoffDate || '-'}`,
+    `Result:      ${meta.signoffResult || '-'}`,
+    `Recommend:   ${meta.rec || '-'}`,
+    `Bugs:        ${meta.bugs || '-'}`,
+    '',
+  ];
+
+  if (failLines.length) {
+    lines.push('FAILED STEPS:');
+    lines.push(...failLines);
+    lines.push('');
+  }
+
+  if (noteLines.length) {
+    lines.push('NOTES:');
+    lines.push(...noteLines);
+    lines.push('');
+  }
+
+  lines.push('--- Full JSON (paste this if anything looks missing) ---');
+  lines.push(JSON.stringify(saved, null, 2));
+
+  const subject = `Test results — ${meta.tester || 'tester'} — ${meta.date || new Date().toISOString().slice(0, 10)}`;
+  const body = lines.join('\n');
+  const href = `mailto:testing@coinport.com.au?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+  // Some browsers limit mailto length (~2000 chars). If too long, also offer JSON download.
+  if (href.length > 1900) {
+    if (confirm('Results are large — your email client may truncate them. Click OK to also download a JSON file as backup, then send the email.')) {
+      exportJSON();
+    }
+  }
+  window.location.href = href;
+}
+
+function resetAll() {
+  if (!confirm('Clear all PASS/FAIL marks, notes, and metadata? This cannot be undone.')) return;
+  localStorage.removeItem(STORAGE_KEY);
+  location.reload();
+}
+
+const COLLAPSE_KEY = 'coinport-live-test-plan-collapse-v1';
+
+function collapsibleSections() {
+  return Array.from(document.querySelectorAll('section')).filter(s => !s.hasAttribute('data-no-collapse'));
+}
+
+function persistCollapsed() {
+  const collapsed = [];
+  collapsibleSections().forEach((s, idx) => {
+    if (s.classList.contains('collapsed')) collapsed.push(idx);
+  });
+  localStorage.setItem(COLLAPSE_KEY, JSON.stringify(collapsed));
+}
+
+function loadCollapsed() {
+  const sections = collapsibleSections();
+  const raw = localStorage.getItem(COLLAPSE_KEY);
+  if (raw === null) {
+    // First visit — collapse all by default
+    sections.forEach(s => s.classList.add('collapsed'));
+    persistCollapsed();
+    return;
+  }
+  let arr = [];
+  try { arr = JSON.parse(raw); } catch(e){}
+  arr.forEach(idx => sections[idx] && sections[idx].classList.add('collapsed'));
+}
+
+function toggleAll() {
+  const sections = collapsibleSections();
+  const anyExpanded = sections.some(s => !s.classList.contains('collapsed'));
+  sections.forEach(s => s.classList.toggle('collapsed', anyExpanded));
+  persistCollapsed();
+}
+
+load();
+loadCollapsed();
+</script>
+</body>
+</html>
