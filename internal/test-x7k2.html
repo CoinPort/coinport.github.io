@@ -317,15 +317,18 @@ const data = [
       ['Open AUD detail row', 'Shows iframe-only view (no chart card)'],
     ]],
     ['1.3 Static content pages', [
-      ['/terms', 'Renders Terms of Service in full'],
-      ['/privacy', 'Renders Privacy Policy in full'],
+      ['/legal/terms', 'Renders Terms of Service in full'],
+      ['/legal/privacy', 'Renders Privacy Policy in full'],
+      ['/legal/aml', 'Renders AML / CTF policy in full'],
+      ['/legal/complaints', 'Renders Complaints policy in full'],
+      ['/legal/about', 'Renders About page'],
+      ['/legal/competent_authorities', 'Renders Competent Authorities page'],
       ['/support', 'Renders FAQs / contact form'],
-      ['/about (if exists)', 'Renders'],
     ]],
   ]],
   ['2. Auth — Sign up', [
     ['2.1 Sign up flow', [
-      ['Go to /signup', 'Form shows email, password, confirm password, T&C checkbox'],
+      ['Go to /signup', 'Form shows username, email, password, confirm password, T&C checkbox'],
       ['Enter weak password (e.g. 123456)', 'Inline validation flags the password as too weak'],
       ['Enter mismatched passwords', '"Passwords do not match" error'],
       ['Submit without ticking T&Cs', 'Submit blocked or "Accept terms" error shown'],
