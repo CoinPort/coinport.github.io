@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 980" role="img" aria-labelledby="orgTitle orgDesc" font-family="Poppins, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title id="orgTitle">CoinPort Ownership Structure</title>
+  <desc id="orgDesc">Corporate hierarchy: three shareholders (Tahoe Blue Investments 49%, Epsom Software 49%, Other Shareholders 2%) own M1 Digital Pty Ltd, which in turn owns 100% of CoinPort Pty Ltd (Australia, active), CoinPort Limited (New Zealand, not active) and CoinPort PH Inc. (Philippines, not active).</desc>
+
+  <defs>
+    <style><![CDATA[
+      .bg { fill: #ffffff; }
+      .title-text { font-size: 30px; font-weight: 600; fill: rgb(0, 35, 85); }
+      .subtitle-text { font-size: 14px; fill: rgb(120, 120, 120); }
+      .section-label { font-size: 11px; font-weight: 600; letter-spacing: 2.5px; fill: rgb(120, 120, 120); }
+      .box-fill { fill: #ffffff; stroke: rgba(0, 120, 240, 0.28); stroke-width: 1.5; }
+      .box-stripe { fill: rgb(0, 120, 240); }
+      .anchor-box { fill: rgb(0, 120, 240); }
+      .entity-name { font-size: 17px; font-weight: 600; fill: rgb(0, 35, 58); }
+      .entity-name-anchor { font-size: 22px; font-weight: 600; fill: #ffffff; }
+      .entity-detail { font-size: 12px; fill: rgb(120, 120, 120); }
+      .entity-detail-anchor { font-size: 12px; fill: rgba(255, 255, 255, 0.92); }
+      .anchor-tag { font-size: 11px; font-weight: 600; fill: rgba(255, 255, 255, 0.85); letter-spacing: 2.5px; }
+      .ownership-pct { font-size: 13px; font-weight: 600; fill: rgb(0, 120, 240); }
+      .connector { stroke: rgba(0, 35, 58, 0.4); stroke-width: 1.5; fill: none; }
+      .pct-badge-bg { fill: rgb(250, 200, 72); }
+      .pct-badge-text { font-size: 12px; font-weight: 600; fill: rgb(0, 35, 58); text-anchor: middle; }
+      .country-badge-bg { fill: rgba(0, 120, 240, 0.12); }
+      .country-badge-text { font-size: 11px; font-weight: 600; fill: rgb(0, 120, 240); text-anchor: middle; letter-spacing: 1px; }
+      .status-active-bg { fill: rgb(75, 198, 74); }
+      .status-inactive-bg { fill: rgba(120, 120, 120, 0.22); }
+      .status-active-text { font-size: 10px; font-weight: 600; fill: #ffffff; text-anchor: middle; letter-spacing: 1.2px; }
+      .status-inactive-text { font-size: 10px; font-weight: 600; fill: rgb(120, 120, 120); text-anchor: middle; letter-spacing: 1.2px; }
+      .footer-text { font-size: 11px; fill: rgb(120, 120, 120); text-anchor: middle; }
+      .footer-small { font-size: 10px; fill: rgb(160, 160, 160); text-anchor: middle; }
+    ]]></style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1200" height="980"/>
+
+  <text class="title-text" x="600" y="46" text-anchor="middle">CoinPort Ownership Structure</text>
+  <text class="subtitle-text" x="600" y="70" text-anchor="middle">Corporate structure of the CoinPort Exchange business</text>
+
+  <text class="section-label" x="40" y="112">SHAREHOLDERS</text>
+
+  <g>
+    <rect class="box-fill" x="40" y="120" width="320" height="120" rx="8"/>
+    <rect class="box-stripe" x="40" y="120" width="320" height="6" rx="3"/>
+    <text class="entity-name" x="60" y="162">Tahoe Blue Investments</text>
+    <text class="entity-name" x="60" y="184">Pty Ltd</text>
+    <text class="entity-detail" x="60" y="206">ACN: 159 855 035</text>
+    <text class="ownership-pct" x="60" y="228">49% owner</text>
+  </g>
+
+  <g>
+    <rect class="box-fill" x="440" y="120" width="320" height="120" rx="8"/>
+    <rect class="box-stripe" x="440" y="120" width="320" height="6" rx="3"/>
+    <text class="entity-name" x="460" y="162">Epsom Software Pty Ltd</text>
+    <text class="entity-detail" x="460" y="186">ABN: 84 006 876 286</text>
+    <text class="ownership-pct" x="460" y="220">49% owner</text>
+  </g>
+
+  <g>
+    <rect class="box-fill" x="840" y="120" width="320" height="120" rx="8"/>
+    <rect class="box-stripe" x="840" y="120" width="320" height="6" rx="3"/>
+    <text class="entity-name" x="860" y="162">Other Shareholders</text>
+    <text class="entity-detail" x="860" y="186">Minority interests</text>
+    <text class="ownership-pct" x="860" y="220">2% ownership</text>
+  </g>
+
+  <path class="connector" d="M 200,240 L 200,320"/>
+  <path class="connector" d="M 600,240 L 600,320"/>
+  <path class="connector" d="M 1000,240 L 1000,320"/>
+  <path class="connector" d="M 200,320 L 1000,320"/>
+  <path class="connector" d="M 600,320 L 600,400"/>
+
+  <g>
+    <rect class="pct-badge-bg" x="170" y="266" width="60" height="22" rx="11"/>
+    <text class="pct-badge-text" x="200" y="282">49%</text>
+  </g>
+  <g>
+    <rect class="pct-badge-bg" x="570" y="266" width="60" height="22" rx="11"/>
+    <text class="pct-badge-text" x="600" y="282">49%</text>
+  </g>
+  <g>
+    <rect class="pct-badge-bg" x="970" y="266" width="60" height="22" rx="11"/>
+    <text class="pct-badge-text" x="1000" y="282">2%</text>
+  </g>
+
+  <text class="section-label" x="40" y="392">HOLDING COMPANY</text>
+
+  <g>
+    <rect class="anchor-box" x="370" y="400" width="460" height="140" rx="10"/>
+    <text class="anchor-tag" x="600" y="430" text-anchor="middle">HOLDING COMPANY</text>
+    <text class="entity-name-anchor" x="600" y="475" text-anchor="middle">M1 Digital Pty Ltd</text>
+    <text class="entity-detail-anchor" x="600" y="500" text-anchor="middle">ABN: 99 685 580 625</text>
+    <text class="entity-detail-anchor" x="600" y="522" text-anchor="middle" style="opacity: 0.8;">Parent entity of CoinPort group</text>
+  </g>
+
+  <path class="connector" d="M 600,540 L 600,620"/>
+  <path class="connector" d="M 200,620 L 1000,620"/>
+  <path class="connector" d="M 200,620 L 200,700"/>
+  <path class="connector" d="M 600,620 L 600,700"/>
+  <path class="connector" d="M 1000,620 L 1000,700"/>
+
+  <g>
+    <rect class="pct-badge-bg" x="166" y="646" width="68" height="22" rx="11"/>
+    <text class="pct-badge-text" x="200" y="662">100%</text>
+  </g>
+  <g>
+    <rect class="pct-badge-bg" x="566" y="646" width="68" height="22" rx="11"/>
+    <text class="pct-badge-text" x="600" y="662">100%</text>
+  </g>
+  <g>
+    <rect class="pct-badge-bg" x="966" y="646" width="68" height="22" rx="11"/>
+    <text class="pct-badge-text" x="1000" y="662">100%</text>
+  </g>
+
+  <text class="section-label" x="40" y="692">OPERATING SUBSIDIARIES</text>
+
+  <g>
+    <rect class="box-fill" x="40" y="700" width="320" height="180" rx="8"/>
+    <rect class="box-stripe" x="40" y="700" width="320" height="6" rx="3"/>
+    <rect class="country-badge-bg" x="300" y="718" width="44" height="22" rx="11"/>
+    <text class="country-badge-text" x="322" y="734">AU</text>
+    <text class="entity-name" x="60" y="758">CoinPort Pty Ltd</text>
+    <text class="entity-detail" x="60" y="782">ABN: 12 624 879 223</text>
+    <text class="entity-detail" x="60" y="800">AUSTRAC DCE 100633359</text>
+    <text class="entity-detail" x="60" y="826" style="font-weight: 500;">Australian Cryptocurrency Exchange</text>
+    <rect class="status-active-bg" x="60" y="844" width="62" height="20" rx="10"/>
+    <text class="status-active-text" x="91" y="858">ACTIVE</text>
+  </g>
+
+  <g>
+    <rect class="box-fill" x="440" y="700" width="320" height="180" rx="8"/>
+    <rect class="box-stripe" x="440" y="700" width="320" height="6" rx="3"/>
+    <rect class="country-badge-bg" x="700" y="718" width="44" height="22" rx="11"/>
+    <text class="country-badge-text" x="722" y="734">NZ</text>
+    <text class="entity-name" x="460" y="758">CoinPort Limited</text>
+    <text class="entity-detail" x="460" y="782">Company Number: 9345796</text>
+    <text class="entity-detail" x="460" y="826" style="font-weight: 500;">New Zealand Limited Company</text>
+    <rect class="status-inactive-bg" x="460" y="844" width="82" height="20" rx="10"/>
+    <text class="status-inactive-text" x="501" y="858">NOT ACTIVE</text>
+  </g>
+
+  <g>
+    <rect class="box-fill" x="840" y="700" width="320" height="180" rx="8"/>
+    <rect class="box-stripe" x="840" y="700" width="320" height="6" rx="3"/>
+    <rect class="country-badge-bg" x="1100" y="718" width="44" height="22" rx="11"/>
+    <text class="country-badge-text" x="1122" y="734">PH</text>
+    <text class="entity-name" x="860" y="758">CoinPort PH Inc.</text>
+    <text class="entity-detail" x="860" y="782">Registration in progress</text>
+    <text class="entity-detail" x="860" y="826" style="font-weight: 500;">Philippines Company</text>
+    <rect class="status-inactive-bg" x="860" y="844" width="82" height="20" rx="10"/>
+    <text class="status-inactive-text" x="901" y="858">NOT ACTIVE</text>
+  </g>
+
+  <text class="footer-text" x="600" y="930">CoinPort Pty Ltd · ABN 12 624 879 223 · AUSTRAC-registered DCE 100633359</text>
+  <text class="footer-small" x="600" y="950">doc.coinport.com.au/org/</text>
+</svg>
