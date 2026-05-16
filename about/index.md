@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # CoinPort About
 
 This is the web folder where static images for the public-facing site are stored.

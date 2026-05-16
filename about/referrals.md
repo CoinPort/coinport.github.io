@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # CoinPort Exchange Referral Program
 
 CoinPort offers one of the best referral reward programs globally. When someone clicks your referral link to buy crypto, you can effectively earn crypto. You earn commission by helping us invite the world to trade bitcoin and cryptocurrency on our platform.

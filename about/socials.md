@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # CoinPort Social Media Resources
 <base target="_blank">
 To connect and engage with members of the CoinPort Exchange we participate in several social media channels.

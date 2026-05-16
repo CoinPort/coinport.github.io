@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Contact CoinPort
 
 ## Office Hours

@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # CoinPort Fees
 
 CoinPort does not charge commissions or trading fees for crypto orders executed on the CoinPort exchange platform.

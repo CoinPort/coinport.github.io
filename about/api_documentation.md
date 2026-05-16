@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # About CoinPort
 
 We are working to make the cryptoeconomy – a more fair, accessible, efficient, and transparent financial system.

@@ -1,7 +1,3 @@
----
-layout: default
----
-
 
 CoinPort, as a persona, embodies the traits of trustworthiness, innovation, and approachability.
 

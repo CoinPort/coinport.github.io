@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # CoinPort Registration Details
 
 ## ASIC Registration
