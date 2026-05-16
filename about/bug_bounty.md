@@ -1,4 +1,4 @@
-# CoinPort Exchange Bug Bounty Program
+# Bug Bounty Program
 
 CoinPort values the work of security researchers and encourages responsible disclosure of security vulnerabilities. This page outlines the scope and process for reporting potential security issues.
 

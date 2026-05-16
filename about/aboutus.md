@@ -1,4 +1,4 @@
-# About CoinPort Exchange
+# About CoinPort
 
 CoinPort Exchange is building a simpler, more accessible way for people to participate in the global digital asset economy.
 

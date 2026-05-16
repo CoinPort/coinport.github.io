@@ -1,4 +1,4 @@
-# CoinPort Exchange Security
+# Security
 
 Protecting user funds and data is a core responsibility at CoinPort. We apply layered security controls across our platform, combining technical safeguards, monitoring systems, and user-level protections to reduce risk and respond quickly to suspicious activity.
 

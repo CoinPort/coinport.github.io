@@ -1,4 +1,4 @@
-# CoinPort Careers
+# Careers
 
 We’re building practical financial infrastructure for the digital asset economy and are always interested in hearing from capable, motivated people.
 

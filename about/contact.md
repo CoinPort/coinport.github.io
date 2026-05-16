@@ -1,4 +1,4 @@
-# Contact CoinPort
+# Contact Us
 
 ## Office Hours
 
