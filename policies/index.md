@@ -25,7 +25,7 @@ All documents are reviewed annually and updated in accordance with changes in Au
 
 CoinPort Pty Ltd operates under the following key regulatory frameworks:
 - **Australian Financial Services Licence (AFSL)**
-- **AUSTRAC Registration** as a Virtual Asset Service Provider (DCE)
+- **AUSTRAC Registration** as a Virtual Asset Service Provider (VASP)
 - **Privacy Act 1988** (including the Notifiable Data Breaches scheme)
 - **Corporations Act 2001**
 - **Anti-Money Laundering and Counter-Terrorism Financing Act 2006**

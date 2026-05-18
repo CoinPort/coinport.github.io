@@ -15,7 +15,7 @@ layout: default
 
 This document outlines the project plan for CoinPort Pty Ltd (ABN 12 624 879 223) to apply for an Australian Financial Services Licence (AFSL) issued by the Australian Securities and Investments Commission (ASIC). The application is driven by the anticipated passage of the *Corporations Amendment (Digital Assets Framework) Bill 2025*, which will require digital asset platform operators to hold an AFSL.
 
-CoinPort is currently registered with AUSTRAC as a Virtual Asset Service Provider (VASP) under DCE registration #100633359. The company is a member of the Australian Financial Complaints Authority (AFCA, Member #100204) and maintains a comprehensive AML/CTF Program (v3.1, effective January 2026). This existing compliance infrastructure provides a strong foundation for the AFSL application.
+CoinPort is currently registered with AUSTRAC as a Virtual Asset Service Provider (VASP) under registration #100633359. The company is a member of the Australian Financial Complaints Authority (AFCA, Member #100204) and maintains a comprehensive AML/CTF Program (v3.1, effective January 2026). This existing compliance infrastructure provides a strong foundation for the AFSL application.
 
 **Estimated Timeline:** 9–15 months from project commencement to licence grant.
 
@@ -40,7 +40,7 @@ This project plan serves to:
 
 | Registration | Details |
 |---|---|
-| AUSTRAC VASP (DCE) | #100633359 (registered 3 February 2020) |
+| AUSTRAC VASP | #100633359 (registered 3 February 2020) |
 | AUSTRAC IRD | #IND100633359-001 |
 | ASIC Company Registration | ACN 624 879 223 |
 | AFCA Membership | #100204 |

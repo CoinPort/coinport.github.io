@@ -74,4 +74,4 @@ The current AML/CTF Program is `legal/docs/CoinPort_AML_CTF_Program_v3.1_2026.md
 
 ## Company Context
 
-CoinPort Pty Ltd (ABN 12 624 879 223), AUSTRAC-registered DCE (100633359). Parent entity: M1 Digital Pty Ltd. Subsidiaries include CoinPort Limited (NZ) and CoinPort Inc. (Philippines).
+CoinPort Pty Ltd (ABN 12 624 879 223), AUSTRAC-registered Virtual Asset Service Provider (VASP), Registration #100633359. Parent entity: M1 Digital Pty Ltd. Subsidiaries include CoinPort Limited (NZ) and CoinPort Inc. (Philippines).

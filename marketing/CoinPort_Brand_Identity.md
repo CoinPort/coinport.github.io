@@ -23,7 +23,7 @@ description: Brand system, tokens, components and usage rules for the CoinPort e
 |---|---|---|
 | Full form (primary) | "Easy, fast and safe way to trade crypto." | Landing hero, About page, paid ad headlines, OG meta, App Store / Google Play descriptions, `_config.yml` site description, SEO meta description, press boilerplate |
 | Short form | "Easy, fast and safe." | Three-word lockup for icon rows, social bio, footer strap |
-| Pillar attribute set | "Easy · Fast · Safe" | Feature-row labels. Maps to: **Easy** → instant AUD via Osko/PayID · **Fast** → sub-minute deposits · **Safe** → AUSTRAC VASOP, 2FA, cold storage |
+| Pillar attribute set | "Easy · Fast · Safe" | Feature-row labels. Maps to: **Easy** → instant AUD via Osko/PayID · **Fast** → sub-minute deposits · **Safe** → AUSTRAC VASP, 2FA, cold storage |
 
 ### Punctuation & capitalisation
 
@@ -56,7 +56,7 @@ description: Brand system, tokens, components and usage rules for the CoinPort e
 |---|---|
 | **Legal entity** | CoinPort Pty Ltd · ABN 12 624 879 223 |
 | **Address** | Level 2, 696 Bourke St, Melbourne VIC 3000 |
-| **Regulator** | AUSTRAC VASOP100631644 |
+| **Regulator** | AUSTRAC VASP · Registration #100633359 |
 | **Web** | [coinport.com.au](https://www.coinport.com.au) |
 | **Docs** | [doc.coinport.com.au](https://doc.coinport.com.au) |
 | **iOS** | App Store ID 1477376905 |
@@ -224,7 +224,7 @@ Never imply guaranteed returns, never use "to the moon" / "lambo" / WAGMI / GM-s
                                          |   kent@coinport.com.au
                                          |   www.coinport.com.au
                                          |   Level 2, 696 Bourke St, Melbourne VIC 3000
-                                         |   AUSTRAC VASOP100631644 · ABN 12 624 879 223
+                                         |   AUSTRAC VASP · Registration #100633359 · ABN 12 624 879 223
 ```
 
 **Rules**
