@@ -249,7 +249,7 @@ Four semantic states. Never reassign colours across states.
 | Warning | `--rgb-contrast-cta-color` | `#FAC848` | User attention required, no error (maintenance, pending review, 2FA prompts) |
 | Danger | `--rgb-asks` | `#FF617F` | Failures, rejections, security incidents only |
 
-**Status pills:** Completed, Verified (success) · Processing, L3 Full (info) · Pending review, Action required (warning) · Failed, Cancelled (danger) · Draft, Archived (neutral).
+**Status pills:** Completed, Verified (success) · Processing (info) · Pending review, Action required (warning) · Failed, Cancelled (danger) · Draft, Archived (neutral).
 
 ---
 
