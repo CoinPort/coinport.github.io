@@ -13,6 +13,44 @@ description: Brand system, tokens, components and usage rules for the CoinPort e
 
 ---
 
+## Tagline
+
+> **Easy, fast and safe way to trade crypto.**
+
+### Approved variants
+
+| Variant | Form | Use |
+|---|---|---|
+| Full form (primary) | "Easy, fast and safe way to trade crypto." | Landing hero, About page, paid ad headlines, OG meta, App Store / Google Play descriptions |
+| Descriptor form | "Easy, fast and safe cryptocurrency exchange." | `_config.yml` site description, SEO meta description, press boilerplate |
+| Short form | "Easy, fast and safe." | Three-word lockup for icon rows, social bio, footer strap |
+| Pillar attribute set | "Easy · Fast · Safe" | Feature-row labels. Maps to: **Easy** → instant AUD via Osko/PayID · **Fast** → sub-minute deposits · **Safe** → AUSTRAC VASOP, 2FA, cold storage |
+
+### Punctuation & capitalisation
+
+- **Comma** — single comma between "Easy" and "fast". No serial comma before "and safe".
+- **Lowercase** — "easy", "fast", "safe", "way", "trade", "crypto" all lowercase in body context. Sentence-case at the start. All-caps only in micro-contexts (badges, labels < 14px).
+- **Full stop** — include when the tagline ends a paragraph or sits alone. Drop when set inline in a sentence or as a button/CTA label.
+- **Emphasis** — when highlighting one phrase, italicise or colour-shift the first three words ("Easy, fast and safe"), never the last clause.
+
+### Do
+
+- Use the full form on every public-facing surface where there's room.
+- Pair with a single specific proof (zero fees, instant AUD, AUSTRAC, 24/7 support) — not three.
+- Set in Poppins, 600–700 weight.
+- Treat the tagline as a sentence: capital E at start, full stop at end (where context allows).
+- Keep "Easy", "fast" and "safe" in that order — the rhythm is the brand.
+
+### Don't
+
+- Reorder — never "Fast, safe and easy" or "Safe, easy and fast".
+- Add adjectives — not "Easy, fast, safe *and cheap*" or "*The* easiest, fastest, safest...".
+- Translate inside a single en-AU asset — English only on AU surfaces.
+- Use as a verb claim ("We make crypto easy, fast and safe") — keep it as a noun-phrase descriptor.
+- Combine with hype phrases ("Easy, fast and safe — to the moon").
+
+---
+
 ## Quick reference
 
 | | |
