@@ -21,8 +21,7 @@ description: Brand system, tokens, components and usage rules for the CoinPort e
 
 | Variant | Form | Use |
 |---|---|---|
-| Full form (primary) | "Easy, fast and safe way to trade crypto." | Landing hero, About page, paid ad headlines, OG meta, App Store / Google Play descriptions |
-| Descriptor form | "Easy, fast and safe cryptocurrency exchange." | `_config.yml` site description, SEO meta description, press boilerplate |
+| Full form (primary) | "Easy, fast and safe way to trade crypto." | Landing hero, About page, paid ad headlines, OG meta, App Store / Google Play descriptions, `_config.yml` site description, SEO meta description, press boilerplate |
 | Short form | "Easy, fast and safe." | Three-word lockup for icon rows, social bio, footer strap |
 | Pillar attribute set | "Easy · Fast · Safe" | Feature-row labels. Maps to: **Easy** → instant AUD via Osko/PayID · **Fast** → sub-minute deposits · **Safe** → AUSTRAC VASOP, 2FA, cold storage |
 

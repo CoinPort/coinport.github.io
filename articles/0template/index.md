@@ -25,4 +25,4 @@ Here is some more content.
 sincerely,
 The CoinPort Exchange Team
 [https://www.coinport.com.au](https://www.coinport.com.au)
-Easy, fast and safe cryptocurrency exchange
+Easy, fast and safe way to trade crypto.
