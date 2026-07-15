@@ -2,7 +2,7 @@
 
 CoinPort Exchange is building a simpler, more accessible way for people to participate in the global digital asset economy.
 
-Founded in 2020, CoinPort was created on the belief that anyone, anywhere, should be able to securely buy, sell, and use cryptocurrency without unnecessary friction or complexity. Today, we provide a trusted and easy-to-use platform that helps individuals and businesses access the broader crypto economy with confidence.
+Founded in 2018, CoinPort was created on the belief that anyone, anywhere, should be able to securely buy, sell, and use cryptocurrency without unnecessary friction or complexity. Today, we provide a trusted and easy-to-use platform that helps individuals and businesses access the broader crypto economy with confidence.
 
 Our mission is to increase economic freedom by expanding access to modern financial infrastructure. We believe open, transparent systems—built on shared standards rather than centralized control—create fairer outcomes, reduce barriers, and accelerate human progress.
 
