@@ -1,5 +1,7 @@
 # Bug Bounty Program
 
+## We have suspended the Boug Bounty Program because of a high volume of AI-generated reports that are spurious or duplicates
+
 CoinPort values the work of security researchers and encourages responsible disclosure of security vulnerabilities. This page outlines the scope and process for reporting potential security issues.
 
 ## Responsible investigation and disclosure
