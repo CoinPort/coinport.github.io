@@ -419,7 +419,7 @@ CoinMarket · Facebook · LinkedIn · Medium · Reddit · Telegram · Tiktok · 
 | Channel | URL / Handle | Notes |
 |---|---|---|
 | Web platform | [coinport.com.au](https://www.coinport.com.au) | React app. Light/dark via `:root.light-mode` / `:root.dark-mode`. `GridMainBG.svg` + `GridMainBG_night.svg` for landing hero. |
-| Documentation | [doc.coinport.com.au](https://doc.coinport.com.au) | Jekyll. Legal, policies, support, brand resources. `style.css`. OG image: `/images/logos/ch_sign_logo.png`. |
+| Documentation | [doc.coinport.com.au](https://doc.coinport.com.au) | Jekyll. Legal, policies, support, brand resources. `style.css`. OG image: `/images/logos/coinport_logo.png`. |
 | iOS App | App Store ID 1477376905 | Native iOS. Poppins throughout. System dark mode aware. |
 | Android App | `app.mobile.coinport` | Google Play. Matches iOS design exactly. |
 | Social | [@CoinPortEx](https://twitter.com/CoinPortEx) | Twitter/X · Facebook · YouTube. Navy/cyan palette. Brand voice rules apply. No hype language. |

@@ -28,7 +28,7 @@ github_username: coinport
 
 # Author & Branding
 author: CoinPort Pty Ltd
-logo: /images/logos/ch_sign_logo.png
+logo: /images/logos/coinport_logo.png
 
 # Social Links for SEO
 social:
@@ -68,7 +68,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /images/logos/ch_sign_logo.png
+      image: /images/logos/coinport_logo.png
   - scope:
       path: "coins"
     values:
