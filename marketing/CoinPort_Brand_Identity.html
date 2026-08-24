@@ -196,6 +196,34 @@ h3.sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:upperc
 </style>
 </head>
 <body>
+<!-- Section menu -->
+<style>
+html{scroll-behavior:smooth;}
+h2.st{scroll-margin-top:86px;}
+.secmenu{position:sticky;top:0;z-index:1000;background:rgba(255,255,255,.96);backdrop-filter:blur(6px);border-bottom:1px solid #e2e6f0;padding:10px 22px;display:flex;flex-wrap:wrap;gap:4px 2px;justify-content:center;}
+.secmenu a{font-family:'Poppins',sans-serif;font-size:10.5px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:#777f93;text-decoration:none;padding:5px 11px;border-radius:99px;white-space:nowrap;}
+.secmenu a:hover{color:#0078F0;background:#f0f6ff;}
+</style>
+<nav class="secmenu">
+<a href="#s-logo-downloads">Logo Downloads</a>
+<a href="#s-00-tagline">Tagline</a>
+<a href="#s-01-product-overview">Product overview</a>
+<a href="#s-02-logo-system">Logo system</a>
+<a href="#s-03-colour-system">Colour system</a>
+<a href="#s-04-typography">Typography</a>
+<a href="#s-05-buttons-and-navigation">Buttons &amp; navigation</a>
+<a href="#s-06-ui-patterns">UI patterns</a>
+<a href="#s-07-brand-voice">Brand voice</a>
+<a href="#s-08-email-and-stationery">Email &amp; stationery</a>
+<a href="#s-09-alerts-and-warnings">Alerts &amp; warnings</a>
+<a href="#s-10-spacing-and-grid">Spacing &amp; grid</a>
+<a href="#s-11-form-fields-and-inputs">Form fields &amp; inputs</a>
+<a href="#s-12-photography-and-illustration">Photography &amp; illustration</a>
+<a href="#s-13-brand-asset-library">Brand asset library</a>
+<a href="#s-14-digital-presence">Digital presence</a>
+</nav>
+
+
 <div class="page">
 
 <!-- HERO -->
@@ -228,7 +256,7 @@ h3.sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:upperc
 
 <!-- LOGO DOWNLOADS -->
 <section>
-<h2 class="st">Logo Downloads</h2>
+<h2 class="st" id="s-logo-downloads">Logo Downloads</h2>
 <style>
 .dlg{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
 .dlc{border-radius:14px;padding:30px 26px 22px;display:flex;flex-direction:column;gap:20px;align-items:flex-start;}
@@ -263,7 +291,7 @@ h3.sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:upperc
 
 <!-- 00 TAGLINE -->
 <section>
-<h2 class="st">00 — Tagline</h2>
+<h2 class="st" id="s-00-tagline">00 — Tagline</h2>
 <style>
 .tg-hero{background:linear-gradient(135deg,#0078F0 0%,#005ecc 100%);border-radius:16px;padding:38px 36px;color:#fff;margin-bottom:18px;position:relative;overflow:hidden;}
 .tg-hero::after{content:"";position:absolute;right:-40px;bottom:-40px;width:180px;height:180px;border-radius:50%;background:radial-gradient(circle,rgba(26,173,255,0.35) 0%,transparent 70%);}
@@ -345,7 +373,7 @@ h3.sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:upperc
 
 <!-- 01 PRODUCT OVERVIEW -->
 <section>
-<h2 class="st">01 — Product overview</h2>
+<h2 class="st" id="s-01-product-overview">01 — Product overview</h2>
 
 <style>
 .ov-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 20px; }
@@ -439,7 +467,7 @@ h3.sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:upperc
 
 <!-- 02 LOGO -->
 <section>
-<h2 class="st">02 — Logo system</h2>
+<h2 class="st" id="s-02-logo-system">02 — Logo system</h2>
 <div class="lg">
 <div class="lc llt">
 <svg fill="none" height="28" viewBox="0 0 180.05 35" xmlns="http://www.w3.org/2000/svg"><path fill="#1AADFF" d="M28.93,23.46l-9.28-2.02c-.08-.02-.16.03-.2.1-.69,1.53-2.44,2.61-4.26,2.68-2.1,0-4.75-1.69-4.75-4.75,0-2.74,1.93-4.77,4.9-4.77,2,0,3.54,1.52,4.11,2.71.04.07.12.11.2.1l9.28-2.05c.09-.02.19.04.21.13,1,3.56.21,6.97,0,7.74-.02.09-.12.15-.21.13Z"/><path fill="#00233A" d="M15.19,4.28c7.32,0,11.7,4.96,13.06,7.41.05.1,0,.22-.1.26l-6.07,2.2c-.07.03-.16,0-.21-.06-.44-.57-2.69-3.22-6.68-3.21-4.46.01-8.57,3.56-8.57,8.54s4.11,8.62,8.57,8.62c3.99,0,6.24-2.63,6.68-3.19.05-.06.13-.09.2-.06l6.07,2.2c.11.04.15.16.1.26-.65,1.16-4.51,7.28-13.05,7.41C6.74,34.67-.23,27.54,0,19.42,0,10.19,7.68,4.28,15.19,4.28Z"/><path fill="#00233A" fill-rule="evenodd" d="M37.61,33.49c-1.88-1.01-3.37-2.45-4.45-4.33-1.08-1.87-1.62-4.07-1.62-6.58s.55-4.66,1.64-6.55c1.09-1.89,2.59-3.34,4.49-4.35,1.9-1.01,4.03-1.51,6.39-1.51s4.49.5,6.39,1.51c1.9,1.01,3.4,2.46,4.49,4.35,1.09,1.89,1.64,4.07,1.64,6.55s-.55,4.67-1.66,6.55c-1.11,1.89-2.62,3.34-4.53,4.35-1.91,1.01-4.05,1.51-6.41,1.51s-4.48-.5-6.37-1.51ZM47.58,27.04c.99-1.04,1.49-2.52,1.49-4.46s-.48-3.42-1.45-4.46c-.96-1.04-2.15-1.56-3.56-1.56s-2.63.51-3.58,1.54c-.95,1.02-1.42,2.52-1.42,4.48s.47,3.42,1.4,4.46c.94,1.04,2.11,1.56,3.52,1.56s2.61-.52,3.6-1.56Z"/><path fill="#00233A" d="M59.6,6.86c-.75-.76-1.12-1.71-1.12-2.83s.37-2.11,1.12-2.88c.75-.76,1.72-1.15,2.9-1.15s2.11.38,2.86,1.15c.75.76,1.12,1.72,1.12,2.88s-.37,2.07-1.12,2.83c-.75.76-1.7,1.15-2.86,1.15s-2.15-.38-2.9-1.15Z"/><rect fill="#00233A" x="58.79" y="10.51" width="7.38" height="24.14"/><path fill="#00233A" d="M91.23,13c1.68,1.83,2.53,4.35,2.53,7.55v14.1h-7.34v-13.11c0-1.61-.42-2.87-1.25-3.76-.83-.89-1.96-1.34-3.37-1.34s-2.53.45-3.37,1.34c-.83.89-1.25,2.15-1.25,3.76v13.11h-7.38V10.51h7.38v3.2c.75-1.07,1.75-1.91,3.02-2.53,1.27-.62,2.69-.93,4.27-.93,2.82,0,5.07.92,6.76,2.75Z"/><path fill="#00233A" d="M119.05,18.88c-.81,1.46-2.04,2.63-3.71,3.53-1.67.89-3.74,1.34-6.22,1.34h-4.58v10.9h-7.38V4.28h11.96c2.42,0,4.46.42,6.13,1.25,1.67.84,2.92,1.99,3.76,3.46.83,1.47,1.25,3.16,1.25,5.06,0,1.76-.4,3.37-1.21,4.82ZM111.71,16.87c.69-.66,1.04-1.6,1.04-2.81s-.35-2.15-1.04-2.81c-.69-.66-1.74-1-3.15-1h-4.01v7.61h4.01c1.41,0,2.46-.33,3.15-1Z"/><path fill="#00233A" fill-rule="evenodd" d="M126.97,33.49c-1.88-1.01-3.37-2.45-4.45-4.33-1.08-1.87-1.62-4.07-1.62-6.58s.55-4.66,1.64-6.55c1.09-1.89,2.59-3.34,4.49-4.35,1.9-1.01,4.03-1.51,6.39-1.51s4.49.5,6.39,1.51c1.9,1.01,3.4,2.46,4.49,4.35,1.09,1.89,1.64,4.07,1.64,6.55s-.55,4.67-1.66,6.55c-1.11,1.89-2.62,3.34-4.53,4.35-1.91,1.01-4.05,1.51-6.41,1.51s-4.48-.5-6.37-1.51ZM136.94,27.04c.99-1.04,1.49-2.52,1.49-4.46s-.48-3.42-1.45-4.46c-.96-1.04-2.15-1.56-3.56-1.56s-2.63.51-3.58,1.54c-.95,1.02-1.42,2.52-1.42,4.48s.47,3.42,1.4,4.46c.94,1.04,2.11,1.56,3.52,1.56s2.61-.52,3.6-1.56Z"/><path fill="#00233A" d="M158.76,11.4c1.29-.76,2.73-1.02,4.32-1.02v6.46h-2.03c-1.84,0-3.26,1.21-4.14,2.31-.77.94-1.38,2.31-1.38,4.3v11.21h-7.38V10.51h7.38v4.02c.86-1.33,1.94-2.37,3.24-3.14Z"/><path fill="#00233A" d="M180.05,28.38v6.27h-3.76c-2.68,0-4.76-.66-6.26-1.97-1.5-1.31-2.24-3.45-2.24-6.42v-9.6h-2.94v-6.27h2.94v-5.76h7.38v5.76h4.83v6.27h-4.83v9.69c0,.72.17,1.24.52,1.56.35.32.92.48,1.73.48h2.63Z"/></svg>
@@ -500,7 +528,7 @@ h3.sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:upperc
 
 <!-- 03 COLOURS -->
 <section>
-<h2 class="st">03 — Colour system</h2>
+<h2 class="st" id="s-03-colour-system">03 — Colour system</h2>
 <p style="font-size:12px;color:#666;margin-bottom:16px;line-height:1.7;">Defined as RGB triplets in <strong>light.pcss</strong> / <strong>dark.pcss</strong>. Mode toggled via <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">:root.light-mode</code> / <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">:root.dark-mode</code>. Use <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">rgba(var(--rgb-*), alpha)</code> for layers.</p>
 
 <h3 class="sub">Invariant — both modes identical</h3>
@@ -570,7 +598,7 @@ h3.sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:upperc
 
 <!-- 04 TYPOGRAPHY -->
 <section>
-<h2 class="st">04 — Typography</h2>
+<h2 class="st" id="s-04-typography">04 — Typography</h2>
 <div class="ph">
 <span class="phey">Poppins — sole brand typeface · Google Fonts · self-hosted in /fonts</span>
 <div class="phd">Coin<span>Port</span></div>
@@ -589,7 +617,7 @@ h3.sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:upperc
 
 <!-- 05 BUTTONS + NAV -->
 <section>
-<h2 class="st">05 — Buttons &amp; navigation</h2>
+<h2 class="st" id="s-05-buttons-and-navigation">05 — Buttons &amp; navigation</h2>
 <h3 class="sub">Button hierarchy</h3>
 <div class="bs">
 <div class="br"><button class="bp">Deposit</button><div><div class="blbl">Primary — --rgb-primary-cta-color</div><div class="bsp">bg:#0078F0 · text:#fff · fw:500 · Used: Deposit, Sign In</div></div></div>
@@ -632,7 +660,7 @@ h3.sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:upperc
 
 <!-- 06 UI PATTERNS -->
 <section>
-<h2 class="st">06 — UI patterns</h2>
+<h2 class="st" id="s-06-ui-patterns">06 — UI patterns</h2>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px;">
 <div>
 <h3 class="sub" style="margin-top:0;">Dashboard · Light</h3>
@@ -723,7 +751,7 @@ h3.sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:upperc
 
 <!-- 07 VOICE -->
 <section>
-<h2 class="st">07 — Brand voice</h2>
+<h2 class="st" id="s-07-brand-voice">07 — Brand voice</h2>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px;">
 <div style="background:#fff;border:1px solid #e2e6f0;border-radius:12px;padding:18px 20px;"><div style="font-size:12.5px;font-weight:600;color:#00233A;margin-bottom:6px;display:flex;align-items:center;gap:8px;"><span style="width:8px;height:8px;border-radius:50%;background:#0078F0;flex-shrink:0;"></span>Trustworthy</div><div style="font-size:12px;color:#666;line-height:1.65;">We speak plainly. AUSTRAC compliance and security are front and centre — never buried in fine print.</div></div>
 <div style="background:#fff;border:1px solid #e2e6f0;border-radius:12px;padding:18px 20px;"><div style="font-size:12.5px;font-weight:600;color:#00233A;margin-bottom:6px;display:flex;align-items:center;gap:8px;"><span style="width:8px;height:8px;border-radius:50%;background:#FAC848;flex-shrink:0;"></span>Accessible</div><div style="font-size:12px;color:#666;line-height:1.65;">Crypto can be complex. We explain it simply — welcoming newcomers without patronising experienced traders.</div></div>
@@ -738,7 +766,7 @@ h3.sub{font-size:10px;font-weight:600;letter-spacing:.14em;text-transform:upperc
 
 <!-- 08 EMAIL & STATIONERY -->
 <section>
-<h2 class="st">08 — Email &amp; stationery</h2>
+<h2 class="st" id="s-08-email-and-stationery">08 — Email &amp; stationery</h2>
 <style>
 .etabs{margin-top:4px;}
 .etabs input[type=radio]{display:none;}
@@ -800,19 +828,9 @@ Bottom border: --rgb-header-background-color (#002355) · Vertical bar: --rgb-pr
 <p style="font-size:12px;color:#666;margin-bottom:14px;line-height:1.7;">Two stacks send customer email today. <strong>Barong</strong> renders ERB templates from the repo (<code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">app/views/postmaster/</code>) for account events; <strong>the connector</strong> sends SendGrid <em>dynamic templates</em> whose HTML lives in the SendGrid dashboard, referenced by id.</p>
 
 <h3 class="sub">What barong actually sends (current production)</h3>
-<div class="m8">
-<div class="m8-card">
-<div style="padding:20px 26px 0;"><svg fill="none" height="26" viewBox="0 0 180.05 35" xmlns="http://www.w3.org/2000/svg"><path fill="#1AADFF" d="M28.93,23.46l-9.28-2.02c-.08-.02-.16.03-.2.1-.69,1.53-2.44,2.61-4.26,2.68-2.1,0-4.75-1.69-4.75-4.75,0-2.74,1.93-4.77,4.9-4.77,2,0,3.54,1.52,4.11,2.71.04.07.12.11.2.1l9.28-2.05c.09-.02.19.04.21.13,1,3.56.21,6.97,0,7.74-.02.09-.12.15-.21.13Z"/><path fill="#00233A" d="M15.19,4.28c7.32,0,11.7,4.96,13.06,7.41.05.1,0,.22-.1.26l-6.07,2.2c-.07.03-.16,0-.21-.06-.44-.57-2.69-3.22-6.68-3.21-4.46.01-8.57,3.56-8.57,8.54s4.11,8.62,8.57,8.62c3.99,0,6.24-2.63,6.68-3.19.05-.06.13-.09.2-.06l6.07,2.2c.11.04.15.16.1.26-.65,1.16-4.51,7.28-13.05,7.41C6.74,34.67-.23,27.54,0,19.42,0,10.19,7.68,4.28,15.19,4.28Z"/><path fill="#00233A" fill-rule="evenodd" d="M37.61,33.49c-1.88-1.01-3.37-2.45-4.45-4.33-1.08-1.87-1.62-4.07-1.62-6.58s.55-4.66,1.64-6.55c1.09-1.89,2.59-3.34,4.49-4.35,1.9-1.01,4.03-1.51,6.39-1.51s4.49.5,6.39,1.51c1.9,1.01,3.4,2.46,4.49,4.35,1.09,1.89,1.64,4.07,1.64,6.55s-.55,4.67-1.66,6.55c-1.11,1.89-2.62,3.34-4.53,4.35-1.91,1.01-4.05,1.51-6.41,1.51s-4.48-.5-6.37-1.51ZM47.58,27.04c.99-1.04,1.49-2.52,1.49-4.46s-.48-3.42-1.45-4.46c-.96-1.04-2.15-1.56-3.56-1.56s-2.63.51-3.58,1.54c-.95,1.02-1.42,2.52-1.42,4.48s.47,3.42,1.4,4.46c.94,1.04,2.11,1.56,3.52,1.56s2.61-.52,3.6-1.56Z"/><path fill="#00233A" d="M59.6,6.86c-.75-.76-1.12-1.71-1.12-2.83s.37-2.11,1.12-2.88c.75-.76,1.72-1.15,2.9-1.15s2.11.38,2.86,1.15c.75.76,1.12,1.72,1.12,2.88s-.37,2.07-1.12,2.83c-.75.76-1.7,1.15-2.86,1.15s-2.15-.38-2.9-1.15Z"/><rect fill="#00233A" x="58.79" y="10.51" width="7.38" height="24.14"/><path fill="#00233A" d="M91.23,13c1.68,1.83,2.53,4.35,2.53,7.55v14.1h-7.34v-13.11c0-1.61-.42-2.87-1.25-3.76-.83-.89-1.96-1.34-3.37-1.34s-2.53.45-3.37,1.34c-.83.89-1.25,2.15-1.25,3.76v13.11h-7.38V10.51h7.38v3.2c.75-1.07,1.75-1.91,3.02-2.53,1.27-.62,2.69-.93,4.27-.93,2.82,0,5.07.92,6.76,2.75Z"/><path fill="#00233A" d="M119.05,18.88c-.81,1.46-2.04,2.63-3.71,3.53-1.67.89-3.74,1.34-6.22,1.34h-4.58v10.9h-7.38V4.28h11.96c2.42,0,4.46.42,6.13,1.25,1.67.84,2.92,1.99,3.76,3.46.83,1.47,1.25,3.16,1.25,5.06,0,1.76-.4,3.37-1.21,4.82ZM111.71,16.87c.69-.66,1.04-1.6,1.04-2.81s-.35-2.15-1.04-2.81c-.69-.66-1.74-1-3.15-1h-4.01v7.61h4.01c1.41,0,2.46-.33,3.15-1Z"/><path fill="#00233A" fill-rule="evenodd" d="M126.97,33.49c-1.88-1.01-3.37-2.45-4.45-4.33-1.08-1.87-1.62-4.07-1.62-6.58s.55-4.66,1.64-6.55c1.09-1.89,2.59-3.34,4.49-4.35,1.9-1.01,4.03-1.51,6.39-1.51s4.49.5,6.39,1.51c1.9,1.01,3.4,2.46,4.49,4.35,1.09,1.89,1.64,4.07,1.64,6.55s-.55,4.67-1.66,6.55c-1.11,1.89-2.62,3.34-4.53,4.35-1.91,1.01-4.05,1.51-6.41,1.51s-4.48-.5-6.37-1.51ZM136.94,27.04c.99-1.04,1.49-2.52,1.49-4.46s-.48-3.42-1.45-4.46c-.96-1.04-2.15-1.56-3.56-1.56s-2.63.51-3.58,1.54c-.95,1.02-1.42,2.52-1.42,4.48s.47,3.42,1.4,4.46c.94,1.04,2.11,1.56,3.52,1.56s2.61-.52,3.6-1.56Z"/><path fill="#00233A" d="M158.76,11.4c1.29-.76,2.73-1.02,4.32-1.02v6.46h-2.03c-1.84,0-3.26,1.21-4.14,2.31-.77.94-1.38,2.31-1.38,4.3v11.21h-7.38V10.51h7.38v4.02c.86-1.33,1.94-2.37,3.24-3.14Z"/><path fill="#00233A" d="M180.05,28.38v6.27h-3.76c-2.68,0-4.76-.66-6.26-1.97-1.5-1.31-2.24-3.45-2.24-6.42v-9.6h-2.94v-6.27h2.94v-5.76h7.38v5.76h4.83v6.27h-4.83v9.69c0,.72.17,1.24.52,1.56.35.32.92.48,1.73.48h2.63Z"/></svg></div>
-<div class="m8-body">
-<p style="margin:0 0 10px;">Withdrawal <strong>succeed</strong></p>
-<p style="margin:0;">Your withdrawal #TID3XXXXXXXXX of 1,374.30 AUD has been succeed.</p>
-<br><br>
-</div>
-<div style="padding:0 26px 20px;font-size:11px;color:#9aa0b4;line-height:1.8;">Company Inc, 3 Abbey Road, San Francisco CA 94102, USA<br><a href="#" style="color:#9aa0b4;">opendax.io</a></div>
-</div>
-</div>
-<div class="rb" style="margin-top:14px;">
-<strong>Known gap — this is not on brand.</strong> Six live templates (email confirmation, password reset, deposit accepted, withdraw succeeded — EN and RU) still carry the stock OpenDax footer <em>"Company Inc, 3 Abbey Road, San Francisco CA 94102, USA · opendax.io"</em> and grammar like "has been succeed". Every new signup sees one of these. The fix is a pass over <code>app/views/postmaster/*.erb</code>: CoinPort footer (address, AUSTRAC #100633359, ABN 12 624 879 223), sentence-case copy, and the light logo. Only <code>coinport-kyc-reminder-email</code> has been customised so far.
+<p style="font-size:12px;color:#666;margin-bottom:14px;line-height:1.7;">Production mailer templates live in the <strong>opendax repo</strong> — <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">config/mailer/templates/</code> is mounted over barong's <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">app/views/postmaster/</code> in the container, so the repo defaults never render. Eleven CoinPort-built templates (confirmation, password reset, session login notice, deposit, withdrawal with full record + blockchain TX tables, transfers, beneficiaries, labels) share the layout in <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">config/mailer/mailer.html.erb</code>, which signs off "©2026 CoinPort Pty Ltd. All rights reserved." Identical on the dev and prod branches. <strong>Edit templates there, not in barong.</strong></p>
+<div class="rb">
+<strong>Two tidy-ups, not emergencies.</strong> (1) The live layout footer carries only the copyright line — the standard on this page also wants the street address, AUSTRAC Registration #100633359 and ABN 12 624 879 223 in every customer email. (2) Barong's shadowed repo defaults still contain OpenDAX demo boilerplate ("Company Inc, 3 Abbey Road, San Francisco / opendax.io") — dead in deployment, but worth cleaning so a mount-less run can never regress to it (a rebrand branch exists in barong).
 </div>
 
 <h3 class="sub">Connector emails — SendGrid dynamic templates</h3>
@@ -858,7 +876,7 @@ A4, 22mm margins · Logo top-left at 30px cap height (light version, keyhole int
 
 <!-- 09 ALERTS & WARNINGS -->
 <section>
-<h2 class="st">09 — Alerts &amp; warnings</h2>
+<h2 class="st" id="s-09-alerts-and-warnings">09 — Alerts &amp; warnings</h2>
 <style>
 .al-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:18px;}
 .al{display:flex;gap:13px;padding:14px 16px;border-radius:11px;border:1px solid;align-items:flex-start;}
@@ -1055,7 +1073,7 @@ A4, 22mm margins · Logo top-left at 30px cap height (light version, keyhole int
 
 <!-- 10 SPACING & GRID -->
 <section>
-<h2 class="st">10 — Spacing &amp; grid</h2>
+<h2 class="st" id="s-10-spacing-and-grid">10 — Spacing &amp; grid</h2>
 <style>
 .sp-scale{display:grid;grid-template-columns:repeat(8,1fr);gap:11px;margin-bottom:18px;}
 .sp-step{background:#fff;border:1px solid #e2e6f0;border-radius:10px;padding:11px 9px 10px;text-align:center;}
@@ -1145,7 +1163,7 @@ A4, 22mm margins · Logo top-left at 30px cap height (light version, keyhole int
 
 <!-- 11 FORM FIELDS -->
 <section>
-<h2 class="st">11 — Form fields &amp; inputs</h2>
+<h2 class="st" id="s-11-form-fields-and-inputs">11 — Form fields &amp; inputs</h2>
 <style>
 .fm-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px;}
 .fm-block{background:#fff;border:1px solid #e2e6f0;border-radius:13px;padding:21px 22px;}
@@ -1276,7 +1294,7 @@ hr.fm-sep{border:none;border-top:1px solid #eef0f6;margin:18px 0;}
 
 <!-- 12 PHOTOGRAPHY -->
 <section>
-<h2 class="st">12 — Photography &amp; illustration</h2>
+<h2 class="st" id="s-12-photography-and-illustration">12 — Photography &amp; illustration</h2>
 <style>
 .ph-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:16px;}
 .ph-cell{border-radius:12px;overflow:hidden;border:1px solid #e2e6f0;background:#fff;}
@@ -1352,7 +1370,7 @@ hr.fm-sep{border:none;border-top:1px solid #eef0f6;margin:18px 0;}
 
 <!-- 13 BRAND ASSET LIBRARY (generated via Higgsfield) -->
 <section>
-<h2 class="st">13 — Brand asset library</h2>
+<h2 class="st" id="s-13-brand-asset-library">13 — Brand asset library</h2>
 <style>
 .ba-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-bottom:18px;}
 .ba-cell{border-radius:12px;overflow:hidden;border:1px solid #e2e6f0;background:#fff;}
@@ -1405,7 +1423,7 @@ hr.fm-sep{border:none;border-top:1px solid #eef0f6;margin:18px 0;}
 
 <!-- 14 DIGITAL PRESENCE -->
 <section>
-<h2 class="st">14 — Digital presence</h2>
+<h2 class="st" id="s-14-digital-presence">14 — Digital presence</h2>
 <div class="pg2">
 <div class="pc2"><span class="pci"><svg viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/></svg></span><div class="pct">Web platform</div><span class="pcu">coinport.com.au</span><div class="pcd">React app. Light/dark via :root.light-mode / :root.dark-mode. GridMainBG.svg + GridMainBG_night.svg for landing hero illustrations.</div></div>
 <div class="pc2"><span class="pci"><svg viewBox="0 0 16 16"><path d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/></svg></span><div class="pct">Documentation</div><span class="pcu">doc.coinport.com.au</span><div class="pcd">Jekyll. Legal, policies, support, brand resources. style.css. OG image: /images/logos/coinport_logo.png</div></div>
