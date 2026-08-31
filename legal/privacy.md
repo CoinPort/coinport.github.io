@@ -32,6 +32,18 @@ Please note that biometric information is classified as sensitive information un
 
 ---
 
+## Overseas Disclosure of Personal Information
+
+CoinPort engages service providers located overseas to help us verify your identity and detect financial crime. In particular:
+
+- We use an identity verification service provider located in the United States to conduct identity verification checks, which may involve disclosing your name, identity document details, and biometric verification data to that provider.
+- We use a blockchain analytics service provider located in Hong Kong to screen transactions for financial crime risk; this provider receives only blockchain wallet addresses and transaction data, not your name or other personal identifying information.
+- Once CoinPort's Travel Rule obligations take effect, originator and beneficiary information for eligible transactions may also be disclosed to counterparty virtual asset service providers located overseas, in the jurisdiction where the receiving or sending provider operates, via a secure Travel Rule messaging network.
+
+Before disclosing your personal information to an overseas recipient, we take reasonable steps to ensure that the recipient handles your information consistently with the Australian Privacy Principles, including through contractual data protection commitments, or that the recipient is otherwise subject to a comparable privacy law. If you would like more information about the overseas recipients of your personal information, please contact us using the details below.
+
+---
+
 ## Cookies
 
 Please note cookies may be in place on our website. Your web browser may store these cookies on your hard drive in order to keep records and sometimes to track information about you. You may set up your web browser to refuse cookies. However, please note that some parts of the site may not work properly.
@@ -78,4 +90,4 @@ If you have any questions, comments, or concerns regarding our Privacy Policy an
 
 ---
 
-*Last updated: 02-Apr-2026*
+*Last updated: 31-Aug-2026*
