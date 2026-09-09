@@ -184,7 +184,7 @@ All buttons use `--button-font-weight: 500`. Hover: lift to `elevation-2` and sh
 
 ## 05 — UI patterns
 
-- **Cards** use `elevation-1` at rest, `radius-md` (11px), 20px internal padding.
+- **Cards** use `elevation-1` at rest, `radius-md` (12px), 20px internal padding.
 - **Order book** uses `--rgb-bids` for buys and `--rgb-asks` for sells. Never reverse.
 - **Portfolio donut** colours: AUD = gold, BTC = coral, ETH = blue, Other = orange.
 - **Dashboard** balance card always shows current AUD value with crypto/AUD split on a second row.
@@ -283,7 +283,7 @@ Four semantic states. Never reassign colours across states.
 |---|---|---|
 | `radius-xs` | 4px | Chips, pills |
 | `radius-sm` | 8px | Small buttons, inputs |
-| `radius-md` | 11px | Cards |
+| `radius-md` | 12px | Cards |
 | `radius-lg` | 16px | Large cards, modals |
 | `radius-xl` | 24px | Hero panels |
 | `radius-full` | 9999px | Avatars, circle pills |
