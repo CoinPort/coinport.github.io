@@ -12,13 +12,9 @@ All documents are reviewed annually and updated in accordance with changes in Au
 
 | Document | Description | Version | Last Updated |
 |----------|-------------|---------|--------------|
-| **[Employee Onboarding Policies and Procedures](Employee-Onboarding-Policies-and-Procedures.html)** | Comprehensive framework for pre-employment due diligence and onboarding of new employees, including regulatory checks, role risk assessment, and mandatory training requirements. | 2.0 | October 2023 |
-| **[Cybersecurity Awareness Policy](Cybersecurity-Awareness-Policy.html)** | Mandatory standards for all personnel covering phishing defense, password management, secure data handling, insider threat awareness, and incident response procedures aligned with the Essential Eight. | 2.1 | October 2023 |
 | **[Market Conduct & Insider Trading Policy](Market-Conduct-Insider-Trading-Policy.html)** | Rules governing personal trading, prohibitions on using Material Non-Public Information (MNPI), and prevention of market manipulation for all employees and contractors. | 2.0 | October 2023 |
 | **[Privacy & Data Protection Policy](Privacy-Data-Protection-Policy.html)** | Framework for handling client personal information in compliance with the *Privacy Act 1988* and Australian Privacy Principles (APPs), including data security, retention, and individual rights. | 2.1 | October 2023 |
 | **[Workplace Health & Safety & Code of Conduct Policy](Workplace-Health-Safety-Policy.html)** | Integrated policy covering physical/psychological health and safety obligations and the ethical standards of behavior expected of all CoinPort representatives. | 3.0 | October 2023 |
-| **[AFSL Application Project Plan](AFSL-Application-Project-Plan.html)** | Comprehensive project plan for obtaining an Australian Financial Services Licence (AFSL), including phased timeline, budget estimates, risk register, and deliverables for each workstream. | 1.0 | March 2026 |
-| **[AFSL Application Lodgement Guide](AFSL-Application-Lodgement-Guide.html)** | Step-by-step guide for lodging an AFSL application with ASIC, including portal instructions, document checklists, pre-lodgement meeting guidance, and industry landscape analysis of other Australian crypto exchange AFSL applications. | 1.0 | March 2026 |
 | **[Blockchain Australia Code of Conduct](BlockChainAustralia-Code-of-Conduct-October-2021.pdf)** | External industry code endorsed by CoinPort, outlining principles for operating with integrity, transparency, and security within the Australian digital currency industry. | October 2021 | October 2021 |
 
 ## 🔒 Compliance & Governance
