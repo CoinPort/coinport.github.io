@@ -46,7 +46,7 @@ Strong returns versus Super Funds:
 Access CoinPort global network through our liquidity providers.
 
 - Friendly Customer Service
-- Established in 2013, CoinPort is Australia's most trusted and reliable exchange.
+- Established in 2018, CoinPort is Australia's most trusted and reliable exchange.
 
 - Large Trades
 
