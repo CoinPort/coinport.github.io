@@ -136,6 +136,10 @@ incremental: true
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 exclude:
+  # Repo tooling, not site content. Both were being served publicly
+  # (e.g. /CLAUDE.md returned 200) until 2026-09-11.
+  - CLAUDE.md
+  - README.md
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
