@@ -608,13 +608,17 @@ h2.st{scroll-margin-top:52px;}
 <div class="phb">Buy and sell USDT, USDC, Bitcoin, Ethereum, Solana and many others with zero fees. Instant AUD deposits and withdrawals. AUSTRAC registered.</div>
 </div>
 <div class="ts">
-<div class="tr2"><div><span class="tml">Display</span><span class="tms">700–800 · 40–56px · ls −2px</span></div><div><span style="font-size:40px;font-weight:800;letter-spacing:-2px;color:#00233A;line-height:1.1;">Easy, fast and safe</span></div><div class="tu">Hero, landing</div></div>
-<div class="tr2"><div><span class="tml">Heading 1</span><span class="tms">700 · 28px · ls −0.5px</span></div><div><span style="font-size:28px;font-weight:700;letter-spacing:-0.5px;color:#00233A;">Zero trading fees</span></div><div class="tu">Page titles</div></div>
+<div class="tr2"><div><span class="tml">Display</span><span class="tms">700–800 · 32–56px · ls −2px</span></div><div><span style="font-size:40px;font-weight:800;letter-spacing:-2px;color:#00233A;line-height:1.1;">Easy, fast and safe</span></div><div class="tu">Hero — landing only</div></div>
+<div class="tr2"><div><span class="tml">Heading 1</span><span class="tms">700 · 26–28px · ls −0.5px</span></div><div><span style="font-size:28px;font-weight:700;letter-spacing:-0.5px;color:#00233A;">Zero trading fees</span></div><div class="tu">Marketing page titles</div></div>
 <div class="tr2"><div><span class="tml">Heading 2</span><span class="tms">600 · 20px</span></div><div><span style="font-size:20px;font-weight:600;color:#00233A;">Instant AUD deposits</span></div><div class="tu">Card titles</div></div>
-<div class="tr2"><div><span class="tml">Body</span><span class="tms">400 · 15px · lh 1.7</span></div><div><span style="font-size:15px;font-weight:400;color:#444;line-height:1.7;">Buy and sell Bitcoin, Ethereum, USDT and 40+ digital assets with competitive spreads and zero commissions.</span></div><div class="tu">Paragraphs</div></div>
-<div class="tr2"><div><span class="tml">UI / Button</span><span class="tms">500 · 13px · --button-font-weight</span></div><div><span style="font-size:13px;font-weight:500;color:#00233A;">Deposit · Withdraw · Sign Up</span></div><div class="tu">Buttons, nav</div></div>
-<div class="tr2"><div><span class="tml">Caption</span><span class="tms">300 · 11px · #787878</span></div><div><span style="font-size:11px;font-weight:300;color:#787878;">AUSTRAC registered · CoinPort Pty Ltd · ABN 12 624 879 223</span></div><div class="tu">Timestamps, legal</div></div>
+<div class="tr2"><div><span class="tml">Screen title</span><span class="tms">600 · 16px · .cr-title-component</span></div><div><span style="font-size:16px;font-weight:600;color:#00233A;">Wallets</span></div><div class="tu">Titles inside the app</div></div>
+<div class="tr2"><div><span class="tml">Body</span><span class="tms">400 · 14–15px · root 16px / lh 1</span></div><div><span style="font-size:15px;font-weight:400;color:#444;line-height:1.5;">Buy and sell Bitcoin, Ethereum, USDT and 40+ digital assets with competitive spreads and zero commissions.</span></div><div class="tu">Paragraphs</div></div>
+<div class="tr2"><div><span class="tml">Dense UI</span><span class="tms">400 · 12–13px</span></div><div><span style="font-size:13px;font-weight:400;color:#00233A;">0.07737744 BTC · 111,120.63 AUD</span></div><div class="tu">Tables, order books, market rows</div></div>
+<div class="tr2"><div><span class="tml">UI / Button</span><span class="tms">500 · 16px · --button-font-weight</span></div><div><span style="font-size:16px;font-weight:500;color:#00233A;">Deposit · Withdraw · Sign Up</span></div><div class="tu">Buttons, nav</div></div>
+<div class="tr2"><div><span class="tml">Caption</span><span class="tms">300–400 · 11px · --primary-text-color-level-5</span></div><div><span style="font-size:11px;font-weight:300;color:#667B89;">AUSTRAC registered · CoinPort Pty Ltd · ABN 12 624 879 223</span></div><div class="tu">Timestamps, legal</div></div>
+<div class="tr2"><div><span class="tml">Monospace</span><span class="tms">--font-family-mono</span></div><div><span style="font-family:ui-monospace,'SF Mono',Menlo,monospace;font-size:13px;color:#00233A;">0xa83d368ff8361ae128ca6ce6c65dc08ce2b42f64</span></div><div class="tu">Addresses, TIDs, references</div></div>
 </div>
+<p style="font-size:11.5px;color:#888;margin:10px 0 0;line-height:1.7;">The root sets <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">font-size: 16px</code> and <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">line-height: 1</code>; components set their own line-height where text wraps. The workhorse sizes across the app are 14, 16, 12, 15 and 13&nbsp;px in that order &mdash; the display sizes above belong to the landing page and appear only a handful of times.</p>
 </section>
 
 <!-- 05 BUTTONS + NAV -->
@@ -624,8 +628,19 @@ h2.st{scroll-margin-top:52px;}
 <div class="bs">
 <div class="br"><button class="bp">Deposit</button><div><div class="blbl">Primary — --rgb-primary-cta-color</div><div class="bsp">bg:#0078F0 · text:#fff · fw:500 · Used: Deposit, Sign In</div></div></div>
 <div class="br"><button class="bg">Sign Up</button><div><div class="blbl">Gold CTA — --rgb-contrast-cta-color</div><div class="bsp">bg:#FAC848 · text:#1a1200 · fw:500 · Used: Sign Up, Referrals, Start today</div></div></div>
-<div class="br"><button class="bo">Withdraw</button><div><div class="blbl">Ghost / outline</div><div class="bsp">bg:transparent · border:1.5px #cdd0de · Used: Withdraw, secondary actions</div></div></div>
+<div class="br"><button class="bo">Withdraw</button><div><div class="blbl">Ghost / outline</div><div class="bsp">bg:transparent · border-color: --primary-cta-color-level-7 (#298EF2 on white) · Used: Withdraw, secondary actions</div><div class="bsp" style="color:#b4472e;">Known gap: the border does not currently render. <code style="background:#fdf0ec;padding:1px 5px;border-radius:3px;font-size:10.5px;">.btn</code> sets <code style="background:#fdf0ec;padding:1px 5px;border-radius:3px;font-size:10.5px;">border: none</code>, and the outline rule sets only <code style="background:#fdf0ec;padding:1px 5px;border-radius:3px;font-size:10.5px;">border-color</code>, so production computes <code style="background:#fdf0ec;padding:1px 5px;border-radius:3px;font-size:10.5px;">0px none</code> and the button reads as flat transparent. Restoring it needs a width and style on the outline rule.</div></div></div>
 <div class="br"><button class="bdk">Sign in</button><div><div class="blbl">Dark — landing nav only</div><div class="bsp">bg:rgba(0,35,85,.85) · text:#fff · Used: Sign In on landing page</div></div></div>
+</div>
+
+<h3 class="sub">Button geometry</h3>
+<div class="grid-demo">
+  <div class="grid-rows">
+    <div class="grid-rule"><span class="grid-key">weight</span><span class="grid-val"><strong>500</strong>, always, from <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">--button-font-weight</code>. Never write the number inline &mdash; the token is defined in both themes, and hardcoded weights are how the primary button spent a long time rendering lighter than the outline button beside it.</span></div>
+    <div class="grid-rule"><span class="grid-key">size</span><span class="grid-val"><strong>16px</strong> text &middot; <strong>50px</strong> tall &middot; <strong>8px 24px</strong> padding.</span></div>
+    <div class="grid-rule"><span class="grid-key">radius</span><span class="grid-val"><strong>8px</strong> on app buttons. Landing CTAs use <strong>3px</strong> &mdash; a deliberate difference between the marketing surface and the app, not drift.</span></div>
+    <div class="grid-rule"><span class="grid-key">landing CTAs</span><span class="grid-val">Rendered as <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">&lt;a class="landing-button"&gt;</code>, so they inherit nothing from <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">.btn</code>. A top-level <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">.landing-button</code> rule carries the weight; without it they fall back to the browser default of 400.</span></div>
+    <div class="grid-rule"><span class="grid-key">disabled</span><span class="grid-val">Opacity <strong>0.65</strong>. A disabled button must say why it is disabled &mdash; put the reason in the label ("Not enough BTC"), not in a tooltip.</span></div>
+  </div>
 </div>
 
 <h3 class="sub">Authenticated nav (all modes — header bg matches mode)</h3>
@@ -1103,23 +1118,24 @@ A4, 22mm margins · Logo top-left at 30px cap height (light version, keyhole int
 .el-val{font-size:9.5px;color:#888;font-family:monospace;line-height:1.6;}
 </style>
 
-<p style="font-size:12px;color:#666;margin-bottom:16px;line-height:1.7;">CoinPort follows an <strong>8&nbsp;point spacing scale</strong> derived from <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">--spacing-unit: 4px</code>. All padding, margins and gaps are multiples of 4 (preferably 8) px. Container widths and gutters scale with viewport.</p>
+<p style="font-size:12px;color:#666;margin-bottom:10px;line-height:1.7;">CoinPort spaces on a <strong>5&nbsp;pixel scale</strong>. Padding, margins and gaps are multiples of 5, with 10, 15 and 20&nbsp;px carrying most of the interface. Container widths and gutters scale with viewport.</p>
+<p style="font-size:11.5px;color:#888;margin-bottom:16px;line-height:1.7;">Two tokens exist in <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">web/src/index.pcss</code>: <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">--gap: 6px</code>, used inside <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">calc()</code> multipliers that set table row rhythm, and <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">--big-gap: 60px</code>. Everything else is written as a literal. A second family of 4, 8, 12 and 32&nbsp;px runs through components inherited from Bootstrap — roughly a quarter of all spacing declarations. Prefer the 5&nbsp;px scale in new work; do not convert existing Bootstrap-derived components purely to align them, because the table rhythm is derived arithmetically from the 6&nbsp;px gap and re-deriving those multipliers is a layout change, not a tidy-up.</p>
 
 <h3 class="sub">Spacing scale</h3>
 <div class="sp-scale">
-  <div class="sp-step"><span class="sp-bar" style="height:4px;"></span><span class="sp-tok">space-1</span><span class="sp-val">4px</span></div>
-  <div class="sp-step"><span class="sp-bar" style="height:8px;"></span><span class="sp-tok">space-2</span><span class="sp-val">8px</span></div>
-  <div class="sp-step"><span class="sp-bar" style="height:12px;"></span><span class="sp-tok">space-3</span><span class="sp-val">12px</span></div>
-  <div class="sp-step"><span class="sp-bar" style="height:16px;"></span><span class="sp-tok">space-4</span><span class="sp-val">16px</span></div>
-  <div class="sp-step"><span class="sp-bar" style="height:24px;"></span><span class="sp-tok">space-6</span><span class="sp-val">24px</span></div>
-  <div class="sp-step"><span class="sp-bar" style="height:32px;"></span><span class="sp-tok">space-8</span><span class="sp-val">32px</span></div>
-  <div class="sp-step"><span class="sp-bar" style="height:48px;"></span><span class="sp-tok">space-12</span><span class="sp-val">48px</span></div>
-  <div class="sp-step"><span class="sp-bar" style="height:64px;"></span><span class="sp-tok">space-16</span><span class="sp-val">64px</span></div>
+  <div class="sp-step"><span class="sp-bar" style="height:5px;"></span><span class="sp-tok">space-1</span><span class="sp-val">5px</span></div>
+  <div class="sp-step"><span class="sp-bar" style="height:10px;"></span><span class="sp-tok">space-2</span><span class="sp-val">10px</span></div>
+  <div class="sp-step"><span class="sp-bar" style="height:15px;"></span><span class="sp-tok">space-3</span><span class="sp-val">15px</span></div>
+  <div class="sp-step"><span class="sp-bar" style="height:20px;"></span><span class="sp-tok">space-4</span><span class="sp-val">20px</span></div>
+  <div class="sp-step"><span class="sp-bar" style="height:25px;"></span><span class="sp-tok">space-5</span><span class="sp-val">25px</span></div>
+  <div class="sp-step"><span class="sp-bar" style="height:30px;"></span><span class="sp-tok">space-6</span><span class="sp-val">30px</span></div>
+  <div class="sp-step"><span class="sp-bar" style="height:40px;"></span><span class="sp-tok">space-8</span><span class="sp-val">40px</span></div>
+  <div class="sp-step"><span class="sp-bar" style="height:60px;"></span><span class="sp-tok">big-gap</span><span class="sp-val">60px</span></div>
 </div>
 
 <h3 class="sub">12 column grid</h3>
 <div class="grid-demo">
-  <div class="col-meta" style="margin-bottom:9px;"><span>Container max-width: 1280px</span><span>Gutter: 24px &middot; Margin: 24px mobile / 64px desktop</span></div>
+  <div class="col-meta" style="margin-bottom:9px;"><span>Content max-width: 1080px</span><span>Bootstrap 12 column grid &middot; breakpoint 768px</span></div>
   <div class="col-grid">
     <div class="col">1</div><div class="col">2</div><div class="col">3</div><div class="col">4</div>
     <div class="col">5</div><div class="col">6</div><div class="col">7</div><div class="col">8</div>
@@ -1130,25 +1146,24 @@ A4, 22mm margins · Logo top-left at 30px cap height (light version, keyhole int
 <h3 class="sub">Container rules</h3>
 <div class="grid-demo">
   <div class="grid-rows">
-    <div class="grid-rule"><span class="grid-key">max-width</span><span class="grid-val"><strong>1280px</strong> &mdash; primary content container. Pages centre inside this; full-width sections break out for hero/nav/footer.</span></div>
-    <div class="grid-rule"><span class="grid-key">gutter</span><span class="grid-val"><strong>24px</strong> between columns. <strong>16px</strong> at sm breakpoint (&lt;768px).</span></div>
-    <div class="grid-rule"><span class="grid-key">page padding</span><span class="grid-val"><strong>24px</strong> mobile &middot; <strong>40px</strong> tablet &middot; <strong>64px</strong> desktop. Applied as horizontal padding on the body wrapper.</span></div>
-    <div class="grid-rule"><span class="grid-key">section gap</span><span class="grid-val"><strong>80px</strong> vertical rhythm between full-width sections on landing. <strong>48px</strong> inside dashboard.</span></div>
-    <div class="grid-rule"><span class="grid-key">card padding</span><span class="grid-val"><strong>20px</strong> internal padding inside card components. Headline-to-content gap: <strong>12px</strong>.</span></div>
-    <div class="grid-rule"><span class="grid-key">stack gap</span><span class="grid-val"><strong>16px</strong> between form fields. <strong>8px</strong> between label and field.</span></div>
+    <div class="grid-rule"><span class="grid-key">max-width</span><span class="grid-val"><strong>1080px</strong> &mdash; the widest content container, used by the market, learn, portfolio and quick exchange screens. Narrower screens cap at <strong>900px</strong>; centred single-column forms and modals at <strong>400&ndash;600px</strong>. Hero, nav and footer run full width.</span></div>
+    <div class="grid-rule"><span class="grid-key">grid</span><span class="grid-val">Bootstrap's <strong>12 column</strong> grid, from the vendored stylesheet. There is no CoinPort grid of its own.</span></div>
+    <div class="grid-rule"><span class="grid-key">breakpoint</span><span class="grid-val"><strong>768px</strong> is the layout switch throughout &mdash; below it the app serves its mobile components, not a reflowed desktop. <strong>450px</strong> is the second-commonest query, for narrow phones.</span></div>
+    <div class="grid-rule"><span class="grid-key">page padding</span><span class="grid-val"><strong>20px</strong> horizontal on content screens, <strong>15px</strong> on mobile surfaces.</span></div>
+    <div class="grid-rule"><span class="grid-key">card padding</span><span class="grid-val"><strong>15&ndash;20px</strong> internal padding inside card components.</span></div>
+    <div class="grid-rule"><span class="grid-key">full height</span><span class="grid-val"><code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">calc(100vh - 65px)</code> &mdash; the 65px is the header. It appears in five stylesheets and they must agree; a stale value leaves a page over- or under-shooting the viewport.</span></div>
   </div>
 </div>
 
 <h3 class="sub">Border radius</h3>
 <div class="radius-grid">
-  <div class="rd-cell"><div class="rd-shape" style="border-radius:4px;"></div><span class="rd-tok">radius-xs</span><span class="rd-val">4px</span></div>
+  <div class="rd-cell"><div class="rd-shape" style="border-radius:3px;"></div><span class="rd-tok">--border-radius</span><span class="rd-val">3px</span></div>
+  <div class="rd-cell"><div class="rd-shape" style="border-radius:5px;"></div><span class="rd-tok">radius-xs</span><span class="rd-val">5px</span></div>
   <div class="rd-cell"><div class="rd-shape" style="border-radius:8px;"></div><span class="rd-tok">radius-sm</span><span class="rd-val">8px</span></div>
   <div class="rd-cell"><div class="rd-shape" style="border-radius:12px;"></div><span class="rd-tok">radius-md</span><span class="rd-val">12px</span></div>
-  <div class="rd-cell"><div class="rd-shape" style="border-radius:16px;"></div><span class="rd-tok">radius-lg</span><span class="rd-val">16px</span></div>
-  <div class="rd-cell"><div class="rd-shape" style="border-radius:24px;"></div><span class="rd-tok">radius-xl</span><span class="rd-val">24px</span></div>
-  <div class="rd-cell"><div class="rd-shape" style="border-radius:50%;"></div><span class="rd-tok">radius-full</span><span class="rd-val">9999px</span></div>
+  <div class="rd-cell"><div class="rd-shape" style="border-radius:50%;"></div><span class="rd-tok">radius-full</span><span class="rd-val">50%</span></div>
 </div>
-<p style="font-size:11.5px;color:#888;margin-bottom:18px;line-height:1.6;"><strong style="color:#1a2040;">When to use:</strong> 4px chips/pills &middot; 8px small buttons/inputs &middot; 11px cards &middot; 16px large cards/modals &middot; 24px hero panels &middot; full for avatars and circle pills.</p>
+<p style="font-size:11.5px;color:#888;margin-bottom:18px;line-height:1.6;"><strong style="color:#1a2040;">When to use:</strong> 12px cards and panels &middot; 8px buttons, inputs and modals &middot; 5px small controls and chips &middot; 3px the <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">--border-radius</code> token, on legacy table and dropdown furniture &middot; 50% avatars and circle pills. 16px and above are not part of the system &mdash; three declarations use them and should be brought back to 12px when those components are next touched.</p>
 
 <h3 class="sub">Elevation</h3>
 <div class="elev-grid">
