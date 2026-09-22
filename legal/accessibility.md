@@ -51,4 +51,4 @@ If you are not satisfied with our response, you can follow our <a href="https://
 
 This statement is reviewed and updated as the platform evolves. We welcome independent accessibility testing and audit feedback from our community.
 
-_Last reviewed: November 2026_
+_Last reviewed: April 2026_
