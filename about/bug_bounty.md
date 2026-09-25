@@ -14,6 +14,8 @@ We ask that all research and reporting be conducted responsibly and in good fait
 - Report vulnerabilities directly and privately to CoinPort.
 - Allow reasonable time for investigation and remediation before any public disclosure.
 - Avoid actions that could reasonably be interpreted as malicious or disruptive.
+- One account per researcher
+- Reports from throwaway accounts aren't eligible
 
 ## Scope and eligibility
 
@@ -28,7 +30,8 @@ Examples of issues that may be eligible include:
 - Code injection or remote code execution
 - Leakage of sensitive user or system data
 - Clickjacking affecting sensitive actions
-
+- automated or bulk account creation is out of scope
+  
 ### In-scope domains
 
 - `coinport.com.au`
