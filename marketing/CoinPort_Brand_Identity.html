@@ -584,8 +584,8 @@ h2.st{scroll-margin-top:52px;}
 <tr><td><span class="vn">--rgb-system-yellow</span></td><td><span class="dc"><span class="dd" style="background:#F7D600;"></span><span class="dh">#F7D600</span></span></td><td><span class="dc"><span class="dd" style="background:#F7D600;"></span><span class="dh">#F7D600</span></span></td><td>Landing CTAs, warnings (Beacon Yellow)</td></tr>
 <tr><td><span class="vn">--rgb-system-green</span></td><td><span class="dc"><span class="dd" style="background:#4BC64A;"></span><span class="dh">#4BC64A</span></span></td><td><span class="dc"><span class="dd" style="background:#4BC64A;"></span><span class="dh">#4BC64A</span></span></td><td>Success — same value as --rgb-bids</td></tr>
 <tr><td><span class="vn">--rgb-system-red</span></td><td><span class="dc"><span class="dd" style="background:#FF617F;"></span><span class="dh">#FF617F</span></span></td><td><span class="dc"><span class="dd" style="background:#FF617F;"></span><span class="dh">#FF617F</span></span></td><td>Errors — same value as --rgb-asks</td></tr>
-<tr><td><span class="vn">--rgb-bids</span></td><td><span class="dc"><span class="dd" style="background:#4BC64A;"></span><span class="dh">#4BC64A</span></span></td><td><span class="dc"><span class="dd" style="background:#4BC64A;"></span><span class="dh">#4BC64A</span></span></td><td>Order book bids / buy side</td></tr>
-<tr><td><span class="vn">--rgb-asks</span></td><td><span class="dc"><span class="dd" style="background:#FF617F;"></span><span class="dh">#FF617F</span></span></td><td><span class="dc"><span class="dd" style="background:#FF617F;"></span><span class="dh">#FF617F</span></span></td><td>Order book asks / sell side</td></tr>
+<tr><td><span class="vn">--rgb-bids</span></td><td><span class="dc"><span class="dd" style="background:#4BC64A;"></span><span class="dh">#4BC64A</span></span></td><td><span class="dc"><span class="dd" style="background:#4BC64A;"></span><span class="dh">#4BC64A</span></span></td><td>Buy side &middot; chart Buy line &middot; gains</td></tr>
+<tr><td><span class="vn">--rgb-asks</span></td><td><span class="dc"><span class="dd" style="background:#FF617F;"></span><span class="dh">#FF617F</span></span></td><td><span class="dc"><span class="dd" style="background:#FF617F;"></span><span class="dh">#FF617F</span></span></td><td>Sell side &middot; chart Sell line &middot; losses</td></tr>
 <tr><td colspan="4" style="font-size:9.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#9aa0b4;background:#fafbfd;padding:8px 14px;">Landing &amp; misc</td></tr>
 <tr><td><span class="vn">--rgb-landing-background-color</span></td><td><span class="dc"><span class="dd" style="background:#0078F0;"></span><span class="dh">#0078F0</span></span></td><td><span class="dc"><span class="dd" style="background:#00193C;"></span><span class="dh">#00193C</span></span></td><td>Landing &amp; /sell hero ground</td></tr>
 <tr><td><span class="vn">--rgb-landing-keyhole-color</span></td><td><span class="dc"><span class="dd" style="background:#1AADFF;"></span><span class="dh">#1AADFF</span></span></td><td><span class="dc"><span class="dd" style="background:#1AADFF;"></span><span class="dh">#1AADFF</span></span></td><td>Landing accents (Shoal Cyan)</td></tr>
@@ -630,6 +630,7 @@ h2.st{scroll-margin-top:52px;}
 <div class="br"><button class="bg">Sign Up</button><div><div class="blbl">Gold CTA — --rgb-contrast-cta-color</div><div class="bsp">bg:#FAC848 · text:#1a1200 · fw:500 · Used: Sign Up, Referrals, Start today</div></div></div>
 <div class="br"><button class="bo">Withdraw</button><div><div class="blbl">Ghost / outline</div><div class="bsp">bg:transparent · border-color: --primary-cta-color-level-7 (#298EF2 on white) · Used: Withdraw, secondary actions</div><div class="bsp" style="color:#b4472e;">Known gap: the border does not currently render. <code style="background:#fdf0ec;padding:1px 5px;border-radius:3px;font-size:10.5px;">.btn</code> sets <code style="background:#fdf0ec;padding:1px 5px;border-radius:3px;font-size:10.5px;">border: none</code>, and the outline rule sets only <code style="background:#fdf0ec;padding:1px 5px;border-radius:3px;font-size:10.5px;">border-color</code>, so production computes <code style="background:#fdf0ec;padding:1px 5px;border-radius:3px;font-size:10.5px;">0px none</code> and the button reads as flat transparent. Restoring it needs a width and style on the outline rule.</div></div></div>
 <div class="br"><button class="bdk">Sign in</button><div><div class="blbl">Dark — landing nav only</div><div class="bsp">bg:rgba(0,35,85,.85) · text:#fff · Used: Sign In on landing page</div></div></div>
+<div class="br"><button style="background:transparent;border:1px solid #0078F0;border-radius:999px;color:#0078F0;font:600 12px/1 inherit;padding:6px 14px;">Buy</button><div><div class="blbl">Outline pill — row actions</div><div class="bsp">bg:transparent · 1px #0078F0 border · fully rounded · text:#0078F0 600 · hover fills blue with white text · Used: Buy and Deposit in the Research list, small secondary actions. One solid primary per view; never a column of solid buttons down a list.</div></div></div>
 </div>
 
 <h3 class="sub">Button geometry</h3>
@@ -678,6 +679,22 @@ h2.st{scroll-margin-top:52px;}
 <!-- 06 UI PATTERNS -->
 <section>
 <h2 class="st" id="s-06-ui-patterns">06 — UI patterns</h2>
+<div style="background:#fff;border-radius:16px;box-shadow:0 1px 2px rgba(0,35,58,.04),0 6px 20px rgba(0,35,58,.06);padding:18px 22px;margin-bottom:16px;">
+<h3 class="sub" style="margin-top:0;">The clean-card style (website and app, Oct 2026)</h3>
+<ul style="font-size:12.5px;line-height:1.7;color:#3a4256;padding-left:18px;margin:0;">
+<li><strong>Cards:</strong> white on the grey page, 16px radius, soft <code>--card-shadow</code>, <strong>no border</strong>, 20px padding. Panels inside a card use 12px.</li>
+<li><strong>Hairlines, not boxes:</strong> dividers and outlines use <code>--hairline</code> (primary text at 8%).</li>
+<li><strong>Tables:</strong> muted sentence-case headers, faint hairline row dividers, no zebra stripes, tabular numerals right-aligned.</li>
+<li><strong>Tabs:</strong> text tabs with a thin <code>#0078F0</code> underline on the active one.</li>
+<li><strong>Stats:</strong> small muted label (<code>--text-muted</code>, 62%) with a bold figure; stacked in cards, label then figure on one row in compact bars.</li>
+<li><strong>Pills:</strong> filters, timeframes and toggles are outlined pills; the active one is outlined in <code>#0078F0</code> with a 1px inset ring, never a solid fill.</li>
+<li><strong>Selected rows:</strong> a soft blue tint with semibold text, never a solid blue bar.</li>
+<li><strong>Status and steps:</strong> a soft tint of the state colour with the colour as the text (verified green, pending gold, rejected red), never a solid block.</li>
+<li><strong>Pickers and dropdowns:</strong> the same white card with a hairline and soft shadow, a hairline search field with a small muted icon. Never a CTA-blue frame.</li>
+<li><strong>Balances:</strong> hideable with the eye toggle; a balance beside an amount field is labelled <strong>Available</strong>.</li>
+<li><strong>Price chart:</strong> market candles (Kraken) with dashed <strong>Buy</strong> (green) and <strong>Sell</strong> (red) lines at our live prices.</li>
+</ul>
+</div>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px;">
 <div>
 <h3 class="sub" style="margin-top:0;">Dashboard · Light</h3>
@@ -1161,14 +1178,16 @@ A4, 22mm margins · Logo top-left at 30px cap height (light version, keyhole int
   <div class="rd-cell"><div class="rd-shape" style="border-radius:5px;"></div><span class="rd-tok">radius-xs</span><span class="rd-val">5px</span></div>
   <div class="rd-cell"><div class="rd-shape" style="border-radius:8px;"></div><span class="rd-tok">radius-sm</span><span class="rd-val">8px</span></div>
   <div class="rd-cell"><div class="rd-shape" style="border-radius:12px;"></div><span class="rd-tok">radius-md</span><span class="rd-val">12px</span></div>
+  <div class="rd-cell"><div class="rd-shape" style="border-radius:16px;"></div><span class="rd-tok">radius-lg</span><span class="rd-val">16px</span></div>
+  <div class="rd-cell"><div class="rd-shape" style="border-radius:999px;"></div><span class="rd-tok">pill</span><span class="rd-val">999px</span></div>
   <div class="rd-cell"><div class="rd-shape" style="border-radius:50%;"></div><span class="rd-tok">radius-full</span><span class="rd-val">50%</span></div>
 </div>
-<p style="font-size:11.5px;color:#888;margin-bottom:18px;line-height:1.6;"><strong style="color:#1a2040;">When to use:</strong> 12px cards and panels &middot; 8px buttons, inputs and modals &middot; 5px small controls and chips &middot; 3px the <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">--border-radius</code> token, on legacy table and dropdown furniture &middot; 50% avatars and circle pills. 16px and above are not part of the system &mdash; three declarations use them and should be brought back to 12px when those components are next touched.</p>
+<p style="font-size:11.5px;color:#888;margin-bottom:18px;line-height:1.6;"><strong style="color:#1a2040;">When to use (clean-card style, Oct 2026):</strong> 16px cards and modals (<code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">--card-radius</code>) &middot; 12px panels inside a card (<code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">--card-radius-inner</code>) &middot; 8px buttons, inputs and search fields &middot; 5px small controls and chips &middot; 999px pills (filters, timeframes, row actions) &middot; 3px the <code style="background:#f0f4ff;padding:1px 5px;border-radius:3px;font-size:10.5px;">--border-radius</code> token, on legacy table and dropdown furniture &middot; 50% avatars.</p>
 
 <h3 class="sub">Elevation</h3>
 <div class="elev-grid">
   <div class="elev-cell"><div class="elev-box" style="box-shadow:none;border:1px solid #e2e6f0;"></div><span class="el-tok">elevation-0</span><span class="el-val">No shadow &middot; 1px border</span></div>
-  <div class="elev-cell"><div class="elev-box" style="box-shadow:0 1px 3px rgba(0,35,58,.06),0 1px 2px rgba(0,35,58,.04);"></div><span class="el-tok">elevation-1</span><span class="el-val">Cards at rest</span></div>
+  <div class="elev-cell"><div class="elev-box" style="box-shadow:0 1px 2px rgba(0,35,58,.04),0 6px 20px rgba(0,35,58,.06);"></div><span class="el-tok">elevation-1</span><span class="el-val">Cards at rest &middot; <code>--card-shadow</code>, no border</span></div>
   <div class="elev-cell"><div class="elev-box" style="box-shadow:0 4px 12px rgba(0,35,58,.08),0 2px 4px rgba(0,35,58,.04);"></div><span class="el-tok">elevation-2</span><span class="el-val">Dropdowns &middot; hover</span></div>
   <div class="elev-cell"><div class="elev-box" style="box-shadow:0 12px 28px rgba(0,35,58,.14),0 6px 12px rgba(0,35,58,.06);"></div><span class="el-tok">elevation-3</span><span class="el-val">Modals &middot; toasts</span></div>
 </div>

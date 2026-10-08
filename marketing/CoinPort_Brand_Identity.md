@@ -171,8 +171,11 @@ Use `rgba(var(--rgb-primary-cta-color), var(--alpha-level-2))` for tinted surfac
 | Gold | `#FAC848` | `#00233A` | 500 | Start today, secondary CTA on hero |
 | Ghost | transparent | `#0078F0` | 500 | Cancel, secondary in flows |
 | Dark | `rgba(0,35,85,.85)` | `#FFFFFF` | 500 | Sign In on landing page only |
+| Outline pill | transparent, 1px `#0078F0` border, fully rounded | `#0078F0` | 600 | Row actions in lists (Buy, Deposit on Research), small secondary actions |
 
-All buttons use `--button-font-weight: 500`. Hover: lift to `elevation-2` and shift to slightly darker shade.
+All buttons use `--button-font-weight: 500`. Hover: lift to `elevation-2` and shift to slightly darker shade. An outline pill fills with `#0078F0` and white text on hover.
+
+Never stack a column of solid primary buttons down a list or table; one solid primary per view, outline pills for the rest.
 
 ### Navigation
 
@@ -184,8 +187,19 @@ All buttons use `--button-font-weight: 500`. Hover: lift to `elevation-2` and sh
 
 ## 05 — UI patterns
 
-- **Cards** use `elevation-1` at rest, `radius-md` (12px), 20px internal padding.
-- **Order book** uses `--rgb-bids` for buys and `--rgb-asks` for sells. Never reverse.
+The product uses one **clean-card** style everywhere (website and app, light and dark; Oct 2026). The rules below are what every screen follows.
+
+- **Cards:** white (`--main-background-color`) on the grey page, `--card-radius` 16px, soft shadow `--card-shadow` (`0 1px 2px` at 4% + `0 6px 20px` at 6% of the shadow colour), **no border**, 20px internal padding. Panels inside a card use `--card-radius-inner` 12px.
+- **Hairlines, not boxes:** dividers and outlines use `--hairline` (primary text at 8% alpha). Never a heavy border to separate things a gap can separate.
+- **Tables:** muted, sentence-case column headers (not small capitals), faint hairline row dividers, **no zebra stripes**. Figures right-aligned in tabular numerals.
+- **Tabs:** text tabs with a thin `#0078F0` underline on the active one. No filled tab blocks.
+- **Stats:** a small muted label (`--text-muted`, primary text at 62%) with a bold figure. Stacked (label over figure) in cards; label then figure on one row in compact bars such as the trading header.
+- **Pills:** filters, timeframes and toggles are outlined pills: 1px hairline, fully rounded, muted text. The active pill is outlined in `#0078F0` with a 1px inset ring and blue text, never a solid fill.
+- **Selected rows:** a soft tint of the primary blue (`--primary-cta-color-level-1`) with semibold text, never a solid blue bar.
+- **Status and steps:** a soft tint of the state colour with the state colour as the text (verified green, pending gold, rejected red, active blue with a 1px ring). Never a solid colour block with white text.
+- **Pickers and dropdowns:** the same white card with a hairline border and soft shadow, a hairline search field with a small muted icon inside it. Never a CTA-blue frame.
+- **Balances** can be hidden with the eye toggle; masked values read `••••`. A balance shown next to an amount field is labelled **Available**.
+- **Price chart:** market candles (Kraken, the feed the bots price from) with dashed **Buy** and **Sell** lines at our live prices. Buy is green (`--rgb-bids`), Sell is red (`--rgb-asks`). Never reverse.
 - **Portfolio donut** colours: AUD = gold, BTC = coral, ETH = blue, Other = orange.
 - **Dashboard** balance card always shows current AUD value with crypto/AUD split on a second row.
 
@@ -281,19 +295,19 @@ Four semantic states. Never reassign colours across states.
 
 | Token | Value | Use |
 |---|---|---|
-| `radius-xs` | 4px | Chips, pills |
-| `radius-sm` | 8px | Small buttons, inputs |
-| `radius-md` | 12px | Cards |
-| `radius-lg` | 16px | Large cards, modals |
+| `radius-xs` | 4px | Chips |
+| `radius-sm` | 8px | Small buttons, inputs, search fields |
+| `radius-md` | 12px | Panels inside a card (`--card-radius-inner`) |
+| `radius-lg` | 16px | Cards and modals (`--card-radius`) |
 | `radius-xl` | 24px | Hero panels |
-| `radius-full` | 9999px | Avatars, circle pills |
+| `radius-full` | 9999px | Pills, avatars |
 
 ### Elevation
 
 | Token | Shadow | Use |
 |---|---|---|
 | `elevation-0` | none + 1px border | Flat surfaces |
-| `elevation-1` | `0 1px 3px rgba(0,35,58,.06), 0 1px 2px rgba(0,35,58,.04)` | Cards at rest |
+| `elevation-1` | `0 1px 2px` at 4% + `0 6px 20px` at 6% of the shadow colour (`--card-shadow`) | Cards at rest |
 | `elevation-2` | `0 4px 12px rgba(0,35,58,.08), 0 2px 4px rgba(0,35,58,.04)` | Dropdowns, hover |
 | `elevation-3` | `0 12px 28px rgba(0,35,58,.14), 0 6px 12px rgba(0,35,58,.06)` | Modals, toasts |
 
