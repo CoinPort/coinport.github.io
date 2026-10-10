@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Verification complete | CoinPort</title>
+  <link rel="icon" href="/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <!--
+    Where a P2P customer lands after their Didit ID check (DIDIT_P2P_CALLBACK_URL on the
+    connector). Without it Didit sent them to the webhook URL, which barong bounces to
+    the members-only /verify page, and customers read the sign-in screen as being made
+    to open a CoinPort account (Kent, 10 Oct 2026). Didit appends ?status=… to the URL.
+  -->
+  <style>
+    :root {
+      --ground: #F2F2F7;
+      --card: #FFFFFF;
+      --ink: #00233A;
+      --muted: rgba(0, 35, 58, 0.66);
+      --green: #4BC64A;
+      --amber: #C98A00;
+      --coral: #FF617F;
+      --rule: rgba(0, 35, 58, 0.12);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ground: #00193C;
+        --card: #052350;
+        --ink: #FFFFFF;
+        --muted: rgba(255, 255, 255, 0.72);
+        --amber: #F7D600;
+        --rule: rgba(255, 255, 255, 0.14);
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      background: var(--ground);
+      color: var(--ink);
+      font-family: Poppins, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      max-width: 440px;
+      padding: 32px 28px;
+      text-align: center;
+      width: 100%;
+    }
+    .logo { display: block; height: 28px; margin: 0 auto 28px; width: auto; }
+    .logo--dark { display: none; }
+    @media (prefers-color-scheme: dark) {
+      .logo--light { display: none; }
+      .logo--dark { display: block; }
+    }
+    .mark {
+      align-items: center;
+      border-radius: 50%;
+      display: inline-flex;
+      height: 64px;
+      justify-content: center;
+      margin-bottom: 16px;
+      width: 64px;
+    }
+    .mark svg { height: 32px; width: 32px; }
+    .mark--ok { background: rgba(75, 198, 74, 0.15); color: var(--green); }
+    .mark--wait { background: rgba(247, 214, 0, 0.18); color: var(--amber); }
+    .mark--no { background: rgba(255, 97, 127, 0.15); color: var(--coral); }
+    h1 { font-size: 22px; font-weight: 600; margin: 0 0 8px; text-wrap: balance; }
+    p { color: var(--muted); font-size: 15px; margin: 0 0 12px; }
+    .next {
+      border-top: 1px solid var(--rule);
+      color: var(--ink);
+      font-size: 15px;
+      font-weight: 500;
+      margin-top: 20px;
+      padding-top: 20px;
+    }
+    .small { font-size: 13px; margin: 8px 0 0; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img class="logo logo--light" src="/marketing/coinport_logo.png" alt="CoinPort">
+    <img class="logo logo--dark" src="/marketing/coinport_logo_white.png" alt="CoinPort">
+
+    <div class="mark mark--ok" id="mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+    </div>
+    <h1 id="title">You're verified</h1>
+    <p id="body">Thanks, your ID verification is complete.</p>
+    <p class="next" id="next">Go back to your order in Binance to finish the trade. We'll take it from there.</p>
+    <p class="small">You don't need a CoinPort account for this, and there's nothing else to do on this page.</p>
+  </main>
+
+  <script>
+    // Didit appends the outcome: Approved, In Review, Declined (and occasionally others).
+    (function () {
+      var status = (new URLSearchParams(window.location.search).get('status') || '').toLowerCase();
+      var mark = document.getElementById('mark');
+      var set = function (cls, svg, title, body, next) {
+        mark.className = 'mark ' + cls;
+        mark.innerHTML = svg;
+        document.getElementById('title').textContent = title;
+        document.getElementById('body').textContent = body;
+        document.getElementById('next').textContent = next;
+        document.title = title + ' | CoinPort';
+      };
+      var clock = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>';
+      var cross = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7L7 17"/></svg>';
+      if (status.indexOf('review') !== -1 || status.indexOf('progress') !== -1) {
+        set('mark--wait', clock, 'Almost there',
+          'Your ID verification is being reviewed. This usually takes a few minutes.',
+          "Go back to your order in Binance. We'll message you there as soon as it's through.");
+      } else if (status && status !== 'approved') {
+        set('mark--no', cross, "We couldn't finish your verification",
+          "Your ID check didn't go through this time.",
+          "Go back to your order chat in Binance and we'll help you sort it out.");
+      }
+    })();
+  </script>
+</body>
+</html>
