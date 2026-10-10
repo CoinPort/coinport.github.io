@@ -87,6 +87,40 @@
       padding-top: 20px;
     }
     .small { font-size: 13px; margin: 8px 0 0; }
+    .btn {
+      background: #0078F0;
+      border-radius: 10px;
+      color: #FFFFFF;
+      display: block;
+      font-size: 16px;
+      font-weight: 500;
+      margin: 20px 0 4px;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .btn:focus-visible { outline: 3px solid rgba(0, 120, 240, 0.4); outline-offset: 2px; }
+    .steps { list-style: none; margin: 20px 0 0; padding: 0; text-align: left; }
+    .steps li {
+      align-items: center;
+      color: var(--muted);
+      display: flex;
+      font-size: 14px;
+      gap: 10px;
+      padding: 6px 0;
+    }
+    .steps li::before {
+      border: 2px solid var(--rule);
+      border-radius: 50%;
+      content: "";
+      flex: none;
+      height: 14px;
+      width: 14px;
+    }
+    .steps li.done { color: var(--ink); }
+    .steps li.done::before { background: var(--green); border-color: var(--green); }
+    .steps li.now { color: var(--ink); font-weight: 500; }
+    .steps li.now::before { border-color: #0078F0; }
+    .steps[hidden] { display: none; }
   </style>
 </head>
 <body>
@@ -99,34 +133,110 @@
     </div>
     <h1 id="title">You're verified</h1>
     <p id="body">Thanks, your ID verification is complete.</p>
+    <ol class="steps" id="steps" hidden>
+      <li id="st-verified">ID verified</li>
+      <li id="st-paid">Payment sent to you</li>
+      <li id="st-release">You release the crypto in Binance</li>
+    </ol>
     <p class="next" id="next">Go back to your order in Binance to finish the trade. We'll take it from there.</p>
+    <a class="btn" id="open" href="https://c2c.binance.com/en/fiatOrderDetail" hidden>Open my order in Binance</a>
     <p class="small">You don't need a CoinPort account for this, and there's nothing else to do on this page.</p>
   </main>
 
   <script>
-    // Didit appends the outcome: Approved, In Review, Declined (and occasionally others).
+    /*
+     * Didit appends ?verificationSessionId=…&status=… to the return address, which already
+     * carries ?o=<order>&t=<token> from the connector — so the query can arrive with two
+     * "?". Read the parameters from the whole URL rather than trusting URLSearchParams.
+     * With o and t, the page asks the connector how the order is going and keeps asking
+     * every 5s while open, until the payment is sent (or 20 minutes pass). Without them,
+     * or if the connector cannot be reached, it keeps the static wording below.
+     */
     (function () {
-      var status = (new URLSearchParams(window.location.search).get('status') || '').toLowerCase();
-      var mark = document.getElementById('mark');
+      var href = window.location.href;
+      var param = function (k) {
+        var m = href.match(new RegExp('[?&#]' + k + '=([^&#?]*)'));
+        return m ? decodeURIComponent(m[1].replace(/\+/g, ' ')) : '';
+      };
+      var status = param('status').toLowerCase();
+      var order = param('o');
+      var token = param('t');
+      var API = 'https://helm.coinport.app/api/v2/applogic/public/p2p/order-status';
+      var $ = function (id) { return document.getElementById(id); };
+      var mark = $('mark');
+      var tick = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>';
+      var clock = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>';
+      var cross = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7L7 17"/></svg>';
       var set = function (cls, svg, title, body, next) {
         mark.className = 'mark ' + cls;
         mark.innerHTML = svg;
-        document.getElementById('title').textContent = title;
-        document.getElementById('body').textContent = body;
-        document.getElementById('next').textContent = next;
+        $('title').textContent = title;
+        $('body').textContent = body;
+        $('next').textContent = next;
         document.title = title + ' | CoinPort';
       };
-      var clock = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>';
-      var cross = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7L7 17"/></svg>';
-      if (status.indexOf('review') !== -1 || status.indexOf('progress') !== -1) {
-        set('mark--wait', clock, 'Almost there',
-          'Your ID verification is being reviewed. This usually takes a few minutes.',
-          "Go back to your order in Binance. We'll message you there as soon as it's through.");
-      } else if (status && status !== 'approved') {
-        set('mark--no', cross, "We couldn't finish your verification",
-          "Your ID check didn't go through this time.",
-          "Go back to your order chat in Binance and we'll help you sort it out.");
+      var step = function (id, state) { $(id).className = state || ''; };
+      var money = function (n, cur) {
+        return '$' + Number(n).toLocaleString('en-AU', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + (cur && cur !== 'AUD' ? ' ' + cur : '');
+      };
+
+      var fromDidit = function (s) {
+        if (s.indexOf('review') !== -1 || s.indexOf('progress') !== -1) {
+          set('mark--wait', clock, 'Almost there',
+            'Your ID verification is being reviewed. This usually takes a few minutes.',
+            "Go back to your order in Binance. We'll message you there as soon as it's through.");
+        } else if (s && s !== 'approved') {
+          set('mark--no', cross, "We couldn't finish your verification",
+            "Your ID check didn't go through this time.",
+            "Go back to your order chat in Binance and we'll help you sort it out.");
+        }
+      };
+      fromDidit(status);
+
+      if (order) {
+        $('open').href = 'https://c2c.binance.com/en/fiatOrderDetail?orderNo=' + encodeURIComponent(order);
+        $('open').hidden = false;
       }
+      if (!order || !token) return;
+
+      var started = Date.now();
+      var render = function (d) {
+        if (d.order_url) $('open').href = d.order_url;
+        if (d.kyc === 'approved') {
+          $('steps').hidden = false;
+          step('st-verified', 'done');
+          if (d.payment === 'paid') {
+            step('st-paid', 'done');
+            step('st-release', 'now');
+            set('mark--ok', tick, 'Payment sent',
+              money(d.amount, d.currency) + ' is on its way to your ' + (d.rail || 'account') + ' and usually arrives within a minute.',
+              'Once it shows in your account, open your order in Binance and tap "Payment received" to release the crypto.');
+            return true;
+          }
+          step('st-paid', 'now');
+          step('st-release', '');
+          set('mark--ok', tick, "You're verified",
+            d.payment === 'sending' ? 'Thanks. Your payment is being sent now.' : "Thanks. We're sending your payment now.",
+            'Keep this page open to see it go through, or go back to your order in Binance.');
+          return false;
+        }
+        if (d.kyc === 'in_review' || d.kyc === 'in_progress') { fromDidit('in review'); return false; }
+        if (d.kyc === 'declined' || d.kyc === 'resubmit') { fromDidit('declined'); return false; }
+        return false;
+      };
+      var poll = function () {
+        var url = API + '?o=' + encodeURIComponent(order) + '&t=' + encodeURIComponent(token) + (status ? '&s=' + encodeURIComponent(status) : '');
+        fetch(url, { cache: 'no-store' })
+          .then(function (r) { return r.ok ? r.json() : null; })
+          .then(function (d) {
+            var done = d ? render(d) : false;
+            if (!done && Date.now() - started < 20 * 60 * 1000) setTimeout(poll, 5000);
+          })
+          .catch(function () {
+            if (Date.now() - started < 20 * 60 * 1000) setTimeout(poll, 10000);
+          });
+      };
+      poll();
     })();
   </script>
 </body>
