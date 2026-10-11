@@ -149,6 +149,21 @@
     .steps li.now { color: var(--ink); font-weight: 500; }
     .steps li.now::before { border-color: #0078F0; }
     .steps[hidden] { display: none; }
+    .faq { border-top: 1px solid var(--rule); margin-top: 20px; padding-top: 12px; text-align: left; }
+    .faq > summary {
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: 500;
+      list-style: none;
+      padding: 6px 0;
+      text-align: center;
+    }
+    .faq > summary::-webkit-details-marker { display: none; }
+    .faq > summary::after { content: " +"; color: #0078F0; }
+    .faq[open] > summary::after { content: " −"; }
+    .faq h2 { color: var(--ink); font-size: 14px; font-weight: 600; margin: 16px 0 4px; }
+    .faq p { font-size: 14px; margin: 0; }
+    .faq a { color: #0078F0; }
   </style>
 </head>
 <body>
@@ -178,6 +193,31 @@
     <p class="small">You don't need a CoinPort account for this, and there's nothing else to do on this page.</p>
     <!-- Help stays inside the venue's own chat, where the desk already is (Kent, 11 Oct 2026). -->
     <p class="small">Need help? Message us in your order chat.</p>
+
+    <!-- P2P only (Kent, 11 Oct 2026): this page is reached only from a P2P verification
+         link, so these answers are for P2P customers and live nowhere else — not the
+         website FAQ, not the help bot. Venue-neutral, like the rest of the page. -->
+    <details class="faq" id="faq">
+      <summary>Questions about your order</summary>
+      <h2>Why do you need my ID?</h2>
+      <p>Australian anti-money-laundering law requires us to know who we trade with. It's a one-time check: once you're verified, you won't be asked again on future orders.</p>
+      <h2>Do I need a CoinPort account?</h2>
+      <p>No. You trade with us through your order as normal. There's nothing to sign up for.</p>
+      <h2>Is my information safe?</h2>
+      <p>Your ID is checked by our identity verification partner and used only to meet our legal obligations. We don't use it for marketing, and we only share it where the law requires. See our <a href="/legal/privacy">privacy policy</a>.</p>
+      <h2>How long does the payment take?</h2>
+      <p>Usually under a minute. We pay by PayID or Osko once your verification is complete.</p>
+      <h2>My bank shows "Credit to account". Is that you?</h2>
+      <p>Some banks show a general label in the transaction list. Open the transaction and you'll see it's from CoinPort, with the reference we gave you in the chat.</p>
+      <h2>When should I release the crypto?</h2>
+      <p>Only once the money is in your account. Check your banking app, not a screenshot or a message, then confirm in your order that you've received the payment.</p>
+      <h2>The payment hasn't arrived. What do I do?</h2>
+      <p>Message us in your order chat and don't release the crypto. Most payments land within a minute, but if something holds one up, we'll sort it out with you there.</p>
+      <h2>Can I cancel the order?</h2>
+      <p>Yes, as long as we haven't paid yet. Just message us in your order chat.</p>
+      <h2>Who is CoinPort?</h2>
+      <p>CoinPort Pty Ltd is an Australian business registered with AUSTRAC as a virtual asset service provider.</p>
+    </details>
   </main>
 
   <script>
@@ -190,6 +230,7 @@
      * or if the connector cannot be reached, it keeps the static wording below.
      */
     (function () {
+      if (window.location.hash === '#faq') document.getElementById('faq').open = true;
       var href = window.location.href;
       var param = function (k) {
         var m = href.match(new RegExp('[?&#]' + k + '=([^&#?]*)'));
