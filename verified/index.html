@@ -263,7 +263,15 @@
       var venue = '';
       var inV = function () { return venue ? ' in ' + venue : ''; };
       var fromDidit = function (s) {
-        if (s.indexOf('review') !== -1 || s.indexOf('progress') !== -1) {
+        // Didit declines mostly on the selfie not matching the ID photo, which hardly
+        // ever matches and the desk usually overrides (Kent, 11 Oct 2026): two of the
+        // first nine customers were "declined" and then paid. So a decline reads as a
+        // manual check, never a failure — the desk tells anyone who really fails in chat.
+        if (s.indexOf('declin') !== -1 || s.indexOf('resubmit') !== -1) {
+          set('mark--wait', clock, 'Almost there',
+            'Your ID check needs a quick manual review. This usually takes a few minutes.',
+            'Go back to your order' + inV() + ". We'll message you there as soon as it's through.");
+        } else if (s.indexOf('review') !== -1 || s.indexOf('progress') !== -1) {
           set('mark--wait', clock, 'Almost there',
             'Your ID verification is being reviewed. This usually takes a few minutes.',
             'Go back to your order' + inV() + ". We'll message you there as soon as it's through.");
