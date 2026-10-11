@@ -79,6 +79,9 @@
       width: 100%;
     }
     .logo { display: block; height: 32px; margin: 0 auto 28px; width: auto; }
+    .logo-link { display: block; margin: 0 auto 28px; width: fit-content; }
+    .logo-link .logo { margin: 0; }
+    .logo-link:focus-visible { outline: 3px solid rgba(0, 120, 240, 0.4); outline-offset: 4px; border-radius: 4px; }
     .logo--dark { display: none; }
     @media (prefers-color-scheme: dark) {
       :root:not([data-theme="light"]) .logo--light { display: none; }
@@ -150,8 +153,12 @@
 </head>
 <body>
   <main class="card">
-    <img class="logo logo--light" src="/marketing/coinport_logo.png" alt="CoinPort">
-    <img class="logo logo--dark" src="/marketing/coinport_logo_white.png" alt="CoinPort">
+    <!-- The logo goes home, quietly: no separate "visit CoinPort" call to action
+         competing with going back to the order (Kent, 11 Oct 2026). -->
+    <a class="logo-link" href="https://www.coinport.com.au/" aria-label="CoinPort home">
+      <img class="logo logo--light" src="/marketing/coinport_logo.png" alt="CoinPort">
+      <img class="logo logo--dark" src="/marketing/coinport_logo_white.png" alt="CoinPort">
+    </a>
 
     <!-- Neutral until something confirms the result: Didit's ?status=Approved or the
          connector. "You're verified" by default told anyone with the bare address, or a
@@ -169,6 +176,8 @@
     <p class="next" id="next">Go back to your order. We'll message you there as soon as it's through.</p>
     <a class="btn" id="open" href="#" hidden>Open my order</a>
     <p class="small">You don't need a CoinPort account for this, and there's nothing else to do on this page.</p>
+    <!-- Help stays inside the venue's own chat, where the desk already is (Kent, 11 Oct 2026). -->
+    <p class="small">Need help? Message us in your order chat.</p>
   </main>
 
   <script>
