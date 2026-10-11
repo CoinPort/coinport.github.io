@@ -30,9 +30,11 @@
       --ink: #00233A;
       --muted: rgba(0, 35, 58, 0.66);
       --green: #4BC64A;
-      --amber: #C98A00;
       --coral: #FF617F;
       --rule: rgba(0, 35, 58, 0.12);
+      --gold: #FAC848;
+      --on-gold: #00193C;
+      --shadow: 23, 28, 41;
     }
     /* Follows the device unless the address says otherwise: ?theme=dark-mode or
        ?theme=light-mode, the docs site's convention, sets data-theme on <html>. */
@@ -42,7 +44,7 @@
         --card: #052350;
         --ink: #FFFFFF;
         --muted: rgba(255, 255, 255, 0.72);
-        --amber: #F7D600;
+        --shadow: 0, 0, 0;
         --rule: rgba(255, 255, 255, 0.14);
       }
     }
@@ -51,7 +53,7 @@
       --card: #052350;
       --ink: #FFFFFF;
       --muted: rgba(255, 255, 255, 0.72);
-      --amber: #F7D600;
+      --shadow: 0, 0, 0;
       --rule: rgba(255, 255, 255, 0.14);
     }
     * { box-sizing: border-box; }
@@ -70,12 +72,13 @@
     .card {
       background: var(--card);
       border-radius: 16px;
+      box-shadow: 0 1px 2px rgba(var(--shadow), 0.04), 0 6px 20px rgba(var(--shadow), 0.06);
       max-width: 440px;
       padding: 32px 28px;
       text-align: center;
       width: 100%;
     }
-    .logo { display: block; height: 28px; margin: 0 auto 28px; width: auto; }
+    .logo { display: block; height: 32px; margin: 0 auto 28px; width: auto; }
     .logo--dark { display: none; }
     @media (prefers-color-scheme: dark) {
       :root:not([data-theme="light"]) .logo--light { display: none; }
@@ -94,9 +97,9 @@
     }
     .mark svg { height: 32px; width: 32px; }
     .mark--ok { background: rgba(75, 198, 74, 0.15); color: var(--green); }
-    .mark--wait { background: rgba(247, 214, 0, 0.18); color: var(--amber); }
+    .mark--wait { background: var(--gold); color: var(--on-gold); }
     .mark--no { background: rgba(255, 97, 127, 0.15); color: var(--coral); }
-    h1 { font-size: 22px; font-weight: 600; margin: 0 0 8px; text-wrap: balance; }
+    h1 { font-size: 20px; font-weight: 600; margin: 0 0 8px; text-wrap: balance; }
     p { color: var(--muted); font-size: 15px; margin: 0 0 12px; }
     .next {
       border-top: 1px solid var(--rule);
@@ -106,16 +109,17 @@
       margin-top: 20px;
       padding-top: 20px;
     }
-    .small { font-size: 13px; margin: 8px 0 0; }
+    .small { font-size: 12px; margin: 8px 0 0; }
     .btn {
       background: #0078F0;
-      border-radius: 10px;
+      border-radius: 8px;
       color: #FFFFFF;
       display: block;
       font-size: 16px;
       font-weight: 500;
+      line-height: 50px;
       margin: 20px 0 4px;
-      padding: 14px 16px;
+      padding: 0 24px;
       text-decoration: none;
     }
     .btn[hidden] { display: none; }
