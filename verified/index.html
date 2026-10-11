@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
-  <title>Verification complete | CoinPort</title>
+  <title>ID check received | CoinPort</title>
   <link rel="icon" href="/favicon.ico">
   <script>
     // ?theme=dark-mode / ?theme=light-mode, read from the whole URL because Didit may
@@ -149,17 +149,20 @@
     <img class="logo logo--light" src="/marketing/coinport_logo.png" alt="CoinPort">
     <img class="logo logo--dark" src="/marketing/coinport_logo_white.png" alt="CoinPort">
 
-    <div class="mark mark--ok" id="mark" aria-hidden="true">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+    <!-- Neutral until something confirms the result: Didit's ?status=Approved or the
+         connector. "You're verified" by default told anyone with the bare address, or a
+         visit Didit sent without a status, something we did not know (Kent, 11 Oct 2026). -->
+    <div class="mark mark--wait" id="mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>
     </div>
-    <h1 id="title">You're verified</h1>
-    <p id="body">Thanks, your ID verification is complete.</p>
+    <h1 id="title">Thanks for completing your ID check</h1>
+    <p id="body">We're checking the result now.</p>
     <ol class="steps" id="steps" hidden>
       <li id="st-verified">ID verified</li>
       <li id="st-paid">Payment sent to you</li>
       <li id="st-release">You release the crypto in Binance</li>
     </ol>
-    <p class="next" id="next">Go back to your order in Binance to finish the trade. We'll take it from there.</p>
+    <p class="next" id="next">Go back to your order in Binance. We'll message you there as soon as it's through.</p>
     <a class="btn" id="open" href="https://c2c.binance.com/en/fiatOrderDetail" hidden>Open my order in Binance</a>
     <p class="small">You don't need a CoinPort account for this, and there's nothing else to do on this page.</p>
   </main>
@@ -206,7 +209,11 @@
           set('mark--wait', clock, 'Almost there',
             'Your ID verification is being reviewed. This usually takes a few minutes.',
             "Go back to your order in Binance. We'll message you there as soon as it's through.");
-        } else if (s && s !== 'approved') {
+        } else if (s === 'approved') {
+          set('mark--ok', tick, "You're verified",
+            'Thanks, your ID verification is complete.',
+            "Go back to your order in Binance to finish the trade. We'll take it from there.");
+        } else if (s) {
           set('mark--no', cross, "We couldn't finish your verification",
             "Your ID check didn't go through this time.",
             "Go back to your order chat in Binance and we'll help you sort it out.");
