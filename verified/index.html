@@ -6,6 +6,14 @@
   <meta name="robots" content="noindex">
   <title>Verification complete | CoinPort</title>
   <link rel="icon" href="/favicon.ico">
+  <script>
+    // ?theme=dark-mode / ?theme=light-mode, read from the whole URL because Didit may
+    // add a second "?" to it. Runs before the styles apply, so there is no flash.
+    (function () {
+      var m = window.location.href.match(/[?&#]theme=(dark|light)(?:-mode)?/);
+      if (m) document.documentElement.setAttribute('data-theme', m[1]);
+    })();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
@@ -26,8 +34,10 @@
       --coral: #FF617F;
       --rule: rgba(0, 35, 58, 0.12);
     }
+    /* Follows the device unless the address says otherwise: ?theme=dark-mode or
+       ?theme=light-mode, the docs site's convention, sets data-theme on <html>. */
     @media (prefers-color-scheme: dark) {
-      :root {
+      :root:not([data-theme="light"]) {
         --ground: #00193C;
         --card: #052350;
         --ink: #FFFFFF;
@@ -35,6 +45,14 @@
         --amber: #F7D600;
         --rule: rgba(255, 255, 255, 0.14);
       }
+    }
+    :root[data-theme="dark"] {
+      --ground: #00193C;
+      --card: #052350;
+      --ink: #FFFFFF;
+      --muted: rgba(255, 255, 255, 0.72);
+      --amber: #F7D600;
+      --rule: rgba(255, 255, 255, 0.14);
     }
     * { box-sizing: border-box; }
     html, body { margin: 0; }
@@ -60,9 +78,11 @@
     .logo { display: block; height: 28px; margin: 0 auto 28px; width: auto; }
     .logo--dark { display: none; }
     @media (prefers-color-scheme: dark) {
-      .logo--light { display: none; }
-      .logo--dark { display: block; }
+      :root:not([data-theme="light"]) .logo--light { display: none; }
+      :root:not([data-theme="light"]) .logo--dark { display: block; }
     }
+    :root[data-theme="dark"] .logo--light { display: none; }
+    :root[data-theme="dark"] .logo--dark { display: block; }
     .mark {
       align-items: center;
       border-radius: 50%;
@@ -98,6 +118,7 @@
       padding: 14px 16px;
       text-decoration: none;
     }
+    .btn[hidden] { display: none; }
     .btn:focus-visible { outline: 3px solid rgba(0, 120, 240, 0.4); outline-offset: 2px; }
     .steps { list-style: none; margin: 20px 0 0; padding: 0; text-align: left; }
     .steps li {
