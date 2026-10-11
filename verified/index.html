@@ -279,9 +279,6 @@
       };
       fromDidit(status);
 
-      if (!order || !token) return;
-
-      var started = Date.now();
       var render = function (d) {
         if (d.venue && d.venue !== venue) {
           venue = d.venue;
@@ -312,6 +309,41 @@
         if (d.kyc === 'declined' || d.kyc === 'resubmit') { fromDidit('declined'); return false; }
         return false;
       };
+
+      // ?demo=review|verified|sending|paid|declined shows that live state with made-up
+      // order data, and ?demo=live steps through them every 4s — for previewing the page
+      // without a real order (Kent, 11 Oct 2026). Never calls the connector.
+      var demo = param('demo').toLowerCase();
+      var DEMO = {
+        review: { kyc: 'in_review' },
+        verified: { kyc: 'approved', payment: 'pending' },
+        sending: { kyc: 'approved', payment: 'sending' },
+        paid: { kyc: 'approved', payment: 'paid', amount: 4417.91, currency: 'AUD', rail: 'PayID' },
+        declined: { kyc: 'declined' }
+      };
+      if (demo === 'live') {
+        var seq = ['review', 'verified', 'sending', 'paid'];
+        var i = 0;
+        var next = function () {
+          var d = DEMO[seq[i]];
+          d.venue = 'Binance';
+          d.order_url = '#';
+          render(d);
+          if (++i < seq.length) setTimeout(next, 4000);
+        };
+        next();
+        return;
+      }
+      if (DEMO[demo]) {
+        DEMO[demo].venue = 'Binance';
+        DEMO[demo].order_url = '#';
+        render(DEMO[demo]);
+        return;
+      }
+
+      if (!order || !token) return;
+
+      var started = Date.now();
       var poll = function () {
         var url = API + '?o=' + encodeURIComponent(order) + '&t=' + encodeURIComponent(token) + (status ? '&s=' + encodeURIComponent(status) : '');
         fetch(url, { cache: 'no-store' })
