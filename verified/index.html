@@ -64,9 +64,16 @@
       line-height: 1.6;
       min-height: 100vh;
       display: flex;
-      align-items: center;
+      /* Card sits near the top, like the website's own pages, not centred in the
+         window (Kent, 12 Oct 2026). The extra 30px is padding, not margin: a margin on
+         top of min-height: 100vh would make every page scroll by 30px. Wider screens
+         only; a phone keeps the 24px. */
+      align-items: flex-start;
       justify-content: center;
       padding: 24px 16px;
+    }
+    @media (min-width: 769px) {
+      body { padding-top: 54px; }
     }
     .card {
       background: var(--card);
