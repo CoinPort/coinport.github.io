@@ -246,6 +246,9 @@
       var status = param('status').toLowerCase();
       var order = param('o');
       var token = param('t');
+      // A reverification carries its own handle (r) and token (rt), with or without an order.
+      var ref = param('r');
+      var refToken = param('rt');
       var API = 'https://helm.coinport.app/api/v2/applogic/public/p2p/order-status';
       var $ = function (id) { return document.getElementById(id); };
       var mark = $('mark');
@@ -287,9 +290,10 @@
             'Thanks, your ID verification is complete.',
             'Go back to your order' + inV() + " to finish the trade. We'll take it from there.");
         } else if (s) {
-          set('mark--no', cross, "We couldn't finish your verification",
-            "Your ID check didn't go through this time.",
-            'Go back to your order chat' + inV() + " and we'll help you sort it out.");
+          // Abandoned, expired or anything we do not recognise (reverification spec, 14 Oct 2026).
+          set('mark--no', cross, "Verification wasn't finished",
+            'Use the link we sent you to try again.',
+            'Need a new link? Message us in your order chat' + inV() + '.');
         }
       };
       fromDidit(status);
@@ -323,6 +327,16 @@
             'If that is not what you expected, message us in your order chat' + inV() + '.');
           return true;
         }
+        if (d.kyc === 'abandoned') { fromDidit('abandoned'); return true; }
+        // A reverification sent from the customer record has no order to follow.
+        if (d.reverification) {
+          if (d.kyc === 'approved') {
+            set('mark--ok', tick, "You're verified", 'Thanks, your ID verification is complete.',
+              'Head back to ' + (venue || 'Binance') + ' to complete your order.');
+            return true;
+          }
+          if (d.kyc === 'pending') return false;
+        }
         if (d.kyc === 'approved') {
           $('steps').hidden = false;
           step('st-verified', 'done');
@@ -346,7 +360,7 @@
         return false;
       };
 
-      // ?demo=review|verified|sending|paid|done|declined shows that live state with made-up
+      // ?demo=review|verified|sending|paid|done|declined|abandoned shows that live state with made-up
       // order data, and ?demo=live steps through them every 4s — for previewing the page
       // without a real order (Kent, 11 Oct 2026). Never calls the connector.
       var demo = param('demo').toLowerCase();
@@ -356,7 +370,8 @@
         sending: { kyc: 'approved', payment: 'sending' },
         paid: { kyc: 'approved', payment: 'paid', amount: 4417.91, currency: 'AUD', rail: 'PayID' },
         done: { kyc: 'approved', payment: 'paid', amount: 4417.91, currency: 'AUD', rail: 'PayID', order: 'completed' },
-        declined: { kyc: 'declined' }
+        declined: { kyc: 'declined' },
+        abandoned: { kyc: 'abandoned' }
       };
       if (demo === 'live') {
         var seq = ['review', 'verified', 'sending', 'paid', 'done'];
@@ -378,11 +393,12 @@
         return;
       }
 
-      if (!order || !token) return;
+      if ((!order || !token) && !(ref && refToken)) return;
 
       var started = Date.now();
       var poll = function () {
-        var url = API + '?o=' + encodeURIComponent(order) + '&t=' + encodeURIComponent(token) + (status ? '&s=' + encodeURIComponent(status) : '');
+        var url = API + '?o=' + encodeURIComponent(order) + '&t=' + encodeURIComponent(token) + (status ? '&s=' + encodeURIComponent(status) : '')
+          + (ref && refToken ? '&r=' + encodeURIComponent(ref) + '&rt=' + encodeURIComponent(refToken) : '');
         fetch(url, { cache: 'no-store' })
           .then(function (r) { return r.ok ? r.json() : null; })
           .then(function (d) {
