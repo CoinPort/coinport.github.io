@@ -309,6 +309,7 @@
           step('st-verified', 'done');
           step('st-paid', 'done');
           step('st-release', 'done');
+          $('st-release').textContent = 'Crypto released';
           set('mark--ok', tick, 'All done',
             'Your order is complete' + (d.amount ? ' and ' + money(d.amount, d.currency) + ' was paid to your ' + (d.rail || 'account') : '') + '.',
             'Thanks for trading with CoinPort.');
