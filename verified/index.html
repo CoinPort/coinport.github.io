@@ -302,6 +302,26 @@
         }
         // Only a link we know is right for this venue; otherwise no button at all.
         if (d.order_url) { $('open').href = d.order_url; $('open').hidden = false; } else { $('open').hidden = true; }
+        // The trade itself is finished (Kent, 14 Oct 2026): a customer who had already
+        // released the crypto was still shown "You release the crypto" as the next step.
+        if (d.order === 'completed') {
+          $('steps').hidden = false;
+          step('st-verified', 'done');
+          step('st-paid', 'done');
+          step('st-release', 'done');
+          set('mark--ok', tick, 'All done',
+            'Your order is complete' + (d.amount ? ' and ' + money(d.amount, d.currency) + ' was paid to your ' + (d.rail || 'account') : '') + '.',
+            'Thanks for trading with CoinPort.');
+          $('open').hidden = true;
+          return true;
+        }
+        if (d.order === 'cancelled') {
+          $('steps').hidden = true;
+          set('mark--no', cross, 'Order cancelled',
+            'This order was cancelled, so no payment was sent.',
+            'If that is not what you expected, message us in your order chat' + inV() + '.');
+          return true;
+        }
         if (d.kyc === 'approved') {
           $('steps').hidden = false;
           step('st-verified', 'done');
@@ -325,7 +345,7 @@
         return false;
       };
 
-      // ?demo=review|verified|sending|paid|declined shows that live state with made-up
+      // ?demo=review|verified|sending|paid|done|declined shows that live state with made-up
       // order data, and ?demo=live steps through them every 4s — for previewing the page
       // without a real order (Kent, 11 Oct 2026). Never calls the connector.
       var demo = param('demo').toLowerCase();
@@ -334,10 +354,11 @@
         verified: { kyc: 'approved', payment: 'pending' },
         sending: { kyc: 'approved', payment: 'sending' },
         paid: { kyc: 'approved', payment: 'paid', amount: 4417.91, currency: 'AUD', rail: 'PayID' },
+        done: { kyc: 'approved', payment: 'paid', amount: 4417.91, currency: 'AUD', rail: 'PayID', order: 'completed' },
         declined: { kyc: 'declined' }
       };
       if (demo === 'live') {
-        var seq = ['review', 'verified', 'sending', 'paid'];
+        var seq = ['review', 'verified', 'sending', 'paid', 'done'];
         var i = 0;
         var next = function () {
           var d = DEMO[seq[i]];
