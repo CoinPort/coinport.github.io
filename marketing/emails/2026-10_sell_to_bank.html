@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="x-apple-disable-message-reformatting">
+<title>Crypto to your bank</title>
+<!--
+  CoinPort campaign 01 — Sell to bank (draft 2, 26 Oct 2026)
+  Subject:   Crypto to your bank, paid instantly
+  Preheader: Sell USDT, BNB, BTC, ETH or USDC and get AUD paid straight to your PayID. Zero fees.
+  From:      CoinPort <hello@coinport.com.au>   (sender to confirm)
+  Matches the live /sell page: same headline, badges, steps and picture.
+  Built on the live account-email layout (opendax/config/mailer/mailer.html.erb) and the
+  Brand Identity standard: Deep Hull header, white card on Sea Mist, Poppins, ONE Harbour
+  Blue CTA, footer with address + AUSTRAC + ABN + why-received + unsubscribe.
+  Hero: https://doc.coinport.com.au/images/email/sell_hero.jpg (1200x560, shown at 600x280).
+  {{unsubscribe}} is the sending platform's merge tag — swap for the platform's own.
+-->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; padding: 0; background: #F2F2F7; }
+  a { color: #0078F0; text-decoration: none; }
+  @media screen and (max-width: 480px) {
+    .card-pad { padding: 28px 22px !important; }
+    .head-pad { padding: 0 22px !important; }
+    .h1 { font-size: 26px !important; }
+    .cta { display: block !important; text-align: center !important; }
+    .chip { display: block !important; margin: 0 0 8px !important; }
+  }
+</style>
+</head>
+<body style="margin:0; padding:0; background:#F2F2F7;">
+  <!-- preheader -->
+  <div style="display:none; max-height:0; overflow:hidden; mso-hide:all;">Sell USDT, BNB, BTC, ETH or USDC and get AUD paid straight to your PayID. Zero fees.&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;&#847;&zwnj;&nbsp;</div>
+
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#F2F2F7;">
+    <tr>
+      <td align="center" style="background:#002355; padding:22px 12px;">
+        <!-- logo left-aligned to the card text below (Kent, 26 Oct 2026) -->
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;">
+          <tr>
+            <td class="head-pad" align="left" style="padding:0 40px;"><img src="https://doc.coinport.com.au/images/email/header_logo_white.png" height="28" alt="CoinPort" style="display:block; border:0; height:28px;"></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="padding:24px 12px 0;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; background:#FFFFFF; border-radius:12px; overflow:hidden;">
+
+          <!-- hero: the /sell picture on the /sell blue -->
+          <tr>
+            <td style="background:#0A5AD6; border-radius:12px 12px 0 0; line-height:0; font-size:0;">
+              <a href="https://coinport.com.au/sell?utm_source=email&amp;utm_medium=campaign&amp;utm_campaign=2026-10_sell_to_bank&amp;utm_content=hero"><img src="https://doc.coinport.com.au/images/email/sell_hero.jpg" width="600" alt="Crypto coins flowing through PayID to a bank" style="display:block; width:100%; max-width:600px; height:auto; border:0; border-radius:12px 12px 0 0;"></a>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="card-pad" style="padding:36px 40px 36px; font-family:'Poppins', Arial, sans-serif; color:#00233A;">
+
+              <p style="margin:0 0 10px; font-size:13px; font-weight:500; letter-spacing:0.06em; text-transform:uppercase; color:#0078F0;">New on CoinPort</p>
+              <h1 class="h1" style="margin:0 0 14px; font-size:30px; line-height:1.2; font-weight:600; color:#00233A;">Crypto to your bank</h1>
+              <p style="margin:0 0 22px; font-size:16px; line-height:1.6; color:#00233A;">Own USDT, BNB, BTC, ETH or USDC? Sell it at the live price on CoinPort and get Australian dollars paid straight to your bank&nbsp;account.</p>
+
+              <!-- the page's three badges, as chips -->
+              <p style="margin:0 0 30px; font-size:0; line-height:0;">
+                <span class="chip" style="display:inline-block; margin:0 6px 8px 0; padding:6px 12px; border-radius:16px; background:#E6F2FE; font-size:13px; line-height:1.3; font-weight:500; color:#00233A;">&#10003;&nbsp; Paid instantly to your&nbsp;PayID</span>
+                <span class="chip" style="display:inline-block; margin:0 6px 8px 0; padding:6px 12px; border-radius:16px; background:#E6F2FE; font-size:13px; line-height:1.3; font-weight:500; color:#00233A;">&#10003;&nbsp; Zero&nbsp;fees</span>
+                <span class="chip" style="display:inline-block; margin:0 0 8px 0; padding:6px 12px; border-radius:16px; background:#E6F2FE; font-size:13px; line-height:1.3; font-weight:500; color:#00233A;">&#10003;&nbsp; AUSTRAC registered&nbsp;VASP</span>
+              </p>
+
+              <!-- how it works: the page's three steps -->
+              <p style="margin:0 0 16px; font-size:17px; font-weight:600; color:#00233A;">How it works</p>
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 30px;">
+                <tr>
+                  <td width="42" valign="top" style="padding:0 0 18px;"><div style="width:28px; height:28px; border-radius:14px; background:#0A5AD6; text-align:center; line-height:28px; font-size:14px; font-weight:600; color:#FFFFFF;">1</div></td>
+                  <td valign="top" style="padding:2px 0 18px; font-family:'Poppins', Arial, sans-serif; font-size:15px; line-height:1.5; color:#00233A;"><strong style="font-weight:600;">Enter your amount.</strong> Pick the coin and how much to sell. You see the AUD before you&nbsp;confirm.</td>
+                </tr>
+                <tr>
+                  <td width="42" valign="top" style="padding:0 0 18px;"><div style="width:28px; height:28px; border-radius:14px; background:#0A5AD6; text-align:center; line-height:28px; font-size:14px; font-weight:600; color:#FFFFFF;">2</div></td>
+                  <td valign="top" style="padding:2px 0 18px; font-family:'Poppins', Arial, sans-serif; font-size:15px; line-height:1.5; color:#00233A;"><strong style="font-weight:600;">Deposit, if you haven't already.</strong> Your deposit address appears right on the page. Already in your CoinPort wallet? Skip&nbsp;this.</td>
+                </tr>
+                <tr>
+                  <td width="42" valign="top"><div style="width:28px; height:28px; border-radius:14px; background:#0A5AD6; text-align:center; line-height:28px; font-size:14px; font-weight:600; color:#FFFFFF;">3</div></td>
+                  <td valign="top" style="padding:2px 0 0; font-family:'Poppins', Arial, sans-serif; font-size:15px; line-height:1.5; color:#00233A;"><strong style="font-weight:600;">Get paid.</strong> Confirm the sale and we pay the AUD straight to your bank account, any day of the&nbsp;week.</td>
+                </tr>
+              </table>
+
+              <!-- CTA: one Harbour Blue button -->
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="margin:0 0 22px;">
+                <tr>
+                  <td style="border-radius:8px; background:#0078F0;">
+                    <a class="cta" href="https://coinport.com.au/sell?utm_source=email&amp;utm_medium=campaign&amp;utm_campaign=2026-10_sell_to_bank&amp;utm_content=button" style="display:inline-block; padding:14px 34px; font-family:'Poppins', Arial, sans-serif; font-size:16px; font-weight:500; color:#FFFFFF; text-decoration:none; border-radius:8px;">Sell crypto</a>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="margin:0 0 6px; font-size:13px; line-height:1.6; color:#777F93;">Sales start from A$100.</p>
+              <p style="margin:0; font-size:13px; line-height:1.6; color:#777F93;">First time signing in? Choose <strong style="font-weight:500;">Forgot password</strong> on the sign-in page and use the email address this message was sent&nbsp;to.</p>
+
+              <!-- signature, as on account emails -->
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td style="padding:30px 0 0; font-family:'Poppins', Arial, sans-serif;">
+                    <p style="margin:0 0 4px; font-size:15px; color:#00233A;">Kind regards,</p>
+                    <p style="margin:0 0 8px; font-size:15px; color:#00233A;">The CoinPort Team</p>
+                    <p style="margin:0; font-size:13px; color:#0078F0;">Easy, fast and safe way to trade crypto</p>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- footer -->
+    <tr>
+      <td align="center" style="padding:20px 12px 36px;">
+        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px;">
+          <tr>
+            <td style="padding:0 20px; font-family:'Poppins', Arial, sans-serif; font-size:12px; line-height:1.6; color:#777F93;">
+              <p style="margin:0 0 12px;">You're receiving this because you've transacted with CoinPort before. <a href="{{unsubscribe}}" style="color:#0078F0;">Unsubscribe</a> from news like this; you'll still get emails about your account and transactions.</p>
+              <p style="margin:0 0 12px;">CoinPort Pty Ltd · ABN 12 624 879 223 · Level 2, 696 Bourke St, Melbourne VIC 3000<br>AUSTRAC VASP · Registration #100633359</p>
+              <p style="margin:0; color:#9AA0B4;">This email is general information only, not financial advice. Crypto prices move, and the AUD you receive depends on the price at the time you sell. CoinPort does not recommend or endorse any specific token.</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
