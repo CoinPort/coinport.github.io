@@ -14,7 +14,6 @@ We may amend, modify, add to or delete these Terms of Service at our discretion 
 
 Your eligibility and use of our Platform and Services is dependent upon your country of residence. The Services provided by CoinPort are limited to the following jurisdiction: Australia.
 
----
 
 ## Risks of Trading and Holding Crypto or Digital Currencies
 
@@ -28,7 +27,6 @@ CoinPort only supports mechanisms such as Metacoins, Alt-Coins, Forks, Sidechain
 
 CoinPort is not responsible or liable for any Coins once they are transferred from our Platform to another site, device, platform or user. Nor is CoinPort responsible or liable for any Coins not traded on our Platform that have been sent into our Platform or Coins that have been sent to an incorrect wallet address or a wallet address for a different Coin. It is important for you to take precautions when transferring and storing your Coins whether on our platform or through other sites, wallets or devices. We take no responsibility for misappropriation or theft of your Coins. You should familiarise yourself with the security measures available when using a wallet service or other device for storage. Always take a greater degree of care and precaution to secure your passwords when operating in a digital environment. For more information about how to secure and protect your Coins, see Security Recommendations.
 
----
 
 ## Your Obligations
 
@@ -60,7 +58,6 @@ Any user of CoinPort's Platform who violates or breaches our Terms of Service ma
 
 CoinPort encourages users to report any problems or vulnerabilities with our Platform and Services by submitting a support request on our website or emailing us at CoinPort Support. If you notify us in good faith, we will not restrict your use of our Platform or Services.
 
----
 
 ## Trading and Using Your CoinPort Account
 
@@ -80,7 +77,6 @@ All fiat deposits and withdrawals can only be made to and from a financial insti
 
 During periods of market volatility, high volume trades, fast movement and illiquidity in the market, the market rate in which you buy, sell or trade Coins may be different to the price indicated on our Platform and as such we will be unable to execute your order and will return the funds to your account. CoinPort is not liable for any price variation due to market volatility, market or technology disruptions, delays or any other matters that caused by things that are outside CoinPort's control. CoinPort may reasonably decide not to execute a trade if the market rate significantly increases or decreases or in the event of a market disruption or other event which is outside its control and in such cases CoinPort may cancel your buy/sell order and return the funds into your CoinPort account. CoinPort will exercise reasonable care to notify you of these events and when you receive a notification you must check your account and any pending or cancelled transactions.
 
----
 
 ## Conversion Services and Fees
 
@@ -92,7 +88,6 @@ We may delay, suspend or cancel a conversion transaction if we believe the trans
 
 We reserve the right to delay, suspend or cancel a trade or transaction if there are technical reasons that prevent us from completing the transaction, or if CoinPort is unable to execute the transaction. This may be subject to reliance on a third party supplier, where we have reasonable belief that the trade is subject to illegal activity or fraud, technical difficulties or subject to a law enforcement action.
 
----
 
 ## Termination
 
@@ -109,7 +104,6 @@ CoinPort may suspend, limit, restrict, deactivate or terminate your access to Co
 
 You may cancel your CoinPort account at any time, following the settlement of any pending transactions or trades. You will not be charged any fees for cancelling your CoinPort account, however you must pay any outstanding amounts owed to us.
 
----
 
 ## Indemnity
 
@@ -124,7 +118,6 @@ To the maximum extent permitted by law, you agree to indemnify, defend and hold 
 
 This indemnity includes without limitation, liability relating to intellectual property rights, defamation and breaches of privacy.
 
----
 
 ## Liability
 
@@ -136,7 +129,6 @@ We do not provide any warranty in relation to your use of CoinPort's Platform an
 
 You should independently satisfy yourself as to the information provided through CoinPort's Platform and Services. You agree to use CoinPort's Platform and Services at your sole risk and at an "as is" basis.
 
----
 
 ## Use of our Platform and Services
 
@@ -170,7 +162,6 @@ You are accountable for maintaining and preserving the confidentiality of your a
 
 You must notify CoinPort immediately of any unauthorised access or use of your account, password or any other applicable breach of our Platform and Services by submitting a support request on our website.
 
----
 
 ### Linking and Framing
 
@@ -184,13 +175,11 @@ We do not warrant the accuracy, currency or suitability for any purpose of the T
 
 All statements, representations, offers, products or services provided through Third Party Websites and Third Party Content are the sole responsibility of the operator of the Third Party Website or the author of the Third Party Content and in so far as such links to Third Party Websites or Third Party Content are hosted on the Platform they are done so at the request of the operator or author for the purposes of promoting their offers, products and services. Except where expressly stated otherwise, we do not act as agent, representative, partner or in any other capacity on behalf of such operator or author.
 
----
 
 ### Cookies
 
 We may use cookies to identify your computer on our server and so we can track your use on our Platform. In some instances cookies may collect and store personal information about you. Such personal information will only be used by us in accordance with our Privacy Policy.
 
----
 
 ### Intellectual Property
 
@@ -200,13 +189,11 @@ All trademarks, registered trademarks, product names, logos and company names me
 
 Reference on the Platform to any companies, products, services, branding, offers or other information, by trade name, trademark or otherwise does not constitute or imply endorsement, sponsorship or recommendation by us or the respective trademark owner.
 
----
 
 ### Privacy
 
 Any personal information we collect about you via this Platform will only be used and disclosed by us in accordance with our Privacy Policy.
 
----
 
 ## General
 
@@ -222,6 +209,5 @@ If we are unable to perform our Services as stipulated in the Terms of Service d
 
 These Terms of Service are governed by the laws of the State of Victoria and in the event that we have a legal dispute relating to this Platform or these Terms of Service, the Courts of Victoria will have non-exclusive jurisdiction.
 
----
 
 *Last updated: 02-Apr-2026*

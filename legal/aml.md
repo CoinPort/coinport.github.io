@@ -10,25 +10,21 @@ CoinPort will take reasonable steps to Identify and Verify you when you open an 
 
 CoinPort screens all transactions and customers against Australian Government and United Nations sanctions lists. Any match or potential match will result in the transaction being suspended pending further review, and may be reported to the relevant authorities.
 
----
 
 ## What is Money Laundering?
 
 Money laundering is the process in which the proceeds of crime are transformed into legitimate money or other assets. In a number of legal and regulatory systems, the term money laundering has become conflated with other forms of financial crime, and is sometimes used more generally to include misuse of the financial system (involving things such as securities, virtual assets, credit cards, and traditional currency), including terrorism financing, tax evasion and the evasion of international sanctions.
 
----
 
 ## What is Terrorism Financing?
 
 Terrorism financing is the provision of funds or financial services — whether sourced from legitimate or illegitimate means — to support acts of terrorism or terrorist organisations. It is not necessary for the funds to be derived from criminal activity; even lawfully obtained funds used to support terrorism constitute a serious offence under Australian law.
 
----
 
 ## What is Proliferation Financing?
 
 Proliferation financing is the provision of funds or financial services used, in whole or in part, for the manufacture, acquisition, development, export, transfer or use of weapons of mass destruction, including nuclear, chemical and biological weapons, in violation of international law or UN sanctions. CoinPort is required under Australian law to detect and prevent any transactions that may contribute to proliferation financing activities.
 
----
 
 ## Who is AUSTRAC?
 

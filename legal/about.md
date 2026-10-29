@@ -13,7 +13,6 @@ CoinPort Pty Ltd ("Coin Port" or "CoinPort" or "CoinPort Exchange") is an Austra
 | **Type** | Australian Proprietary Company, Limited By Shares |
 | **Regulator** | Australian Securities & Investments Commission |
 
----
 
 ## Australian Transaction Reports and Analysis Centre (AUSTRAC) Details
 
@@ -32,7 +31,6 @@ CoinPort is licensed and regulated by AUSTRAC as an Independent Remittance Deale
 | **Principal business address** | LEVEL 2, 696 BOURKE ST, MELBOURNE, VIC, 3000, AUSTRALIA |
 | **Registered office address** | LEVEL 2, 696 BOURKE ST, MELBOURNE, VIC, 3000, AUSTRALIA |
 
----
 
 ## Australian Financial Complaints Authority
 
