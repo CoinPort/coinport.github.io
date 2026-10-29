@@ -624,8 +624,10 @@ body.dark-mode .markdown-body {
 
 /* Pages that already rule their sections with --- (AML, Privacy, Terms): the rule is the
    divider, so the heading under it doesn't draw a second one. */
-.markdown-body hr {
+.markdown-body hr,
+body.dark-mode .markdown-body hr {
   background: var(--read-rule) !important;
+  color: var(--read-rule) !important;
   height: 1px;
   margin: 30px 0 0;
 }
