@@ -575,7 +575,9 @@ body.dark-mode .pg-apidocs-wrapper code {
   --read-code: rgba(0, 35, 58, 0.06);
 
   max-width: 780px;
-  padding: 4px 6px 24px;
+
+  /* room under the host page's tab bar before the first line of text */
+  padding: 24px 6px 24px;
 }
 
 body.dark-mode .markdown-body {
