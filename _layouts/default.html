@@ -15,6 +15,13 @@
       <!--{% if site.title and site.title != page.title %}
       <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
       {% endif %} -->
+      {%- comment -%}
+        jekyll-titles-from-headings (strip_title: true) moves a page's opening "# Title"
+        into page.title and out of the body, and this layout never printed it, so pages
+        that set layout: default (Accessibility, Complaints, Sanctions, ...) had no title.
+        Print it unless the body still has its own h1.
+      {%- endcomment -%}
+      {% if page.title and page.title != site.title %}{% unless content contains '<h1' %}<h1>{{ page.title }}</h1>{% endunless %}{% endif %}
       {{ content }}
 
       <!--{% if site.github.private != true and site.github.license %}
