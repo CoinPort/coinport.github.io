@@ -622,6 +622,19 @@ body.dark-mode .markdown-body {
   padding-top: 10px;
 }
 
+/* Pages that already rule their sections with --- (AML, Privacy, Terms): the rule is the
+   divider, so the heading under it doesn't draw a second one. */
+.markdown-body hr {
+  background: var(--read-rule) !important;
+  height: 1px;
+  margin: 30px 0 0;
+}
+
+.markdown-body hr + h2 {
+  border-top: 0;
+  margin-top: 0;
+}
+
 .markdown-body h3 {
   font-size: 16px;
   line-height: 1.35;
