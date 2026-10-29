@@ -580,6 +580,12 @@ body.dark-mode .pg-apidocs-wrapper code {
   padding: 24px 6px 24px;
 }
 
+/* Inside the customer site's About box the page fills the box's width, so the text lines up
+   with the tab bar above it (Kent, 29 Oct 2026). Opened on its own, the 780px measure stays. */
+.in-frame .markdown-body {
+  max-width: none;
+}
+
 body.dark-mode .markdown-body {
   --read-text: rgba(235, 240, 250, 0.84);
   --read-muted: rgba(235, 240, 250, 0.6);

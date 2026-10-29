@@ -33,6 +33,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
     <script>
+      // framed by the customer site (About, legal tabs): let the text use the box's full width
+      if (window.self !== window.top) document.documentElement.classList.add('in-frame');
       const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
       const theme = urlParams.get('theme');
