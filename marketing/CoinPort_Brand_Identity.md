@@ -338,6 +338,40 @@ Toggle on: track `--rgb-primary-cta-color`; toggle off: track `--rgb-table-borde
 
 Primary visual language is **flat illustration** — the coastal/harbour landing scene. Photography is secondary for editorial, blog and PR.
 
+### Page scenes — one harbour, a different time of day per page (29 Oct 2026)
+
+Every marketing page recolours the **same landing harbour** to its own time of day, so pages are told apart at a glance but read as one place.
+
+| Page | Day | Night |
+|---|---|---|
+| Landing | Harbour Blue midday (original scene) | Night harbour, stars |
+| /buy | Mediterranean morning, navy text | Mediterranean night, lamp-lit town |
+| /sell | Warm Indian Ocean afternoon, white text | Brand-navy dusk, thin Sunset Coral glow |
+| /exchange | Brand sunset: Deep Hull → Sunset Coral → Lantern Gold | Golden afterglow |
+| /coins | Purple → orange → Lantern Gold, golden harbour, Bitcoin balloon | Violet twilight, crescent moon |
+
+- **Sky meets the header:** every night sky starts at `#00193C`, no seam.
+- **Text:** white on deep tops; Abyss Navy on the light /buy sky. WCAG AA always.
+- **Solid hills at night** so the sky never shows through; lit windows stay warm.
+- **Phones:** below 768px the harbour drops away and only the sky shows.
+- **/coins is the one off-palette page** — its purple is a deliberate showcase accent (approved 29 Oct 2026). Don't carry purple elsewhere.
+
+### Hero pictures
+
+- /sell: coins → CoinPort → PayID → bank, "+$350.00 AUD · Received just now". /buy: AUD notes → PayID → CoinPort → coins, "+247.18 USDT · In your wallet".
+- Streams fade from where money starts (faint) to where it lands (strong).
+- Real PayID logo, navy on a white tag above its line. No bolt, no speech bubble.
+- No sparkles, stars or speed lines; no ring on the CoinPort tile; shadows faint neutral navy.
+
+### Motion
+
+Slow and ambient; everything holds still under *reduce motion*.
+
+- **Seaplane** (landing): nose-first right to left, ~18 s a pass, fading at the ends.
+- **Sailboat** (horizon): left to right, ~70 s.
+- **Rowboat** (foreground): 4.5 s bob; rope and shadow stay put.
+- **Bitcoin balloon** (/coins, day): small, hazed, 16 s bob; a crescent moon at night.
+
 ### Do
 
 - Australian context — Melbourne CBD, Bourke St, Yarra, Sydney harbour, regional Victoria.
