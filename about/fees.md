@@ -6,7 +6,9 @@ We aim to keep pricing simple and transparent. The price you see is the price yo
 
 CoinPort does not charge fees for AUD deposits or withdrawals made via the New Payments Platform (NPP).
 
-Standard blockchain network fees may apply to cryptocurrency deposits and withdrawals. These fees are set by the underlying blockchain networks, not CoinPort, and may vary depending on network conditions. For example, transaction fees on the Ethereum network have previously exceeded AUD $30 during periods of congestion.
+When you withdraw cryptocurrency from CoinPort, we pay the blockchain network fee for you. The full amount you withdraw is sent, and nothing is deducted for the network.
+
+When you send cryptocurrency to CoinPort from another wallet or exchange, that wallet or exchange may charge its own blockchain network fee. These fees are set by the underlying blockchain networks and the sending service, not CoinPort, and can vary with network conditions. For example, transaction fees on the Ethereum network have previously exceeded AUD $30 during periods of congestion.
 
 ## Spreads
 
