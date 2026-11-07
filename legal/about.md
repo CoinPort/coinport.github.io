@@ -16,7 +16,7 @@ CoinPort Pty Ltd ("Coin Port" or "CoinPort" or "CoinPort Exchange") is an Austra
 
 ## Australian Transaction Reports and Analysis Centre (AUSTRAC) Details
 
-CoinPort is licensed and regulated by AUSTRAC as an Independent Remittance Dealer and Virtual Asset Service Provider.
+CoinPort is registered with AUSTRAC as an Independent Remittance Dealer and a Virtual Asset Service Provider.
 
 | | |
 |---|---|

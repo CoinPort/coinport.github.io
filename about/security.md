@@ -14,7 +14,7 @@ Our risk management systems monitor account activity such as withdrawals, passwo
 
 ### Organisational security
 
-CoinPort employs industry-standard wallet security practices, including multisignature and threshold signature schemes (TSS), to help safeguard digital assets and reduce single points of failure.
+CoinPort keeps the majority of digital assets in offline cold storage, with only what is needed for day-to-day withdrawals held in online wallets, to help safeguard digital assets and reduce exposure to online threats.
 
 ### Data protection
 
@@ -28,7 +28,7 @@ CoinPort supports multi-factor authentication for account access, including app-
 
 ### Access controls
 
-Users can enable optional security features such as IP restrictions, withdrawal address whitelisting, API permission controls, and device management.
+Users can enable optional security features such as two-factor authentication, saved withdrawal addresses, and API key permission controls.
 
 ### Security alerts
 

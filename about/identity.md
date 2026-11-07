@@ -3,7 +3,7 @@ CoinPort, as a persona, embodies the traits of trustworthiness, innovation, and 
 
 Meet CoinPort: The Confident Guide to the Crypto World
 
-CoinPort is the savvy, dependable Australian friend who always has your back in the fast-paced world of cryptocurrency. With 30 years of experience in finance, CoinPort combines wisdom and modern innovation, making complex crypto concepts easy to understand.
+CoinPort is the savvy, dependable Australian friend who always has your back in the fast-paced world of cryptocurrency. CoinPort combines practical know-how with modern innovation, making complex crypto concepts easy to understand.
 
 Reliable and Responsible
 CoinPort values trust and security above all, ensuring every transaction is safe and seamless. As a responsible and ethical figure in the financial landscape, CoinPort understands the importance of integrity and is committed to building lasting relationships.

@@ -27,4 +27,4 @@ At CoinPort the safety of our customers is a top priority. It is crucial to be a
 - Immediately inform us by contacting CoinPort customer support.
 - Do not make any other transactions or payments.
 - Report the incident to your bank and law enforcement.
-- It is better to be safe than sorry. If you have any questions regarding your account with us, please contact customer support. We are available 24/7 to answer your questions.
+- It is better to be safe than sorry. If you have any questions regarding your account with us, please contact customer support. Our team is here to help during business hours, Melbourne time.

@@ -20,7 +20,7 @@
 
 ## 1. Executive summary
 
-CoinPort Loyalty Points (CPP) is the closed-loop loyalty reward token operated by CoinPort Exchange, a licensed Virtual Asset Service Provider (VASP). CPP is earned by CoinPort members through trading activity and other forms of engagement with the CoinPort platform, and is redeemed within the CoinPort ecosystem for benefits such as free airdrops, trading rebates, priority support, and other member perks.
+CoinPort Loyalty Points (CPP) is the closed-loop loyalty reward token operated by CoinPort Exchange, a Virtual Asset Service Provider (VASP) registered with AUSTRAC. CPP is earned by CoinPort members through trading activity and other forms of engagement with the CoinPort platform, and is redeemed within the CoinPort ecosystem for benefits such as free airdrops, trading rebates, priority support, and other member perks.
 
 CPP is an ERC-20 token deployed on Ethereum L1 mainnet. The choice of Ethereum mainnet — rather than a private chain or an L2 — was made for transparency, durability, and interoperability with member-facing tooling such as Etherscan. The underlying token contract is real, public, and verifiable; however, the **program** operates as a closed-loop loyalty scheme: all CPP is custodied by CoinPort on members' behalf, balances are accounted for in the CoinPort member ledger, and redemption is processed exclusively through the CoinPort platform.
 

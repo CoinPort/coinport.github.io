@@ -2,9 +2,9 @@
 
 ## Office Hours
 
-Office hours are 8am to 6pm Business days.
+Office hours are 8am to 6pm, Melbourne time, on business days.
 
-Software support services are available online 24 hours 7 days a week.
+Our help bot in live chat can answer common questions at any time. Our team replies during office hours.
 
 ### Address
 
